@@ -1,0 +1,42 @@
+.mainboder {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #D5E7F5;
+	border-left-color: #D5E7F5;
+}
+.penalheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.penaltext {
+	font-size: 11px;
+	color: 5D5D5D;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.textheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: 3C6DB5;
+	text-decoration: none;
+}
+.mainheading {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: 3C6DB5;
+	text-decoration: none;
+	font-weight: bold;
+}
+.searchtxt {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}

@@ -1,0 +1,272 @@
+
+.SectionHeader
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif, "Gill Sans MT", "Book Antiqua";
+	font-size: 17px;
+	font-weight: bold;
+	color: #FFFFFF;
+	
+}
+.font 
+{
+	font-weight:   lighter;
+	font-size:  8pt;
+	font-family:  Times New Roman;
+		 
+}
+
+.SectionBodyBolder
+{
+	border-right: #4173ae thin solid;
+	border-top: #4173ae thin solid;
+	font-size: 9pt;
+	border-left: #4173ae thin solid;
+	color: black;
+	line-height: normal;
+	border-bottom: #4173ae thin solid;
+	font-family: Verdana;
+	letter-spacing: normal;
+	background-color: white;
+}
+
+.SectionBody
+{
+	border-right: #4173AE thin solid;
+	border-top: #4173AE thin solid;
+	font-size: 9pt;
+	border-left: #4173AE thin solid;
+	color: black;
+	border-bottom: #4173AE thin solid;
+	font-family: Verdana;
+	background-color: white;
+}
+
+.CheckBoxRightAlign
+{
+	border-top-width: thin;
+	border-left-width: thin;
+	border-left-color: #3399ff;
+	left: 100%;
+	border-bottom-width: thin;
+	border-bottom-color: #3399ff;
+	border-top-color: #3399ff;
+	top: 0%;
+	text-align: right;
+	border-right-width: thin;
+	border-right-color: #3399ff;
+
+}
+
+.Title1
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: black;
+	font-family: Verdana;
+}
+
+.SectionTitle
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: black;
+	font-family: Verdana;
+}
+	
+.VerticalSpaceStyle
+{
+	border-right: #35a3dd thin solid;
+	border-top: white thin solid;
+	border-left: #35a3dd thin solid;
+	border-bottom: white thin solid;
+	background-color: white;
+}
+
+.ItalicText
+{
+	font-size: 9pt;
+	color: black;
+	font-style: italic;
+	font-family: Verdana;
+}
+
+.ItalicAndBoldText
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: black;
+	font-style: italic;
+	font-family: Verdana;
+}
+.HintBox
+{
+	border-top-width: thin;
+	font-weight: bold;
+	border-left-width: thin;
+	font-size: 6.5pt;
+	border-left-color: #d2e3f5;
+	border-bottom-width: thin;
+	border-bottom-color: #d2e3f5;
+	color: white;
+	border-top-color: #d2e3f5;
+	font-family: Verdana;
+	background-color: #4173AE;
+	text-align: center;
+	border-right-width: thin;
+	border-right-color: #d2e3f5;
+}
+
+.EnforceNormalText
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: black;
+}
+
+.BorderedTextBox
+{
+	border-right: #4173ae thin solid;
+	border-top: #4173ae thin solid;
+	font-size: 9pt;
+	border-left: #4173ae thin solid;
+	border-bottom: #4173ae thin solid;
+}
+
+.GridItemStyle
+{
+	border-right: #4173ae thin solid;
+	border-top: #4173ae thin solid;
+	font-size: 9pt;
+	border-left: #4173ae thin solid;
+	border-bottom: #4173ae thin solid;
+	background-color: white;
+}
+
+.GridHeaderStyle
+{
+	border-top-width: thin;
+	font-weight: bold;
+	border-left-width: thin;
+	font-size: 8pt;
+	border-left-color: #d2e3f5;
+	border-bottom-width: thin;
+	border-bottom-color: #d2e3f5;
+	color: white;
+	border-top-color: #d2e3f5;
+	font-family: Verdana;
+	background-color: #4173ae;
+	text-align: center;
+	border-right-width: thin;
+	border-right-color: #d2e3f5;
+}
+
+.HintTextBox
+{
+	border-right: #35a3dd thin solid;
+	border-top: white thin solid;
+	font-size: 9pt;
+	border-left: white thin solid;
+	border-bottom: #35a3dd thin solid;
+}
+.TagStyle
+{
+	font-weight: bold;
+	border-left-width: medium;
+	font-size: 9pt;
+	border-left-color: black;
+	color: white;
+	border-top-style: none;
+	font-family: Verdana;
+	border-right-style: none;
+	position: static;
+	background-color: #4173AE;
+	border-bottom-style: none;
+}
+
+.ControlStyle
+{
+	font-size: 6.5pt;
+	color: white;
+	border-top-style: none;
+	font-family: Verdana;
+	background-color: #4173ae;
+	text-align: center;
+}
+
+.TopButton
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif, "Gill Sans MT", "Book Antiqua";
+	font-size: 12px;
+	color: 033469;
+	font-weight: bold;
+}
+
+.Text {
+	font-family:  Times New Roman;
+	font-size: 8px;
+	color: #000000;
+}
+.PDFText {
+	font-family:  Arial;
+	font-size: 7px;
+	color: #000000;
+}
+
+.PDFBoldText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif, "Gill Sans MT", "Book Antiqua";
+	font-size: 7px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+.TableHeading
+{
+	font-weight:   lighter;
+	border-left-width: medium;
+	font-size:  8pt;
+	border-left-color: black;
+	text-transform: capitalize;
+	color:  white;
+	border-top-style: none;
+	font-family:  Times New Roman;
+	border-right-style: none;
+	position: static;
+	background-color: #35a3dd;
+	border-bottom-style: none;
+}
+
+.SectionBodyBoldWithoutBorder
+{
+	
+	font-weight: bolder;
+	font-size: 9pt;
+	color: black;
+	line-height: normal;
+	font-family: Verdana;
+	letter-spacing: normal;
+	background-color: #BBD2E8;
+}
+
+.BoldText
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif, "Gill Sans MT", "Book Antiqua";
+	font-size: 9px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.Box
+{
+	border:1px solid 0082FF; background-color: #FFFFFF
+
+}
+
+.Button
+{		
+	font-weight: bold;
+	font-size: 9px;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif, 'Gill Sans MT' , 'Book Antiqua';
+}

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="buildreseller">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rinfo" type="tns:resellerinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="resellerinfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="resellerid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="generatorid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="resellerurl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="currencydbid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="orderid" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="sendemail" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="isinfinishopcustomer" type="s:boolean" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="buildresellerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="buildresellerResult" type="tns:buildresellerresult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="buildresellerresult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="retrybuildreseller">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rinfo" type="tns:resellerinfo" />
+            <s:element minOccurs="1" maxOccurs="1" name="continuefromstep" type="tns:ContinuityStep" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="ContinuityStep">
+        <s:restriction base="s:string">
+          <s:enumeration value="None" />
+          <s:enumeration value="AddResellerInFormationsHouse" />
+          <s:enumeration value="AddResellerInInfiniShop" />
+          <s:enumeration value="AddResellerIP" />
+          <s:enumeration value="AddResellerProducts" />
+          <s:enumeration value="AddResellerAsMerchant" />
+          <s:enumeration value="CallIShopAdminWebService" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="retrybuildresellerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="retrybuildresellerResult" type="tns:buildresellerresult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="acknowledgereseller">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="serviceresponse" type="tns:acknowledgedata" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="acknowledgedata">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="RESELLERID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="RETURNLOG" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="acknowledgeresellerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="acknowledgeresellerResult" type="tns:acknowledgeresult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="acknowledgeresult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="CreateWebsiteForMerchant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="rinfo" type="tns:resellerinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateWebsiteForMerchantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CreateWebsiteForMerchantResult" type="tns:buildresellerresult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="buildresellerSoapIn">
+    <wsdl:part name="parameters" element="tns:buildreseller" />
+  </wsdl:message>
+  <wsdl:message name="buildresellerSoapOut">
+    <wsdl:part name="parameters" element="tns:buildresellerResponse" />
+  </wsdl:message>
+  <wsdl:message name="retrybuildresellerSoapIn">
+    <wsdl:part name="parameters" element="tns:retrybuildreseller" />
+  </wsdl:message>
+  <wsdl:message name="retrybuildresellerSoapOut">
+    <wsdl:part name="parameters" element="tns:retrybuildresellerResponse" />
+  </wsdl:message>
+  <wsdl:message name="acknowledgeresellerSoapIn">
+    <wsdl:part name="parameters" element="tns:acknowledgereseller" />
+  </wsdl:message>
+  <wsdl:message name="acknowledgeresellerSoapOut">
+    <wsdl:part name="parameters" element="tns:acknowledgeresellerResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateWebsiteForMerchantSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateWebsiteForMerchant" />
+  </wsdl:message>
+  <wsdl:message name="CreateWebsiteForMerchantSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateWebsiteForMerchantResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ResellerServiceSoap">
+    <wsdl:operation name="buildreseller">
+      <wsdl:input message="tns:buildresellerSoapIn" />
+      <wsdl:output message="tns:buildresellerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="retrybuildreseller">
+      <wsdl:input message="tns:retrybuildresellerSoapIn" />
+      <wsdl:output message="tns:retrybuildresellerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="acknowledgereseller">
+      <wsdl:input message="tns:acknowledgeresellerSoapIn" />
+      <wsdl:output message="tns:acknowledgeresellerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateWebsiteForMerchant">
+      <wsdl:input message="tns:CreateWebsiteForMerchantSoapIn" />
+      <wsdl:output message="tns:CreateWebsiteForMerchantSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ResellerServiceSoap" type="tns:ResellerServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="buildreseller">
+      <soap:operation soapAction="http://tempuri.org/buildreseller" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retrybuildreseller">
+      <soap:operation soapAction="http://tempuri.org/retrybuildreseller" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="acknowledgereseller">
+      <soap:operation soapAction="http://tempuri.org/acknowledgereseller" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWebsiteForMerchant">
+      <soap:operation soapAction="http://tempuri.org/CreateWebsiteForMerchant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ResellerServiceSoap12" type="tns:ResellerServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <wsdl:operation name="buildreseller">
+      <soap12:operation soapAction="http://tempuri.org/buildreseller" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="retrybuildreseller">
+      <soap12:operation soapAction="http://tempuri.org/retrybuildreseller" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="acknowledgereseller">
+      <soap12:operation soapAction="http://tempuri.org/acknowledgereseller" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateWebsiteForMerchant">
+      <soap12:operation soapAction="http://tempuri.org/CreateWebsiteForMerchant" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ResellerService">
+    <wsdl:port name="ResellerServiceSoap" binding="tns:ResellerServiceSoap">
+      <soap:address location="http://webservices.reseller.com/resellerbuilder/Services/ResellerService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ResellerServiceSoap12" binding="tns:ResellerServiceSoap12">
+      <soap12:address location="http://webservices.reseller.com/resellerbuilder/Services/ResellerService.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

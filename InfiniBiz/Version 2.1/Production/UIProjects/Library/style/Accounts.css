@@ -1,0 +1,827 @@
+.ReportLink
+{	
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	/*font-weight: bold;*/
+	color: #6699cc;	
+}
+
+.TabStripBody
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#C0C0C0', EndColorStr='#ffffffff');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	border-right: #C4C0C1 1px solid;
+	border-top: #C4C0C1 1px solid;
+	border-left: #C4C0C1 1px solid;
+	border-bottom: #C4C0C1 1px solid;
+}
+
+.numerictxtbox
+{
+	border-color :#0000ff;
+	font-family: tahoma;
+	font-size: 10px;
+	border: 1px solid #C4C0C1;
+	text-align: right;
+}
+
+.txtboxTotal
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;	
+	border:none;
+}
+
+.txtboxrightalignTotal
+{
+	text-align: right;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;	
+	border:none;
+}
+
+.txtbox
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffffffff', EndColorStr='#ffF2F6FA');*/
+	border-right: solid 1px #C4C0C1;
+	border-top: solid 1px #C4C0C1;
+	border-left: solid 1px #C4C0C1;
+	border-bottom: solid 1px #C4C0C1;
+		
+}
+
+.Gridtxtbox
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#F3F3F3', EndColorStr='#ffffff');
+	border:none; 
+}
+
+.GridtxtboxEdit
+{
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#F3F3F3', EndColorStr='#ffffff');
+	border: solid 1px #C4C0C1; 
+	
+}
+
+.txtboxrightalign
+{
+	text-align: right;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffffffff', EndColorStr='#ffF2F6FA');*/
+	border-right: solid 1px #C4C0C1;
+	border-top: solid 1px #C4C0C1;
+	border-left: solid 1px #C4C0C1;
+	border-bottom: solid 1px #C4C0C1;
+	
+}
+
+.Gridtxtboxrightalign
+{
+	text-align: right;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#F3F3F3', EndColorStr='#ffffff');
+	border:none; 
+}
+
+.GridtxtboxrightalignEdit
+{
+	text-align: right;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#FFFFFF', EndColorStr='#F3F3F3');
+	border: solid 1px #C4C0C1; 
+}
+
+
+.Imgcursor
+{
+	cursor: hand;
+}
+
+
+.heading {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #006699;
+}
+.gridheading
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+	
+.Subheading
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F3F3F3;
+	 
+}
+
+.Smallheading
+{
+	font-weight: bold;
+	font-size: 11px;
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+		
+	
+}
+
+.Largelheading
+{
+	font-weight: bold;
+	font-size: 15px;
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+		
+	
+}
+
+.Smallheading2
+{
+	font-weight:normal;  
+	font-size: 9px;
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+		
+	
+}
+.links 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: white;
+	font-weight: bold;
+	
+}
+a:hover 
+{
+	color: #7baee3;
+}
+.TableBody {
+	font-family: Verdana;
+	font-size:	10px;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	color: Black;
+
+}
+.NumericText
+{
+	font-family: Verdana;
+	font-size:	10px;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	color:#003366;
+	text-align: right;
+}
+.TableHead {
+	font-family: Verdana;
+	font-size:	12px;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	color:#003366;
+}
+
+.MBUTTONACCPRO
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#DDDDDD' , EndColorStr= '#F5F5F5');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor: hand;
+	color:black;
+	border:Solid 1px #C4C0C1;
+	background-color: #F3F3F3;
+	width: 80px;
+	text-align:center;
+	style: border-collapse:collapse;
+	
+}
+
+
+.MBUTTONACCPROON
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#F5F5F5' , EndColorStr= '#DDDDDD');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	cursor: hand;
+	color:black;
+	border:Solid 1px #C4C0C1;
+	background-color: #F3F3F3;
+	width: 80px;
+	text-align:center;  
+	style: border-collapse:collapse;
+}
+
+.MBUTTONTAB {
+	border-right: #C4C0C1 1px solid;
+	border-top: #C4C0C1 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: #C4C0C1 1px solid;
+	cursor: hand;
+	color:#000000 ;
+	width: 80px ;
+	border-bottom: #C4C0C1 1px solid;
+	font-family: Verdana;
+	background-color: #F3F3F3;
+}
+
+.MBUTTONTABOFF {
+	border-right: #C4C0C1 1px solid;
+	border-top: #C4C0C1 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: #C4C0C1 1px solid;
+	cursor: hand;
+	color:black ;
+	width: 80px ;
+	border-bottom: #C4C0C1 1px solid;
+	font-family: Verdana;
+	background-color: #F3F3F3;
+}
+
+.SpanBody {
+	font-family: Verdana;
+	font-size:	10px;
+	text-decoration: none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	color: red;
+}
+
+.Tablebackground
+{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: Black;
+	border-right: #C4C0C1 1px solid;
+	border-top: #C4C0C1 1px solid;
+	border-left: #C4C0C1 1px solid;
+	border-bottom: #C4C0C1 1px solid;
+	background-color: #F3F3F3;
+
+}
+
+.frm-section-text
+{
+	font-weight: bold;
+	font-size: 10px;
+	color: #336699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+.frm-section-text1
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F3F3F3', EndColorStr='#ffffff') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffff', EndColorStr='#F3F3F3');
+	font-size: 10px;
+	color: #336699;
+	font-family: Verdana;
+	background-color: #F3F3F3;
+	text-decoration: none;
+}
+
+span.error
+{
+color: red
+}
+
+.error
+{
+color: #ff0000
+}
+
+.infoMsg
+{
+	font-weight: bold;
+	font-size: 11px;
+	color:#000000; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	 
+}
+.ErrorMsg
+{
+	
+	font-size: 11px;
+	color: #ff0000; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	 
+}
+
+.ReminderMsg
+{
+	font-weight: bold;
+	font-size: 11px;
+	color:#00497A; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	 
+}
+
+
+.info 
+{
+color: #6699cc
+}
+
+.rightalign
+{
+	text-align: right;
+}
+
+.TablebackgroundInner
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F2F6FA', EndColorStr='#ffffff');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #336699;
+	background-color:#F2F6FA;
+}
+
+.DownBar
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffff', EndColorStr='#F2F6FA');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #336699;
+
+}
+
+.TableTreebackground
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#F2F6FA', EndColorStr='#ffffff');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #336699;
+	border-right:#C4C0C1 2px solid;
+	border-top: #C4C0C1 2px solid;
+	border-left: #C4C0C1 2px solid;
+	border-bottom: #C4C0C1 2px solid;	
+	background-color:#F3F3F3;
+}
+
+.GridText
+{
+	font-family: Verdana;
+	font-size:	10px;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	color:#003366;
+		
+}
+
+.GridTextRightAlign
+{
+	font-family: Verdana;
+	font-size:	10px;
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;
+	color:#003366;
+	text-align :  right ;
+}
+
+.acc_header_backgrounds
+{
+	background-color: #F3F3F3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#000000 ;
+	font-size: 11px;
+	font-weight: bold;
+	height:16pt;	
+}
+
+.box
+{
+	border: 1px solid #C4C0C1;
+}
+
+.label { 
+  cursor:hand;
+} 
+
+/*Added By Rizwan Shaikh*/
+
+.page-section-text
+{
+	font-weight: bold;
+	font-size: 16px;
+	color: #808080;
+	font-family: Arial, Helvetica, sans-serif;
+	list-style-type: disc;
+}
+
+.page-section-text-bar
+{
+	font-size: 11px;
+	font-weight: bold;
+	height:16pt;	
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr= '#FFFFFF' , EndColorStr= '#F3F3F3' );
+	color: #ffffff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F3F3F3;
+}
+
+.GridHeaderBar
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F3F3F3', EndColorStr='#FFFFFF');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	border-right: #F3F3F3 1px solid;
+	border-top: #F3F3F3 1px solid;
+	border-left: #F3F3F3 1px solid;
+	border-bottom: #F3F3F3 1px solid;
+	height: 20px;
+	background: #F3F3F3;
+}
+
+.GridHeaderBarWithoutBorder
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#FFFFFF', EndColorStr='#F3F3F3');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	height: 20px;	
+}
+
+.GridBody
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#F3F3F3', EndColorStr='#ffffff');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	color: #333333;
+	border: 1px solid #C0C0C0;
+}
+
+.GridInnerLines
+{
+	border-style:solid;  
+	border-width:1px;  
+	border-color:#C4C0C1;
+}
+
+.GridHighlightRowON
+{
+	cursor:hand;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;  
+	color:#627DB7; 
+	background-color:#F3F3F3; 
+}
+
+
+.datagrid-data
+{
+	font-weight: normal;
+	font-size: 9pt;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=2, StartColorStr= '#F3F3F3' , EndColorStr= '#ffffff' ) progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffff' , EndColorStr= '#F3F3F3' );
+	color: #000000;
+	font-family: tahoma;
+	background-color: #F3F3F3;
+	text-decoration: none;
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 3px;
+	border-top: Solid 1px #C4C0C1;
+	height:25; 
+	
+}
+
+.HeadingBar
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F3F3F3', EndColorStr='#ffffff') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffff', EndColorStr='#F3F3F3');
+	font-weight: bold;
+	font-size: 11px;
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F3F3F3;
+	text-decoration: none;
+	height:25px; 
+	border-top: Solid 1px #C4C0C1;
+}
+
+.HeadingBarDown
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#F3F3F3', EndColorStr='#ffffff') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffff', EndColorStr='#F3F3F3');
+	font-weight: bold;
+	font-size: 11px;
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: #F3F3F3;
+	text-decoration: none;
+	height:25px; 
+	border-bottom: Solid 1px #C4C0C1;
+}
+
+.TableBodyShade
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#F3F3F3', EndColorStr='#ffffffff');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: Black;	
+}
+
+.TableBodyShadeBorder
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffffff', EndColorStr='#F3F3F3');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: Black;
+	border-right: #C4C0C1 1px solid;
+	border-top: #C4C0C1 1px solid;
+	border-left: #C4C0C1 1px solid;
+	border-bottom: #C4C0C1 1px solid;
+}
+
+.link-blue 
+{
+	text-decoration: none;
+	color:#000000;		
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.hover-link-blue 
+{
+	text-decoration: none;
+	color:#7baee3;		
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.link-white 
+{
+color:#ffffff; 
+text-decoration: none;
+}
+
+.hover-link-white 
+{
+color:#000000; text-decoration: none;
+}
+
+/*Styles for Table Box*/
+
+.TableBox_Top_Left
+{
+	background-image:url(/Images/Accounts/TableBox/crv1.jpg);
+	
+}
+
+.TableBox_Top_Right
+{
+	background-image:url(/Images/Accounts/TableBox/crv2.jpg);	
+	width: 14px;
+}
+
+.TableBox_Bot_Left
+{
+	background-image:url(/Images/Accounts/TableBox/crv_1bottom.jpg);
+	height: 10px;	
+	
+}
+
+.TableBox_Bot_Right
+{
+	background-image:url(/Images/Accounts/TableBox/crv_bottom1.jpg);
+
+	height: 10px;
+}
+
+.TableBox_Top
+{
+	background-image:url(/Images/Accounts/TableBox/crv_topbg.jpg);	
+	
+}
+
+.TableBox_Bot
+{
+	background-image:url(/Images/Accounts/TableBox/crv_bottomlinebg.jpg);	
+	height: 10px;
+}
+
+.TableBox_Left
+{
+	background-image:url(/Images/Accounts/TableBox/crvlbg.jpg);	
+	
+}
+
+.TableBox_Right
+{
+	background-image:url(/Images/Accounts/TableBox/crv_2linebg.jpg);
+	width: 14px;
+}
+
+.Invisible
+{
+display:none;
+}
+
+/*CSS Classes for Left Bar*/
+
+.LeftBar_Header
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: #000000;
+	font-family: tahoma;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=2, StartColorStr= '#F3F3F3' , EndColorStr= '#ffffff' ) progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffff' , EndColorStr= '#F3F3F3');
+		
+	text-decoration: none;
+	
+	padding-left: 5px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 3px;
+	border-top:Solid 2px #C4C0C1;
+	border-bottom:Solid 2px #C4C0C1;
+	height:20; 
+}
+
+.LeftBar_Body
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#C4C0C1', EndColorStr='#ffffff') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#C4C0C1', EndColorStr='#ffffff');
+	font-size: 10px;
+	font-weight: normal;
+	color: #006699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+		
+	text-decoration: none;
+	
+	border-right:Solid 1px #C4C0C1;
+	border-top:Solid 1px #C4C0C1;
+	border-left:Solid 1px #C4C0C1;	
+	
+}
+
+.link-linkmenu              
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#3E3E3E;
+	text-decoration:none;
+	
+}
+.link-linkmenu:hover
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:bold;
+	/*color:#3C6DB5;*/
+	color:#000000; 
+	text-decoration:none;
+	
+}
+
+.link-linkmenu2             
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#000000; 
+	text-decoration:none;
+	height:15px;
+	padding-left:10px;
+
+}
+
+.link-linkmenu2:hover
+
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#3E3E3E;
+	text-decoration:none;
+	height:15px;
+	padding-left:10px;
+	background-color:#C0C0C0;
+}
+
+.link-linkmenu2bg
+
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	height:15px;
+	padding-left:10px;
+	background-color:#C0C0C0;
+}
+
+/* Tab Css {Sajid Hussain }*/
+/*Start Tab Css*/
+ 
+
+#tablist{
+padding: 3px 0;
+margin-left: 0;
+margin-bottom: 0;
+margin-top: 0.1em;
+font: bold 12px Verdana;
+}
+
+#tablist li{
+list-style: none;
+display: inline;
+margin: 0;
+}
+
+#tablist li a{
+padding: 3px 0.5em;
+margin-left: 3px;
+border: 1px solid #778;
+border-bottom: none;
+background: #ffffff;
+}
+
+#tablist li a:link, #tablist li a:visited{
+color: navy;
+}
+
+#tablist li a.current{
+background: lightyellow;
+}
+
+#tabcontentcontainer{
+width: 400px;
+/* Insert Optional Height definition here to give all the content a unified height */
+padding: 5px;
+border: 1px solid black;
+}
+
+.tabcontent{
+display:none;
+}
+
+ 
+ .LeftBar_TableBorder
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999999;
+	width: 165px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #F3F3F3;
+	border-right-color: #F3F3F3;
+	border-bottom-color: #F3F3F3;
+}
+
+/*End Tab Css*/

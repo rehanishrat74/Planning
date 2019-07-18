@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" > 
+<xsd:element name="root" msdata:IsDataSet="true" > 
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded" > 
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version"> 
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="acc_msg_Account_SignInAttemptFailed">
+  <value>ERROR : Invalid User ID / Password. Please try again.</value>
+</data>
+<data name="acc_msg_Account_NewEmployerCreated">
+  <value>Your information has been saved.</value>
+</data>
+<data name="acc_msg_Account_NewEmployerRegistrationStatus">
+  <value>Your are already registered as a Payroll Employer.</value>
+</data>
+<data name="acc_msg_Account_UpdateEmployerDetails">
+  <value>Your record has been updated.</value>
+</data>
+<data name="acc_msg_Account_UpdateCustomerServices">
+  <value>Thank you for adding more valuable sevices. Your request is in process, you will be informed through your specific email address on confirmation of payment.</value>
+</data>
+<data name="acc_msg_Account_MatchPassword">
+  <value>New Password and Confirm New Password values are not same. Please enter the same value.</value>
+</data>
+<data name="acc_msg_Account_UpdatePassword">
+  <value>Your password has been updated.</value>
+</data>
+<data name="acc_msg_Account_IncorrectPassword">
+  <value>Please enter a correct password.</value>
+</data>
+<data name="acc_msg_Account_ForgotPassword">
+  <value>Your entered email address did not match with our record. Please enter a correct email.</value>
+</data>
+<data name="acc_msg_Account_PasswordMatching">
+  <value>Password and Confirm Password fields must be identical.</value>
+</data>
+<data name="acc_msg_Account_CrCardExpiryDate">
+  <value>Please enter a valid expiry date.</value>
+</data>
+<data name="acc_msg_Account_AXCardSTDate">
+  <value>Please enter a valid start date.</value>
+</data>
+<data name="acc_msg_Account_AXCardENDate">
+  <value>Please enter a valid end date.</value>
+</data>
+<data name="acc_msg_Account_DrCardDate">
+  <value>Please enter a valid issue date.</value>
+</data>
+<data name="acc_msg_Employee_EmployeeRecordNotFound">
+  <value>No employee record (s) found. Please first add your employee detail and then proceed further.</value>
+</data>
+<data name="acc_msg_Employee_NewEmployeeCreated">
+  <value>New employee information has been saved.</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInCalculation">
+  <value>There are some error in calculations</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInDate">
+  <value>Enter the Correct Date Format</value>
+</data>
+<data name="acc_msg_Taxation_P11NIC_EarningDetailsNotFound">
+  <value>Earning details are not found to calculate NIC</value>
+</data>
+<data name="acc_msg_PAYE_InYearForm_NewFormCreated">
+  <value>Information has been saved.</value>
+</data>
+<data name="acc_msg_General_ThankYou">
+  <value>Thank you.</value>
+</data>
+<data name="acc_msg_General_Update">
+  <value>Thank you. The record has been successfully updated.</value>
+</data>
+<data name="acc_msg_General_Add">
+  <value>Thank you. The record has been successfully added.</value>
+</data>
+<data name="acc_msg_General_Save">
+  <value>Thank you. The record has been successfully saved.</value>
+</data>
+<data name="acc_msg_Error_RequiredFields">
+  <value>Please enter the value in the required field(s).</value>
+</data>
+<data name="acc_msg_Error_RegularExpression">
+  <value>Please enter the appropriate value in the given field(s).</value>
+</data>
+<data name="acc_msg_Email_AccountRegistration">
+  <value>Registration at Account Centre</value>
+</data>
+<data name="acc_msg_Email_UpdateServices">
+  <value>Services Updation at Account Centre</value>
+</data>
+<data name="acc_msg_Email_ResendPassword">
+  <value>Sign-in information at Account Centre</value>
+</data>
+<data name="acc_msg_Email_DefaultEmailAddress">
+  <value>support@accountscentre.com</value>
+</data>
+<data name="acc_msg_Email_ForgotPassword">
+  <value>Your Sign-in information has been sent to your email address.</value>
+</data>
+<data name="acc_msg_PDF_NOTEXISTS">
+  <value>PDF data for this user does not exists!</value>
+</data>
+<data name="acc_msg_Date_IncorrectDay">
+  <value>Please enter the correct day of month.</value>
+</data>
+<data name="acc_msg_Date_GreaterDate">
+  <value>Date can't be greater than current date.</value>
+</data>
+<data name="acc_msg_Account_Select_Product">
+  <value>Atleast one product must be selected.</value>
+</data>
+<data name="acc_msg_Account_Valid_Password">
+  <value>You must enter a valid password</value>
+</data>
+<data name="acc_msg_Account_Valid_Data_Following">
+  <value>Please enter valid data in the following field(s)</value>
+</data>
+<data name="acc_msg_Account_Credit_No_Required">
+  <value>Credit card number is required.</value>
+</data>
+<data name="acc_msg_Account_Valid_UserID">
+  <value>You must enter a valid userid</value>
+</data>
+<data name="acc_msg_Account_Order_Payment">
+  <value>Order payment successfull.&lt;br&gt;PLEASE DO NOT RETRY.</value>
+</data>
+<data name="acc_msg_Account_Order_Process">
+  <value>Order is under process. Please contact with administration.</value>
+</data>
+<data name="acc_msg_Account_Product">
+  <value>Following Packages/Products have same Services.</value>
+</data>
+<data name="acc_msg_Account_Company_Select">
+  <value>Please select the company from the list below.</value>
+</data>
+<data name="acc_msg_Account_Select_imgFile">
+  <value>ERROR: Please select image file.</value>
+</data>
+<data name="acc_msg_Account_CustomerId_Dosenot_Exit">
+  <value>The CustomerId you entered , Does not Exist.Try again!</value>
+</data>
+<data name="acc_msg_Account_Customerid_Fill">
+  <value>Please Fill In the CustomerId.</value>
+</data>
+<data name="acc_msg_Account_Fill_data">
+  <value>File with no data can not be saved.</value>
+</data>
+<data name="acc_msg_Account_Upload_File">
+  <value>You must select the file to upload</value>
+</data>
+<data name="acc_msg_Account_GlobalView">
+  <value>Global View</value>
+</data>
+<data name="acc_msg_Account_GlobalView_created_successfully">
+  <value>Created successfully.</value>
+</data>
+<data name="acc_msg_Account_GlobalView_Detail">
+  <value>is already created. Try Signing in again to have updated</value>
+</data>
+<data name="acc_msg_Account_Invoice_Name">
+  <value>Invoice Name</value>
+</data>
+<data name="acc_msg_Account_Password">
+  <value>Password</value>
+</data>
+<data name="acc_msg_Account_confirm_Password">
+  <value>Confirm Password</value>
+</data>
+<data name="acc_msg_Account_Street">
+  <value>Street</value>
+</data>
+<data name="acc_msg_Account_Town">
+  <value>Town</value>
+</data>
+<data name="acc_msg_Account_State">
+  <value>State</value>
+</data>
+<data name="acc_msg_Account_Contact_Name">
+  <value>Contact Name</value>
+</data>
+<data name="acc_msg_Account_Telephone">
+  <value>Telephone</value>
+</data>
+<data name="acc_msg_Account_Fax">
+  <value>Fax</value>
+</data>
+<data name="acc_msg_Account_Email_Address">
+  <value>Email</value>
+</data>
+<data name="acc_msg_Account_Notes">
+  <value>Notes</value>
+</data>
+<data name="acc_msg_Account_Renewable_Package">
+  <value>Renewable Package(s)/Product(s).</value>
+</data>
+<data name="acc_msg_Account_Upgraded_Package">
+  <value>Upgraded Package(s)/Product(s).</value>
+</data>
+<data name="acc_msg_Account_Visit_InfiniPlan">
+  <value>In order to access the InfiniPlan user manual, kindly visit:</value>
+</data>
+<data name="acc_msg_Account_Start_Date_Greater">
+  <value>Start date' can't be greater than 'Expiry date</value>
+</data>
+<data name="acc_msgAccount_Valid_Date_Greater">
+  <value>Valid From' date can't be greater than 'Expiry date</value>
+</data>
+<data name="acc_msg_Account_Pre_Requisites">
+  <value>Pre-requisites :</value>
+</data>
+<data name="acc_msg_Account_Update_Services">
+  <value>Update Services</value>
+</data>
+<data name="acc_msg_Account_Delivery_Address">
+  <value>Delivery Address</value>
+</data>
+<data name="acc_msg_Account_Card_Holder_Name">
+  <value>Card Holder Name</value>
+</data>
+<data name="acc_msg_Account_Card_Number">
+  <value>Card Number</value>
+</data>
+<data name="acc_msg_Account_Card_Address">
+  <value>Card Address</value>
+</data>
+<data name="acc_msg_Account_Security_Code">
+  <value>Security Code</value>
+</data>
+<data name="acc_msg_Account_Issue_No_Msg">
+  <value>Issue number at most two digits long.</value>
+</data>
+<data name="acc_msg_Account_Issue_No">
+  <value>Issue No.</value>
+</data>
+<data name="acc_msg_Account_Bank_Name">
+  <value>Bank Name</value>
+</data>
+<data name="acc_msg_Account_Cheque_No">
+  <value>Cheque No.</value>
+</data>
+<data name="acc_msg_Account_Sort_Code">
+  <value>Sort Code</value>
+</data>
+<data name="acc_msg_Account_Transaction_Reference_No">
+  <value>Transaction Reference No.</value>
+</data>
+<data name="acc_msg_Account_Service_Name">
+  <value>Service Name</value>
+</data>
+<data name="acc_msg_Account_Description">
+  <value>Description</value>
+</data>
+<data name="acc_msg_Account_Register_User1">
+  <value>Dear valued customer</value>
+</data>
+<data name="acc_msg_Account_Register_User3">
+  <value>Your request of account activation is under process and you will receive a user id and password for login purposes via another email within 24 hours.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated1">
+  <value>We welcome you as our customer. Your registration process in now completed. You will recieve an email along with the status of your UserID and Password.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated2">
+  <value>You can use the same UserID and Password to log on to Formationhouse and Graphics4Less websites, and take full advantage of our competitive prices.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated3">
+  <value>If you do not recieve any email within next 24 hours, please feel free to write us on</value>
+</data>
+<data name="acc_msg_Account_Register_User2">
+  <value>We have received your account information provided by you through</value>
+</data>
+<data name="acc_msg_Account_Register_User4">
+  <value>For further information and assistance regarding our services,</value>
+</data>
+<data name="acc_msg_information">
+  <value>Information</value>
+</data>
+<data name="acc_msg_name">
+  <value>Name</value>
+</data>
+<data name="acc_msg_loginid">
+  <value>Login ID</value>
+</data>
+<data name="acc_msg_welcome">
+  <value>Thank you for registering with Accounts Centre.
+You can log in to your account at https://services.centre.biz with the following credentials:</value>
+</data>
+<data name="acc_msg_address">
+  <value>Address</value>
+</data>
+<data name="acc_msg_welcomeservice">
+  <value>You have applied for the following service(s):</value>
+</data>
+<data name="acc_msg_welcomeend">
+  <value>You will receive an email informing you of confirmation of receipt, along with activation of subscribed services, generally within 24 working hours.</value>
+</data>
+<data name="acc_msg_regards">
+  <value>Regards,</value>
+</data>
+</root>

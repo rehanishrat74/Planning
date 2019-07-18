@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/CustomerPoint/LoadPage" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/CustomerPoint/LoadPage" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/CustomerPoint/LoadPage">
+      <s:element name="InvokeCustomerPoint">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CustomerID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerpointID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InvokeCustomerPointResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InvokeCustomerPointResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="InvokeCustomerPointSoapIn">
+    <wsdl:part name="parameters" element="tns:InvokeCustomerPoint" />
+  </wsdl:message>
+  <wsdl:message name="InvokeCustomerPointSoapOut">
+    <wsdl:part name="parameters" element="tns:InvokeCustomerPointResponse" />
+  </wsdl:message>
+  <wsdl:portType name="LoadPageSoap">
+    <wsdl:operation name="InvokeCustomerPoint">
+      <wsdl:input message="tns:InvokeCustomerPointSoapIn" />
+      <wsdl:output message="tns:InvokeCustomerPointSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LoadPageSoap" type="tns:LoadPageSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="InvokeCustomerPoint">
+      <soap:operation soapAction="http://tempuri.org/CustomerPoint/LoadPage/InvokeCustomerPoint" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LoadPage">
+    <wsdl:port name="LoadPageSoap" binding="tns:LoadPageSoap">
+      <soap:address location="http://accounts.infinibiz.com/customerpoint/LoadPage.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

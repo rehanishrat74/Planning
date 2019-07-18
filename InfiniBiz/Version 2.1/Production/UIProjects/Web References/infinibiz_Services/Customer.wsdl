@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/accounts.infinibiz.Web/Customer" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/accounts.infinibiz.Web/Customer" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/accounts.infinibiz.Web/Customer">
+      <s:element name="getCustomerInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:ArrayOfCustomerInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfCustomerInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="customerInfo" type="tns:customerInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="customerInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="customerID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="refferID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="productCode" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="quantity" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getCustomerInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getCustomerInfoResult" type="tns:customerInfoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="customerInfoResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="info" type="tns:ArrayOfCustomerInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getActivationInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="productinfo" type="tns:activationinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="activationinfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="customerid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="productcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="orderno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serialno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serviceid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getActivationInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getActivationInfoResult" type="tns:getActivationInfoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="getActivationInfoResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="link" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="variablename" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="autoLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logininfo" type="tns:AutoLoginStruct" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutoLoginStruct">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="customerid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serviceid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="loginid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="autoLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="autoLoginResult" type="tns:AutoLoginResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutoLoginResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="newwin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="winparam" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="variablename" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="link" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="logOff">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logoffinfo" type="tns:AutoLogOffStruct" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutoLogOffStruct">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="refId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="logOffResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logOffResult" type="tns:logoffReturnMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="logoffReturnMsg">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SingleSignin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="info" type="tns:SingleSigninInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SingleSigninInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="loginid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SingleSigninResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SingleSigninResult" type="tns:SingleSigninResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="SingleSigninResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InternalCustomerID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="InternalCustomerUID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getCustomerInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getCustomerInfo" />
+  </wsdl:message>
+  <wsdl:message name="getCustomerInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getCustomerInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="getActivationInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getActivationInfo" />
+  </wsdl:message>
+  <wsdl:message name="getActivationInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getActivationInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="autoLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:autoLogin" />
+  </wsdl:message>
+  <wsdl:message name="autoLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:autoLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="logOffSoapIn">
+    <wsdl:part name="parameters" element="tns:logOff" />
+  </wsdl:message>
+  <wsdl:message name="logOffSoapOut">
+    <wsdl:part name="parameters" element="tns:logOffResponse" />
+  </wsdl:message>
+  <wsdl:message name="SingleSigninSoapIn">
+    <wsdl:part name="parameters" element="tns:SingleSignin" />
+  </wsdl:message>
+  <wsdl:message name="SingleSigninSoapOut">
+    <wsdl:part name="parameters" element="tns:SingleSigninResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CustomerSoap">
+    <wsdl:operation name="getCustomerInfo">
+      <wsdl:input message="tns:getCustomerInfoSoapIn" />
+      <wsdl:output message="tns:getCustomerInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getActivationInfo">
+      <wsdl:input message="tns:getActivationInfoSoapIn" />
+      <wsdl:output message="tns:getActivationInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="autoLogin">
+      <wsdl:input message="tns:autoLoginSoapIn" />
+      <wsdl:output message="tns:autoLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="logOff">
+      <wsdl:input message="tns:logOffSoapIn" />
+      <wsdl:output message="tns:logOffSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SingleSignin">
+      <wsdl:input message="tns:SingleSigninSoapIn" />
+      <wsdl:output message="tns:SingleSigninSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CustomerSoap" type="tns:CustomerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="getCustomerInfo">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/Customer/getCustomerInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getActivationInfo">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/Customer/getActivationInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="autoLogin">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/Customer/autoLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logOff">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/Customer/logOff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SingleSignin">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/Customer/SingleSignin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Customer">
+    <wsdl:port name="CustomerSoap" binding="tns:CustomerSoap">
+      <soap:address location="http://accounts.infinibiz.com/account/customer.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

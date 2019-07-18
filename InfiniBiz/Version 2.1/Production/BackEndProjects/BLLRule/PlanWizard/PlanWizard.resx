@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="PW_Title_BusinessType">
+		<value>Business Type</value>
+	</data>
+	<data name="PW_Text_BusinessType">
+		<value>Are you in the business of selling products, providing services or both?</value>
+	</data>
+	<data name="PW_Help_BusinessType">
+		<value>This section requires you to classify your (proposed) business according to its function. If your company buys, sells or produces tangible items, the kindly choose â€˜Productsâ€™; if the company provides a service of some kind (for example, a gardening company), kindly choose â€˜Servicesâ€™.
+In case your company provides both the products and the services (example, plants, fertilizers and gardening expertise), choose â€˜Bothâ€™. If you are unsure, you may skip this step at this point (press â€˜Nextâ€™) and return to it later.
+</value>
+	</data>
+	<data name="PW_Title_ManageInventory">
+		<value>Inventory</value>
+	</data>
+	<data name="PW_Text_ManageInventory">
+		<value>Do you manage inventory?</value>
+	</data>
+	<data name="PW_Help_ManageInventory">
+		<value>If in the previous step, you chose â€˜Productsâ€™, or â€˜Bothâ€™, it means that your company deals with products and maintains (aims to maintain) an inventory. This may be a purchase(s), receivable(s) or manufacture inventory. To add an inventory line to the Balance Sheet and Cash Flow tables in your business plan, choose â€˜Yesâ€™. </value>
+	</data>
+	<data name="PW_Title_InventoryTurnOver">
+		<value>Inventory Turnover Rate</value>
+	</data>
+	<data name="PW_Text_InventoryTurnOver">
+		<value>How many times you turn your inventory per year?</value>
+	</data>
+	<data name="PW_Help_InventoryTurnOver">
+		<value>If in the previous step you choose â€˜Yesâ€™, it means that your business regularly maintains and replaces items in your inventory. In order to determine the value of inventory turnover, simply list the total number of times you completely replace your inventory each year. For example, if you replace your inventory 6 times annually, then 6 is your inventory turnover estimate value.  The inventory turnover estimate value is used in the Balance Sheet and will affect the Inventory row.</value>
+	</data>
+	<data name="PW_Title_SellOnCredit">
+		<value>Sell on Credit</value>
+	</data>
+	<data name="PW_Text_SellOnCredit">
+		<value>Do you sell to your customers on credit?</value>
+	</data>
+	<data name="PW_Help_SellOnCredit">
+		<value>In case your customers require credit when they purchase your service/product, choose â€˜Yesâ€™ and an entry will be made in the Balance Sheet and Cash Flow tables for the Accounts Receivable. If your business does not extend credit, kindly choose â€˜Noâ€™.  </value>
+	</data>
+	<data name="PW_Title_SalesOnCredit">
+		<value>Sales on Credit</value>
+	</data>
+	<data name="PW_Text_SalesOnCredit">
+		<value>What percentage of your sales are sold on credit?</value>
+	</data>
+	<data name="PW_Help_SalesOnCredit">
+		<value>If in the previous step you choose â€˜Yesâ€™, it means that your business regularly extends credit to the customers. The next step is to determine the percentage of your sales which is sold on credit. This value is the result of dividing the number of services/products sold on credit divided by the total number of services/products sold and the result multiplied by 100. The resultant value will be placed in the Sales on Credit % (percentage) row in your General Assumptions table. </value>
+	</data>
+	<data name="PW_Title_CollectionDays">
+		<value>Collection Days</value>
+	</data>
+	<data name="PW_Text_CollectionDays">
+		<value>In how many days, do you get paid on your credit sales?</value>
+	</data>
+	<data name="PW_Help_CollectionDays">
+		<value>If in step 5 you choose â€˜Yesâ€™, an entry was made for the Accounts Receivable in the Balance Sheet and Cash Flow tables of your business plan. To calculate your accounts receivable accurately, kindly enter the number of days you wait before collecting on your credit sales. This number will be used to complete the Collection Days Estimate row in your General Assumptions table. </value>
+	</data>
+	<data name="PW_Title_SalesForcastType">
+		<value>Sales Forcast Type</value>
+	</data>
+	<data name="PW_Text_SalesForcastType">
+		<value>Do you want to forecast your sales by units or by value?</value>
+	</data>
+	<data name="PW_Help_SalesForcastType">
+		<value>There are two available options for forecasting sales: by units or by sales. In case you choose to forecast your sales by units, your total sales will be calculated by multiplying the number of units sold by the associated price. In case you wish to forecast the sales by value, simply choose the forecast by values button. If you are unsure of your choice or wish to later make a change,  you can always return to this page later.</value>
+	</data>
+	<data name="PW_Title_CategorizedExpenses">
+		<value>Categorized Expense</value>
+	</data>
+	<data name="PW_Text_CategorizedExpenses">
+		<value>Do you want to categorize your operating expenses functionally?</value>
+	</data>
+	<data name="PW_Help_CategorizedExpenses">
+		<value>If you wish to keep the financial projections simple, just choose â€˜Noâ€™ to create a simple list of expenses and a simple personnel plan. The choice of â€˜Yesâ€™ divides the expenses and personnel plan into operational categories such as sales and marketing expenses, general and administrative expenses, etc. </value>
+	</data>
+	<data name="PW_Title_PersonalBurden">
+		<value>Personal Burden</value>
+	</data>
+	<data name="PW_Text_PersonalBurden">
+		<value>What percent of salaries do you bear for your employees additionally? such as taxes, vacations and benefits.</value>
+	</data>
+	<data name="PW_Help_PersonalBurden">
+		<value>Personnel Burden is the name given to the additional cost beyond salaries and can run from 10 to 30 percent depending upon the industry and your company policies. If you do not employ any employees set this value to zero. In case you are not certain, enter a value of 15 percent. This value will be used in the Personnel Burden line in the General Assumptions table as well as added to the Personnel and the Profit and Loss tables.</value>
+	</data>
+	<data name="PW_Title_ShortTermInterestRate">
+		<value>Short-term Interest Rate</value>
+	</data>
+	<data name="PW_Text_ShortTermInterestRate">
+		<value>Estimated short-term interest rate?</value>
+	</data>
+	<data name="PW_Help_ShortTermInterestRate">
+		<value>This step requires you to make an educated guess about the future prospects of your company. The short-term interest rate is a number (expressed as a percentage) which is used to calculate your short-term interest expense which appears in the Profit and Loss table and the General Assumptions table. You may later return to this step and edit the number to see its impact on your on your (projected) financials.</value>
+	</data>
+	<data name="PW_Title_TaxRate">
+		<value>Tax Rate</value>
+	</data>
+	<data name="PW_Text_TaxRate">
+		<value>Estimated tax rate?</value>
+	</data>
+	<data name="PW_Help_TaxRate">
+		<value>This step again requires you to make an educated guess about the future prospects of your company. Kindly provide a reasonable (in view of your proposed business activities) tax rate at which your profits will be taxed: in case you are unsure, guess 25 percent. The rate provided here will be used to complete the General Assumptions table. You can later manipulate this number in your General Assumptions table to see the impact it has on your financials. </value>
+	</data>
+	<data name="PW_Title_NonPayrollExpense">
+		<value>Non-payroll Cash Expense</value>
+	</data>
+	<data name="PW_Text_NonPayrollExpense">
+		<value>What percent of your non-payroll expense, do you pay in cash?</value>
+	</data>
+	<data name="PW_Help_NonPayrollExpense">
+		<value>This step again requires you to make an educated guess about the future prospects of your company. The Non Payroll Expense is usually a low number expressed as a percentage and used to estimate your accounts payable in the Balance Sheet. This number will be used to complete the General Assumptions table in your business plan. You may later manipulate this number in your General Assumptions table to see its impact on your on your (projected) financials.</value>
+	</data>
+	<data name="PW_Title_PaymentDays">
+		<value>Payment Days</value>
+	</data>
+	<data name="PW_Text_PaymentDays">
+		<value>In how many days, do you pay your bills?</value>
+	</data>
+	<data name="PW_Help_PaymentDays">
+		<value>The number you enter here will be used to complete the row titled â€˜Payment Days Estimatorâ€™ in the General Assumptions table in your business plan. You may later manipulate this number in your General Assumptions table to see its impact on your on your (projected) financials.</value>
+	</data>
+	<data name="PW_Title_StartupOngoing">
+		<value>Startup Or Ongoing</value>
+	</data>
+	<data name="PW_Text_StartupOngoing">
+		<value>Are you planning for a startup business or an ongoing business?</value>
+	</data>
+	<data name="PW_Help_StartupOngoing">
+		<value>The InfiniPlan wizard helps you create business plans whether your company is newly registered start-up or a previously existent company. For start-up companies, kindly choose â€˜Startupâ€™ and a table titled Start-up will be created where starting numbers for the company can be input. For the existing businesses, choose â€˜Ongoingâ€™ and a table called Past Performance will be created containing the historical information of the company.</value>
+	</data>
+	<data name="PW_Title_PlanStartDate">
+		<value>Plan Start Date</value>
+	</data>
+	<data name="PW_Text_PlanStartDate">
+		<value>When do you want to start your plan?</value>
+	</data>
+	<data name="PW_Help_PlanStartDate">
+		<value>Kindly choose the date which you desire to display on all your financial tables.</value>
+	</data>
+	<data name="PW_Title_StandardLongTerm">
+		<value>Standard or Long Term</value>
+	</data>
+	<data name="PW_Text_StandardLongTerm">
+		<value>Standard or Long Term</value>
+	</data>
+	<data name="PW_Help_StandardLongTerm">
+		<value>I recommend a standard-term for most business plans. A standard-term business plan consists of 12 months of monthly forecasting and an additional two years of annual forecasting. A long-term plan adds two years of additional forecasting for a total of five years. Most business planners should stick to the standard-term. (Copied from Business Plan Pro)</value>
+	</data>
+	<data name="PW_Title_PlanTitle">
+		<value>Plan Title</value>
+	</data>
+	<data name="PW_Text_PlanTitle">
+		<value>Give a suitable title to your plan.</value>
+	</data>
+	<data name="PW_Help_PlanTitle">
+		<value>Kindly choose a name for your business plan, which will appear as title on the header of all the pages, including the cover page.</value>
+	</data>
+	<data name="PW_BusinessType_Products">
+		<value>Products</value>
+	</data>
+	<data name="PW_BusinessType_Services">
+		<value>Services</value>
+	</data>
+	<data name="PW_BusinessType_Both">
+		<value>Both</value>
+	</data>
+	<data name="PW_SalesForcastType_Units">
+		<value>Units</value>
+	</data>
+	<data name="PW_SalesForcastType_Value">
+		<value>Value</value>
+	</data>
+	<data name="PW_StartupOngoing_Startup">
+		<value>Startup</value>
+	</data>
+	<data name="PW_StartupOngoing_Ongoing">
+		<value>Ongoing</value>
+	</data>
+	<data name="PW_StandardLongTerm_Long">
+		<value>Long Term</value>
+	</data>
+	<data name="PW_StandardLongTerm_Standard">
+		<value>Standard Term</value>
+	</data>
+	<data name="PW_Title_LongTermInterestRate">
+		<value>Long-term Interest Rate</value>
+	</data>
+	<data name="PW_Text_LongTermInterestRate">
+		<value>Estimated long-term interest rate?</value>
+	</data>
+	<data name="PW_Help_LongTermInterestRate">
+		<value>This step requires you to make an educated guess about the future prospects of your company. The long-term interest rate you provide here will be used to calculate the long-term interest expense which will appear in the Profit and Loss table. This number can later be edited to see its impact on your (projected) financials.</value>
+	</data>
+	<data name="PW_Title_PlanDescription">
+		<value>Plan Description</value>
+	</data>
+	<data name="PW_Text_PlanDescription">
+		<value>Describe your plan in a few words.</value>
+	</data>
+	<data name="PW_Help_PlanDescription">
+		<value>Kindly use the provided space to give any additional information about your (proposed) business that describes its purpose and goals briefly.</value>
+	</data>
+	<data name="PW_Title_BBusinessType">
+		<value>Business Type</value>
+	</data>
+	<data name="PW_Text_BBusinessType">
+		<value>Are you in the business of selling products, providing services or both?</value>
+	</data>
+	<data name="PW_Help_BBusinessType">
+		<value>This section requires you to classify your (proposed) business according to its function. If your company buys, sells or produces tangible items, the kindly choose â€˜Productsâ€™; if the company provides a service of some kind (for example, a gardening company), kindly choose â€˜Servicesâ€™.
+In case your company provides both the products and the services (example, plants, fertilizers and gardening expertise), choose â€˜Bothâ€™. If you are unsure, you may skip this step at this point (press â€˜Nextâ€™) and return to it later.
+</value>
+	</data>
+	<data name="PW_Title_BManageInventory">
+		<value>Inventory</value>
+	</data>
+	<data name="PW_Text_BManageInventory">
+		<value>Do you manage inventory?</value>
+	</data>
+	<data name="PW_Help_BManageInventory">
+		<value>If in the previous step, you chose â€˜Productsâ€™, or â€˜Bothâ€™, it means that your company deals with products and maintains (aims to maintain) an inventory. This may be a purchase(s), receivable(s) or manufacture inventory. To add an inventory line to the Balance Sheet and Cash Flow tables in your business plan, choose â€˜Yesâ€™. </value>
+	</data>
+	<data name="PW_Title_BInventoryTurnOver">
+		<value>Inventory Turnover</value>
+	</data>
+	<data name="PW_Text_BInventoryTurnOver">
+		<value>How many times you turn your inventory per year?</value>
+	</data>
+	<data name="PW_Help_BInventoryTurnOver">
+		<value>If in the previous step you choose â€˜Yesâ€™, it means that your business regularly maintains and replaces items in your inventory. In order to determine the value of inventory turnover, simply list the total number of times you completely replace your inventory each year. For example, if you replace your inventory 6 times annually, then 6 is your inventory turnover estimate value.  The inventory turnover estimate value is used in the Balance Sheet and will affect the Inventory row.</value>
+	</data>
+	<data name="PW_Title_BSellOnCredit">
+		<value>Sell on Credit</value>
+	</data>
+	<data name="PW_Text_BSellOnCredit">
+		<value>Do you sell to your customers on credit?</value>
+	</data>
+	<data name="PW_Help_BSellOnCredit">
+		<value>In case your customers require credit when they purchase your service/product, choose â€˜Yesâ€™ and an entry will be made in the Balance Sheet and Cash Flow tables for the Accounts Receivable. If your business does not extend credit, kindly choose â€˜Noâ€™.  </value>
+	</data>
+	<data name="PW_Title_BSalesOnCredit">
+		<value>Sales on Credit</value>
+	</data>
+	<data name="PW_Text_BSalesOnCredit">
+		<value>What percentage of your sales are sold on credit?</value>
+	</data>
+	<data name="PW_Help_BSalesOnCredit">
+		<value>If in the previous step you choose â€˜Yesâ€™, it means that your business regularly extends credit to the customers. The next step is to determine the percentage of your sales which is sold on credit. This value is the result of dividing the number of services/products sold on credit divided by the total number of services/products sold and the result multiplied by 100. The resultant value will be placed in the Sales on Credit % (percentage) row in your General Assumptions table</value>
+	</data>
+	<data name="PW_Title_BCollectionDays">
+		<value>Collection Days</value>
+	</data>
+	<data name="PW_Text_BCollectionDays">
+		<value>In how many days, do you get paid on your credit sales?</value>
+	</data>
+	<data name="PW_Help_BCollectionDays">
+		<value>If in step 5 you choose â€˜Yesâ€™, an entry was made for the Accounts Receivable in the Balance Sheet and Cash Flow tables of your business plan. To calculate your accounts receivable accurately, kindly enter the number of days you wait before collecting on your credit sales. This number will be used to complete the Collection Days Estimate row in your General Assumptions table. </value>
+	</data>
+	<data name="PW_Title_BSalesForcastType">
+		<value>Sales Forcast Type</value>
+	</data>
+	<data name="PW_Text_BSalesForcastType">
+		<value>Do you want to forecast your sales by units or by value?</value>
+	</data>
+	<data name="PW_Help_BSalesForcastType">
+		<value>There are two available options for forecasting sales: by units or by sales. In case you choose to forecast your sales by units, your total sales will be calculated by multiplying the number of units sold by the associated price. In case you wish to forecast the sales by value, simply choose the forecast by values button. If you are unsure of your choice or wish to later make a change,  you can always return to this page later.</value>
+	</data>
+	<data name="PW_Title_BPersonalBurden">
+		<value>Personal Burden</value>
+	</data>
+	<data name="PW_Text_BPersonalBurden">
+		<value>What percent of salaries do you bear for your employees additionally? such as taxes, vacations and benefits.</value>
+	</data>
+	<data name="PW_Help_BPersonalBurden">
+		<value>Personnel Burden is the name given to the additional cost beyond salaries and can run from 10 to 30 percent depending upon the industry and your company policies. If you do not employ any employees set this value to zero. In case you are not certain, enter a value of 15 percent. This value will be used in the Personnel Burden line in the General Assumptions table as well as added to the Personnel and the Profit and Loss tables</value>
+	</data>
+	<data name="PW_Title_BInterestRate">
+		<value>Interest Rate</value>
+	</data>
+	<data name="PW_Text_BInterestRate">
+		<value>Estimated interest rate?</value>
+	</data>
+	<data name="PW_Help_BInterestRate">
+		<value>This step requires you to make an educated guess about the future prospects of your company. The short-term interest rate is a number (expressed as a percentage) which is used to calculate your short-term interest expense which appears in the Profit and Loss table and the General Assumptions table. You may later return to this step and edit the number to see its impact on your on your (projected) financials.</value>
+	</data>
+	<data name="PW_Title_BTaxRate">
+		<value>Tax Rate</value>
+	</data>
+	<data name="PW_Text_BTaxRate">
+		<value>Estimated tax rate?</value>
+	</data>
+	<data name="PW_Help_BTaxRate">
+		<value>This step again requires you to make an educated guess about the future prospects of your company. Kindly provide a reasonable (in view of your proposed business activities) tax rate at which your profits will be taxed: in case you are unsure, guess 25 percent. The rate provided here will be used to complete the General Assumptions table. You can later manipulate this number in your General Assumptions table to see the impact it has on your financials. </value>
+	</data>
+	<data name="PW_Title_BNonPayrollExpense">
+		<value>Non Payroll Expense</value>
+	</data>
+	<data name="PW_Text_BNonPayrollExpense">
+		<value>What percent of your non-payroll expense, do you pay in cash?</value>
+	</data>
+	<data name="PW_Help_BNonPayrollExpense">
+		<value>This step again requires you to make an educated guess about the future prospects of your company. The Non Payroll Expense is usually a low number expressed as a percentage and used to estimate your accounts payable in the Balance Sheet. This number will be used to complete the General Assumptions table in your business plan. You may later manipulate this number in your General Assumptions table to see its impact on your on your (projected) financials.</value>
+	</data>
+	<data name="PW_Title_BPaymentDays">
+		<value>Payment Days</value>
+	</data>
+	<data name="PW_Text_BPaymentDays">
+		<value>In how many days, do you pay your bills?</value>
+	</data>
+	<data name="PW_Help_BPaymentDays">
+		<value>The number you enter here will be used to complete the row titled â€˜Payment Days Estimatorâ€™ in the General Assumptions table in your business plan. You may later manipulate this number in your General Assumptions table to see its impact on your on your (projected) financials.</value>
+	</data>
+	<data name="PW_Title_BStartupOngoing">
+		<value>Startup Or Ongoing</value>
+	</data>
+	<data name="PW_Text_BStartupOngoing">
+		<value>Are you planning for a startup business or an ongoing business?</value>
+	</data>
+	<data name="PW_Help_BStartupOngoing">
+		<value>The InfiniPlan wizard helps you create business plans whether your company is newly registered start-up or a previously existent company. For start-up companies, kindly choose â€˜Startupâ€™ and a table titled Start-up will be created where starting numbers for the company can be input. For the existing businesses, choose â€˜Ongoingâ€™ and a table called Past Performance will be created containing the historical information of the company.</value>
+	</data>
+	<data name="PW_Title_BPlanStartDate">
+		<value>Plan Start Date</value>
+	</data>
+	<data name="PW_Text_BPlanStartDate">
+		<value>When do you want to start your plan?</value>
+	</data>
+	<data name="PW_Help_BPlanStartDate">
+		<value>Kindly choose the date which you desire to display on all your financial tables</value>
+	</data>
+	<data name="PW_Title_BPlanTitle">
+		<value>Plan Title</value>
+	</data>
+	<data name="PW_Text_BPlanTitle">
+		<value>Give a suitable title to your plan.</value>
+	</data>
+	<data name="PW_Help_BPlanTitle">
+		<value>Kindly choose a name for your business plan, which will appear as title on the header of all the pages, including the cover page.</value>
+	</data>
+	<data name="PW_BBusinessType_Products">
+		<value>Products</value>
+	</data>
+	<data name="PW_BBusinessType_Services">
+		<value>Services</value>
+	</data>
+	<data name="PW_BBusinessType_Both">
+		<value>Both</value>
+	</data>
+	<data name="PW_BSalesForcastType_Units">
+		<value>Units</value>
+	</data>
+	<data name="PW_BSalesForcastType_Value">
+		<value>Value</value>
+	</data>
+	<data name="PW_BStartupOngoing_Startup">
+		<value>Startup</value>
+	</data>
+	<data name="PW_BStartupOngoing_Ongoing">
+		<value>Ongoing</value>
+	</data>
+	<data name="PW_Title_BPlanDescription">
+		<value>Plan Description</value>
+	</data>
+	<data name="PW_Text_BPlanDescription">
+		<value>Describe your plan in a few words.</value>
+	</data>
+	<data name="PW_Help_BPlanDescription">
+		<value>Kindly use the provided space to give any additional information about your (proposed) business that describes its purpose and goals briefly.</value>
+	</data>
+	<data name="PW_Error_PlanAlreadyExists">
+		<value>A plan with the same name already exists. Do you want to replace it?</value>
+	</data>
+	<data name="PW_Title_BasicAdvanced">
+		<value>Basic or Advanced</value>
+	</data>
+	<data name="PW_Text_BasicAdvanced">
+		<value>Start with a basic wizard or advanced wizard?</value>
+	</data>
+	<data name="PW_Help_BasicAdvanced">
+		<value>The InfiniPlan wizard helps you create basic as well as advanced versions of your business plan. In the basic mode, you answer fewer questions and the generic (assumed) values are used to create an equivocal business plan. Using the advanced mode of the wizard, you may specify all the information you desire to include in your business plan. 
+In either case, you may always return to the wizard to edit the any of the various tables, charts and figures according to your requirements, irrespective of whether you chose the basic or the advanced wizard initially.
+</value>
+	</data>
+	<data name="PW_BasicAdvanced_Basic">
+		<value>Basic</value>
+	</data>
+	<data name="PW_BasicAdvanced_Advanced">
+		<value>Advanced</value>
+	</data>
+	<data name="PW_Help_Finish">
+		<value>Congratulations! You have reached the end of the InfiniPlan wizard. To create and view your business plan, please click â€˜Finishâ€™. To review or edit the information you have provided so far, kindly press the â€˜Backâ€™ button to reach your desired step. Once you have made your changes, simply press the â€˜Finishâ€™ button to directly view your business plan.</value>
+	</data>
+	<data name="PW_Help_Start">
+		<value>Welcome to the InfiniPlan wizard. This wizard will help you create your business plan, simply and easily. Kindly answer the following simple questions and based on your answers, the wizard will create your business plan. 
+There are certain default values provided in certain answers, however, you may easily change them to customize your plan. Alternatively, you may also later return to the wizard to edit the any of the various tables, charts and figures according to your requirements. 
+</value>
+	</data>
+	<data name="PW_Text_Finish">
+		<value>Press the finish button to create plan.</value>
+	</data>
+	<data name="PW_Text_Start">
+		<value>Press the next buton to start the wizard.</value>
+	</data>
+	<data name="PW_Title_CreatePlan">
+		<value>Create Plan</value>
+	</data>
+	<data name="PW_Text_CreatePlan">
+		<value>Start with:</value>
+	</data>
+	<data name="PW_Help_CreatePlan"></data>
+	<data name="PW_CreatePlan_CreateNew"></data>
+	<data name="PW_CreatePlan_ExistingPlan"></data>
+	<data name="PW_Title_PlanParticulars">
+		<value>Plan Particulars</value>
+	</data>
+	<data name="PW_Text_PlanParticulars">
+		<value>Please provide the following particulars about your plan which will be displayed on the cover page of the final document.</value>
+	</data>
+	<data name="PW_Help_PlanParticulars"></data>
+	<data name="PW_Text_BusinessName">
+		<value>BusinessName</value>
+	</data>
+	<data name="PW_Text_CompanyBusinessOwnership">
+		<value>CompanyBusinessOwnership</value>
+	</data>
+	<data name="PW_Text_ContactDetails">
+		<value>ContactDetails</value>
+	</data>
+	<data name="PW_Text_BBusinessName">
+		<value>BusinessName</value>
+	</data>
+	<data name="PW_Text_BCompanyBusinessOwnership">
+		<value>CompanyBusinessOwnership</value>
+	</data>
+	<data name="PW_Text_BContactDetails">
+		<value>ContactDetails</value>
+	</data>
+	<data name="PW_Options_Yes">
+		<value>Yes</value>
+	</data>
+	<data name="PW_Options_No">
+		<value>No</value>
+	</data>
+</root>

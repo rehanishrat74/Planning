@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:IBZservices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:IBZservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="urn:IBZservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="returnmsg">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="orderinfo">
+        <s:all>
+          <s:element name="orderno" type="s:string" />
+          <s:element name="trackingid" type="s:string" />
+          <s:element name="invoiceno" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="productsinfo">
+        <s:all>
+          <s:element name="productcode" type="s:string" />
+          <s:element name="quantity" type="s:decimal" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="productsarray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:productsinfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="orderdetails">
+        <s:all>
+          <s:element name="reselleruid" type="s:string" />
+          <s:element name="customeruid" type="s:string" />
+          <s:element name="customerid" type="s:string" />
+          <s:element name="orderno" type="s:string" />
+          <s:element name="trackingid" type="s:string" />
+          <s:element name="paid" type="s:string" />
+          <s:element name="invoiceno" type="s:string" />
+          <s:element name="totalamount" type="s:string" />
+          <s:element name="products" type="tns:productsarray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="infolist">
+        <s:all>
+          <s:element name="orderno" type="s:string" />
+          <s:element name="productcode" type="s:string" />
+          <s:element name="serialno" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="infoarray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:infolist[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="getInactiveProductsResponse">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="info" type="tns:infoarray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="getInactiveProductsRequest">
+        <s:all>
+          <s:element name="customeruid" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="packageprodinfo">
+        <s:all>
+          <s:element name="productcode" type="s:string" />
+          <s:element name="serialno" type="s:int" />
+          <s:element name="newserialno" type="s:int" />
+          <s:element name="renewable" type="s:int" />
+          <s:element name="renewduration" type="s:int" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="packagearray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:packageprodinfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="pcodeinfo">
+        <s:all>
+          <s:element name="productcode" type="s:string" />
+          <s:element name="serialno" type="s:int" />
+          <s:element name="newserialno" type="s:int" />
+          <s:element name="renewable" type="s:int" />
+          <s:element name="renewduration" type="s:int" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="pcodearray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:pcodeinfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="activationinfo">
+        <s:all>
+          <s:element name="customerid" type="s:string" />
+          <s:element name="orderno" type="s:string" />
+          <s:element name="entityid" type="s:string" />
+          <s:element name="entityname" type="s:string" />
+          <s:element name="referrer" type="s:string" />
+          <s:element name="globalcompanyid" type="s:string" />
+          <s:element name="productcodes" type="tns:pcodearray" />
+          <s:element name="packageinfo" type="tns:packagearray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="autoLoginParam">
+        <s:all>
+          <s:element name="parentid" type="s:string" />
+          <s:element name="password" type="s:string" />
+          <s:element name="serviceid" type="s:string" />
+          <s:element name="targeturl" type="s:string" />
+          <s:element name="variablename" type="s:string" />
+          <s:element name="language" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="autoLoginReturnmsg">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="variablename" type="s:string" />
+          <s:element name="value" type="s:string" />
+          <s:element name="link" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="pnameinfo">
+        <s:all>
+          <s:element name="pcode" type="s:string" />
+          <s:element name="cname" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="pnamelist">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:pnameinfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="preActivateParam">
+        <s:all>
+          <s:element name="orderno" type="s:string" />
+          <s:element name="productname" type="tns:pnamelist" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="payOrderRequest">
+    <wsdl:part name="orderinfo" type="tns:orderinfo" />
+  </wsdl:message>
+  <wsdl:message name="payOrderResponse">
+    <wsdl:part name="returnmsg" type="tns:returnmsg" />
+  </wsdl:message>
+  <wsdl:message name="addNewOrderRequest">
+    <wsdl:part name="orderdetails" type="tns:orderdetails" />
+  </wsdl:message>
+  <wsdl:message name="addNewOrderResponse">
+    <wsdl:part name="returnmsg" type="tns:returnmsg" />
+  </wsdl:message>
+  <wsdl:message name="getInactiveProductsRequest">
+    <wsdl:part name="getInactiveProductsRequest" type="tns:getInactiveProductsRequest" />
+  </wsdl:message>
+  <wsdl:message name="getInactiveProductsResponse">
+    <wsdl:part name="returnmsg" type="tns:getInactiveProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="activateProductsRequest">
+    <wsdl:part name="activationinfo" type="tns:activationinfo" />
+  </wsdl:message>
+  <wsdl:message name="activateProductsResponse">
+    <wsdl:part name="returnmsg" type="tns:returnmsg" />
+  </wsdl:message>
+  <wsdl:message name="activateGlobalProductsRequest">
+    <wsdl:part name="activationinfo" type="tns:activationinfo" />
+  </wsdl:message>
+  <wsdl:message name="activateGlobalProductsResponse">
+    <wsdl:part name="returnmsg" type="tns:returnmsg" />
+  </wsdl:message>
+  <wsdl:message name="autoLoginRequest">
+    <wsdl:part name="autoLoginParam" type="tns:autoLoginParam" />
+  </wsdl:message>
+  <wsdl:message name="autoLoginResponse">
+    <wsdl:part name="returnmsg" type="tns:autoLoginReturnmsg" />
+  </wsdl:message>
+  <wsdl:message name="preActivateRequest">
+    <wsdl:part name="preorderinfo" type="tns:preActivateParam" />
+  </wsdl:message>
+  <wsdl:message name="preActivateResponse">
+    <wsdl:part name="returnmsg" type="tns:autoLoginReturnmsg" />
+  </wsdl:message>
+  <wsdl:portType name="IBZservicesPortType">
+    <wsdl:operation name="payOrder">
+      <wsdl:input message="tns:payOrderRequest" />
+      <wsdl:output message="tns:payOrderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addNewOrder">
+      <wsdl:input message="tns:addNewOrderRequest" />
+      <wsdl:output message="tns:addNewOrderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getInactiveProducts">
+      <wsdl:input message="tns:getInactiveProductsRequest" />
+      <wsdl:output message="tns:getInactiveProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="activateProducts">
+      <wsdl:input message="tns:activateProductsRequest" />
+      <wsdl:output message="tns:activateProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="activateGlobalProducts">
+      <wsdl:input message="tns:activateGlobalProductsRequest" />
+      <wsdl:output message="tns:activateGlobalProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="autoLogin">
+      <wsdl:input message="tns:autoLoginRequest" />
+      <wsdl:output message="tns:autoLoginResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="preActivate">
+      <wsdl:input message="tns:preActivateRequest" />
+      <wsdl:output message="tns:preActivateResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IBZservicesBinding" type="tns:IBZservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="payOrder">
+      <soap:operation soapAction="urn:IBZservices#PayOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addNewOrder">
+      <soap:operation soapAction="urn:IBZservices#AddNewOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getInactiveProducts">
+      <soap:operation soapAction="urn:IBZservices#getInactiveProducts" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateProducts">
+      <soap:operation soapAction="urn:IBZservices#ActivateProduct" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateGlobalProducts">
+      <soap:operation soapAction="urn:IBZservices#activateGlobalProducts" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="autoLogin">
+      <soap:operation soapAction="urn:IBZservices#autoLogin" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="preActivate">
+      <soap:operation soapAction="urn:IBZservices#preActivate" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IBZservices">
+    <wsdl:port name="IBZservicesPort" binding="tns:IBZservicesBinding">
+      <soap:address location="http://webservices.infinibiz.com/customer.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

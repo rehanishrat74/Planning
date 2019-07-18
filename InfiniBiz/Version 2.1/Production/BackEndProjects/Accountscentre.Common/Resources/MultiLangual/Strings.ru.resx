@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" > 
+<xsd:element name="root" msdata:IsDataSet="true" > 
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded" > 
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version"> 
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="acc_msg_Account_SignInAttemptFailed">
+  <value />
+</data>
+<data name="acc_msg_Account_NewEmployerCreated">
+  <value />
+</data>
+<data name="acc_msg_Account_NewEmployerRegistrationStatus">
+  <value />
+</data>
+<data name="acc_msg_Account_UpdateEmployerDetails">
+  <value />
+</data>
+<data name="acc_msg_Account_UpdateCustomerServices">
+  <value />
+</data>
+<data name="acc_msg_Account_MatchPassword">
+  <value />
+</data>
+<data name="acc_msg_Account_UpdatePassword">
+  <value />
+</data>
+<data name="acc_msg_Account_IncorrectPassword">
+  <value />
+</data>
+<data name="acc_msg_Account_ForgotPassword">
+  <value />
+</data>
+<data name="acc_msg_Account_PasswordMatching">
+  <value />
+</data>
+<data name="acc_msg_Account_CrCardExpiryDate">
+  <value />
+</data>
+<data name="acc_msg_Account_AXCardSTDate">
+  <value />
+</data>
+<data name="acc_msg_Account_AXCardENDate">
+  <value />
+</data>
+<data name="acc_msg_Account_DrCardDate">
+  <value />
+</data>
+<data name="acc_msg_Employee_EmployeeRecordNotFound">
+  <value />
+</data>
+<data name="acc_msg_Employee_NewEmployeeCreated">
+  <value />
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInCalculation">
+  <value />
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInDate">
+  <value />
+</data>
+<data name="acc_msg_Taxation_P11NIC_EarningDetailsNotFound">
+  <value />
+</data>
+<data name="acc_msg_PAYE_InYearForm_NewFormCreated">
+  <value />
+</data>
+<data name="acc_msg_General_ThankYou">
+  <value />
+</data>
+<data name="acc_msg_General_Update">
+  <value />
+</data>
+<data name="acc_msg_General_Add">
+  <value />
+</data>
+<data name="acc_msg_General_Save">
+  <value />
+</data>
+<data name="acc_msg_Error_RequiredFields">
+  <value />
+</data>
+<data name="acc_msg_Error_RegularExpression">
+  <value />
+</data>
+<data name="acc_msg_Email_AccountRegistration">
+  <value />
+</data>
+<data name="acc_msg_Email_UpdateServices">
+  <value />
+</data>
+<data name="acc_msg_Email_ResendPassword">
+  <value />
+</data>
+<data name="acc_msg_Email_DefaultEmailAddress">
+  <value />
+</data>
+<data name="acc_msg_Email_ForgotPassword">
+  <value />
+</data>
+<data name="acc_msg_PDF_NOTEXISTS">
+  <value />
+</data>
+<data name="acc_msg_Date_IncorrectDay">
+  <value />
+</data>
+<data name="acc_msg_Date_GreaterDate">
+  <value />
+</data>
+<data name="acc_msg_Account_Select_Product">
+  <value />
+</data>
+<data name="acc_msg_Account_Valid_Password">
+  <value />
+</data>
+<data name="acc_msg_Account_Valid_Data_Following">
+  <value />
+</data>
+<data name="acc_msg_Account_Credit_No_Required">
+  <value />
+</data>
+<data name="acc_msg_Account_Valid_UserID">
+  <value />
+</data>
+<data name="acc_msg_Account_Order_Payment">
+  <value />
+</data>
+<data name="acc_msg_Account_Order_Process">
+  <value />
+</data>
+<data name="acc_msg_Account_Product">
+  <value />
+</data>
+<data name="acc_msg_Account_Company_Select">
+  <value />
+</data>
+<data name="acc_msg_Account_Select_imgFile">
+  <value />
+</data>
+<data name="acc_msg_Account_CustomerId_Dosenot_Exit">
+  <value />
+</data>
+<data name="acc_msg_Account_Customerid_Fill">
+  <value />
+</data>
+<data name="acc_msg_Account_Fill_data">
+  <value />
+</data>
+<data name="acc_msg_Account_Upload_File">
+  <value />
+</data>
+<data name="acc_msg_Account_GlobalView">
+  <value />
+</data>
+<data name="acc_msg_Account_GlobalView_created_successfully">
+  <value />
+</data>
+<data name="acc_msg_Account_GlobalView_Detail">
+  <value />
+</data>
+<data name="acc_msg_Account_Invoice_Name">
+  <value />
+</data>
+<data name="acc_msg_Account_Password">
+  <value />
+</data>
+<data name="acc_msg_Account_confirm_Password">
+  <value />
+</data>
+<data name="acc_msg_Account_Street">
+  <value />
+</data>
+<data name="acc_msg_Account_Town">
+  <value />
+</data>
+<data name="acc_msg_Account_State">
+  <value />
+</data>
+<data name="acc_msg_Account_Contact_Name">
+  <value />
+</data>
+<data name="acc_msg_Account_Telephone">
+  <value />
+</data>
+<data name="acc_msg_Account_Fax">
+  <value />
+</data>
+<data name="acc_msg_Account_Email_Address">
+  <value />
+</data>
+<data name="acc_msg_Account_Notes">
+  <value />
+</data>
+<data name="acc_msg_Account_Renewable_Package">
+  <value />
+</data>
+<data name="acc_msg_Account_Upgraded_Package">
+  <value />
+</data>
+<data name="acc_msg_Account_Visit_InfiniPlan">
+  <value />
+</data>
+<data name="acc_msg_Account_Start_Date_Greater">
+  <value />
+</data>
+<data name="acc_msgAccount_Valid_Date_Greater">
+  <value />
+</data>
+<data name="acc_msg_Account_Pre_Requisites">
+  <value />
+</data>
+<data name="acc_msg_Account_Update_Services">
+  <value />
+</data>
+<data name="acc_msg_Account_Delivery_Address">
+  <value />
+</data>
+<data name="acc_msg_Account_Card_Holder_Name">
+  <value />
+</data>
+<data name="acc_msg_Account_Card_Number">
+  <value />
+</data>
+<data name="acc_msg_Account_Card_Address">
+  <value />
+</data>
+<data name="acc_msg_Account_Security_Code">
+  <value />
+</data>
+<data name="acc_msg_Account_Issue_No_Msg">
+  <value />
+</data>
+<data name="acc_msg_Account_Issue_No">
+  <value />
+</data>
+<data name="acc_msg_Account_Bank_Name">
+  <value />
+</data>
+<data name="acc_msg_Account_Cheque_No">
+  <value />
+</data>
+<data name="acc_msg_Account_Sort_Code">
+  <value />
+</data>
+<data name="acc_msg_Account_Transaction_Reference_No">
+  <value />
+</data>
+<data name="acc_msg_Account_Service_Name">
+  <value />
+</data>
+<data name="acc_msg_Account_Description">
+  <value />
+</data>
+<data name="acc_msg_Account_Register_User1">
+  <value />
+</data>
+<data name="acc_msg_Account_Register_User3">
+  <value />
+</data>
+<data name="acc_msg_Account_NewCustomerCreated1">
+  <value />
+</data>
+<data name="acc_msg_Account_NewCustomerCreated2">
+  <value />
+</data>
+<data name="acc_msg_Account_NewCustomerCreated3">
+  <value />
+</data>
+<data name="acc_msg_Account_Register_User2">
+  <value />
+</data>
+<data name="acc_msg_Account_Register_User4">
+  <value />
+</data>
+<data name="acc_msg_information">
+  <value>Информация</value>
+</data>
+<data name="acc_msg_name">
+  <value />
+</data>
+<data name="acc_msg_loginid">
+  <value>Логин ID</value>
+</data>
+<data name="acc_msg_welcome">
+  <value />
+</data>
+<data name="acc_msg_address">
+  <value />
+</data>
+<data name="acc_msg_welcomeservice">
+  <value />
+</data>
+<data name="acc_msg_welcomeend">
+  <value />
+</data>
+<data name="acc_msg_regards">
+  <value />
+</data>
+</root>

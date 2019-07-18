@@ -1,0 +1,1733 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" > 
+<xsd:element name="root" msdata:IsDataSet="true" > 
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded" > 
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version"> 
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="bizplanweb_services_plan_welcome_lnkHome">
+  <value>首页</value>
+</data>
+<data name="bizplan_menu_table_Expenses">
+		<value>Expenses</value>
+	</data>
+<data name="bizplanweb_services_plan_welcome_lnkText">
+  <value>正文</value>
+</data>
+<data name="bizplanweb_services_plan_welcome_lnkTable">
+  <value>图表</value>
+</data>
+<data name="bizplanweb_services_plan_welcome_lnkCharts">
+  <value>图表</value>
+</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblActual">
+		<value>Actual</value>
+	</data>
+<data name="bizplanweb_services_plan_faqs_lblFAQs">
+		<value>
+&lt;span id="lblFAQs"&gt; &lt;dl id = "FAQ_DL"&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#30331;&amp;#24405;&amp;#21040;InfiniPlan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; 
+	&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		&amp;#30331;&amp;#24405;&amp;#21040;www.accountscentre.com &amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#25105;&amp;#30340;&amp;#24080;&amp;#25143;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		&amp;#36755;&amp;#20837;&amp;#20320;&amp;#30340;&amp;#23458;&amp;#25143;ID&amp;#21644;&amp;#23494;&amp;#30721;&amp;#36827;&amp;#20837;&amp;#36825;&amp;#32479;&amp;#19968;&amp;#39029;&amp;#38754;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+	&amp;#28857;&amp;#20987;&amp;#20250;&amp;#35745;&amp;#26381;&amp;#21153;&amp;#22270;&amp;#26631; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+	&amp;#28857;&amp;#20987;&amp;#21487;&amp;#29992;&amp;#30340;&amp;#26381;&amp;#21153;&amp;#33756;&amp;#21333;&amp;#36873;&amp;#25321;InfiniPlan. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+&amp;#20320;&amp;#24050;&amp;#25104;&amp;#21151;&amp;#30331;&amp;#24405;&amp;#21040;InfiniPlan&amp;#29616;&amp;#22312;&amp;#20320;&amp;#21487;&amp;#20197;&amp;#24320;&amp;#22987;&amp;#20934;&amp;#22791;&amp;#20320;&amp;#30340;&amp;#21830;&amp;#19994;&amp;#35745;&amp;#21010;&amp;#27010;&amp;#35201;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#24320;&amp;#22987;&amp;#20351;&amp;#29992; InfiniPlan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#24403;&amp;#20320;&amp;#30331;&amp;#24405;&amp;#21040;InfiniPlan&amp;#65292;&amp;#20320;&amp;#21487;&amp;#20197;&amp;#20351;&amp;#29992;&amp;#20854;&amp;#20013;&amp;#19968;&amp;#20010;&amp;#36873;&amp;#39033;&amp;#24320;&amp;#22987;&amp;#35745;&amp;#21010;&amp;#31243;&amp;#24207;&amp;#21644;&amp;#25805;&amp;#20316;&amp;#20854;&amp;#24212;&amp;#29992;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l6 level1 lfo2;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#24320;&amp;#22987;&amp;#25353;&amp;#38062;&amp;#36827;&amp;#20837;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#24320;&amp;#22987;&amp;#36827;&amp;#34892;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l6 level1 lfo2;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 2.	&amp;#25110;&amp;#32773;&amp;#21040;&amp;#24038;&amp;#36793;&amp;#39029;&amp;#38754;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#20320;&amp;#24819;&amp;#35201;&amp;#30340;&amp;#36873;&amp;#25321;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#20160;&amp;#20040;&amp;#26159;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#65311; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#26159;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#65292;&amp;#23427;&amp;#20801;&amp;#35768;&amp;#20320;&amp;#27983;&amp;#35272;&amp;#19981;&amp;#21516;&amp;#30340;&amp;#24212;&amp;#29992;&amp;#31243;&amp;#24207;&amp;#21644;&amp;#36827;&amp;#20837;&amp;#19981;&amp;#21516;&amp;#30340;&amp;#32452;&amp;#21512;&amp;#37096;&amp;#20998;&amp;#12290;&amp;#23427;&amp;#21487;&amp;#20174;InfiniPlan &amp;#39318;&amp;#39029;&amp;#30340;&amp;#24038;&amp;#19978;&amp;#26041;&amp;#33719;&amp;#24471;&amp;#65292;&amp;#24182;&amp;#26174;&amp;#31034;&amp;#20197;&amp;#19979;&amp;#22235;&amp;#20010;&amp;#36873;&amp;#39033;&amp;#65306; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#39318;&amp;#39029;&amp;#65306;&amp;#20135;&amp;#21697;&amp;#30340;&amp;#40664;&amp;#35748;&amp;#39029;&amp;#38754;. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#65306;&amp;#25805;&amp;#20316;&amp;#31649;&amp;#29702;&amp;#65292;&amp;#22914;&amp;#65306;&amp;#21019;&amp;#24314;&amp;#35745;&amp;#21010;&amp;#65292;&amp;#36873;&amp;#25321;&amp;#21644;&amp;#26356;&amp;#25913;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20986;&amp;#35745;&amp;#21010;&amp;#65306;&amp;#31649;&amp;#29702;&amp;#24050;&amp;#36755;&amp;#20986;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#21015;&amp;#34920;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#24120;&amp;#35265;&amp;#38382;&amp;#39064;&amp;#35299;&amp;#31572;&amp;#65306;&amp;#30456;&amp;#20851;&amp;#20135;&amp;#21697;&amp;#30340;&amp;#24120;&amp;#35265;&amp;#38382;&amp;#39064;&amp;#35299;&amp;#31572;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#26377;&amp;#37027;&amp;#20123;&amp;#36873;&amp;#39033;&amp;#65311; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#20294;&amp;#26159;&amp;#65292;&amp;#24403;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#24050;&amp;#21019;&amp;#24314;&amp;#25110;&amp;#36827;&amp;#20837;&amp;#65292;&amp;#27492;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#26174;&amp;#31034;&amp;#20197;&amp;#19979;&amp;#36873;&amp;#39033;&amp;#65306; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#27491;&amp;#25991;&amp;#65306;&amp;#20351;&amp;#29992;&amp;#25143;&amp;#21040;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#27491;&amp;#25991;&amp;#20869;&amp;#23481;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#24037;&amp;#20316;&amp;#21488;&amp;#65306;&amp;#20351;&amp;#29992;&amp;#25143;&amp;#21040;&amp;#19981;&amp;#21516;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22270;&amp;#34920;&amp;#65306;&amp;#35753;&amp;#29992;&amp;#25143;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#34920;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#39044;&amp;#35272;&amp;#35745;&amp;#21010;&amp;#65306;&amp;#36825;&amp;#33021;&amp;#22815;&amp;#35753;&amp;#29992;&amp;#25143;&amp;#39044;&amp;#35272;&amp;#35745;&amp;#21010;&amp;#21644;&amp;#30830;&amp;#23450;&amp;#26684;&amp;#24335;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20986;&amp;#35745;&amp;#21010;&amp;#65306;&amp;#36825;&amp;#33021;&amp;#22815;&amp;#35753;&amp;#29992;&amp;#25143;&amp;#36755;&amp;#20986;&amp;#35745;&amp;#21010;&amp;#29992;&amp;#20110;&amp;#20854;&amp;#23427;&amp;#24212;&amp;#29992;&amp;#36719;&amp;#20214;&amp;#22914;&amp;#65306;Microsoft Word &amp;#24182;&amp;#25171;&amp;#21360;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#31934;&amp;#28789;&amp;#35745;&amp;#21010;&amp;#65288;&amp;#22312;&amp;#31532;&amp;#19977;&amp;#31456;&amp;#35299;&amp;#37322;&amp;#65289;&amp;#65306;&amp;#36825;&amp;#35753;&amp;#29992;&amp;#25143;&amp;#21040;&amp;#20197;&amp;#21069;&amp;#21019;&amp;#24314;&amp;#29305;&amp;#23450;&amp;#35745;&amp;#21010;&amp;#26102;&amp;#25152;&amp;#29992;&amp;#30340;&amp;#31934;&amp;#28789;&amp;#35745;&amp;#21010;&amp;#65292;&amp;#32780;&amp;#19988;&amp;#21487;&amp;#20197;&amp;#23545;&amp;#20197;&amp;#21069;&amp;#20219;&amp;#20309;&amp;#36755;&amp;#20837;&amp;#30340;&amp;#20449;&amp;#24687;&amp;#36827;&amp;#34892;&amp;#32534;&amp;#36753;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#20851;&amp;#38381;&amp;#35745;&amp;#21010;&amp;#65306;&amp;#20851;&amp;#38381;&amp;#29616;&amp;#26377;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#21644;&amp;#35753;&amp;#29992;&amp;#25143;&amp;#36820;&amp;#22238;&amp;#21040;InfiniPlan&amp;#30340;&amp;#39318;&amp;#39029;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt;  &amp;#24590;&amp;#26679;&amp;#21019;&amp;#24314;&amp;#26032;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#65311;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+	&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#36873;&amp;#39033;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#21019;&amp;#24314;&amp;#26032;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#26631;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36825;&amp;#23558;&amp;#20250;&amp;#24102;&amp;#20320;&amp;#21040;&amp;#31934;&amp;#28789;&amp;#30340;InfiniPlan&amp;#24182;&amp;#31616;&amp;#21333;&amp;#20171;&amp;#32461;&amp;#31934;&amp;#28789;&amp;#35745;&amp;#21010;&amp;#12290; &amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#25353;&amp;#38062;&amp;#24320;&amp;#22987;&amp;#21019;&amp;#24314;&amp;#20320;&amp;#30340;&amp;#21830;&amp;#19994;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36873;&amp;#25321;&amp;#19968;&amp;#33324;&amp;#30340;&amp;#25110;&amp;#39640;&amp;#32423;&amp;#30340;&amp;#31934;&amp;#28789;&amp;#36873;&amp;#39033;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36873;&amp;#25321;&amp;#20320;&amp;#30340;&amp;#19994;&amp;#21153;&amp;#31867;&amp;#22411;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&amp;#26381;&amp;#21153;&amp;#36873;&amp;#39033;&amp;#30001;&amp;#31995;&amp;#32479;&amp;#33258;&amp;#21160;&amp;#36873;&amp;#25321;&amp;#12290;&amp;#20294;&amp;#26159;&amp;#65292;&amp;#22312;&amp;#27492;&amp;#24110;&amp;#21161;&amp;#36873;&amp;#39033;&amp;#19979;&amp;#65292;&amp;#25991;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#30001;&amp;#36873;&amp;#25321;&amp;#30340;&amp;#36873;&amp;#39033;&amp;#20135;&amp;#29983;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		&amp;#36873;&amp;#25321;&amp;#20320;&amp;#26159;&amp;#21542;&amp;#31649;&amp;#29702;&amp;#20219;&amp;#20309;&amp;#24211;&amp;#23384;&amp;#65292;&amp;#31995;&amp;#32479;&amp;#20250;&amp;#33258;&amp;#21160;&amp;#36873;&amp;#25321;&amp;#26377;&amp;#24211;&amp;#23384; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#21608;&amp;#36716;&amp;#29575;&amp;#30340;&amp;#25968;&amp;#20540;&amp;#26159;&amp;#26681;&amp;#25454;&amp;#20225;&amp;#19994;&amp;#30340;&amp;#30446;&amp;#26631;&amp;#21644;&amp;#31574;&amp;#30053;&amp;#20026;&amp;#22522;&amp;#30784;&amp;#32780;&amp;#20272;&amp;#35745;&amp;#20986;&amp;#26469;&amp;#30340;&amp;#65289;&amp;#36890;&amp;#36807;&amp;#36873;&amp;#25321;yes &amp;#25110;no &amp;#26469;&amp;#30830;&amp;#23450;&amp;#26159;&amp;#21542;&amp;#26377;&amp;#20449;&amp;#29992;&amp;#38144;&amp;#21806;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#39044;&amp;#26399;&amp;#30340;&amp;#20449;&amp;#29992;&amp;#38144;&amp;#21806;&amp;#30340;&amp;#30334;&amp;#20998;&amp;#29575;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#36926;&amp;#26399;&amp;#30340;&amp;#25910;&amp;#24080;&amp;#26085;&amp;#26399;&amp;#30340;&amp;#25968;&amp;#30446;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36873;&amp;#25321;&amp;#38144;&amp;#21806;&amp;#39044;&amp;#27979;&amp;#31867;&amp;#22411;&amp;#65288;&amp;#27604;&amp;#22914;&amp;#65306;&amp;#30001;&amp;#21333;&amp;#20301;&amp;#25110;&amp;#20215;&amp;#20540;&amp;#65289;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&amp;#31995;&amp;#32479;&amp;#33258;&amp;#21160;&amp;#36873;&amp;#25321;&amp;#38144;&amp;#21806;&amp;#39044;&amp;#27979;&amp;#20272;&amp;#20540;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22914;&amp;#26524;&amp;#20320;&amp;#24819;&amp;#21306;&amp;#20998;&amp;#20320;&amp;#30340;&amp;#36153;&amp;#29992;&amp;#65292;&amp;#35831;&amp;#65292;&amp;#36873;&amp;#25321;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#39044;&amp;#26399;&amp;#30340;&amp;#20154;&amp;#20107;&amp;#36127;&amp;#25285;&amp;#30340;&amp;#30334;&amp;#20998;&amp;#29575;&amp;#12290;&amp;#27604;&amp;#22914;&amp;#20320;&amp;#20026;&amp;#20320;&amp;#30340;&amp;#21592;&amp;#24037;&amp;#25215;&amp;#21463;&amp;#30340;&amp;#20219;&amp;#20309;&amp;#34218;&amp;#27700;&amp;#25110;&amp;#21033;&amp;#30410;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#30701;&amp;#26399;&amp;#21033;&amp;#29575;&amp;#20272;&amp;#35745;&amp;#20540;,&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#38271;&amp;#26399;&amp;#21033;&amp;#29575;&amp;#20272;&amp;#35745;&amp;#20540;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#20272;&amp;#35745;&amp;#24212;&amp;#29992;&amp;#22312;&amp;#20320;&amp;#19994;&amp;#21153;&amp;#27963;&amp;#21160;&amp;#30340;&amp;#31246;&amp;#29575;&amp;#20272;&amp;#35745;&amp;#20540;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt;&amp;#36755;&amp;#20837;&amp;#38750;&amp;#34218;&amp;#27700;&amp;#20876;&amp;#30340;&amp;#20154;&amp;#20107;&amp;#24320;&amp;#25903;&amp;#30340;&amp;#30334;&amp;#20998;&amp;#27604;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+	&lt;span style='font-size:10.0pt;font-family:Verdana'&gt;&amp;#36755;&amp;#20837;&amp;#20320;&amp;#39044;&amp;#26399;&amp;#30340;&amp;#20184;&amp;#27454;&amp;#26085;&amp;#26399;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36873;&amp;#25321;&amp;#22914;&amp;#26524;&amp;#20320;&amp;#26159;&amp;#21019;&amp;#24314;&amp;#19968;&amp;#20010;&amp;#24320;&amp;#22987;&amp;#25110;&amp;#36827;&amp;#34892;&amp;#20013;&amp;#30340;&amp;#19994;&amp;#21153;&amp;#35745;&amp;#21010;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		&amp;#36755;&amp;#20837;&amp;#20320;&amp;#24819;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#24320;&amp;#22987;&amp;#26085;&amp;#26399;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#35745;&amp;#21010;&amp;#21517;&amp;#31216;&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36755;&amp;#20837;&amp;#30456;&amp;#20851;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#30446;&amp;#26631;&amp;#21644;&amp;#30446;&amp;#30340;(&amp;#21487;&amp;#20197;&amp;#19981;&amp;#22635;)&amp;#65292;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Enter a brief Plan Description regarding goals &amp;amp; objectives(this is optional) and click Next. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		&amp;#28857;&amp;#20987;&amp;#23436;&amp;#25104;&amp;#25353;&amp;#38062;,&amp;#21019;&amp;#24314;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36825;&amp;#23558;&amp;#20250;&amp;#24102;&amp;#20320;&amp;#21040;&amp;#27492;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#65292;&amp;#20320;&amp;#21487;&amp;#20197;&amp;#30475;&amp;#21040;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#32452;&amp;#25104;&amp;#37096;&amp;#20998;&amp;#65292;&amp;#36824;&amp;#21487;&amp;#20197;&amp;#20570;&amp;#20219;&amp;#20309;&amp;#26356;&amp;#25913;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt;  &amp;#24590;&amp;#26679;&amp;#36827;&amp;#20837;&amp;#19978;&amp;#19968;&amp;#27425;&amp;#24037;&amp;#20316;&amp;#20013;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#65311;
+
+ &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#30340;&amp;#33756;&amp;#21333;&amp;#19979;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#36873;&amp;#39033;&amp;#12290;  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#32487;&amp;#32493;&amp;#19978;&amp;#27425;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#26631;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36825;&amp;#23558;&amp;#20250;&amp;#30452;&amp;#25509;&amp;#24102;&amp;#20320;&amp;#21040;&amp;#19978;&amp;#27425;&amp;#20320;&amp;#24037;&amp;#20316;&amp;#20013;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#12290;&amp;#35831;&amp;#20351;&amp;#29992;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#36873;&amp;#39033;&amp;#36827;&amp;#20837;&amp;#65292;&amp;#26597;&amp;#30475;&amp;#21644;&amp;#26356;&amp;#25913;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#25171;&amp;#24320;&amp;#29616;&amp;#26377;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#65311;
+
+ &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l8 level1 lfo7;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#30340;&amp;#33756;&amp;#21333;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#36873;&amp;#39033;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l8 level1 lfo7;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#25171;&amp;#24320;&amp;#29616;&amp;#26377;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#26631;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#29616;&amp;#26377;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#21015;&amp;#34920;&amp;#23558;&amp;#20250;&amp;#26174;&amp;#31034;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#24819;&amp;#35201;&amp;#25171;&amp;#24320;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#23558;&amp;#20250;&amp;#20026;&amp;#20320;&amp;#25171;&amp;#24320;&amp;#20320;&amp;#36873;&amp;#25321;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#12290;&amp;#35831;&amp;#36873;&amp;#25321;&amp;#20320;&amp;#30340;&amp;#24819;&amp;#35201;&amp;#30340;&amp;#36873;&amp;#39033;&amp;#36827;&amp;#34892;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#26377;&amp;#20219;&amp;#20309;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#21487;&amp;#20379;&amp;#25105;&amp;#20351;&amp;#29992;&amp;#21442;&amp;#32771;&amp;#21527;&amp;#65311; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36825;&amp;#26377;&amp;#20247;&amp;#22810;InfiniPlan&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#21487;&amp;#20379;&amp;#21442;&amp;#32771;&amp;#12290;&amp;#26681;&amp;#25454;&amp;#20197;&amp;#19979;&amp;#25152;&amp;#25552;&amp;#20379;&amp;#30340;&amp;#27493;&amp;#39588;&amp;#36827;&amp;#20837;&amp;#36825;&amp;#20123;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l4 level1 lfo8;tab-stops:list 36.0pt'&gt; 
+	&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#28857;&amp;#20987;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#36873;&amp;#39033;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l4 level1 lfo8;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#25171;&amp;#24320;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#26631;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt;             &amp;#36873;&amp;#25321;&amp;#24819;&amp;#25171;&amp;#24320;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#12290;  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt; &amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#23558;&amp;#25171;&amp;#24320;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#12290;&amp;#36873;&amp;#25321;&amp;#24819;&amp;#35201;&amp;#30340;&amp;#36873;&amp;#39033;&amp;#36827;&amp;#34892;&amp;#19979;&amp;#19968;&amp;#27493;&amp;#65292;&amp;#20197;&amp;#21450;&amp;#27983;&amp;#35272;&amp;#25972;&amp;#20010;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#36827;&amp;#20837;&amp;#27491;&amp;#25991;&amp;#27169;&amp;#22359;&amp;#21644;&amp;#23427;&amp;#30340;&amp;#32452;&amp;#25104;&amp;#37096;&amp;#20998;&amp;#65311; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+	&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#36873;&amp;#39033; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#25171;&amp;#24320;&amp;#29616;&amp;#26377;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#26631;&amp;#12290;  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#20174;&amp;#26174;&amp;#31034;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#21015;&amp;#34920;&amp;#36873;&amp;#25321;&amp;#38656;&amp;#35201;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36825;&amp;#23558;&amp;#20250;&amp;#24102;&amp;#20320;&amp;#21040;&amp;#20320;&amp;#25152;&amp;#36873;&amp;#25321;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#12290;  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#30340;&amp;#33756;&amp;#21333;&amp;#30340;&amp;#24038;&amp;#36793;&amp;#65292;&amp;#36873;&amp;#25321;&amp;#27491;&amp;#25991;&amp;#36873;&amp;#39033;&amp;#26174;&amp;#31034;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#19968;&amp;#20010;&amp;#26032;&amp;#30340;&amp;#38754;&amp;#26495;&amp;#26631;&amp;#31034;“&amp;#35745;&amp;#21010;&amp;#27491;&amp;#25991;”&amp;#23558;&amp;#20250;&amp;#20986;&amp;#29616;&amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#39029;&amp;#38754;&amp;#30340;&amp;#21491;&amp;#25163;&amp;#36793;&amp;#19979;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#24050;&amp;#36873;&amp;#25321;&amp;#30340;&amp;#27491;&amp;#25991;&amp;#25104;&amp;#20998;&amp;#23558;&amp;#20250;&amp;#25171;&amp;#24320;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#35831;&amp;#27880;&amp;#24847;&amp;#65306;&amp;#22914;&amp;#26524;&amp;#27491;&amp;#25991;&amp;#30340;&amp;#37096;&amp;#20998;&amp;#35201;&amp;#36827;&amp;#20837;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#65292;&amp;#23427;&amp;#23558;&amp;#26377;&amp;#30456;&amp;#20851;&amp;#30340;&amp;#25968;&amp;#25454;&amp;#22312;&amp;#37324;&amp;#38754;&amp;#12290;&amp;#25152;&amp;#26377;&amp;#26368;&amp;#36817;&amp;#21019;&amp;#24314;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#65292;&amp;#31354;&amp;#27491;&amp;#25991;&amp;#25104;&amp;#20998;&amp;#23558;&amp;#20250;&amp;#26174;&amp;#31034;&amp;#65292;&amp;#29992;&amp;#25143;&amp;#21487;&amp;#20197;&amp;#28155;&amp;#21152;&amp;#20182;&amp;#20204;&amp;#33258;&amp;#24049;&amp;#30340;&amp;#25968;&amp;#25454;&amp;#12290;&amp;#21478;&amp;#22806;&amp;#65292;&amp;#20854;&amp;#23427;&amp;#30340;&amp;#27491;&amp;#25991;&amp;#25104;&amp;#20998;&amp;#21487;&amp;#20197;&amp;#20197;&amp;#30456;&amp;#21516;&amp;#30340;&amp;#26041;&amp;#24335;&amp;#36827;&amp;#20837;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#23450;&amp;#21046;&amp;#35745;&amp;#21010;&amp;#27491;&amp;#25991;&amp;#65311; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#35831;&amp;#36890;&amp;#36807;&amp;#20197;&amp;#19978;&amp;#25552;&amp;#20379;&amp;#30340;&amp;#38382;&amp;#39064;, &amp;#36827;&amp;#20837;&amp;#20320;&amp;#38656;&amp;#35201;&amp;#30340;&amp;#27491;&amp;#25991;&amp;#25104;&amp;#20998;&amp;#12290;&amp;#24403;&amp;#20320;&amp;#25171;&amp;#24320;&amp;#20102;&amp;#24819;&amp;#35201;&amp;#30340;&amp;#27491;&amp;#25991;&amp;#25104;&amp;#20998;&amp;#65292;&amp;#20320;&amp;#21487;&amp;#20197;&amp;#36890;&amp;#36807;&amp;#28155;&amp;#21152;&amp;#27491;&amp;#25991;&amp;#32780;&amp;#24456;&amp;#23481;&amp;#26131;&amp;#22320;&amp;#23450;&amp;#21046;&amp;#23427;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22823;&amp;#37096;&amp;#20998;&amp;#30340;&amp;#27491;&amp;#25991;&amp;#25104;&amp;#20998;&amp;#35201;&amp;#27714;&amp;#35814;&amp;#32454;&amp;#25551;&amp;#36848;&amp;#65292;&amp;#22343;&amp;#24050;&amp;#35013;&amp;#22791;&amp;#26377;&amp;#23383;&amp;#20307;&amp;#21644;&amp;#26684;&amp;#24335;&amp;#32534;&amp;#36753;&amp;#24037;&amp;#20855;&amp;#12290;&amp;#27604;&amp;#22914;&amp;#65306;&amp;#27861;&amp;#24459;&amp;#39029;&amp;#38754;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#25552;&amp;#20132;&amp;#24517;&amp;#35201;&amp;#30340;&amp;#20449;&amp;#24687;&amp;#65288;&amp;#32473;&amp;#26368;&amp;#36817;&amp;#21019;&amp;#24314;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#65289;&amp;#25110;&amp;#32534;&amp;#36753;&amp;#24050;&amp;#32463;&amp;#23384;&amp;#22312;&amp;#30340;&amp;#20449;&amp;#24687;&amp;#65288;&amp;#23545;&amp;#26679;&amp;#26412;&amp;#35745;&amp;#21010;&amp;#65289;&amp;#28982;&amp;#21518;&amp;#28857;&amp;#20987;&amp;#26356;&amp;#26032;&amp;#27491;&amp;#25991;&amp;#25353;&amp;#38062;&amp;#20445;&amp;#23384;&amp;#20320;&amp;#25152;&amp;#20570;&amp;#30340;&amp;#20219;&amp;#20309;&amp;#26356;&amp;#25913;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#36827;&amp;#20837;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#65311; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+	&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#19979;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#36873;&amp;#39033;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#25171;&amp;#24320;&amp;#29616;&amp;#26377;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#26631;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#20174;&amp;#35745;&amp;#21010;&amp;#26174;&amp;#31034;&amp;#21015;&amp;#34920;&amp;#36873;&amp;#25321;&amp;#24819;&amp;#35201;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36825;&amp;#23558;&amp;#20250;&amp;#24102;&amp;#20320;&amp;#21040;&amp;#20320;&amp;#25152;&amp;#36873;&amp;#25321;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#30340;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#36873;&amp;#39033;&amp;#36827;&amp;#20837;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#27169;&amp;#22359;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#19968;&amp;#20010; &amp;#26032;&amp;#30340;,&amp;#26631;&amp;#31034;“&amp;#35745;&amp;#21010;&amp;#24037;&amp;#20316;&amp;#21488;”&amp;#30340;&amp;#38754;&amp;#26495;&amp;#23558;&amp;#20250;&amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#38754;&amp;#26495;&amp;#19979;&amp;#25171;&amp;#24320;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#32534;&amp;#36753;/&amp;#23450;&amp;#21046;&amp;#35745;&amp;#21010;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#65311; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#35831;&amp;#36827;&amp;#20837;&amp;#20320;&amp;#24819;&amp;#32534;&amp;#36753;/&amp;#23450;&amp;#21046;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#65292;&amp;#36890;&amp;#36807;&amp;#20197;&amp;#19979;&amp;#25552;&amp;#20379;&amp;#30340;&amp;#27493;&amp;#39588;&amp;#22312;&amp;#19978;&amp;#36848;&amp;#30340;&amp;#38382;&amp;#39064;&amp;#12290;&amp;#26681;&amp;#25454;&amp;#21253;&amp;#21547;&amp;#30340;&amp;#25968;&amp;#25454;&amp;#30340;&amp;#19981;&amp;#21516;&amp;#65292;&amp;#26576;&amp;#20123;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#19981;&amp;#33021;&amp;#32534;&amp;#36753;&amp;#25110;&amp;#23450;&amp;#21046;&amp;#12290;&amp;#20320;&amp;#21487;&amp;#20197;&amp;#28155;&amp;#21152;&amp;#65292;&amp;#21024;&amp;#38500;&amp;#25110;&amp;#25554;&amp;#20837;&amp;#21040;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#37324;&amp;#21435;&amp;#12290;&amp;#28857;&amp;#20987;&amp;#26356;&amp;#26032;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#25353;&amp;#38062;&amp;#20445;&amp;#23384;&amp;#20320;&amp;#25152;&amp;#20570;&amp;#30340;&amp;#20219;&amp;#20309;&amp;#26356;&amp;#25913;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; &amp;#24590;&amp;#26679;&amp;#36827;&amp;#20837;&amp;#25105;&amp;#30340;&amp;#21830;&amp;#19994;&amp;#35745;&amp;#21010;&amp;#20013;&amp;#30340;&amp;#22270;&amp;#34920; ? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#65292;&amp;#28857;&amp;#20987;&amp;#35745;&amp;#21010;&amp;#31649;&amp;#29702;&amp;#36873;&amp;#39033;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#28857;&amp;#20987;&amp;#25171;&amp;#24320;&amp;#29616;&amp;#26377;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#26631;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#20174;&amp;#26174;&amp;#31034;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#21015;&amp;#34920;&amp;#36873;&amp;#25321;&amp;#24819;&amp;#35201;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#36825;&amp;#23558;&amp;#20250;&amp;#24102;&amp;#20320;&amp;#21040;&amp;#20320;&amp;#25152;&amp;#36873;&amp;#25321;&amp;#35745;&amp;#21010;&amp;#30340;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#12290; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#33756;&amp;#21333;&amp;#28857;&amp;#20987;&amp;#22270;&amp;#34920;&amp;#36873;&amp;#39033;&amp;#36827;&amp;#20837;&amp;#24037;&amp;#20316;&amp;#21488;&amp;#27169;&amp;#22359;&amp;#12290;&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		&amp;#19968;&amp;#20010;&amp;#26032;&amp;#30340;,&amp;#26631;&amp;#31034;&amp;#20110;&amp;#35745;&amp;#21010;&amp;#22270;&amp;#34920;&amp;#30340;&amp;#38754;&amp;#26495;&amp;#23558;&amp;#20250;&amp;#22312;&amp;#35745;&amp;#21010;&amp;#23548;&amp;#33322;&amp;#30340;&amp;#38754;&amp;#26495;&amp;#25171;&amp;#24320;,&amp;#21516;&amp;#26102;&amp;#36824;&amp;#26377;&amp;#25152;&amp;#26377;&amp;#21487;&amp;#29992;&amp;#30340;&amp;#22270;&amp;#34920;&amp;#21015;&amp;#34920;&amp;#12290;&amp;#36873;&amp;#25321;&amp;#24182;&amp;#36827;&amp;#20837;&amp;#20320;&amp;#25152;&amp;#38656;&amp;#35201;&amp;#30340;&amp;#22270;&amp;#34920;,&amp;#20320;&amp;#36873;&amp;#25321;&amp;#30340;&amp;#22270;&amp;#34920;&amp;#23601;&amp;#20250;&amp;#25171;&amp;#24320;. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; 
+&amp;#24590;&amp;#26679;&amp;#26356;&amp;#25913;&amp;#22270;&amp;#34920;&amp;#30340;&amp;#31867;&amp;#22411;&amp;#65311;
+ &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p c</value>
+	</data>
+<data name="bizplanweb_services_plan_welcome_lnkPlanPreview">
+  <value>预览计划</value>
+</data>
+<data name="bizplanweb_services_plan_welcome_lnkExportPlan">
+  <value>输出计划</value>
+</data>
+<data name="bizplanweb_services_plan_welcome_lnkPlanWizard">
+  <value>精灵计划</value>
+</data>
+<data name="bizplanweb_services_plan_welcome_lnkClosePlan">
+  <value>选择计划</value>
+</data>
+<data name="bizplanweb_services_plan_home_lblHeading1">
+  <value>商业计划</value>
+</data>
+<data name="bizplanweb_services_plan_home_lblHeading2">
+  <value>定义</value>
+</data>
+<data name="bizplanweb_services_plan_home_lblHeading3">
+  <value>InfiniPlan</value>
+</data>
+<data name="bizplanweb_services_plan_home_btnStart">
+  <value>开始</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_lnkNewPlan">
+  <value>创建新计划</value>
+</data>
+<data name="bizplanweb_services_plan_home_txtText1">
+  <value>创立自己企业的一个重要步骤是建立你的商业计划。此计划帮助定义你的商业相关的事务，怎样进行销售你的产品和怎样操作你的业务.</value>
+</data>
+<data name="bizplanweb_services_plan_home_txtText2">
+  <value>“不论企业大小，商业计划是任何谨慎的企业家采取的基本步骤”。经营计划描述商业业务，它的目的，它的策略，它所在的市场以及财政预测。它有许多功能，包括获得外部资金，以及衡量你的生意成功。</value>
+</data>
+<data name="bizplanweb_services_plan_home_txtText3">
+  <value>InfiniPlan有总结材料，是关于企业业主/经理或创业者如何组织创业的历程并执行必要和足够的活动以便企业成功。</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_lnkLastViewPlan">
+  <value>继续进行最后计划</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_lnkSamplePlan">
+  <value>打开样本计划</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_lnkExsistingPlan">
+  <value>打开现有的计划</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblTableHeading">
+  <value>正文</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblIntro1">
+  <value>InfiniPlan帮助你做一个公司业务模型的全面的总结。这种总结可以用于内部管理，计划和战略的工具或从外部角度，作为给银行或其它潜在投资者的公司概况介绍。InfiniPlan 可以反复使用，为你现在的或者将来的企业创造出最新的商业计划。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblIntro2">
+  <value>使用InfiniPlan建立的商业计划包含所有相关的文本和图表， 用于描述你的经营目标。你可以添加任何数字的图表到你的商业计划中，用以描述前景展望和财务分析。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblIntro3">
+  <value>InfiniPlan 提供以下容易使用的特征以便帮助你创建理想的商业计划。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblIntro4">
+  <value>现成的样本计划，应用于指导和定制模板；交互式的精灵计划，用于创建和编辑新的和现存的计划;计划管理，允许追踪所有创建的计划，同时也保存最近使用的计划的记录；预览计划，允许你在分开的窗口查看整个计划；输出计划，用于当你想保存商业计划到你自己的电脑；计划表达选项，用于当你的设计的信息已显示在文本时；图标模式，方便使用，容易操作绘图界面，容易使用和修复你的商业计划。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblCoverPage">
+  <value>这一页显示公司的名称，logo（标志），地址和其他相关的联系资料。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblLegalPage">
+  <value>这一页包含提供信息相关版权的保护声明。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblExecutiveSummary">
+  <value>此部分提供有关商业创立的相关信息和数据。比如：预期销售成长和收益率。它同时也定义公司目标和远景。最后它提供一个全面的总结，综合商业上所有被提议的目的和策略。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblCompanySummary">
+  <value>这一部分提供公司所有权的资料,在商业设立时的财务资料和其他相关或关联的公司设备和业务。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblServices">
+  <value>这一部分介绍由企业所提供的产品和服务的信息，同时也简述计划中的销售策略和将来产品相关的销售和发展的未来前景。另外，也提供最新竞争的对比情况，以及公司用户销售策略的应用技术的详情资料。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblMarketAnalysisSummary">
+  <value>此部分集中在确定所计划企业的潜在客户的数量和市场份额。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblStrategyandImplementationSummary">
+  <value>此部分提供计划中的定价和销售策略的详情资料。同时也描述所计划重要事件和策略性的联盟。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblManagementSummary">
+  <value>此部分提供计划组织结构图，结构层次和工作流程。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lblFinancialPlan">
+  <value>此部分总结财务信息的估计，包括通过预测，借款和推定所产生的相关资产负责表，现金流转表，盈亏帐目表和其它财务报表。</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkCoverPage">
+  <value>封面</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkLegalPage">
+  <value>合法页面</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkExecutiveSummary">
+  <value>经营综合报告</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkCompanySummary">
+  <value>公司总结</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkServices">
+  <value>服务</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkMarketAnalysisSummary">
+  <value>市场分析总结</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkStrategyandImplementationSummary">
+  <value>策略和执行总结</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkManagementSummary">
+  <value>经营总结</value>
+</data>
+<data name="bizplanweb_services_text_plantext_lnkFinancialPlan">
+  <value>财政计划</value>
+</data>
+<data name="bizplanweb_services_text_plantext_btnUpdate">
+  <value>更新正文</value>
+</data>
+<data name="bizplanweb_services_text_plantext_btnBack">
+  <value>以前的任务</value>
+</data>
+<data name="bizplanweb_services_text_plantext_btnNext">
+  <value>下一个任务</value>
+</data>
+<data name="bizplanweb_services_text_plantext_ftbText">
+  <value />
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_lblHeading">
+  <value>输出计划</value>
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_btnExport">
+  <value>输出计划</value>
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_lblPlanPref">
+  <value>输出计划已下载</value>
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_lnkRtfFile">
+  <value />
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_lblDateExported">
+  <value />
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_lblPlanName">
+  <value>商业计划名称</value>
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_lblIncludeTables">
+  <value>包括表格输出</value>
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_lblChartInclude">
+  <value>包括表格输出</value>
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_chkDownload">
+  <value>立即下载</value>
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_txtPlanSaveName">
+  <value />
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_ddlIncludeTables">
+  <value />
+</data>
+<data name="bizplanweb_services_preferences_planpreferences_ddlIncludeCharts">
+  <value />
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_lblMessage">
+  <value />
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_lblSavePlan">
+  <value>你想保存你输入的样本计划吗？</value>
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_lblOverwritePlan">
+  <value>一个相同的计划名称已存在。你想添写它吗？</value>
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_btnSubmit">
+  <value>Yes</value>
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_btnNo">
+  <value>No</value>
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_btnCancel">
+  <value>取消</value>
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_btnReplaceYes">
+  <value>Yes</value>
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_btnReplaceNo">
+  <value>No</value>
+</data>
+<data name="bizplanweb_services_plan_savesampleplan_btnReplaceCancel">
+  <value>取消</value>
+</data>
+<data name="bizplanweb_services_plan_exportedplans_lblHeading">
+  <value>输出计划</value>
+</data>
+<data name="bizplanweb_services_plan_exportedplans_dgExpPlansColExportedPlans">
+  <value>计划名称</value>
+</data>
+<data name="bizplanweb_services_plan_exportedplans_dgExpPlansColPlanDescription">
+  <value>计划描述</value>
+</data>
+<data name="bizplanweb_services_plan_exportedplans_dgExpPlansCoFileName">
+  <value>文件名</value>
+</data>
+<data name="bizplanweb_services_plan_exportedplans_dgExpPlansColExportDate">
+  <value>输出日期</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblTableHeading">
+  <value>封面</value>
+</data>
+<data name="bizplanweb_services_text_plancover_btnUpdateText">
+  <value>更新</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblPlanTitle">
+  <value>计划标题</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblDate">
+  <value>日期</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblCopyNumber">
+  <value>计划副本号码</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblOwner">
+  <value>所有权</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblName">
+  <value>名称</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblTitle">
+  <value>标题</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblAddress">
+  <value>地址</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblPhone">
+  <value>电话号码</value>
+</data>
+<data name="bizplanweb_services_text_plancover_lblMisc">
+  <value>混杂的</value>
+</data>
+<data name="bizplanweb_services_tables_table_InsertButton">
+  <value>插入新列</value>
+</data>
+<data name="bizplanweb_services_tables_table_DeleteButton">
+  <value>删除排行</value>
+</data>
+<data name="bizplanweb_services_tables_table_btnRename">
+  <value>从新命名行</value>
+</data>
+<data name="bizplanweb_services_tables_table_btnUpdate">
+  <value>更新图表</value>
+</data>
+<data name="bizplanweb_services_tables_table_btnCopyRest">
+  <value>复制到其他</value>
+</data>
+<data name="bizplanweb_services_tables_table_btnBack">
+  <value>之前的任务</value>
+</data>
+<data name="bizplanweb_services_tables_table_btnNext">
+  <value>下一个任务</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblHeader">
+  <value>图表</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblTableInto">
+  <value>InfiniPlan 包括整套分析图表。图表的展示和操作跟电子制表软件相似。但是，为了你的方便，这些是预排程序。若要使用，只要在正确的单元输入你的数据，它将会自动计算出结果。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblGeneralAssumption">
+  <value>为了创建这个图表，请在精灵计划回答问题。从你输入的内容和根据通用会计标准，计算出结果。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblStartupDetails">
+  <value>此图表帮助你估计你所计划的投资的企业的起步费用。而且也自动上载你的开始金额到资产负债表。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblBreakEvenAnalysis">
+  <value>此图表帮助你确定你的商业盈亏平衡点:即是：按月或按年，你需要销售多少数量的产品。才能抵消你做生意的支出。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblBreakEvenAnalysis">
+  <value>此图表帮助你确定你的商业盈亏平衡点:即是：按月或按年，你需要销售多少数量的产品。才能抵消你做生意的支出。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblBreakEvenAnalysis">
+  <value />
+</data>
+<data name="bizplanweb_services_tables_table_lblMarketAnalysis">
+  <value>此图表是关于你的市场中的潜在客户的数量。使用预估数据，此图表帮助你确定潜在市场的总数量。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblPayroll">
+  <value>此图表利用你输入你的商业需要雇用的员工数量并因此计算出总计划的工作成本。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblSalesForecast">
+  <value>此图表根据计划销售估计销售费用。起初的估算（第一年）按月计，第二年其按年度故算。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblMileStones">
+  <value>此图表提供一个简单的特殊列表，具体步骤，可以采取执行商业计划的时候。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblIncomeStatement">
+  <value>这个图表创建盈亏帐目报告（也称：所得[损益]计算书），查看规划中商业的盈亏帐目。图表信息来源于销售预测、薪水帐目和资产负债表，同时，也会自动相应的影响到现金流转报表，资产负债表和成绩比率。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblCashFlow">
+  <value>此图表预估在指定的时间段内的现金流转的变化。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblBalanceSheet">
+  <value>这个图表列出商业在指定时间的现金，资产和债务。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lblRatios">
+  <value>此计划自动计算出商业的执行比率，提供前期图表的价值。</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkGeneralAssumption">
+  <value>假设前提</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkStartupDetails">
+  <value>设立资料</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkBreakEvenAnalysis">
+  <value>盈亏平衡分析</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkMarketAnalysis">
+  <value>市场分析</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkPayroll">
+  <value>薪水册</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkSalesForecast">
+  <value>销售预测</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkMileStones">
+  <value>里程碑</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkIncomeStatement">
+  <value>所得[损益]计算书</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkCashFlow">
+  <value>现金流转</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkBalanceSheet">
+  <value>资产负债表</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkRatios">
+  <value>比率</value>
+</data>
+<data name="bizplanweb_services_tables_table_lnkExpenses">
+		<value>Expenses</value>
+	</data>
+<data name="bizplanweb_services_charts_chart_btnBack">
+  <value>以前的任务</value>
+</data>
+<data name="bizplanweb_services_charts_chart_btnNext">
+  <value>下一个任务</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblHeading">
+  <value>图表</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblSelect">
+  <value>选择图表类型</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblChartIntro1">
+  <value>InfiniPlan  自动创建适合的图表用于你的商业计划，取源于你输入的数据。这些图表可以更改和定制以适合你全面的计划题目和要求。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblBenchMark">
+  <value>此图表展示销售价值、毛利、营业费用和应收帐目。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblCashFlow">
+  <value>此图表以绘图形式，显示在指定的时间内的现金余额的变化。它是根据上期现金流转图表而来的。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblHighlights">
+  <value>这个图表显示财政预计情况，包括销售量、毛利和净盈利、按时间的具体阶段展示（通常是3年）</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblMarketAnalysis">
+  <value>这个图表显示潜在客户在市场部门的数量。那是根据早期市场分析图表而来。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblStartup">
+  <value>此图表显示已输入在早期开始资料图表的数据。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblProfitMonthly">
+  <value>此图表根据假定的每月销售而显示预估的赢利数额。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblProfitYearly">
+  <value>此图表根据假定的每年销售而显示预估的赢利数额。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblGrossMarginMonthly">
+  <value>这个图表显示项目每月的总利润，</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblGrossMarginYearly">
+  <value>此图表根据假定的每年销售而显示预估的赢利数额。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblSalesYearly">
+  <value>此工作台的绘图显示项目的年销售额的数量。</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lblSalesMonthly">
+  <value>此工作台的绘图显示项目的月销售额的数量</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkBenchMark">
+  <value>水准基点</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkBreakEvenAnalysis">
+  <value>盈亏平衡分析</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkCashFlow">
+  <value>现金流转</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkHighlights">
+  <value>加亮区</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkMarketAnalysis">
+  <value>市场分析</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkStartup">
+  <value>开始</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkProfitMonthly">
+  <value>每月利润</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkProfitYearly">
+  <value>每年利润</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkGrossMarginMonthly">
+  <value>毛利月度</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkSalesMonthly">
+  <value>每月销售</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkSalesYearly">
+  <value>每年销售</value>
+</data>
+<data name="bizplanweb_services_charts_chart_lnkGrossMarginYearly">
+  <value>毛利年度</value>
+</data>
+<data name="bizplanweb_services_plan_openplan_dgPlanListPlanName">
+  <value>计划名称</value>
+</data>
+<data name="bizplanweb_services_plan_openplan_dgPlanListPlanDescription">
+  <value>计划描述</value>
+</data>
+<data name="bizplanweb_services_plan_openplan_dgPlanListDeletePlan">
+  <value>删除计划</value>
+</data>
+<data name="bizplanweb_services_plan_opensamplsplan_OpenPlan">
+  <value>计划名称</value>
+</data>
+<data name="bizplanweb_services_plan_opensamplsplan_OpenPlanDescription">
+  <value>计划描述</value>
+</data>
+<data name="PW_Title_BusinessType">
+  <value>商业类型</value>
+</data>
+<data name="PW_Text_BusinessType">
+  <value>你是做销售产品和提供服务的生意吗？</value>
+</data>
+<data name="PW_Help_BusinessType">
+  <value>这一部分要求你根据它的功能分类你的商业。如果你的公司购买，销售或生产有形的项目，然后选择“产品”；如果公司提供某种服务(如：园艺公司），请选择“ 服务”。如果你的公司提供生产和服务两种（比如，种植，肥料和园艺专门技术），选择“两者”。如果你不确定，你可以跳越这一步在这一点上（按“下一步）然后稍后返回到此信息。</value>
+</data>
+<data name="PW_Title_ManageInventory">
+  <value>库存</value>
+</data>
+<data name="PW_Text_ManageInventory">
+  <value>你管理库存吗？</value>
+</data>
+<data name="PW_Help_ManageInventory">
+  <value>如果在的步骤， 你选择“产品”或“两者”，意思是说与你公司交易的产品和持续存货或想维持存货。这可能是购买，可接受的或制造商的存货。添加存到资产负债表和现金流转图表子在你的商业计划， 选择“是”</value>
+</data>
+<data name="PW_Title_InventoryTurnOver">
+  <value>存货周转率</value>
+</data>
+<data name="PW_Text_InventoryTurnOver">
+  <value>每年多少次你周转你的存货？</value>
+</data>
+<data name="PW_Help_InventoryTurnOver">
+  <value>如果在之前的步骤你选择“YES”，即你的企业有规律的维持和变换存货。为了确定存货周转率，只要简单地列出每年你完全替换你地存货地数次。比如：如果每年你替换存货6次，那么这你的存货周转率就是6。存货周转估计价值将用于资产负债表并且影响存货栏的数值。</value>
+</data>
+<data name="PW_Title_SellOnCredit">
+  <value>信用销售</value>
+</data>
+<data name="PW_Text_SellOnCredit">
+  <value>你对客户做信用付款方式销售吗？</value>
+</data>
+<data name="PW_Help_SellOnCredit">
+  <value>当他们购买你的服务/产品，如果你的客户要求信用付款，选择‘yes "然后将会在资产负债表和现金流转表上列为为应收帐目。如果你的企业不需要信用付款，请选择“NO".</value>
+</data>
+<data name="PW_Title_SalesOnCredit">
+  <value>信用付款方式销售（即透支）</value>
+</data>
+<data name="PW_Text_SalesOnCredit">
+  <value>信用销售的百分率是多少？</value>
+</data>
+<data name="PW_Help_SalesOnCredit">
+  <value>如果在之前步骤你选择“YES”，意思是你的企业有规律地提供信用转帐方式给客户。下一步是确定你的销售有多大比例是用信用付款。计算方式就是用信用付款的产品或服务数量除以总共的产品或服务数量，在乘以100。结果将会被列到你的总表的信用销售（％）栏。</value>
+</data>
+<data name="PW_Title_CollectionDays">
+  <value>收帐日期</value>
+</data>
+<data name="PW_Text_CollectionDays">
+  <value>在几天内，你获得赊销的付款？</value>
+</data>
+<data name="PW_Help_CollectionDays">
+  <value>如果在第5步骤你选择“yes", 然后登录将会在资产负债表和现金流转表为应收帐目。正确计算出你收到的帐目。请输入你想收取赊卖日期的号码。此号码用于设定主表中的收款日期的估计值。</value>
+</data>
+<data name="PW_Title_SalesForcastType">
+  <value>销售预测类型</value>
+</data>
+<data name="PW_Text_SalesForcastType">
+  <value>你想用单位或估价预测你的销售吗？</value>
+</data>
+<data name="PW_Help_SalesForcastType">
+  <value>这里有两种预测销售的选项：单位或价值。如果你选择通过单位预测你的销售，你的总销售将会由相关价格乘以销售单元的数量自动计算出来。如果你想通过价值预算你的销售，请选择通过估价按钮预测。如果你确定你的选择或想稍后做出更改，你可以稍后返回到此页。</value>
+</data>
+<data name="PW_Title_CategorizedExpenses">
+  <value>分类开支</value>
+</data>
+<data name="PW_Text_CategorizedExpenses">
+  <value>你想分类你的营业费用功能吗？</value>
+</data>
+<data name="PW_Help_CategorizedExpenses">
+  <value>如果你想保持简单预测财务，选择"NO" 创建简单的开支和个人计划的列表。若选择“YES”区分费用和个人计划到操作种类像销售和买卖费用，普通的和管理开支等。</value>
+</data>
+<data name="PW_Title_PersonalBurden">
+  <value>人事费用</value>
+</data>
+<data name="PW_Text_PersonalBurden">
+  <value>多少百分比的薪水你能为你的员工负担？如：税，假期和利益。</value>
+</data>
+<data name="PW_Help_PersonalBurden">
+  <value>员工其它费用是薪水除外的附件费用，根据业务和你公司的策略可以占10％到30％。如果你没有雇佣任何员工，可设为零。如果你不能确定，输入15％的数值。此数值将用于在一般假设图表中的人事费用中，同时也表现再人事费用表格和盈亏帐目图表格。</value>
+</data>
+<data name="PW_Title_ShortTermInterestRate">
+  <value>短期利率</value>
+</data>
+<data name="PW_Text_ShortTermInterestRate">
+  <value>估计短期利率 ？</value>
+</data>
+<data name="PW_Help_ShortTermInterestRate">
+  <value>这一步要求你做一个关于你公司前途的有依据地推测。短期利率是一个数字（百分率）它用于计算你的短期利率开支，显示在盈亏帐目表和普通的假定表。你可以稍后返回到这个步骤以及编辑数据以查看对你（项目）财务的影响效果。</value>
+</data>
+<data name="PW_Title_TaxRate">
+  <value>税率</value>
+</data>
+<data name="PW_Text_TaxRate">
+  <value>估计税率</value>
+</data>
+<data name="PW_Help_TaxRate">
+  <value>这一步再次要求你做出关于你公司未来前景的的有依据的推测。请提供一个合理的税率（基于你所从事的商业业务情况），用于计算你的利利润的税率。如果你不能确定，而猜测的25％来计算。次数值将用到假定数值总表。随后，你也可以再假定数值总表里修改数值，以观察其对你财务表现的影响。</value>
+</data>
+<data name="PW_Title_NonPayrollExpense">
+  <value>非薪水现金费用</value>
+</data>
+<data name="PW_Text_NonPayrollExpense">
+  <value>你的非薪水费用是多少？你支付现金吗？</value>
+</data>
+<data name="PW_Help_NonPayrollExpense">
+  <value>这一步要求你做一个关于你公司前途的推测。短期利率是一个数字（百分率）它用于计算你的短期利率开支，显示在盈亏帐目表和普通的假定表。你可以稍后返回到这个步骤以及编辑号码查看在你财务的效果。</value>
+</data>
+<data name="PW_Title_PaymentDays">
+  <value>付款日期</value>
+</data>
+<data name="PW_Text_PaymentDays">
+  <value>在几天内， 你支付你的帐单？</value>
+</data>
+<data name="PW_Help_PaymentDays">
+  <value>你输入的数字将用于完成排行名称“付款日期估计值”在你商业计划的假定数值总表里。随后，你可以可以在假定数值总表里修改数值，以观察其对你项目财务表现的影响。</value>
+</data>
+<data name="PW_Title_StartupOngoing">
+  <value>开始或正在进行</value>
+</data>
+<data name="PW_Text_StartupOngoing">
+  <value>你计划创建新的商业或是在计划已有的商业？</value>
+</data>
+<data name="PW_Help_StartupOngoing">
+  <value>InfiniPlan的精灵计划帮助你创建商业计划，不管你的公司是否是新注册的或是已注册的公司。对于刚启动的新开公司，请选择“新开”，然后图表标题是“新开”的表格可以让你输入新公司的起点数据；选择“已开”，然后图表标题是“过去表现”的表格可以让你输入公司的历史数据。</value>
+</data>
+<data name="PW_Title_PlanStartDate">
+  <value>计划开始日期</value>
+</data>
+<data name="PW_Text_PlanStartDate">
+  <value>什么时候你想开始你的计划？</value>
+</data>
+<data name="PW_Help_PlanStartDate">
+  <value>请选择你想显示所有你财务报表的数据。</value>
+</data>
+<data name="PW_Title_StandardLongTerm">
+  <value>标准或长期</value>
+</data>
+<data name="PW_Text_StandardLongTerm">
+  <value>标准或长期</value>
+</data>
+<data name="PW_Help_StandardLongTerm">
+  <value>对大部分的商业计划，我推荐使用标准期。标准期商业计划由12个月的每月预测加上两年的年度预测。长期商业计划再要额外加两年的预测，总共5年预测。多数商业计划者宜于采用标准期。（引自Business Plan Pro）</value>
+</data>
+<data name="PW_Title_PlanTitle">
+  <value>计划名称</value>
+</data>
+<data name="PW_Text_PlanTitle">
+  <value>为你的计划提供一个适合的名称</value>
+</data>
+<data name="PW_Help_PlanTitle">
+  <value>请为你的商业计划选择一个名称， 那将作为所有页面的标题，包括封面。</value>
+</data>
+<data name="PW_BusinessType_Products">
+  <value>产品</value>
+</data>
+<data name="PW_BusinessType_Services">
+  <value>服务</value>
+</data>
+<data name="PW_BusinessType_Both">
+  <value>两者</value>
+</data>
+<data name="PW_SalesForcastType_Units">
+  <value>单位</value>
+</data>
+<data name="PW_SalesForcastType_Value">
+  <value>价值</value>
+</data>
+<data name="PW_StartupOngoing_Startup">
+  <value>启动</value>
+</data>
+<data name="PW_StartupOngoing_Ongoing">
+  <value>正在进行中</value>
+</data>
+<data name="PW_StandardLongTerm_Long">
+  <value>长期</value>
+</data>
+<data name="PW_StandardLongTerm_Standard">
+  <value>标准期</value>
+</data>
+<data name="PW_Title_LongTermInterestRate">
+  <value>长期利率</value>
+</data>
+<data name="PW_Text_LongTermInterestRate">
+  <value>估计长期利率？</value>
+</data>
+<data name="PW_Help_LongTermInterestRate">
+  <value>这一步要求你做一个关于你公司前途有依据推测。你提供的长期利率，将会用于计算出你的长期利率的开支。并显示在盈亏帐目表格。此数据稍后可以编辑以查看对你（项目）财务的影响效果。</value>
+</data>
+<data name="PW_Title_PlanDescription">
+  <value>计划描述</value>
+</data>
+<data name="PW_Text_PlanDescription">
+  <value>用几个词语描述你的计划</value>
+</data>
+<data name="PW_Help_PlanDescription">
+  <value>请使用所提供的空间用于选择一个名称,简要地描述它的目的和目标.</value>
+</data>
+<data name="PW_Title_BBusinessType">
+  <value>企业类型</value>
+</data>
+<data name="PW_Text_BBusinessType">
+  <value>你是做销售产品和提供服务的生意吗？</value>
+</data>
+<data name="PW_Help_BBusinessType">
+  <value>此部分要求你根据它的功能分类你商业。如果你的公司购买，销售或是生产实际的项目，请点击"产品”；如果公司提供某种服务（如：园艺公司），请点击“服务”。如果你的公司提供产品和服务（比如：种植，肥料和园艺技术)选择“两者”。如果你不能确定，你可以在标于“下一步”跳跃这一步稍后再返回。</value>
+</data>
+<data name="PW_Title_BManageInventory">
+  <value>存货</value>
+</data>
+<data name="PW_Text_BManageInventory">
+  <value>你管理库存吗？</value>
+</data>
+<data name="PW_Help_BManageInventory">
+  <value>如果前面的步骤你选择“产品”或“两者”，意味着你的公司有产品并能够保存(或是准备)库存.这些会是购买的/应收的或加工的库存.若要在你的商业计划中,添加库存一栏到资产负责表和现金流转表,选择"YES".</value>
+</data>
+<data name="PW_Title_BInventoryTurnOver">
+  <value>存货周转率</value>
+</data>
+<data name="PW_Text_BInventoryTurnOver">
+  <value>每年你的库存周转多少次?</value>
+</data>
+<data name="PW_Help_BInventoryTurnOver">
+  <value>如果在之前步骤你选择” YES"，意思是你的企业有规律地提供信用付款方式给客户。下一步 是确定你的销售有多大比例是用信用付款。计算方式就是用信用付款的产品或服务数量除以总共的产品或服务数量，再乘以100。结果将会被列到你的总表的信用销售（%）</value>
+</data>
+<data name="PW_Title_BSellOnCredit">
+  <value>信用销售</value>
+</data>
+<data name="PW_Text_BSellOnCredit">
+  <value>你有对客户进行信用销售吗？</value>
+</data>
+<data name="PW_Help_BSellOnCredit">
+  <value>当他们购买你的服务/产品，如果你的客户要求信用付款,选择“YES" 然后登录将会在资产负债表和现金流转表为应收帐目。如果你的生意没有提供信用卡，请选择“No”。</value>
+</data>
+<data name="PW_Title_BSalesOnCredit">
+  <value>销售信用</value>
+</data>
+<data name="PW_Text_BSalesOnCredit">
+  <value>你的销售信用百分率是多少？</value>
+</data>
+<data name="PW_Help_BSalesOnCredit">
+  <value>如果在之前步骤你选择“yes",意思是你的企业有规律地提供信用付款方式给客户。下一步是确定你的销售有多大比例是用信用付款。计算方式就是用信用付款的产品或服务数量除以总共的产品或服务数量，再乘以100。结果将会被列到你的总表的信用销售（％）。</value>
+</data>
+<data name="PW_Title_BCollectionDays">
+  <value>收帐日期</value>
+</data>
+<data name="PW_Text_BCollectionDays">
+  <value>在几天内，你获得赊销的付款？</value>
+</data>
+<data name="PW_Help_BCollectionDays">
+  <value>如果在第五步骤你选择“YES”，然后登录将会在资产负债表和现金流转表为应收帐目。正确计算出你收到的帐目。请输入你想收取信用销售日期的号码。此号码用于在设定主表中的收款日期的估计值。</value>
+</data>
+<data name="PW_Title_BSalesForcastType">
+  <value>预测销售类型</value>
+</data>
+<data name="PW_Text_BSalesForcastType">
+  <value>你想用单元或是价值估计你的销售？</value>
+</data>
+<data name="PW_Help_BSalesForcastType">
+  <value>这里有两种预测销售的选项：单位或价值。如果你选择通过单位预测你的销售，你的总销售将会由相关价格乘以销售单元的数量自动计算出来。如果你想通过价值预算你的销售，请选择通过估价按钮预测。如果你确定你的选择或想稍后做出更改，你可以稍后返回到此页。</value>
+</data>
+<data name="PW_Title_BPersonalBurden">
+  <value>人事费用</value>
+</data>
+<data name="PW_Text_BPersonalBurden">
+  <value>你还为你的员工另外负担薪水的多少百分比？比如：税，假期和福利。</value>
+</data>
+<data name="PW_Help_BPersonalBurden">
+  <value>员工其它费用是薪水除外的附加费用，根据业务和你公司的策略可以占10％到30%.如果你没有雇佣任员工，可设为零，如果你不能确定多少，输入15％的数值。此数值将用于在一般假设图表中的额外人事费用中，同时也表现在人事费用表格和盈亏帐目表格。</value>
+</data>
+<data name="PW_Title_BInterestRate">
+  <value>利率</value>
+</data>
+<data name="PW_Text_BInterestRate">
+  <value>估计利率？</value>
+</data>
+<data name="PW_Help_BInterestRate">
+  <value>这一步要求你做一个关于你公司前途的有依据的推测.短期利率是一个数字(百分数),它用于计算你的短期利率开支,显示在盈亏帐目表和普通的假定表.你可以稍后返回到这步骤以及编辑数据以查看对你(项目)财务的影响效果.</value>
+</data>
+<data name="PW_Title_BTaxRate">
+  <value>税率</value>
+</data>
+<data name="PW_Text_BTaxRate">
+  <value>估计税率？</value>
+</data>
+<data name="PW_Help_BTaxRate">
+  <value>这一步再次要求你做出关于你公司未来前景的的有依据的推测。请提供一个合理的税率（基于你所从事的商业业务情况），用于计算你的利利润的税率。如果你不能确定，而猜测的25％来计算。次数值将用到假定数值总表。随后，你也可以再假定数值总表里修改数值，以观察其对你财务表现的影响。</value>
+</data>
+<data name="PW_Title_BNonPayrollExpense">
+  <value>非薪水费用</value>
+</data>
+<data name="PW_Text_BNonPayrollExpense">
+  <value>你的薪水费用是多少？你用现金支付吗？</value>
+</data>
+<data name="PW_Help_BNonPayrollExpense">
+  <value>这一步要求你做一个关于你公司未来远景的有依的推测.非薪水费用通常是底费用如:用于估计你帐目应付在资产负债表的百分率.此数据将用于在你商业计划的假定数值总表.此后,你可以在假定数值总表里修改数值,依观察期对你财务表现的影响.</value>
+</data>
+<data name="PW_Title_BPaymentDays">
+  <value>付款日期</value>
+</data>
+<data name="PW_Text_BPaymentDays">
+  <value>在几天内你支付你的帐单？</value>
+</data>
+<data name="PW_Help_BPaymentDays">
+  <value>你输入的数值将用于完成栏名称的"付款日期估计值"在你商业计划的假定数值总表里,然后,你页可以在假定数值总表里编辑数值,以观察其对你财务表现的影响.</value>
+</data>
+<data name="PW_Title_BStartupOngoing">
+  <value>开始或正在进行</value>
+</data>
+<data name="PW_Text_BStartupOngoing">
+  <value>你是计划创立新的商业或是在计划已有的商业？</value>
+</data>
+<data name="PW_Help_BStartupOngoing">
+  <value>InfiniPlan的精灵计划帮助你创建商业计划，不管你的公司是否是新注册的或是已注册的公司。对于刚启动的新公司，请选择“启动”，然后一个标示为"启动"的图表可以让你输入新公司的起点数据；对现有的公司,选择“正在进行中”一个标示为"过去表现"的图表将可以让你输入公司的历史信息.</value>
+</data>
+<data name="PW_Title_BPlanStartDate">
+  <value>计划开始日期</value>
+</data>
+<data name="PW_Text_BPlanStartDate">
+  <value>你想何时开始你的计划？</value>
+</data>
+<data name="PW_Help_BPlanStartDate">
+  <value>请选择你想显示所有财务图表的日期。</value>
+</data>
+<data name="PW_Title_BPlanTitle">
+  <value>计划标题</value>
+</data>
+<data name="PW_Text_BPlanTitle">
+  <value>为你的计划提供一个适合的标题</value>
+</data>
+<data name="PW_Help_BPlanTitle">
+  <value>请为你的商业计划选择一个名称，它将以标题显示在所有的页面，包括封面。</value>
+</data>
+<data name="PW_BBusinessType_Products">
+  <value>产品</value>
+</data>
+<data name="PW_BBusinessType_Services">
+  <value>服务</value>
+</data>
+<data name="PW_BBusinessType_Both">
+  <value>两者</value>
+</data>
+<data name="PW_BSalesForcastType_Units">
+  <value>单元</value>
+</data>
+<data name="PW_BSalesForcastType_Value">
+  <value>价值</value>
+</data>
+<data name="PW_BStartupOngoing_Startup">
+  <value>开始</value>
+</data>
+<data name="PW_BStartupOngoing_Ongoing">
+  <value>进行中</value>
+</data>
+<data name="PW_Title_BPlanDescription">
+  <value>计划描述</value>
+</data>
+<data name="PW_Text_BPlanDescription">
+  <value>用几个词语描述你的计划。</value>
+</data>
+<data name="PW_Help_BPlanDescription">
+  <value>请使用所提供的空间用于说明你企业的相关信息，并简要地描述它的目的。</value>
+</data>
+<data name="PW_Error_PlanAlreadyExists">
+  <value>一个计划与相同的名字已存在。你想替换它吗？</value>
+</data>
+<data name="PW_Title_BasicAdvanced">
+  <value>基本的或高级的</value>
+</data>
+<data name="PW_Text_BasicAdvanced">
+  <value>以基本的精灵设立或高级的精灵设立开始？</value>
+</data>
+<data name="PW_Help_BasicAdvanced">
+  <value>InfiniPlan 精灵计划帮助你创建高级版本的商业计划。再基本的模块，你回答少数问题，然后产生（假设）的价值用于创建一个不明确的商业计划。使用精灵设计的高级模块， 你可以指定你想的所有信息包括再你的商业计划。在另一种情况， 你可以返回到精灵计划根据你的要求进行编辑任何不同的工作台、图表和外形，不管你开始是否选择基本的或高级的精灵计划。</value>
+</data>
+<data name="PW_BasicAdvanced_Basic">
+  <value>基本的</value>
+</data>
+<data name="PW_BasicAdvanced_Advanced">
+  <value>高级的</value>
+</data>
+<data name="PW_Help_Finish">
+  <value>祝贺您！你已到达InfiniPlan精灵设计的末端。若要创建和查看你的商业计划，请点击“完成”；若要检查或编辑你目前所提供的信息，请点击“返回”按钮到你想要的步骤。当你做出选择后，请点击“完成”按钮直接查看你的商业计划。</value>
+</data>
+<data name="PW_Help_Start">
+  <value>欢迎到InfiniPlan 的精灵计划。此精灵计划将帮助你创建你的商业计划，简单和方便。请回答以下简单的问题，此精灵计划将创建你的商业计划。有某些缺省值已提供了某些答案，但是，你可以容易更改他们到你定制的计划。作为选择，你也可以稍后返回到精灵计划根据你的选择从而编辑任何不同的工作台，图表和外形。</value>
+</data>
+<data name="PW_Text_Finish">
+  <value>点击完成按钮创建计划。</value>
+</data>
+<data name="PW_Text_Start">
+  <value>点击下一步按钮开始精灵设计。</value>
+</data>
+<data name="PW_Title_CreatePlan">
+  <value>创建计划</value>
+</data>
+<data name="PW_Text_CreatePlan">
+  <value>开始与</value>
+</data>
+<data name="PW_Title_PlanParticulars">
+  <value>计划的详情资料</value>
+</data>
+<data name="PW_Text_PlanParticulars">
+  <value>请提供关于你的计划的以下详情将显示在最后文件的封面。</value>
+</data>
+<data name="PW_Text_BusinessName">
+  <value>商业名称</value>
+</data>
+<data name="PW_Text_CompanyBusinessOwnership">
+  <value>公司的业主所有权</value>
+</data>
+<data name="PW_Text_ContactDetails">
+  <value>联系资料</value>
+</data>
+<data name="PW_Text_BBusinessName">
+  <value>商业名称</value>
+</data>
+<data name="PW_Text_BCompanyBusinessOwnership">
+  <value>公司的业主所有权</value>
+</data>
+<data name="PW_Text_BContactDetails">
+  <value>联系资料</value>
+</data>
+<data name="PW_Options_Yes">
+  <value>Yes</value>
+</data>
+<data name="PW_Options_No">
+  <value>No</value>
+</data>
+<data name="PW_Title_BCurrency">
+  <value>货币</value>
+</data>
+<data name="PW_Text_BCurrency">
+  <value>选择你生意的货币符号</value>
+</data>
+<data name="PW_Help_BCurrency">
+  <value>你可以选择用于你商业业务活动的优先通货。由你选择的货币的符号和ISO代码将会显示所有货币的外形。</value>
+</data>
+<data name="PW_Title_Currency">
+  <value>货币</value>
+</data>
+<data name="PW_Text_Currency">
+  <value>选择你商业业务的货币符合</value>
+</data>
+<data name="PW_Help_Currency">
+  <value>你可以选择用于你商业业务活动的常用货币,你所选择的货币,其符号和ISO代码将会标注到所有代表金钱的数值上.</value>
+</data>
+<data name="bizplanweb_services_plan_FAQs_lnkUserGuide">
+  <value>用户指南</value>
+</data>
+<data name="bizplan_menu_HeadingName">
+  <value>标题名称</value>
+</data>
+<data name="bizplan_menu_ExecutiveSummary">
+  <value>执行概要</value>
+</data>
+<data name="bizplan_menu_Objectives">
+  <value>目标</value>
+</data>
+<data name="bizplan_menu_Mission">
+  <value>任务</value>
+</data>
+<data name="bizplan_menu_Keystosuccess">
+  <value>成功的关键</value>
+</data>
+<data name="bizplan_menu_CompanySummary">
+  <value>公司概要</value>
+</data>
+<data name="bizplan_menu_CompanyOwnerShip">
+  <value>公司业主</value>
+</data>
+<data name="bizplan_menu_CompanyHistory">
+  <value>公司历史</value>
+</data>
+<data name="bizplan_menu_StartupSummary">
+  <value>启动概要</value>
+</data>
+<data name="bizplan_menu_CompanyLocationsAndFacilities">
+  <value>公司位置和设备</value>
+</data>
+<data name="bizplan_menu_Products">
+  <value>产品</value>
+</data>
+<data name="bizplan_menu_Services">
+  <value>服务</value>
+</data>
+<data name="bizplan_menu_ProductsAndServices">
+  <value>产品和服务</value>
+</data>
+<data name="bizplan_menu_ProducDescription">
+  <value>产品描述</value>
+</data>
+<data name="bizplan_menu_ServicesDescription">
+  <value>服务描述</value>
+</data>
+<data name="bizplan_menu_ProductsAndServicesDescription">
+  <value>描述产品和服务</value>
+</data>
+<data name="bizplan_menu_CompetitiveComparision">
+  <value>竞争对比</value>
+</data>
+<data name="bizplan_menu_SalesLiterature">
+  <value>销售文学作品</value>
+</data>
+<data name="bizplan_menu_Sourcing">
+  <value>来源</value>
+</data>
+<data name="bizplan_menu_Fulfillment">
+  <value>执行</value>
+</data>
+<data name="bizplan_menu_Technology">
+  <value>技术</value>
+</data>
+<data name="bizplan_menu_FutureProducts">
+  <value>未来的产品</value>
+</data>
+<data name="bizplan_menu_FurtureServices">
+  <value>未来的服务</value>
+</data>
+<data name="bizplan_menu_ServiceAndSupport">
+  <value>服务和支持</value>
+</data>
+<data name="bizplan_menu_MarketAnalysisSummary">
+  <value>市场分析概要</value>
+</data>
+<data name="bizplan_menu_MarketSegmentation">
+  <value>市场分割</value>
+</data>
+<data name="bizplan_menu_IndustryAnalysis">
+  <value>工业分区</value>
+</data>
+<data name="bizplan_menu_TargetMarketSegmentStartegy">
+  <value>市场分化策略目标</value>
+</data>
+<data name="bizplan_menu_MarketNeeds">
+  <value>市场需要</value>
+</data>
+<data name="bizplan_menu_MarketTrends">
+  <value>市场倾向</value>
+</data>
+<data name="bizplan_menu_MarketGrowth">
+  <value>市场发展</value>
+</data>
+<data name="bizplan_menu_ServiceBusinessAnalysis">
+  <value>服务行业分析</value>
+</data>
+<data name="bizplan_menu_BusinessParticipants">
+  <value>企业参与者</value>
+</data>
+<data name="bizplan_menu_DistributingaService">
+  <value>分配服务</value>
+</data>
+<data name="bizplan_menu_CompetitionAndBuyingPatterns">
+  <value>竞争和购买模式</value>
+</data>
+<data name="bizplan_menu_MainCompetitors">
+  <value>主要的竞争者</value>
+</data>
+<data name="bizplan_menu_IndustryParticipants">
+  <value>工业参与者</value>
+</data>
+<data name="bizplan_menu_DistributionPatterns">
+  <value>分配模式</value>
+</data>
+<data name="bizplan_menu_CompetitionsAndBuyingPatterns">
+  <value>竞争和购买模式</value>
+</data>
+<data name="bizplan_menu_StrategyAndImplementationSummary">
+  <value>策略和执行概要</value>
+</data>
+<data name="bizplan_menu_MarketingStrategy">
+  <value>市场战略</value>
+</data>
+<data name="bizplan_menu_PricingStrategy">
+  <value>定价策略</value>
+</data>
+<data name="bizplan_menu_PromotionStrategy">
+  <value>促进策略</value>
+</data>
+<data name="bizplan_menu_DistributionStrategy">
+  <value>分配策略</value>
+</data>
+<data name="bizplan_menu_MarketingPrograms">
+  <value>行销程序</value>
+</data>
+<data name="bizplan_menu_SalesStrategy">
+  <value>销售策略</value>
+</data>
+<data name="bizplan_menu_StrategicAlliances">
+  <value>策略联盟</value>
+</data>
+<data name="bizplan_menu_Milestones">
+  <value>里程碑</value>
+</data>
+<data name="bizplan_menu_StrategyPyramids">
+  <value>渐增策略</value>
+</data>
+<data name="bizplan_menu_ValueProposition">
+  <value>价值提议</value>
+</data>
+<data name="bizplan_menu_CompetitiveEdge">
+  <value>竞争优势</value>
+</data>
+<data name="bizplan_menu_PositioningStatements">
+  <value>定位说明</value>
+</data>
+<data name="bizplan_menu_SalesPrograms">
+  <value>销售程序</value>
+</data>
+<data name="bizplan_menu_ManagementSummary">
+  <value>经营概要</value>
+</data>
+<data name="bizplan_menu_ManagementTeam">
+  <value>经营团队</value>
+</data>
+<data name="bizplan_menu_PersonalPlan">
+  <value>个人计划</value>
+</data>
+<data name="bizplan_menu_OrganizationalStructure">
+  <value>组织结构</value>
+</data>
+<data name="bizplan_menu_OrganizationalStructure1">
+  <value>组织结构</value>
+</data>
+<data name="bizplan_menu_ManagementTeams">
+  <value>经营团队</value>
+</data>
+<data name="bizplan_menu_ManagementTeamGaps">
+  <value>管理队伍的差距</value>
+</data>
+<data name="bizplan_menu_OtherManagementConsiderations">
+  <value>其他管理上的考虑</value>
+</data>
+<data name="bizplan_menu_FinancialPlan">
+  <value>财务计划</value>
+</data>
+<data name="bizplan_menu_ImportantAssumptions">
+  <value>重要的假定</value>
+</data>
+<data name="bizplan_menu_ImportantAssumptions">
+  <value />
+</data>
+<data name="bizplan_menu_KeyFinancialIndicators">
+  <value>主要财务指标</value>
+</data>
+<data name="bizplan_menu_BreakEvenAnalysis">
+  <value>损益平衡表分析</value>
+</data>
+<data name="bizplan_menu_ProjectedProfitAndLoss">
+  <value>项目的盈亏帐目</value>
+</data>
+<data name="bizplan_menu_ProjectedCashflow">
+  <value>项目现金流转</value>
+</data>
+<data name="bizplan_menu_ProjectedBalanceSheet">
+  <value>项目资产负债表</value>
+</data>
+<data name="bizplan_menu_BusinessRatios">
+  <value>营业比率</value>
+</data>
+<data name="bizplan_menu_Highlights">
+  <value>加亮区</value>
+</data>
+<data name="bizplan_menu_StartupDetails">
+  <value>开始详情资料</value>
+</data>
+<data name="bizplan_menu_Startup">
+  <value>开始</value>
+</data>
+<data name="bizplan_menu_MarketAnalysis">
+  <value>市场分析</value>
+</data>
+<data name="bizplan_menu_SalesForecast">
+  <value>销售预测</value>
+</data>
+<data name="bizplan_menu_SalesMonthly">
+  <value>每月销售</value>
+</data>
+<data name="bizplan_menu_SalesYearly">
+  <value>每年销售</value>
+</data>
+<data name="bizplan_menu_Payroll">
+  <value>过去的成绩</value>
+</data>
+<data name="bizplan_menu_GeneralAssumption">
+  <value>普通假设</value>
+</data>
+<data name="bizplan_menu_Benchmark">
+  <value>基准</value>
+</data>
+<data name="bizplan_menu_IncomeStatement">
+  <value>所得[损益]计算书</value>
+</data>
+<data name="bizplan_menu_CashFlow">
+  <value>现金流转</value>
+</data>
+<data name="bizplan_menu_BalanceSheet">
+  <value>资产负债表</value>
+</data>
+<data name="bizplan_menu_RatiosAnalysis">
+  <value>比率分析</value>
+</data>
+<data name="bizplan_menu_PastPerformance">
+  <value>过去的成绩</value>
+</data>
+<data name="bizplan_menu_CoverPage">
+  <value>封面</value>
+</data>
+<data name="bizplan_menu_LegalPage">
+  <value>法律页面</value>
+</data>
+<data name="bizplan_menu_PlanTitle">
+  <value>计划名称</value>
+</data>
+<data name="bizplan_menu_Date">
+  <value>日期</value>
+</data>
+<data name="bizplan_menu_PlanCopyNumber">
+  <value>计划副本号码</value>
+</data>
+<data name="bizplan_menu_Ownership">
+  <value>所有权</value>
+</data>
+<data name="bizplan_menu_Name">
+  <value>姓名</value>
+</data>
+<data name="bizplan_menu_Title">
+  <value>标题</value>
+</data>
+<data name="bizplan_menu_Address">
+  <value>地址</value>
+</data>
+<data name="bizplan_menu_PhoneNumber">
+  <value>电话号码</value>
+</data>
+<data name="bizplan_menu_Misc">
+  <value>混合的</value>
+</data>
+<data name="bizplan_menu_TaregtMarketSegmentStrategy">
+  <value />
+</data>
+<data name="bizplan_menu_TaregetMarketSegmentStrategy">
+  <value>市场分化策略目标</value>
+</data>
+<data name="bizplan_menu_menu2_Home">
+  <value>首页</value>
+</data>
+<data name="bizplan_menu_menu2_Texts">
+  <value>正文</value>
+</data>
+<data name="bizplan_menu_menu2_Tables">
+  <value>图表</value>
+</data>
+<data name="bizplan_menu_menu2_Charts">
+  <value>图表</value>
+</data>
+<data name="bizplan_menu_menu2_Plan Preview">
+  <value>预览计划</value>
+</data>
+<data name="bizplan_menu_menu2_Export Plan">
+  <value>输出计划</value>
+</data>
+<data name="bizplan_menu_menu2_Plan Wizard">
+  <value>精灵计划</value>
+</data>
+<data name="bizplan_menu_menu2_Close Plan">
+  <value>介绍计划</value>
+</data>
+<data name="bizplan_menu_menu1_Home">
+  <value>首页</value>
+</data>
+<data name="bizplan_menu_menu1_Plan Manager">
+  <value>计划经营</value>
+</data>
+<data name="bizplan_menu_menu1_Exported Plans">
+  <value>输出计划</value>
+</data>
+<data name="bizplan_menu_menu1_FAQs">
+  <value>常见问题解答</value>
+</data>
+<data name="bizplan_menu_table_GeneralAssumption">
+  <value>假设前提</value>
+</data>
+<data name="bizplan_menu_table_StartupDetails">
+  <value>开始详情资料</value>
+</data>
+<data name="bizplan_menu_table_PastPerformance">
+  <value>过去的表现</value>
+</data>
+<data name="bizplan_menu_table_BreakEvenAnalysis">
+  <value>盈亏平衡分析</value>
+</data>
+<data name="bizplan_menu_table_MarketAnalysis">
+  <value>市场分析</value>
+</data>
+<data name="bizplan_menu_table_Payroll">
+  <value>薪水册</value>
+</data>
+<data name="bizplan_menu_table_SalesForecast">
+  <value>销售预测</value>
+</data>
+<data name="bizplan_menu_table_Milestones">
+  <value>里程碑</value>
+</data>
+<data name="bizplan_menu_table_IncomeStatement">
+  <value>收入报告</value>
+</data>
+<data name="bizplan_menu_table_CashFlow">
+  <value>现金流转</value>
+</data>
+<data name="bizplan_menu_table_BalanceSheet">
+  <value>资产负债表</value>
+</data>
+<data name="bizplan_menu_table_Ratios">
+  <value>比率</value>
+</data>
+<data name="bizplan_menu_chart_Benchmark">
+  <value>基准</value>
+</data>
+<data name="bizplan_menu_chart_BreakEvenAnalysis">
+  <value>盈亏平衡分析</value>
+</data>
+<data name="bizplan_menu_chart_CashFlow">
+  <value>现金流转</value>
+</data>
+<data name="bizplan_menu_chart_Highlights">
+  <value>加亮区</value>
+</data>
+<data name="bizplan_menu_chart_MarketAnalysis">
+  <value>市场分析</value>
+</data>
+<data name="bizplan_menu_chart_PastPerformance">
+  <value>以前的表现</value>
+</data>
+<data name="bizplan_menu_chart_ProfitMonthly">
+  <value>每月利润</value>
+</data>
+<data name="bizplan_menu_chart_ProfitYearly">
+  <value>每年利润</value>
+</data>
+<data name="bizplan_menu_chart_GrossMarginMonthly">
+  <value>毛利月度</value>
+</data>
+<data name="bizplan_menu_chart_GrossMarginYearly">
+  <value>毛利年度</value>
+</data>
+<data name="bizplan_menu_chart_SalesYearly">
+  <value>每年销售</value>
+</data>
+<data name="bizplan_menu_chart_SalesMonthly">
+  <value>每月销售</value>
+</data>
+<data name="bizplan_menu_chart_Startup">
+  <value>开始</value>
+</data>
+<data name="bizplan_menu_title_PlanNavigator">
+  <value>计划导航</value>
+</data>
+<data name="bizplanweb_services_planwizard_palnwizerdview_btnCancel">
+  <value>取消</value>
+</data>
+<data name="bizplanweb_services_planwizard_palnwizerdview_btnBack">
+  <value>返回</value>
+</data>
+<data name="bizplanweb_services_planwizard_palnwizerdview_btnNext">
+  <value>下一步</value>
+</data>
+<data name="bizplanweb_services_planwizard_palnwizerdview_btnFinish">
+  <value>完成</value>
+</data>
+<data name="bizplanweb_services_planwizard_palnwizerdview_lblPlanWizardHeading">
+  <value>InfiniPlan Wizard</value>
+</data>
+<data name="bizplanweb_services_planwizard_palnwizerdview_lblPlanNavTitle">
+		<value>Plan Summary</value>
+	</data>
+<data name="bizplan_menu_secondmenutitle_text_Plan Texts">
+  <value>计划正文</value>
+</data>
+<data name="bizplan_menu_secondmenutitle_tabel_Plan Tables">
+  <value>计划表</value>
+</data>
+<data name="bizplan_menu_secondmenutitle_chart_Plan Charts">
+  <value>计划图表</value>
+</data>
+<data name="bizplan_error_no_lblErrorMessage">
+  <value>记录已更新</value>
+</data>
+<data name="bizplan_error_yes_lblErrorMessage">
+  <value>记录没有被更新由于某些技术错误 。</value>
+</data>
+<data name="bizplan_error_name_lblErrorMessage">
+  <value>因为名字无效，排行不能插入。</value>
+</data>
+<data name="bizplan_error_lblErrorMessage">
+  <value>发生错误</value>
+</data>
+<data name="bizplan_planpreferences_lblErrorMessage1">
+  <value>计划不能输出</value>
+</data>
+<data name="bizplan_planpreferences_lblErrorMessage2">
+  <value>计划已成功输出和保存在你的数据库</value>
+</data>
+<data name="bizplan_planpreferences_lblErrorMessage3">
+  <value>计划还没有输出，由于某些技术错误。</value>
+</data>
+<data name="bizplan_services_plan_planmanager_imgBtnNewPlan">
+  <value>创建新计划</value>
+</data>
+<data name="bizplan_services_plan_planmanager_istMainTStripitem">
+  <value>最新的计划</value>
+</data>
+<data name="bizplan_services_plan_planmanager_secMainTStripitem">
+  <value>我的计划</value>
+</data>
+<data name="bizplan_services_plan_planmanager_thrMainTStripitem">
+  <value>样本计划</value>
+</data>
+<data name="bizplan_services_plan_planmanager_title_lblHeading">
+  <value>计划管理</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_griddate">
+  <value>日期</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_DeleteError">
+  <value>不允许进行删除</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_CellDeleteError">
+  <value>不允许在选择的单元删除</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_CellRenameError">
+  <value>不允许在选择的单元从新命名</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_RenameError">
+  <value>不允许从新命名操作</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_RowSelectError">
+  <value>选择任何排行在插入操作之前</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_CellInsertError">
+  <value>不允许在选择的单元插入</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_InsertError">
+  <value>不允许进行插入</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_RowExsistError">
+  <value>排行已存在</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_InvalidNameError">
+  <value>此排行不能从新命名，因为此名字已无效。</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_InvalidReNameError">
+  <value>此排行不能从新命名，因为此名字已无效。</value>
+</data>
+<data name="bizplanweb_services_plan_planmanager_InvalidData">
+  <value>无效数据,请检查已输入的价值。</value>
+</data>
+<data name="bizplanweb_services_PlanOutLine_PlanOutLine_lblHeader">
+  <value>计划大纲</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_PlanOutLineHeading">
+  <value>管理大纲</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_lblEdit">
+  <value>编辑计划大纲管理</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_lblHelp">
+		<value>&lt;P&gt;&lt;SPAN id="insertBtnTxt"&gt;&lt;b&gt;Insert: &lt;/b&gt; Use this option to insert a new text component adjacent to the selected part (create component) or within the selected part (create sub-component ).&lt;br&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="renameBtnTxt"&gt;&lt;b&gt;Rename:&lt;/b&gt; Use this option to rename any selected part (except for tables and charts) of the plan.&lt;br&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="restoreBtnTxt"&gt;&lt;b&gt;Restore:&lt;/b&gt; Use this option to restore plan outline to its original state, erasing all the changes made to the plan.&lt;br&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="deleteBtnTxt"&gt;&lt;b&gt;Delete:&lt;/b&gt; Use this option to delete any selected component (except for charts, tables and component with subcomponent ) of the plan.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="idleTxt"&gt;Please select the desired operation.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="rbRootTxt"&gt;Create Component&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="rbChildTxt"&gt;Create Sub-Component&lt;/SPAN&gt;&lt;/P&gt;</value>
+	</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnCancel">
+  <value>取消</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnRename">
+  <value>从新命名</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnInsert">
+  <value>插入</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnDelete">
+  <value>删除</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnRestore">
+  <value>修复</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_rbRoot">
+  <value>创建文件夹</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_rbChild">
+  <value>创建次组合部分</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_exception">
+  <value>操作成功</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_lblHelpHeading">
+  <value>所有的操作将会在加亮区的组成成分完成（除了修复以外）</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_imgbtnCancelInsert">
+  <value>取消插入</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_imgbtnCancelRename">
+  <value>取消从新命名</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_exception_insert">
+  <value>不是插入的组件，插入失败</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_exception_Delete">
+  <value>成分可能有组件，删除失败</value>
+</data>
+<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_message_Restore">
+  <value>计划成功恢复</value>
+</data>
+<data name="bizplan_menu_menu2_Plan OutLine">
+  <value>计划大纲</value>
+</data>
+<data name="bizplan_menu_menu2_Business Tracker">
+  <value>业务追踪者</value>
+</data>
+<data name="bizplanweb_services_tables_table_ImportButton">
+  <value>进口行</value>
+</data>
+<data name="bizplanweb_services_plan_home_lblHeading">
+  <value>计划的首页</value>
+</data>
+<data name="Test">
+  <value />
+</data>
+<data name="bizplan_menu_ManagementTeamGaps1">
+  <value>测试</value>
+</data>
+<data name="bizplan_menu_ManagementTeamGapsForNews">
+  <value />
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblHeading">
+  <value>业务追踪者</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblPlanTrackerTitle">
+  <value />
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblPlanTrackerTitle">
+  <value>跟踪你商业目的的业绩.</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblFirstHelp">
+  <value>成功地商业计划取决于你如何坚持。常常有某些因素造成难以执行原有的商业计划。为了避免这些偏差，必须有系统来保持跟踪这些造成计划落空的因素。</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblSecondHelp">
+  <value>业务追踪者帮助你追踪你执行商业计划时的偏差.。它把你公司现有的财政报告和以前计划的财政目标相比较.这些报告帮助你实际执行你的业务计划和跟踪你的财政健康状态。这会帮助你更有效地管理业务。</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblStandardHead">
+  <value />
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblStandardHead">
+  <value>标准报告: 标准报告帮助公司的商业计划对于实际与预计的财政状态做比较。</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblIO">
+  <value>月度收入报告：提供每月的商业收入和支出做比较.
+
+
+
+年度收入报告：年度收入报告提供实际收入报告与预期的收入做比较。</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lnkMonthlyIO">
+  <value>月度收入报告</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lnkAnnualIO">
+  <value>年度收入报表</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lblBS">
+  <value>月度资产负债表 : 月度资产负债表与实际资产负债表的每月对比.
+
+
+
+年度资产负债表  :提供每年资产负债表和预期资产负债表的对比</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lnkMonthlyBS">
+  <value>月度资产负债表</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_lnkAnnualBS">
+  <value>年度资产负债表</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblComparison">
+  <value>比较</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblEstimated">
+  <value>估计</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblDeviation">
+  <value>分歧</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblCategoriesDescription">
+  <value>种类/描述</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_btnHome">
+  <value>首页</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_btnBack">
+  <value>返回</value>
+</data>
+<data name="BizPlan_Services_Tracker_PlanTracker_LnkBtnProceed">
+  <value>点击此处进行</value>
+</data>
+<data name="bizplanweb_services_tables_table_btnImportBack">
+  <value>返回</value>
+</data>
+<data name="bizplanweb_services_tables_table_msg">
+  <value>此处没有输入的记录或者你已经输入的存在的记录</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblMonthlyIncomeStatement">
+  <value>年度收入报告</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblAnnualIncomeStatement">
+  <value>全年收入报告</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblMonthlyBalanceSheet">
+  <value>月度资产负债表</value>
+</data>
+<data name="BizPlan_Services_Tracker_FinancialReport_lblAnnualBalanceSheet">
+  <value>年度资产负责表</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblProductTitle">
+  <value>销售预测 (输入)</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblSearchRecordTitle">
+  <value>搜索记录输入</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblSearchRecordMessage">
+  <value>在搜索条件输入(ID或姓名) 或从列表下选择记录.</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblId">
+  <value>ID</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblName">
+  <value>姓名</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnSearch">
+  <value>搜索</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnSearch">
+  <value>搜索</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnImport">
+  <value>输入</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnCancel">
+  <value>取消</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblError1">
+  <value>选择任何排行输入</value>
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblError2">
+  <value />
+</data>
+<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblError2">
+  <value>记录不存在</value>
+</data>
+ 
+</root>

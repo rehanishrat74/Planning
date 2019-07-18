@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="urn:FHservices" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:FHservices" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema targetNamespace="urn:FHservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="ReturnMsg">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:decimal" />
+          <s:element name="LCODE" type="s:string" />
+          <s:element name="UI" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="authUserRequest">
+    <part name="loginid" type="s:string" />
+    <part name="password" type="s:string" />
+  </message>
+  <message name="authUserResponse">
+    <part name="return" type="s0:ReturnMsg" />
+  </message>
+  <portType name="FHservicesPortType">
+    <operation name="authUser">
+      <input message="s0:authUserRequest" />
+      <output message="s0:authUserResponse" />
+    </operation>
+  </portType>
+  <binding name="FHservicesBinding" type="s0:FHservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="authUser">
+      <soap:operation soapAction="urn:FHservices#authUser" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="FHservices">
+    <port name="FHservicesPort" binding="s0:FHservicesBinding">
+      <soap:address location="http://webservices.formationshouse.com/authuser.php" />
+    </port>
+  </service>
+</definitions>

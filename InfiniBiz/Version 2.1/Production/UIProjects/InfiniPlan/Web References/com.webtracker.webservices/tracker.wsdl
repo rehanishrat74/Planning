@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:WebTrackerServices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:WebTrackerServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="urn:WebTrackerServices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="sessionInfo">
+        <s:all>
+          <s:element name="siteUrl" type="s:string" />
+          <s:element name="siteName" type="s:string" />
+          <s:element name="siteCode" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="trackInfo">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:integer" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="data" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="detailInfo">
+        <s:all>
+          <s:element name="sessionId" type="s:string" />
+          <s:element name="trackId" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="startSessionRequest">
+    <wsdl:part name="sessionInfo" type="tns:sessionInfo" />
+  </wsdl:message>
+  <wsdl:message name="startSessionResponse">
+    <wsdl:part name="return" type="tns:trackInfo" />
+  </wsdl:message>
+  <wsdl:message name="updateSessionRequest">
+    <wsdl:part name="sessionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="updateSessionResponse">
+    <wsdl:part name="return" type="tns:trackInfo" />
+  </wsdl:message>
+  <wsdl:message name="getTrackDetailsRequest">
+    <wsdl:part name="detailInfo" type="tns:detailInfo" />
+  </wsdl:message>
+  <wsdl:message name="getTrackDetailsResponse">
+    <wsdl:part name="return" type="tns:trackInfo" />
+  </wsdl:message>
+  <wsdl:message name="getTrackHistoryRequest">
+    <wsdl:part name="detailInfo" type="tns:detailInfo" />
+  </wsdl:message>
+  <wsdl:message name="getTrackHistoryResponse">
+    <wsdl:part name="return" type="tns:trackInfo" />
+  </wsdl:message>
+  <wsdl:message name="addProjectRequest">
+    <wsdl:part name="projectInfo" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="addProjectResponse">
+    <wsdl:part name="return" type="tns:trackInfo" />
+  </wsdl:message>
+  <wsdl:portType name="WebTrackerServicesPortType">
+    <wsdl:operation name="startSession">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Starts a new tracking session. Call updateSession after calling this once.</documentation>
+      <wsdl:input message="tns:startSessionRequest" />
+      <wsdl:output message="tns:startSessionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="updateSession">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Call repeatedly after regular intervals to get incremental updates to a session. Check errorcode before processing data.</documentation>
+      <wsdl:input message="tns:updateSessionRequest" />
+      <wsdl:output message="tns:updateSessionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTrackDetails">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Call to get details of a tracking session.</documentation>
+      <wsdl:input message="tns:getTrackDetailsRequest" />
+      <wsdl:output message="tns:getTrackDetailsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getTrackHistory">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Call to get browsing history of a tracking session.</documentation>
+      <wsdl:input message="tns:getTrackHistoryRequest" />
+      <wsdl:output message="tns:getTrackHistoryResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addProject">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Call to add a new project for tracking.</documentation>
+      <wsdl:input message="tns:addProjectRequest" />
+      <wsdl:output message="tns:addProjectResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebTrackerServicesBinding" type="tns:WebTrackerServicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="startSession">
+      <soap:operation soapAction="urn:WebTrackerServices#startSession" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateSession">
+      <soap:operation soapAction="urn:WebTrackerServices#updateSession" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTrackDetails">
+      <soap:operation soapAction="urn:WebTrackerServices#getTrackDetails" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTrackHistory">
+      <soap:operation soapAction="urn:WebTrackerServices#getTrackHistory" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addProject">
+      <soap:operation soapAction="urn:WebTrackerServices#addProject" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:WebTrackerServices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebTrackerServices">
+    <wsdl:port name="WebTrackerServicesPort" binding="tns:WebTrackerServicesBinding">
+      <soap:address location="http://webservices.webtracker.com/tracker.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

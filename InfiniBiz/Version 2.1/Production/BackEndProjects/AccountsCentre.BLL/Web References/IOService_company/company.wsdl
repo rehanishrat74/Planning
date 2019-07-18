@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:IOservices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:IOservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="urn:IOservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="UserInfo">
+        <s:all>
+          <s:element name="userId" type="s:int" />
+          <s:element name="userName" type="s:string" />
+          <s:element name="firstName" type="s:string" />
+          <s:element name="middleName" type="s:string" />
+          <s:element name="lastName" type="s:string" />
+          <s:element name="userType" type="s:string" />
+          <s:element name="loginId" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="status" type="s:int" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="UserInfoArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:UserInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="TaskInfo">
+        <s:all>
+          <s:element name="taskId" type="s:string" />
+          <s:element name="ownerId" type="s:string" />
+          <s:element name="ownerName" type="s:string" />
+          <s:element name="title" type="s:string" />
+          <s:element name="status" type="s:string" />
+          <s:element name="creationDate" type="s:string" />
+          <s:element name="priority" type="s:string" />
+          <s:element name="startDate" type="s:string" />
+          <s:element name="endDate" type="s:string" />
+          <s:element name="duration" type="s:string" />
+          <s:element name="projectId" type="s:string" />
+          <s:element name="projectPath" type="s:string" />
+          <s:element name="userInfo" type="tns:UserInfoArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="TaskList">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:TaskInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="searchInfo">
+        <s:all>
+          <s:element name="fieldname" type="s:string" />
+          <s:element name="value" type="s:string" />
+          <s:element name="wildcard" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="searchInfoArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:searchInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="IsCompanyExistsData">
+        <s:all>
+          <s:element name="companyname" type="s:string" />
+          <s:element name="customerid" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="IsCompanyExistsReturnMessage">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:string" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="GLOBALID" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ActivationResponse">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="link" type="s:string" />
+          <s:element name="variablename" type="s:string" />
+          <s:element name="value" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ActivationData">
+        <s:all>
+          <s:element name="customerid" type="s:string" />
+          <s:element name="productcode" type="s:string" />
+          <s:element name="serialno" type="s:string" />
+          <s:element name="orderno" type="s:string" />
+          <s:element name="language" type="s:string" />
+          <s:element name="serviceid" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="AutoLoginResponse">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="variablename" type="s:string" />
+          <s:element name="value" type="s:string" />
+          <s:element name="link" type="s:string" />
+          <s:element name="newwin" type="s:decimal" />
+          <s:element name="winparam" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="AutoLoginData">
+        <s:all>
+          <s:element name="customerid" type="s:string" />
+          <s:element name="password" type="s:string" />
+          <s:element name="serviceid" type="s:string" />
+          <s:element name="language" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ErrorResponse">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:string" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ResponseData">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+          <s:element name="result" type="tns:resultInfo" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="resultArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:resultInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="resultInfo">
+        <s:all>
+          <s:element name="country" type="tns:countryArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="countryArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:countrynames[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="countrynames">
+        <s:all>
+          <s:element name="Name" type="s:string" />
+          <s:element name="City" type="s:string" />
+          <s:element name="CityCode" type="s:string" />
+          <s:element name="Duration" type="s:string" />
+          <s:element name="ProductCodes" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="pCodesData">
+        <s:all>
+          <s:element name="productcodes" type="tns:productcodesArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="productcodesArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:productcodesnames[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="productcodesnames">
+        <s:all>
+          <s:element name="Name" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="StatusMessage">
+        <s:all>
+          <s:element name="type" type="s:byte" />
+          <s:element name="message" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ArrayOfMessages">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:StatusMessage[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="StatusResponse">
+        <s:all>
+          <s:element name="status" type="s:byte" />
+          <s:element name="message" type="tns:ArrayOfMessages" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="StatusData">
+        <s:all>
+          <s:element name="customeruid" type="s:string" />
+          <s:element name="language" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="IsCompanyExistsRequest">
+    <wsdl:part name="companyInfo" type="tns:IsCompanyExistsData" />
+  </wsdl:message>
+  <wsdl:message name="IsCompanyExistsResponse">
+    <wsdl:part name="responseMessage" type="tns:IsCompanyExistsReturnMessage" />
+  </wsdl:message>
+  <wsdl:portType name="IOservicesPortType">
+    <wsdl:operation name="IsCompanyExists">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check if company name already exist</documentation>
+      <wsdl:input message="tns:IsCompanyExistsRequest" />
+      <wsdl:output message="tns:IsCompanyExistsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="IOservicesBinding" type="tns:IOservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="IsCompanyExists">
+      <soap:operation soapAction="urn:OIBZservices#IsCompanyExists" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:OIBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:OIBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IOservices">
+    <wsdl:port name="IOservicesPort" binding="tns:IOservicesBinding">
+      <soap:address location="http://services.office.infinibiz.com/company.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.DiscoveryDocumentReference" url="https://ac.infiniplan.com/metertesting/meterviewservice.asmx?disco" filename="MeterViewService.disco" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://ac.infiniplan.com/metertesting/meterviewservice.asmx?wsdl" filename="MeterViewService.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

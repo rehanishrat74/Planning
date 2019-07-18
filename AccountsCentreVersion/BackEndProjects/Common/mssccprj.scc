@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[BPlan.Common.vbproj]
+SCC_Aux_Path = "\\netserver\SourceSafe Databases\BizPlan\VSS DB"
+SCC_Project_Name = "$/PRODUCTION/Biz Plan Ver 2.1/Backend Projects/BPlan.Common", LAJAAAAA

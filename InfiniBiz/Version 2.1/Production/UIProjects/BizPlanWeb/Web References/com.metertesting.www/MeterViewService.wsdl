@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://www.MeterTesting.com" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://www.MeterTesting.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.MeterTesting.com">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMessage">
+        <s:complexType />
+      </s:element>
+      <s:element name="getMessageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMessageResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMessage1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMessage1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMessage1Result" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleNodesXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PRODUCT_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Planid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Customerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="getCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SingleAnalysisOption" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleNodesXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSingleNodesXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultipleNodesXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PRODUCT_IDs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Planid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Customerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="getCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MultiAnalysisOption" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultipleNodesXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMultipleNodesXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleNodesXML_Basic">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PRODUCT_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Planid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Customerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="getCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="SingleAnalysisOption" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartInterval" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndInterval" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ChkInterval" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleNodesXML_BasicResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSingleNodesXML_BasicResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMerchantMeters">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Customerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Fromdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Todate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Fromdatelastday" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Todatedaylastday" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="getCurrency" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMerchantMetersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMerchantMetersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Calme">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="str" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CalmeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CalmeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadEnterpriseMeters">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Customerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStartDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEndDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strStartLastDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strEndLastDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="getCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadEnterpriseMetersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoadEnterpriseMetersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMessageSoapIn">
+    <wsdl:part name="parameters" element="tns:getMessage" />
+  </wsdl:message>
+  <wsdl:message name="getMessageSoapOut">
+    <wsdl:part name="parameters" element="tns:getMessageResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMessage1SoapIn">
+    <wsdl:part name="parameters" element="tns:getMessage1" />
+  </wsdl:message>
+  <wsdl:message name="getMessage1SoapOut">
+    <wsdl:part name="parameters" element="tns:getMessage1Response" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSingleNodesXML" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSingleNodesXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMultipleNodesXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMultipleNodesXML" />
+  </wsdl:message>
+  <wsdl:message name="GetMultipleNodesXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMultipleNodesXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXML_BasicSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSingleNodesXML_Basic" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXML_BasicSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSingleNodesXML_BasicResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMerchantMetersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMerchantMeters" />
+  </wsdl:message>
+  <wsdl:message name="GetMerchantMetersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMerchantMetersResponse" />
+  </wsdl:message>
+  <wsdl:message name="CalmeSoapIn">
+    <wsdl:part name="parameters" element="tns:Calme" />
+  </wsdl:message>
+  <wsdl:message name="CalmeSoapOut">
+    <wsdl:part name="parameters" element="tns:CalmeResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoadEnterpriseMetersSoapIn">
+    <wsdl:part name="parameters" element="tns:LoadEnterpriseMeters" />
+  </wsdl:message>
+  <wsdl:message name="LoadEnterpriseMetersSoapOut">
+    <wsdl:part name="parameters" element="tns:LoadEnterpriseMetersResponse" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldHttpGetIn" />
+  <wsdl:message name="HelloWorldHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getMessageHttpGetIn" />
+  <wsdl:message name="getMessageHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXMLHttpGetIn">
+    <wsdl:part name="PRODUCT_ID" type="s:string" />
+    <wsdl:part name="Planid" type="s:string" />
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="ProSdate" type="s:string" />
+    <wsdl:part name="ProEdate" type="s:string" />
+    <wsdl:part name="PlanSdate" type="s:string" />
+    <wsdl:part name="PlanEdate" type="s:string" />
+    <wsdl:part name="getCurrency" type="s:string" />
+    <wsdl:part name="SingleAnalysisOption" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMultipleNodesXMLHttpGetIn">
+    <wsdl:part name="PRODUCT_IDs" type="s:string" />
+    <wsdl:part name="Planid" type="s:string" />
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="ProSdate" type="s:string" />
+    <wsdl:part name="ProEdate" type="s:string" />
+    <wsdl:part name="PlanSdate" type="s:string" />
+    <wsdl:part name="PlanEdate" type="s:string" />
+    <wsdl:part name="getCurrency" type="s:string" />
+    <wsdl:part name="MultiAnalysisOption" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMultipleNodesXMLHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXML_BasicHttpGetIn">
+    <wsdl:part name="PRODUCT_ID" type="s:string" />
+    <wsdl:part name="Planid" type="s:string" />
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="ProSdate" type="s:string" />
+    <wsdl:part name="ProEdate" type="s:string" />
+    <wsdl:part name="PlanSdate" type="s:string" />
+    <wsdl:part name="PlanEdate" type="s:string" />
+    <wsdl:part name="getCurrency" type="s:string" />
+    <wsdl:part name="SingleAnalysisOption" type="s:string" />
+    <wsdl:part name="StartInterval" type="s:string" />
+    <wsdl:part name="EndInterval" type="s:string" />
+    <wsdl:part name="ChkInterval" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSingleNodesXML_BasicHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMerchantMetersHttpGetIn">
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="Fromdate" type="s:string" />
+    <wsdl:part name="Todate" type="s:string" />
+    <wsdl:part name="Fromdatelastday" type="s:string" />
+    <wsdl:part name="Todatedaylastday" type="s:string" />
+    <wsdl:part name="getCurrency" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMerchantMetersHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CalmeHttpGetIn">
+    <wsdl:part name="str" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CalmeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadEnterpriseMetersHttpGetIn">
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="strStartDate" type="s:string" />
+    <wsdl:part name="strEndDate" type="s:string" />
+    <wsdl:part name="strStartLastDate" type="s:string" />
+    <wsdl:part name="strEndLastDate" type="s:string" />
+    <wsdl:part name="getCurrency" type="s:string" />
+    <wsdl:part name="strType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadEnterpriseMetersHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="MeterViewServiceSoap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMessage">
+      <wsdl:input message="tns:getMessageSoapIn" />
+      <wsdl:output message="tns:getMessageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMessage1">
+      <wsdl:input message="tns:getMessage1SoapIn" />
+      <wsdl:output message="tns:getMessage1SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML">
+      <wsdl:input message="tns:GetSingleNodesXMLSoapIn" />
+      <wsdl:output message="tns:GetSingleNodesXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMultipleNodesXML">
+      <wsdl:input message="tns:GetMultipleNodesXMLSoapIn" />
+      <wsdl:output message="tns:GetMultipleNodesXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML_Basic">
+      <wsdl:input message="tns:GetSingleNodesXML_BasicSoapIn" />
+      <wsdl:output message="tns:GetSingleNodesXML_BasicSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMerchantMeters">
+      <wsdl:input message="tns:GetMerchantMetersSoapIn" />
+      <wsdl:output message="tns:GetMerchantMetersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Calme">
+      <wsdl:input message="tns:CalmeSoapIn" />
+      <wsdl:output message="tns:CalmeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadEnterpriseMeters">
+      <wsdl:input message="tns:LoadEnterpriseMetersSoapIn" />
+      <wsdl:output message="tns:LoadEnterpriseMetersSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MeterViewServiceHttpGet">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldHttpGetIn" />
+      <wsdl:output message="tns:HelloWorldHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMessage">
+      <wsdl:input message="tns:getMessageHttpGetIn" />
+      <wsdl:output message="tns:getMessageHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML">
+      <wsdl:input message="tns:GetSingleNodesXMLHttpGetIn" />
+      <wsdl:output message="tns:GetSingleNodesXMLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMultipleNodesXML">
+      <wsdl:input message="tns:GetMultipleNodesXMLHttpGetIn" />
+      <wsdl:output message="tns:GetMultipleNodesXMLHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML_Basic">
+      <wsdl:input message="tns:GetSingleNodesXML_BasicHttpGetIn" />
+      <wsdl:output message="tns:GetSingleNodesXML_BasicHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMerchantMeters">
+      <wsdl:input message="tns:GetMerchantMetersHttpGetIn" />
+      <wsdl:output message="tns:GetMerchantMetersHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Calme">
+      <wsdl:input message="tns:CalmeHttpGetIn" />
+      <wsdl:output message="tns:CalmeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadEnterpriseMeters">
+      <wsdl:input message="tns:LoadEnterpriseMetersHttpGetIn" />
+      <wsdl:output message="tns:LoadEnterpriseMetersHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MeterViewServiceSoap" type="tns:MeterViewServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://www.MeterTesting.com/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMessage">
+      <soap:operation soapAction="http://www.MeterTesting.com/getMessage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMessage1">
+      <soap:operation soapAction="http://www.MeterTesting.com/getMessage1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML">
+      <soap:operation soapAction="http://www.MeterTesting.com/GetSingleNodesXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMultipleNodesXML">
+      <soap:operation soapAction="http://www.MeterTesting.com/GetMultipleNodesXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML_Basic">
+      <soap:operation soapAction="http://www.MeterTesting.com/GetSingleNodesXML_Basic" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMerchantMeters">
+      <soap:operation soapAction="http://www.MeterTesting.com/GetMerchantMeters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Calme">
+      <soap:operation soapAction="http://www.MeterTesting.com/Calme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadEnterpriseMeters">
+      <soap:operation soapAction="http://www.MeterTesting.com/LoadEnterpriseMeters" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MeterViewServiceHttpGet" type="tns:MeterViewServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMessage">
+      <http:operation location="/getMessage" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML">
+      <http:operation location="/GetSingleNodesXML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMultipleNodesXML">
+      <http:operation location="/GetMultipleNodesXML" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSingleNodesXML_Basic">
+      <http:operation location="/GetSingleNodesXML_Basic" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMerchantMeters">
+      <http:operation location="/GetMerchantMeters" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Calme">
+      <http:operation location="/Calme" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadEnterpriseMeters">
+      <http:operation location="/LoadEnterpriseMeters" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MeterViewService">
+    <wsdl:port name="MeterViewServiceSoap" binding="tns:MeterViewServiceSoap">
+      <soap:address location="https://accounts.infinibiz.com/MeterTesting/MeterViewService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MeterViewServiceHttpGet" binding="tns:MeterViewServiceHttpGet">
+      <http:address location="https://accounts.infinibiz.com/MeterTesting/MeterViewService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

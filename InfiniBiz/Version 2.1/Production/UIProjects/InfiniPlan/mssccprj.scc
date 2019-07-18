@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[BizPlanWeb.vbproj]
+SCC_Aux_Path = "\\netserver\SourceSafe Databases\BizPlan\VSS DB"
+SCC_Project_Name = "$/INFINIBIZ/PRODUCTION/Biz Plan Ver 2.1/UI Projects/Web/BizPlanWeb", NTMAAAAA

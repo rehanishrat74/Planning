@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" > 
+<xsd:element name="root" msdata:IsDataSet="true" > 
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded" > 
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version"> 
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="acc_msg_Account_SignInAttemptFailed">
+  <value>الخــطــأ  : غــيـر صـحـيـح هــويــة الـمسـتخــدم / كــلـمـة الـســر.  يــرجــى مـحــاولــة ثــانـيــة.</value>
+</data>
+<data name="acc_msg_Account_NewEmployerCreated">
+  <value>قــــد انــقـــذت مـعــلــومــاتـكــم.</value>
+</data>
+<data name="acc_msg_Account_NewEmployerRegistrationStatus">
+  <value>أنــــتــم مسـجــلــون بـالـفــعــل  مثــل رب العـمل الـمــرتـبــات.</value>
+</data>
+<data name="acc_msg_Account_UpdateEmployerDetails">
+  <value>قـــد حــدث سـجـلـكـم.</value>
+</data>
+<data name="acc_msg_Account_UpdateCustomerServices">
+  <value>شــكرا لـكـم عــلى اضـافــة أكـثـر خــدمــات الـقـيـمـة .  
+طـلـبكـم فــى عـمـلـيــة, سـتـبـلـغـكــم بـمـوافـقــكم عــنـوان الـبـريـد الـمـحـدد عــلى تـأكـيــد الــدفــع</value>
+</data>
+<data name="acc_msg_Account_MatchPassword">
+  <value>كـلـمـة الـسـر الـجـديــدة وتــأكـيــد كـلـمـة الـسـر الـجـديـدة.  الـقـيــم لـيـست نــفـس.  يــرجــى بــالـدخــول بـنـفـس الـقـيـمــه.</value>
+</data>
+<data name="acc_msg_Account_UpdatePassword">
+  <value>لـكـم كـلـمـة الـسـر قــد اسـتـكـمـلـت.</value>
+</data>
+<data name="acc_msg_Account_IncorrectPassword">
+  <value>يــرجـى الـدخــول كــلـمـة الـسـر الـصـحيــحــه.</value>
+</data>
+<data name="acc_msg_Account_ForgotPassword">
+  <value>لـكـم عـنـوان الـبريـد الالكـتـرونـى مـعـلـن لا تـتنــاسـب ســجـلـنــا. يـرجـى الـدخـول صحـيح الـبريـد الالـكـترونـى.</value>
+</data>
+<data name="acc_msg_Account_PasswordMatching">
+  <value>كـلـمـة السـر وتــؤكــد
+كـلـمـة الـسـر يـجـب أن تـكـون مـطـابـقـة الـحـقـول.</value>
+</data>
+<data name="acc_msg_Account_CrCardExpiryDate">
+  <value>يــرجـى الـدخــول تـاريـخ انـتهـاء الصـلاحيـة صـحيـح.</value>
+</data>
+<data name="acc_msg_Account_AXCardSTDate">
+  <value>يــرجـى الـدخــول تـاريـخ الـبـدء صـالـح.</value>
+</data>
+<data name="acc_msg_Account_AXCardENDate">
+  <value>يــرجـى الـدخــول تـاريـخ الـنـهــايــة صـالـح.</value>
+</data>
+<data name="acc_msg_Account_DrCardDate">
+  <value>يــرجـى الـدخــول تــاريـخ الاصــدار صـالـح.</value>
+</data>
+<data name="acc_msg_Employee_EmployeeRecordNotFound">
+  <value>مــا وجــد سـجـل (سـجـلات) الـمـؤظـف.  يـرجـى اضـافـة أولا تـفـاصــيـل مـؤظـفـكــم ثــم الـمـضــى قــدمــا.</value>
+</data>
+<data name="acc_msg_Employee_NewEmployeeCreated">
+  <value>قـــد انـقــذت مـعــلـومـات الـمـؤظـف الـجـديـد.</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInCalculation">
+  <value>هــنــاك خــطـأ فــى الـحسـابـات.</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInDate">
+  <value>يــبـــدأ الـصـيـغة الـتـاريـخ الـصـحيـح</value>
+</data>
+<data name="acc_msg_Taxation_P11NIC_EarningDetailsNotFound">
+  <value>لا تـوجــد الـتـفــاصـيــل الـربـح حسـب ايـن آئـى سـى.</value>
+</data>
+<data name="acc_msg_PAYE_InYearForm_NewFormCreated">
+  <value>قـــد انـقـذت الـمـعـلـومـات.</value>
+</data>
+<data name="acc_msg_General_ThankYou">
+  <value>شــكـرا لـكـم.</value>
+</data>
+<data name="acc_msg_General_Update">
+  <value>شـكـرا لـكـم.  قــد اسـتـكـمــل الـسـجــل بـنـجـاح.</value>
+</data>
+<data name="acc_msg_General_Add">
+  <value>شـكـرا لـكـم.  قــد الـسـجــل تـم بـنـجـاح.</value>
+</data>
+<data name="acc_msg_General_Save">
+  <value>شـكـرا لـكـم.  قــد انـقـذ السـجـل بـنـجـاح.</value>
+</data>
+<data name="acc_msg_Error_RequiredFields">
+  <value>يــرجــى الـدخــول الـقـيـمـة فـى الحـقـل (حـقـول) الـمـطلـوبـة.</value>
+</data>
+<data name="acc_msg_Error_RegularExpression">
+  <value>يــرجـى الــدخــول الـقـيـمـة الـمـنـاسـبـة فـى الحـقـل (حـقـول) المـعيـن.</value>
+</data>
+<data name="acc_msg_Email_AccountRegistration">
+  <value>الــتـسـجـيــل فــى أكـاؤنـتـس سـينـتـر</value>
+</data>
+<data name="acc_msg_Email_UpdateServices">
+  <value>تـحــديـث الـخـدمــات فــى أكـاؤنـتس سيـنـتـر</value>
+</data>
+<data name="acc_msg_Email_ResendPassword">
+  <value>تــوقـــيــع الـمـعـلــومــات فــى أكـاؤنـتـس سـيـنـتـر</value>
+</data>
+<data name="acc_msg_Email_DefaultEmailAddress">
+  <value>support@accountscentre.com</value>
+</data>
+<data name="acc_msg_Email_ForgotPassword">
+  <value>لـكـم تـوقـيـع الـمـلـومـات قــد أرسـلـت الـى عـنـوان الـبريـد الالكـترونـى لـكـم.</value>
+</data>
+<data name="acc_msg_PDF_NOTEXISTS">
+  <value>لا تـوجـد بـيـانـات بـى دى ايـف لـهـذا الـمـستـخـدم !</value>
+</data>
+<data name="acc_msg_Date_IncorrectDay">
+  <value>يــرجــى الـدخــول الصـحيـح الـيـوم الـشهـر .</value>
+</data>
+<data name="acc_msg_Date_GreaterDate">
+  <value>لا يـتـجـاوز الـتـاريـخ مـن الـتاريـخ الـحـالـى .</value>
+</data>
+<data name="acc_msg_Account_Select_Product">
+  <value>عــلى الأقـل يـجـب اخـتـيــار الـمـنتـج .</value>
+</data>
+<data name="acc_msg_Account_Valid_Password">
+  <value>عـلـيـك أن تـدخـــل كـلـمـة السـر صـالـحــة.</value>
+</data>
+<data name="acc_msg_Account_Valid_Data_Following">
+  <value>يـرجـى الـدخــول البـيـانـات الـصـالـحــة فــى الـمـجـال (مـجـالات ) التـالـيـة.</value>
+</data>
+<data name="acc_msg_Account_Credit_No_Required">
+  <value>عـدد البـطـافــة الائـتـمان مـطلـوب.</value>
+</data>
+<data name="acc_msg_Account_Valid_UserID">
+  <value>يـجـب عـلـيـك دخــول هـويـة المـستـخـدم صـالـحــة.</value>
+</data>
+<data name="acc_msg_Account_Order_Payment">
+  <value>طـلـب الـدفــع بـنـجـاح.  الــرجـاء عــدم اعــادة مـحـاكـمــة.</value>
+</data>
+<data name="acc_msg_Account_Order_Process">
+  <value>الـطلـب تـحـت العـمـليــة. يــرجـى الاتـصـال مـع الادارة.</value>
+</data>
+<data name="acc_msg_Account_Product">
+  <value>المـجـمـوعــات/مـنـتـجـــات الـتـالـيــة تشـتـمـل الخـدمـات نـفـسـهــا.</value>
+</data>
+<data name="acc_msg_Account_Company_Select">
+  <value>يـرجــى الاخـتـيـار الـشركـة مــن الـقـائـمـة أدنــاه.</value>
+</data>
+<data name="acc_msg_Account_Select_imgFile">
+  <value>خــطــأ : الــرجــاء اخـتيــار صــورة الـمـلـف.</value>
+</data>
+<data name="acc_msg_Account_CustomerId_Dosenot_Exit">
+  <value>الهـويـة الـزبـون دخـلـتـم, لا تـوجــد. محــاولــة ثـانيـــة !</value>
+</data>
+<data name="acc_msg_Account_Customerid_Fill">
+  <value>يـــرجــى مــلء فــى الهـويـة الــزبــون.</value>
+</data>
+<data name="acc_msg_Account_Fill_data">
+  <value>قــدم مـع لا بـيـانـات يـمـكـن انـقـاذهــا.</value>
+</data>
+<data name="acc_msg_Account_Upload_File">
+  <value>عـلـيـك أن تـخـتـار الـمـلـف لـتـحـمـيــل</value>
+</data>
+<data name="acc_msg_Account_GlobalView">
+  <value>نـظــرة شــامــلة</value>
+</data>
+<data name="acc_msg_Account_GlobalView_created_successfully">
+  <value>أنــشـئـت بـنـجــاح.</value>
+</data>
+<data name="acc_msg_Account_GlobalView_Detail">
+  <value>أنـشـئـت قـبـل الآن.  الـتـوقـيــع فــى مـحـاولـة ثـانيــة لاسـتـكـمـــال</value>
+</data>
+<data name="acc_msg_Account_Invoice_Name">
+  <value>اسـم الـفـاتـورة</value>
+</data>
+<data name="acc_msg_Account_Password">
+  <value>كـلـمـة الـسـر</value>
+</data>
+<data name="acc_msg_Account_confirm_Password">
+  <value>تــأكـيــد كـلـمـة الـسـر</value>
+</data>
+<data name="acc_msg_Account_Street">
+  <value>الـشـارع</value>
+</data>
+<data name="acc_msg_Account_Town">
+  <value>الـبـلـده</value>
+</data>
+<data name="acc_msg_Account_State">
+  <value>الـدولــه</value>
+</data>
+<data name="acc_msg_Account_Contact_Name">
+  <value>اســم الاتـصـال</value>
+</data>
+<data name="acc_msg_Account_Telephone">
+  <value>الـهـاتـف</value>
+</data>
+<data name="acc_msg_Account_Fax">
+  <value>الـفـاكـس</value>
+</data>
+<data name="acc_msg_Account_Email_Address">
+  <value>بـريـد الالكـتـرونـى</value>
+</data>
+<data name="acc_msg_Account_Notes">
+  <value>المـلاحـظـات</value>
+</data>
+<data name="acc_msg_Account_Renewable_Package">
+  <value>مـجـمـوعـة (ات) مـتـجــددة/مـنـتـج (ات).</value>
+</data>
+<data name="acc_msg_Account_Upgraded_Package">
+  <value>حـزمـة (ات) تـطـويــر /مـنـتـج (ات).</value>
+</data>
+<data name="acc_msg_Account_Visit_InfiniPlan">
+  <value>ومــن أجــل الـوصـول الـى دلـيـل المـستعـمـل انـفـينــى بـلان, يــرجــى زيــارة:</value>
+</data>
+<data name="acc_msg_Account_Start_Date_Greater">
+  <value>تــاريـخ الـبـدء لا يمـكـن أن يـكـون أكـبــر مــن تــاريـخ الانـتـهــاء</value>
+</data>
+<data name="acc_msgAccount_Valid_Date_Greater">
+  <value>صحـيـح مـن تـاريـخ لا يـتـجـاوز مــن تـاريـخ الانـتهــاء</value>
+</data>
+<data name="acc_msg_Account_Pre_Requisites">
+  <value>شــروط الـمسـبـقــه</value>
+</data>
+<data name="acc_msg_Account_Update_Services">
+  <value>تـحــديـث خــدمــات</value>
+</data>
+<data name="acc_msg_Account_Delivery_Address">
+  <value>عــنــوان الــتـسـلـيـم</value>
+</data>
+<data name="acc_msg_Account_Card_Holder_Name">
+  <value>اســم حـامـل الـبـطـاقــه</value>
+</data>
+<data name="acc_msg_Account_Card_Number">
+  <value>رقــم الـبـطـاقــه</value>
+</data>
+<data name="acc_msg_Account_Card_Address">
+  <value>عــنــوان الـبـطـاقــه</value>
+</data>
+<data name="acc_msg_Account_Security_Code">
+  <value>قــانــون الـضـمـان</value>
+</data>
+<data name="acc_msg_Account_Issue_No_Msg">
+  <value>عــدد الاصـدار فــى مـعــظـم رقـمـان طـويـلــة.</value>
+</data>
+<data name="acc_msg_Account_Issue_No">
+  <value>الـعــدد</value>
+</data>
+<data name="acc_msg_Account_Bank_Name">
+  <value>اسـم الـبـنـك</value>
+</data>
+<data name="acc_msg_Account_Cheque_No">
+  <value>رقــم الـشيـك</value>
+</data>
+<data name="acc_msg_Account_Sort_Code">
+  <value>نــوع الـمــدونـــه</value>
+</data>
+<data name="acc_msg_Account_Transaction_Reference_No">
+  <value>رقــم الـمـعــامــلة الـمـرجـع</value>
+</data>
+<data name="acc_msg_Account_Service_Name">
+  <value>اســم الـخـدمــة</value>
+</data>
+<data name="acc_msg_Account_Description">
+  <value>الـوصـف</value>
+</data>
+<data name="acc_msg_Account_Register_User1">
+  <value>عـزيـزى قـيـمـة الـزبـون</value>
+</data>
+<data name="acc_msg_Account_Register_User3">
+  <value>طـلـبكـم مــن تـنـشـيِــط الـحسـاب أثـنــاء العـملـيـة وسـتـحـصــلــون هــويـة الـمستخــدم وكـلـمـة الـسـر لأغــراض اتـصــال عـن طـريـق بـريـد الالكـترونـى آخـر خــلال 24 ســاعـــة.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated1">
+  <value>نــرحــب بـكــم الــزبـائــن.  لـكـم عــمــلـيـة الـتسـجيـل قــد كــمــل الآن.  سـتـصـلـكــم بـالـبـريـد الالكـترونــى مــع لـكـم وضــع هــويـة الـمسـتخــدم وكـلـمـة الـسـر.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated2">
+  <value>يـمـكـنــكـم اسـتـخــدام نـفـس هـويــة الـمـسـتخــدم وكـلـمـة الـسـر لـلـدخــول الــى الـمـواقــع ويـب فـارميشينــز هـاؤس وغــرافـكـس 4 لـيـس, والاسـتـفــادة الـكـامـلــة مــن أسـعــارنــا تـنــافـسـيـــة.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated3">
+  <value>اذا كـنـتـم لا تـلـقــوا أى الـبريـد الالكـتـرونـى فـى غـضــون 24 سـاعـة الـمـقـبـلــة, الــرجــاء ألا تـتـردوا فــى الـكـتابــة الـيـنــا عــلى</value>
+</data>
+<data name="acc_msg_Account_Register_User2">
+  <value>تـلـقـيـنـا رسـالـتـكــم عـن مـعـلـومـات الـحـسـاب الـتـى تـقــدمــهـــا لـكـم خــلال</value>
+</data>
+<data name="acc_msg_Account_Register_User4">
+  <value>لـمـزيــد مـن الـمعـلـومــات والـمـسـاعــدة بـخــصــوص خــدمـاتـنــا,</value>
+</data>
+<data name="acc_msg_information">
+  <value>مـعـلـومـات</value>
+</data>
+<data name="acc_msg_name">
+  <value>اسـم</value>
+</data>
+<data name="acc_msg_loginid">
+  <value>هــويــة الـتـسجيـــل</value>
+</data>
+<data name="acc_msg_welcome">
+  <value>شــكـرا لـكـم عــلى الـتـسجيـــل فــى أكـاؤنـتـس سيـنـتـر.  يـمـكـنـــكـم عــلى الـسـجـل فــى حـسـابـكـم عــلــى :
+
+ مـع وثـائــق الـتـفـويـض الـتاليـه:   https://services.centre.biz</value>
+</data>
+<data name="acc_msg_address">
+  <value>عـنــوان</value>
+</data>
+<data name="acc_msg_welcomeservice">
+  <value>قـــد تـطـبــق لـخـدمــة (ات) الـتـالـيــة :</value>
+</data>
+<data name="acc_msg_welcomeend">
+  <value>سـتـصـلـكـم بـالـبـريـد الالـكتـرونــى أبـلـغـكــم مـن تـأكـيـــد الاسـتـلام, مـع تـفعـيــل الخـدمــات الـمـكـتـتـبـة, عـمــومـا خـلال 24 سـاعــة.</value>
+</data>
+<data name="acc_msg_regards">
+  <value>تحـيــات,</value>
+</data>
+</root>

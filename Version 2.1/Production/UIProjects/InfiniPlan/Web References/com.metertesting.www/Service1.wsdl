@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://www.MeterTesting.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://www.MeterTesting.com" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.MeterTesting.com">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMessage">
+        <s:complexType />
+      </s:element>
+      <s:element name="getMessageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMessageResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMessage1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Dat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMessage1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMessage1Result" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Dat" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleNodesXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PRODUCT_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Planid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Customerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="getCurrency" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AnalysisOption" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSingleNodesXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSingleNodesXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultipleNodesXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PRODUCT_IDs" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Planid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Customerid" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanSdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PlanEdate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="getCurrency" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMultipleNodesXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMultipleNodesXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </types>
+  <message name="HelloWorldSoapIn">
+    <part name="parameters" element="s0:HelloWorld" />
+  </message>
+  <message name="HelloWorldSoapOut">
+    <part name="parameters" element="s0:HelloWorldResponse" />
+  </message>
+  <message name="getMessageSoapIn">
+    <part name="parameters" element="s0:getMessage" />
+  </message>
+  <message name="getMessageSoapOut">
+    <part name="parameters" element="s0:getMessageResponse" />
+  </message>
+  <message name="getMessage1SoapIn">
+    <part name="parameters" element="s0:getMessage1" />
+  </message>
+  <message name="getMessage1SoapOut">
+    <part name="parameters" element="s0:getMessage1Response" />
+  </message>
+  <message name="GetSingleNodesXMLSoapIn">
+    <part name="parameters" element="s0:GetSingleNodesXML" />
+  </message>
+  <message name="GetSingleNodesXMLSoapOut">
+    <part name="parameters" element="s0:GetSingleNodesXMLResponse" />
+  </message>
+  <message name="GetMultipleNodesXMLSoapIn">
+    <part name="parameters" element="s0:GetMultipleNodesXML" />
+  </message>
+  <message name="GetMultipleNodesXMLSoapOut">
+    <part name="parameters" element="s0:GetMultipleNodesXMLResponse" />
+  </message>
+  <message name="HelloWorldHttpGetIn" />
+  <message name="HelloWorldHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="getMessageHttpGetIn" />
+  <message name="getMessageHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="GetSingleNodesXMLHttpGetIn">
+    <part name="PRODUCT_ID" type="s:string" />
+    <part name="Planid" type="s:string" />
+    <part name="Customerid" type="s:string" />
+    <part name="ProSdate" type="s:string" />
+    <part name="ProEdate" type="s:string" />
+    <part name="PlanSdate" type="s:string" />
+    <part name="PlanEdate" type="s:string" />
+    <part name="getCurrency" type="s:string" />
+    <part name="AnalysisOption" type="s:string" />
+  </message>
+  <message name="GetSingleNodesXMLHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="GetMultipleNodesXMLHttpGetIn">
+    <part name="PRODUCT_IDs" type="s:string" />
+    <part name="Planid" type="s:string" />
+    <part name="Customerid" type="s:string" />
+    <part name="ProSdate" type="s:string" />
+    <part name="ProEdate" type="s:string" />
+    <part name="PlanSdate" type="s:string" />
+    <part name="PlanEdate" type="s:string" />
+    <part name="getCurrency" type="s:string" />
+  </message>
+  <message name="GetMultipleNodesXMLHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <portType name="Service1Soap">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldSoapIn" />
+      <output message="s0:HelloWorldSoapOut" />
+    </operation>
+    <operation name="getMessage">
+      <input message="s0:getMessageSoapIn" />
+      <output message="s0:getMessageSoapOut" />
+    </operation>
+    <operation name="getMessage1">
+      <input message="s0:getMessage1SoapIn" />
+      <output message="s0:getMessage1SoapOut" />
+    </operation>
+    <operation name="GetSingleNodesXML">
+      <input message="s0:GetSingleNodesXMLSoapIn" />
+      <output message="s0:GetSingleNodesXMLSoapOut" />
+    </operation>
+    <operation name="GetMultipleNodesXML">
+      <input message="s0:GetMultipleNodesXMLSoapIn" />
+      <output message="s0:GetMultipleNodesXMLSoapOut" />
+    </operation>
+  </portType>
+  <portType name="Service1HttpGet">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldHttpGetIn" />
+      <output message="s0:HelloWorldHttpGetOut" />
+    </operation>
+    <operation name="getMessage">
+      <input message="s0:getMessageHttpGetIn" />
+      <output message="s0:getMessageHttpGetOut" />
+    </operation>
+    <operation name="GetSingleNodesXML">
+      <input message="s0:GetSingleNodesXMLHttpGetIn" />
+      <output message="s0:GetSingleNodesXMLHttpGetOut" />
+    </operation>
+    <operation name="GetMultipleNodesXML">
+      <input message="s0:GetMultipleNodesXMLHttpGetIn" />
+      <output message="s0:GetMultipleNodesXMLHttpGetOut" />
+    </operation>
+  </portType>
+  <binding name="Service1Soap" type="s0:Service1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="HelloWorld">
+      <soap:operation soapAction="http://www.MeterTesting.com/HelloWorld" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getMessage">
+      <soap:operation soapAction="http://www.MeterTesting.com/getMessage" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getMessage1">
+      <soap:operation soapAction="http://www.MeterTesting.com/getMessage1" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetSingleNodesXML">
+      <soap:operation soapAction="http://www.MeterTesting.com/GetSingleNodesXML" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetMultipleNodesXML">
+      <soap:operation soapAction="http://www.MeterTesting.com/GetMultipleNodesXML" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="Service1HttpGet" type="s0:Service1HttpGet">
+    <http:binding verb="GET" />
+    <operation name="HelloWorld">
+      <http:operation location="/HelloWorld" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="getMessage">
+      <http:operation location="/getMessage" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetSingleNodesXML">
+      <http:operation location="/GetSingleNodesXML" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="GetMultipleNodesXML">
+      <http:operation location="/GetMultipleNodesXML" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Service1">
+    <port name="Service1Soap" binding="s0:Service1Soap">
+      <soap:address location="http://www.accountscentre.com/MeterTesting/Service1.asmx" />
+    </port>
+    <port name="Service1HttpGet" binding="s0:Service1HttpGet">
+      <http:address location="http://www.accountscentre.com/MeterTesting/Service1.asmx" />
+    </port>
+  </service>
+</definitions>

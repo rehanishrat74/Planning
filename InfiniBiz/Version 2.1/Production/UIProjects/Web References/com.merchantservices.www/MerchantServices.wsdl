@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/accounts.infinibiz.Web/MerchantServices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/accounts.infinibiz.Web/MerchantServices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/accounts.infinibiz.Web/MerchantServices">
+      <s:element name="GetTreeView_Merchant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginInfo" type="tns:LoginInfo_Merchant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LoginInfo_Merchant">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CustomerID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTreeView_MerchantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTreeView_MerchantResult" type="tns:AccTreeViewResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AccTreeViewResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDesc" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="AccTreeView" type="tns:AccTreeView" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="AccTreeView">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Text" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="URL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ChildNodes" type="tns:ArrayOfAccTreeView" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAccTreeView">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="AccTreeView" type="tns:AccTreeView" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTreeView_Employee">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginInfo" type="tns:LoginInfo_Employee" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LoginInfo_Employee">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CustomerID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmployeeID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTreeView_EmployeeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTreeView_EmployeeResult" type="tns:AccTreeViewResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreeView">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetTreeViewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTreeViewResult" type="tns:AccTreeViewResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Encrypt_Merchant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginInfo" type="tns:LoginInfo_Merchant" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Encrypt_MerchantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Encrypt_MerchantResult" type="tns:EncryptResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="EncryptResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AppendText" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Encrypt_MerchantAndEmployee">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginInfo" type="tns:UserInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CustomerID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="EmployeeID" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IsMerchant" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="IoReturnURL" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FHSessionID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Encrypt_MerchantAndEmployeeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Encrypt_MerchantAndEmployeeResult" type="tns:EncryptResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllowedFolders">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginInfo" type="tns:UserInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAllowedFoldersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetAllowedFoldersResult" type="tns:AllowedFoldersResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AllowedFoldersResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="AllowedIDs" type="tns:ArrayOfFolderInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfFolderInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="FolderInfo" type="tns:FolderInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="FolderInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceID" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModelID" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetFolderLinks">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="info" type="tns:UserAndFolderInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="UserAndFolderInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="LoginInfo" type="tns:UserInfo" />
+          <s:element minOccurs="1" maxOccurs="1" name="Finfo" type="tns:FolderInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetFolderLinksResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetFolderLinksResult" type="tns:FolderLinksResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="FolderLinksResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Links" type="tns:ArrayOfLinkInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfLinkInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="LinkInfo" type="tns:LinkInfo" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="LinkInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Text" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="URL" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetBizPlanServices">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginInfo" type="tns:UserInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBizPlanServicesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBizPlanServicesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetTreeView_MerchantSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreeView_Merchant" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeView_MerchantSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreeView_MerchantResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeView_EmployeeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreeView_Employee" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeView_EmployeeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreeView_EmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeViewSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreeView" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeViewSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreeViewResponse" />
+  </wsdl:message>
+  <wsdl:message name="Encrypt_MerchantSoapIn">
+    <wsdl:part name="parameters" element="tns:Encrypt_Merchant" />
+  </wsdl:message>
+  <wsdl:message name="Encrypt_MerchantSoapOut">
+    <wsdl:part name="parameters" element="tns:Encrypt_MerchantResponse" />
+  </wsdl:message>
+  <wsdl:message name="Encrypt_MerchantAndEmployeeSoapIn">
+    <wsdl:part name="parameters" element="tns:Encrypt_MerchantAndEmployee" />
+  </wsdl:message>
+  <wsdl:message name="Encrypt_MerchantAndEmployeeSoapOut">
+    <wsdl:part name="parameters" element="tns:Encrypt_MerchantAndEmployeeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllowedFoldersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllowedFolders" />
+  </wsdl:message>
+  <wsdl:message name="GetAllowedFoldersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllowedFoldersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLinksSoapIn">
+    <wsdl:part name="parameters" element="tns:GetFolderLinks" />
+  </wsdl:message>
+  <wsdl:message name="GetFolderLinksSoapOut">
+    <wsdl:part name="parameters" element="tns:GetFolderLinksResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBizPlanServicesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBizPlanServices" />
+  </wsdl:message>
+  <wsdl:message name="GetBizPlanServicesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBizPlanServicesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MerchantServicesSoap">
+    <wsdl:operation name="GetTreeView_Merchant">
+      <wsdl:input message="tns:GetTreeView_MerchantSoapIn" />
+      <wsdl:output message="tns:GetTreeView_MerchantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeView_Employee">
+      <wsdl:input message="tns:GetTreeView_EmployeeSoapIn" />
+      <wsdl:output message="tns:GetTreeView_EmployeeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeView">
+      <wsdl:input message="tns:GetTreeViewSoapIn" />
+      <wsdl:output message="tns:GetTreeViewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Encrypt_Merchant">
+      <wsdl:input message="tns:Encrypt_MerchantSoapIn" />
+      <wsdl:output message="tns:Encrypt_MerchantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Encrypt_MerchantAndEmployee">
+      <wsdl:input message="tns:Encrypt_MerchantAndEmployeeSoapIn" />
+      <wsdl:output message="tns:Encrypt_MerchantAndEmployeeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllowedFolders">
+      <wsdl:input message="tns:GetAllowedFoldersSoapIn" />
+      <wsdl:output message="tns:GetAllowedFoldersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLinks">
+      <wsdl:input message="tns:GetFolderLinksSoapIn" />
+      <wsdl:output message="tns:GetFolderLinksSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBizPlanServices">
+      <wsdl:input message="tns:GetBizPlanServicesSoapIn" />
+      <wsdl:output message="tns:GetBizPlanServicesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MerchantServicesSoap" type="tns:MerchantServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="GetTreeView_Merchant">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/GetTreeView_Merchant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeView_Employee">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/GetTreeView_Employee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeView">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/GetTreeView" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Encrypt_Merchant">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/Encrypt_Merchant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Encrypt_MerchantAndEmployee">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/Encrypt_MerchantAndEmployee" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllowedFolders">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/GetAllowedFolders" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFolderLinks">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/GetFolderLinks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBizPlanServices">
+      <soap:operation soapAction="http://tempuri.org/accounts.infinibiz.Web/MerchantServices/GetBizPlanServices" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MerchantServices">
+    <wsdl:port name="MerchantServicesSoap" binding="tns:MerchantServicesSoap">
+      <soap:address location="http://accounts.infinibiz.com/account/MerchantServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

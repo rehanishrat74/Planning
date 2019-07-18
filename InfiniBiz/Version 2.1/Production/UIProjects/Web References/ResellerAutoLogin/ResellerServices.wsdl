@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="autoLoginWithLiveID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="info" type="tns:LiveLoginInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LiveLoginInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="liveid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serviceid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="autoLoginWithLiveIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="autoLoginWithLiveIDResult" type="tns:AutoLoginResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutoLoginResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="link" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="autoLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logininfo" type="tns:LoginInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="LoginInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="customeruid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serviceid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="autoLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="autoLoginResult" type="tns:AutoLoginResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getActivationInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="productinfo" type="tns:activationinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="activationinfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="customerid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="orderno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="productcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serialno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serviceid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="getActivationInfoResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="link" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="variablename" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getActivationInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getActivationInfoResult" type="tns:getActivationInfoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreeView">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MyInfo" type="tns:CallerInfo" />
+            <s:element minOccurs="1" maxOccurs="1" name="Parent" type="tns:ParentNode" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CallerInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="customeruid" type="s:long" />
+          <s:element minOccurs="0" maxOccurs="1" name="sessionid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="referrer" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ParentNode">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="text" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="link" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="imagepath" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="childnodes" type="tns:ArrayOfParentNode" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfParentNode">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ParentNode" type="tns:ParentNode" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="GetTreeViewResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ErrorCode" type="s:short" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ResultHTML" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTreeViewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTreeViewResult" type="tns:GetTreeViewResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreeViewByXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="MyInfo" type="tns:CallerInfo" />
+            <s:element minOccurs="0" maxOccurs="1" name="StrXML" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTreeViewByXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTreeViewByXMLResult" type="tns:GetTreeViewResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="autoLoginWithLiveIDSoapIn">
+    <wsdl:part name="parameters" element="tns:autoLoginWithLiveID" />
+  </wsdl:message>
+  <wsdl:message name="autoLoginWithLiveIDSoapOut">
+    <wsdl:part name="parameters" element="tns:autoLoginWithLiveIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="autoLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:autoLogin" />
+  </wsdl:message>
+  <wsdl:message name="autoLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:autoLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="getActivationInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getActivationInfo" />
+  </wsdl:message>
+  <wsdl:message name="getActivationInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getActivationInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeViewSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreeView" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeViewSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreeViewResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeViewByXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTreeViewByXML" />
+  </wsdl:message>
+  <wsdl:message name="GetTreeViewByXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTreeViewByXMLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ResellerServicesSoap">
+    <wsdl:operation name="autoLoginWithLiveID">
+      <wsdl:input message="tns:autoLoginWithLiveIDSoapIn" />
+      <wsdl:output message="tns:autoLoginWithLiveIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="autoLogin">
+      <wsdl:input message="tns:autoLoginSoapIn" />
+      <wsdl:output message="tns:autoLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getActivationInfo">
+      <wsdl:input message="tns:getActivationInfoSoapIn" />
+      <wsdl:output message="tns:getActivationInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeView">
+      <wsdl:input message="tns:GetTreeViewSoapIn" />
+      <wsdl:output message="tns:GetTreeViewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeViewByXML">
+      <wsdl:input message="tns:GetTreeViewByXMLSoapIn" />
+      <wsdl:output message="tns:GetTreeViewByXMLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ResellerServicesSoap" type="tns:ResellerServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="autoLoginWithLiveID">
+      <soap:operation soapAction="http://tempuri.org/autoLoginWithLiveID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="autoLogin">
+      <soap:operation soapAction="http://tempuri.org/autoLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getActivationInfo">
+      <soap:operation soapAction="http://tempuri.org/getActivationInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeView">
+      <soap:operation soapAction="http://tempuri.org/GetTreeView" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeViewByXML">
+      <soap:operation soapAction="http://tempuri.org/GetTreeViewByXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ResellerServicesSoap12" type="tns:ResellerServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    <wsdl:operation name="autoLoginWithLiveID">
+      <soap12:operation soapAction="http://tempuri.org/autoLoginWithLiveID" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="autoLogin">
+      <soap12:operation soapAction="http://tempuri.org/autoLogin" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getActivationInfo">
+      <soap12:operation soapAction="http://tempuri.org/getActivationInfo" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeView">
+      <soap12:operation soapAction="http://tempuri.org/GetTreeView" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTreeViewByXML">
+      <soap12:operation soapAction="http://tempuri.org/GetTreeViewByXML" style="document" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      <wsdl:input>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ResellerServices">
+    <wsdl:port name="ResellerServicesSoap" binding="tns:ResellerServicesSoap">
+      <soap:address location="http://reseller.infinibiz.com/webservice/ResellerServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ResellerServicesSoap12" binding="tns:ResellerServicesSoap12">
+      <soap12:address location="http://reseller.infinibiz.com/webservice/ResellerServices.asmx" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

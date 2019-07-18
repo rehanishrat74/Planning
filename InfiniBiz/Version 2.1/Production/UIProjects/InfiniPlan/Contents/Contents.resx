@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root xmlns="http://tempuri.org/Contents.xsd">
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="TE-Executive Summary">
+		<value>This section provides the relevant facts and figures for the proposed business venture, such as the prospective sales growth and profitability. It also defines the company objectives and mission statement. 
+Finally it provides a comprehensive summary of all the proposed goals and strategic foci that the business will possess
+</value>
+	</data>
+	<data name="TE-Company Summary ">
+		<value>This section provides the details of company owner ship, as well as the financial details at the time of business start up and other related/linked company facilities and businesses.
+
+</value>
+	</data>
+	<data name="TE-Services">
+		<value>This section provides information of the proposed products and services to be provided by the business. It also outlines the proposed sales strategy and the future forecasting related to sales and growth of the product. In addition it also provides an up-to-date competitive comparison as well as detail the use of incorporated technology in the sales strategy</value>
+	</data>
+	<data name="TE-Market Analysis Summary ">
+		<value>This section focuses on determining the number of potential customers and the market share for the proposed business</value>
+	</data>
+	<data name="TE-Strategy and Implementation Summary ">
+		<value>This section provides the details of the proposed pricing and sales strategy. It also describes the planned milestones and strategic alliances.</value>
+	</data>
+	<data name="TE-Management Summary ">
+		<value>This section provides details of the proposed organization plans, structural hierarchy and work flow.</value>
+	</data>
+	<data name="TE-Financial Plan ">
+		<value>This section provides summarized information of the financial estimates and assumptions, through forecasting, borrowing and projections related to balance sheet, cash flow, profit and loss and other financial statements.</value>
+	</data>
+	<data name="TB-Tables">
+		<value>InfiniBizPlan includes a complete set of analysis’ tables. The tables appear and operate similar to spreadsheets; however, for your convenience these are preprogrammed. To use, simply enter your data in the correct cells and the results will be calculated automatically.</value>
+	</data>
+	<data name="TB-General Assumption ">
+		<value>In order to create this table, answer the questions in the Plan Wizard. The results are calculated, according to the accepted accounting standards, from your input.</value>
+	</data>
+	<data name="TB-Start up Details">
+		<value>This table helps you estimate the start-up costs for your proposed business venture. It also automatically uploads your starting balances into the Balance Sheet.</value>
+	</data>
+	<data name="TB-Break Even Analysis">
+		<value>This table helps you determine your business’ break-even point: that is, which product you need to sell in what quantity, monthly or annually, to cover your costs of doing business.</value>
+	</data>
+	<data name="TB-Market Analysis">
+		<value>This table deals with the number of potential customers in your market segments. Using such projected figures, this table helps to quantify the total potential market.</value>
+	</data>
+	<data name="TB-Payroll">
+		<value>This table uses the entered number of employees that your business intends to employ and then calculates the total projected expenses for the work force.</value>
+	</data>
+	<data name="TB-Sales Forecast">
+		<value>This table estimates the cost of sales from the number of planned sales. This estimate is initially made on a monthly basis (for the first planned year), however, for the subsequent years it is made on annual basis.</value>
+	</data>
+	<data name="TB-MileStones">
+		<value>This table provides a simplified list of specific, concrete steps, which may be taken during the implementation of the business plan.</value>
+	</data>
+	<data name="TB-Income Statement">
+		<value>This table creates the Profit and Loss Statement (also known as the ‘Pro-forma Income Statement’), which overviews the planned profit and loss for the proposed business. The table gathers information from the Sales Forecast, the Payroll and the Balance Sheet tables and conversely, automatically affects the Cash Flow Statement, the Balance Sheet and the Performance Ratios. </value>
+	</data>
+	<data name="TB-CashFlow">
+		<value>This table forecasts the change in the cash balance, over a given time period.</value>
+	</data>
+	<data name="TB-Balance Sheet">
+		<value>This table lists the cash, assets and liabilities of the given business, present at a specified time.</value>
+	</data>
+	<data name="TB-Ratios">
+		<value>This table automatically calculates the Performance Ratios of the proposed business, given the values of the earlier tables. </value>
+	</data>
+	<data name="CH-Charts">
+		<value>InfiniBizPlan automatically creates suitable charts for use in your business plans, from the data you enter in your tables. These charts can be modified and customized to suit your overall plan theme and requirements. </value>
+	</data>
+	<data name="CH-Bench Mark" mimetype="(null)i">
+		<value>This chart displays the values of sales, gross profit, operating expenses as well as the Accounts Receivables.</value>
+	</data>
+	<data name="CH-Break Even Analysis">
+		<value>This chart displays the projected business’ break-even point graphically. It is based on the earlier Break-Even table. </value>
+	</data>
+	<data name="CH-Cash Flow">
+		<value>This chart displays the change in the cash balance, over a given time period, graphically. It is based on the earlier Cash Flow table. </value>
+	</data>
+	<data name="CH-Highlights">
+		<value>This chart displays an over view of the key financial projection in terms of sales, gross profit and net profit earned over a specific period (usually three years).</value>
+	</data>
+	<data name="CH-Market Analysis">
+		<value>This table displays the number of potential customers in the market segments. It is based on the earlier Market Analysis table. </value>
+	</data>
+	<data name="CH-Startup">
+		<value>This table displays the data entered in the earlier Start Up details table. </value>
+	</data>
+	<data name="CH-Profit Monthly ">
+		<value>This table graphically displays the projected monthly profits, based on the assumed total monthly sales. </value>
+	</data>
+	<data name="CH-Profit Yearly">
+		<value>This table graphically displays the projected annual profits, based on the assumed total annual sales. </value>
+	</data>
+	<data name="CH-Gross Margin Monthly">
+		<value>This table graphically displays the projected gross monthly profits, based on the assumed total monthly sales. </value>
+	</data>
+	<data name="CH-Gross Margin Yearly">
+		<value>This table graphically displays the projected gross annual profits, based on the assumed total annual sales</value>
+	</data>
+	<data name="CH-Sales Yearly">
+		<value>This table graphically displays the projected number of annual sales.</value>
+	</data>
+	<data name="CH-Sales Monthly">
+		<value>This table graphically displays the projected number of monthly sales.</value>
+	</data>
+	<data name="1">
+		<value>ww</value>
+	</data>
+</root>

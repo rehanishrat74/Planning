@@ -1,0 +1,1027 @@
+BODY 
+{
+	/*scrollbar-dlight-color : #EDEDED;*/
+	scrollbar-arrow-color : #EDEDED;
+	scrollbar-base-color : #CFCFCF;
+	scrollbar-darkshadow-color :#CFCFCF;
+	scrollbar-face-color : #CFCFCF;
+	scrollbar-highlight-color : #EDEDED;
+	scrollbar-shadow-color : #EDEDED;
+	scrollbar-track-color : #CDCDCD;
+
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.PaymentInforForm { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/next.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+	
+	.CouponVerify { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/verify.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+	
+	.CouponContinue { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/continue.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+	
+.PaymentInforForm_next { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/next.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+
+	
+.PaymentInforFormBar 
+{ 
+	font-weight: bold; font-size: 10px; width: 15px; color: black; font-family: verdana; height: 15px; background-color: lightsteelblue;
+}
+
+.PaymentInforFormBarrepay 
+{ 
+	font-weight: none; font-size: 13px; width: 15px; color: black; font-family: Trebuchet MS, Arial, Courier New; height: 15px; background-color: #f7f7f7;
+}
+
+.txtbox
+{
+	background-color:White;
+	border: 1px solid #000000;
+	font-family:Verdana;
+	font-size:10px;
+	color:Black;
+	width:200;
+	
+}
+.txtbox2
+{
+	background-color:White;
+	border: 1px solid #000000;
+	font-family:Verdana;
+	font-size:10px;
+	color:Black;
+	width:60;
+	
+}
+.txtboxa
+{
+	background-color:White;
+	border: 0px solid #000000;
+	font-family:Verdana;
+	font-size:16px;
+	color:Black;
+	width:auto;
+}
+.textbox1
+{
+	border: 1px solid #000000;
+	font-family: verdana;
+	background-color:Navy;
+	font-size: 10px;
+	color: #000000;
+	height: 16px;
+	width:120px;
+}
+.textbox2
+{
+	border: 1px solid #000000;
+	font-family: verdana;
+	background-color:white;
+	font-size: 10px;
+	color: #000000;
+	height: 16px;
+	width:120px;
+}
+.toprtlink {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.leftbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:#044F88;
+	text-decoration: none;
+}
+A:hover.leftbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:#13629E;
+	text-decoration: underline;
+}
+.bottomlnk {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #949494;
+	text-decoration: underline;
+}
+A:hover.bottomlnk {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color:#666666;
+	text-decoration: none;
+}
+.text {
+	font-family: tahoma;
+	font-size: 12px;
+	color:#333333;
+}
+A.link-link-job{
+	color: #318ECE;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+A.link-link-job:hover{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #666666;
+}
+.repaytxt {
+	font-family: Trebuchet MS, Arial, Courier New;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	border: 1px solid #f7f7f7;
+	background-color: #f7f7f7;
+	height: 18px; 
+}
+
+.whitetext {
+	font-family: tahoma;
+	font-size: 11px;
+	color:#FFFFFF;
+}
+
+.whitetext2
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-family: tahoma;
+}
+
+.UIPASSTEXT
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #2F7BB7;
+	font-family: tahoma;
+}
+
+.text4
+{
+	font-weight: bold;
+	font-size: 14px;
+	color: steelblue;
+	font-style: normal;
+	font-family: Tahoma;
+	font-variant: normal;
+}
+.texttbborder {
+	border: 1px dashed #1B6FB2;
+}
+.signintxtfld {
+	font-family:tahoma;
+	font-size:10px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:90px;
+	height:15px;
+}
+.rtbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:#497DB6;
+	text-decoration: none;
+}
+A:hover.rtbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:##044F88;
+	text-decoration: underline;
+}
+/*	New class add 3 / 11 / 2004					*/
+.text2 {
+	font-family: tahoma;
+	font-size: 12px;
+	color:#1B6FB2;
+}
+/*	New class add 5 / 11 / 2004					*/
+
+.bttext
+{
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color:#004681;
+	text-decoration:none;
+}
+A:hover.bttext
+{
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color:#004681;
+	text-decoration:underline;
+}
+.loginbtbkgd {
+	font-family: tahoma;
+	font-size: 11px;
+	color:#FFFFFF;
+	background-image: url(../images/login_bt_bkgd.jpg);
+	border: 1px solid #76B7FF;
+	width:50px;
+}
+
+
+
+/*	New class add 10 / 11 / 2004					*/
+
+
+.text3
+{
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color:#004681;
+}
+.txtfld3 {
+	background-image: url(../images/mer_reg_txtbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:19px;
+	width:200px;
+}
+.txtfld3a {
+	background-image: url(../images/mer_reg_txtbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:19px;
+	width:384px;
+}
+.bt4
+{
+	background-image:url(../images/mer_reg_btbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:23px;
+	width:200px;
+}
+.txtfld4 {
+	background-color:#81ABD9;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:100px;
+	width:200px;
+	SCROLLBAR-FACE-COLOR:#81ABD9;
+	SCROLLBAR-SHADOW-COLOR: #81ABD9;
+	SCROLLBAR-ARROW-COLOR: #004681;
+}
+.heading
+{
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight:bold;
+	color: #E3F0FF;
+}
+.bt5
+{
+	background-image:url(../images/mer_reg_btbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:23px;
+	width:80px;
+}.sd {
+	border: 1px solid #004681;
+}
+
+ .bt6
+{
+	background-image:url(../images/mer_reg_btbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:23px;
+	width:120px;
+}.sd {
+	border: 1px solid #004681;
+}
+
+
+.div1
+{
+	position:absolute; 
+	left:70px;
+	top:305px; 
+	width:160px;
+	height:370;
+	z-index:1;
+	overflow: auto; 
+	visibility: visible; 
+	SCROLLBAR-FACE-COLOR:#3C73AC;
+	SCROLLBAR-SHADOW-COLOR: #76B7FF;
+	SCROLLBAR-ARROW-COLOR: #76B7FF;
+
+	}
+
+
+.div2
+{
+	position:absolute; 
+	left:240px; 
+	top:300px; 
+	width:725; 
+	Height:100%; 
+	z-index:2; 
+	overflow: auto;
+	SCROLLBAR-FACE-COLOR:#3C73AC;
+	SCROLLBAR-SHADOW-COLOR: #76B7FF;
+	SCROLLBAR-ARROW-COLOR: #76B7FF;
+}
+
+/*  Add new class 3 Dec 2004       */
+
+.inboxtopbar {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 28px;
+	border: 1px solid #004681;
+}
+.inbox2ndbar {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 21px;
+	background-image:url(../images/inbox_2ndtop_bkgd.gif);
+}
+.inboxcentertable
+{
+	background-color:#81ABD9;
+	border-collapse:collapse;
+}
+.inboxcentertabletext
+{
+	font-family:tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:none;
+	height:25px;
+}
+A:hover.inboxcentertabletext
+{
+	font-family:tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:underline;
+	height:25px;
+}
+
+/* Adding new class 28Dec 2004 */
+.heading2 
+{
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #004681;
+}
+
+.err
+{
+	
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: Red;
+}
+
+.err2
+{
+	
+	font-family: tahoma;
+	font-size: 09px;
+	font-weight:bold;
+	color: Red;
+}
+
+/* Adding new class 30Dec 2004 */
+.bt 
+{
+	font-family: tahoma;
+	font-size: 11px;
+/*	font-weight: bold;*/
+	font-style:italic;
+	color: #2F7BB7;
+	text-decoration:none;
+}
+A:hover.bt 
+{
+
+	font-family: tahoma;
+	font-size: 11px;
+	font-style:italic;
+	color: #2F7BB7;
+	text-decoration:underline;
+	/* background-color:#09487C; */
+}
+/* Adding new class 31Dec 2004 */
+.tbl1
+{
+	border-collapse:collapse;
+}
+.txtfld2 {
+	font-family:tahoma;
+	font-size:12px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:200x;
+	height:18px;
+}
+.txtfld5 
+{
+	font-family:tahoma;
+	font-size:12px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:200x;
+	height:50px;
+}
+.txtfld5a
+{
+	font-family:tahoma;
+	font-size:12px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:384px;
+	height:64px;
+}
+.Heading2
+{
+	font-family:tahoma;
+	font-weight:bold;
+	color:#6E6E6E;
+}
+
+.Heading3
+{
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:13px;
+	color:#004681;
+}
+
+/* Adding new class 5 Jan 2005 */
+.tblrowcolor
+{
+	background-color:#4A7EB7	
+}
+.alltable
+{
+	border-collapse:collapse;
+}
+.table2
+{
+	font-family:Verdana;
+	font-size:12px;
+	color:Black;
+}
+
+.text_fild {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.text_field2 {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.new_customermain_text {
+
+
+	font-family: Lucida Grande, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.link_text2 {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.link_text_over {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.text_style1 {
+
+	font-family:  Verdana, sans-serif;
+	font-size: 12px;
+	font-weight:bold; 
+	color: #9CC3DE;
+	text-decoration: none;
+}
+
+.text_style2 {
+
+	font-family: Arial,Verdana, sans-serif;
+	font-size: 12px;
+	color: #777777;
+	text-decoration: none;
+	cursor:hand;
+}
+
+
+
+
+
+A.link_text_over:visited	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+
+	text-decoration:	none;
+	color:	black;
+	}	
+A.link_text_over:link	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+
+	text-decoration:	none;
+	color:	black;
+	}	
+a.link_text_over:hover {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #4173AE;
+	text-decoration: none;
+}
+
+.link_text_overb {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+
+A.link_text_overb:visited	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+
+	text-decoration:	none;
+	color:	black;
+	}	
+A.link_text_overb:link	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	text-decoration:	none;
+	color:	black;
+	}	
+a.link_text_overb:hover {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #4173AE;
+	text-decoration: none;
+}
+
+.link_text_overc {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+.main_headidng
+ {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.main_text {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}
+.headding {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #2F7BB7;
+	font-weight: bold;
+}
+.headding2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #2F7BB7;
+	font-weight: bold;
+}
+.text_box {
+	padding: 0px;
+	height: 16px;
+	width: 100px;
+	border-top: 1px solid #E0E2E3;
+	border-right: 1px solid #E0E2E3;
+	border-bottom: 1px solid #E0E2E3;
+	border-left: 1px solid #E0E2E3;
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.text_box2 {
+	padding: 0px;
+	height: 16px;
+	width: 150px;
+	border-top: 1px solid #E0E2E3;
+	border-right: 1px solid #E0E2E3;
+	border-bottom: 1px solid #E0E2E3;
+	border-left: 1px solid #E0E2E3;
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.text_box2b {
+	padding: 0px;
+	height: 16px;
+	width: 300px;
+	border-top: 1px solid #E0E2E3;
+	border-right: 1px solid #E0E2E3;
+	border-bottom: 1px solid #E0E2E3;
+	border-left: 1px solid #E0E2E3;
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.RED
+	{
+		font-family: verdana;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: bold;
+		color: red;	
+	}
+
+.MBUTTON
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:White ;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #6987a4;
+}
+	
+.acc_mbutton {
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:White ;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #769DC7;
+}
+.acc_mbuttonon {
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:White ;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #8a9cb2;
+}
+.invisible_textbox
+{
+	background-color:White;
+	border: 0px solid #000000;
+	font-family:Verdana;
+	font-size:16px;
+	color:Black;
+	
+	width:1px;
+	height:1px
+}
+.link_text_new
+{
+	font-family:Verdana;
+	font-size:12px;
+	color:Black;
+	text-decoration: none;
+	BORDER-RIGHT: white 1px solid; 
+	BORDER-TOP: white 1px solid; 
+	BORDER-LEFT: white 1px solid; 
+	BORDER-BOTTOM: white 1px solid
+}
+
+#showimage
+{
+	position:absolute;
+	visibility:hidden;
+	border: 1px solid gray;
+}
+
+#dragbar
+{
+	cursor: hand;
+	cursor: pointer;
+	background-color: #EFEFEF;
+	min-width: 100px; /*NS6 style to overcome bug*/
+}
+
+#dragbar #closetext
+{
+	font-weight: bold;
+	margin-right: 1px;
+}
+
+.bt-5b
+{
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+	border:1px solid #3F6FAD;
+	width:80px;
+	text-decoration: none;
+	background-color: #3E70AF;
+	cursor: hand;
+	filter: Alpha(Opacity=100, FinishOpacity=50, Style=1, StartX=0, StartY=100, FinishX=0, FinishY=0);
+	height: 20px;
+}
+.textbox_web {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	height: 22px;
+	width: 300px;
+	border: 1px solid #3E70AF;
+}
+
+.textb_web {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+/* Mappoint control styles */
+
+.mappoint-addresstextbox
+{
+	width: 300px;
+	height: 27px;
+}
+
+
+.mappointimagepanel img
+{
+	
+}
+
+
+.mappoint-searchbutton
+{
+}
+
+#_SearchPanel select
+{
+	left: 100px;
+	position: relative;
+}
+
+div#_SearchPanel input[type="submit"]
+{
+	z-index: 3;
+	left: 500px;
+	color: #6666cc;
+	position: relative;
+}
+/*File Version*/
+.headding2File {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #2F7BB7;
+	font-weight: bold;
+}
+.Loadingtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:Gray; 
+	font-weight: bold;
+}
+.fileversionbutton 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:Gray; 
+	font-weight: bold;
+}
+.fileversionbuttonhover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#2F7BB7; 
+	font-weight: bold;
+}
+.fileNoFound
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#2F7BB7;
+	font-weight: bold;
+}
+.topTrBkgd
+{
+	background-color:#F3F3F3;
+}
+.topTrBkgdHover
+{
+	background-color:#EFEFEF;
+}
+.bottomTrBkgd
+{
+	background-color:#F8F8F8;
+}
+.bottomTrBkgdHover
+{
+	background-color:#FAFAFA;
+}
+.fileHeadingTop
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#2F7BB7;
+	font-weight: bold;
+}
+.fileResultClass
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#5C5C5C;
+}
+.fileSelectOption
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#5C5C5C;
+	font-weight:bold;
+}
+.nohypertext
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nohyperlefbar
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.MAIN {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+}
+.headding {
+	font-family: Tahoma;
+	font-size: 18px;
+	text-decoration: none;
+	color: #0099FF;
+}
+
+
+.textbox2_coupon
+{
+	font-weight: normal;
+	color: #999999;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 20px;
+	width: 150px;
+	text-decoration: none;
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+	list-style-type: circle;
+}
+
+
+.text6b_coupon
+{
+	/*color: #999999;*/
+	color: #444444;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.text12b_coupon{
+	color: #1F8BC9;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.text6bw
+{
+	color: #666666;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+}

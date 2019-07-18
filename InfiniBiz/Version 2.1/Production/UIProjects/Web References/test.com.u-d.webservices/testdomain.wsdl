@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:Universal Domain Services" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:Universal Domain Services" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="urn:Universal Domain Services">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="ArrayOfstring">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="s:string[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ReturnMsg">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="VerifyResult">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="FLAG" type="s:int" />
+          <s:element name="TAILID" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ListOfDomains">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:DomainType[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="DomainType">
+        <s:all>
+          <s:element name="NAME" type="s:string" />
+          <s:element name="TYPE" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="List">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="LIST" type="tns:ListOfDomains" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ListOfEmails">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:EmailType[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="EmailType">
+        <s:all>
+          <s:element name="NAME" type="s:string" />
+          <s:element name="TYPE" type="s:string" />
+          <s:element name="FORWARD" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="AccountInfo">
+        <s:all>
+          <s:element name="EMAILID" type="s:string" />
+          <s:element name="NEWPASSWORD" type="s:string" />
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="DomainDetail">
+        <s:all>
+          <s:element name="domainName" type="s:string" />
+          <s:element name="status" type="s:string" />
+          <s:element name="customerid" type="s:long" />
+          <s:element name="refid" type="s:int" />
+          <s:element name="hosting" type="s:Boolean" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="MemberInfo">
+        <s:all>
+          <s:element name="name" type="s:string" />
+          <s:element name="companyname" type="s:string" />
+          <s:element name="isocode" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="password" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="Domaininfo">
+        <s:all>
+          <s:element name="DOMAINNAME" type="s:string" />
+          <s:element name="FTPPASSWORD" type="s:string" />
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="productDetails">
+        <s:all>
+          <s:element name="code" type="s:byte" />
+          <s:element name="serialno" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="productList">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:productDetails[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="SubDomaininfo">
+        <s:all>
+          <s:element name="SUBDOMAINNAME" type="s:string" />
+          <s:element name="USER" type="s:string" />
+          <s:element name="PASSWORD" type="s:string" />
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="Details">
+        <s:all>
+          <s:element name="NAME" type="s:string" />
+          <s:element name="USER" type="s:string" />
+          <s:element name="PASSWORD" type="s:string" />
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="EmailList">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+          <s:element name="LIST" type="tns:ListOfEmails" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getDomainListRequest">
+    <wsdl:part name="customerid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getDomainListResponse">
+    <wsdl:part name="return" type="tns:List" />
+  </wsdl:message>
+  <wsdl:message name="checkDomainExistRequest">
+    <wsdl:part name="domainName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="checkDomainExistResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="domainAvailableRequest">
+    <wsdl:part name="domainName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="domainAvailableResponse">
+    <wsdl:part name="return" type="s:Boolean" />
+  </wsdl:message>
+  <wsdl:message name="isDomainAvailableRequest">
+    <wsdl:part name="domainName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="isDomainAvailableResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="domainInfoRequest">
+    <wsdl:part name="domainName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="domainInfoResponse">
+    <wsdl:part name="return" type="tns:DomainDetail" />
+  </wsdl:message>
+  <wsdl:message name="regDomainRequest">
+    <wsdl:part name="domainname" type="s:string" />
+    <wsdl:part name="refererid" type="s:int" />
+    <wsdl:part name="companyname" type="s:string" />
+    <wsdl:part name="customerid" type="s:long" />
+    <wsdl:part name="companynumber" type="s:string" />
+    <wsdl:part name="hosting" type="s:Boolean" />
+    <wsdl:part name="memberInfo" type="tns:MemberInfo" />
+  </wsdl:message>
+  <wsdl:message name="regDomainResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="activateProductsRequest">
+    <wsdl:part name="orderno" type="s:decimal" />
+    <wsdl:part name="domaiName" type="s:string" />
+    <wsdl:part name="products" type="tns:ArrayOfstring" />
+  </wsdl:message>
+  <wsdl:message name="activateProductsResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="addtestdomainRequest">
+    <wsdl:part name="domainname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="addtestdomainResponse">
+    <wsdl:part name="return" type="tns:Domaininfo" />
+  </wsdl:message>
+  <wsdl:message name="addHostingRequest">
+    <wsdl:part name="domainName" type="s:string" />
+    <wsdl:part name="years" type="s:int" />
+    <wsdl:part name="quota" type="s:int" />
+    <wsdl:part name="customerid" type="s:long" />
+    <wsdl:part name="refererid" type="s:int" />
+  </wsdl:message>
+  <wsdl:message name="addHostingResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="renewDomainRequest">
+    <wsdl:part name="domainName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="renewDomainResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="renewHostingRequest">
+    <wsdl:part name="domainName" type="s:string" />
+    <wsdl:part name="years" type="s:int" />
+  </wsdl:message>
+  <wsdl:message name="renewHostingResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="renewProductsRequest">
+    <wsdl:part name="orderno" type="s:decimal" />
+    <wsdl:part name="domaiName" type="s:string" />
+    <wsdl:part name="products" type="tns:ArrayOfstring" />
+  </wsdl:message>
+  <wsdl:message name="renewProductsResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="deleteDomainRequest">
+    <wsdl:part name="domainName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteDomainResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="deleteHostingRequest">
+    <wsdl:part name="domainName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteHostingResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="deleteProductsRequest">
+    <wsdl:part name="domaiName" type="s:string" />
+    <wsdl:part name="products" type="tns:ArrayOfstring" />
+  </wsdl:message>
+  <wsdl:message name="deleteProductsResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="unsubscribeProductsRequest">
+    <wsdl:part name="entityid" type="s:string" />
+    <wsdl:part name="products" type="tns:productList" />
+  </wsdl:message>
+  <wsdl:message name="unsubscribeProductsResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="deleteOrderRequest">
+    <wsdl:part name="orderno" type="s:decimal" />
+  </wsdl:message>
+  <wsdl:message name="deleteOrderResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="addUserRequest">
+    <wsdl:part name="name" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="description" type="s:string" />
+    <wsdl:part name="olduser" type="s:Boolean" />
+  </wsdl:message>
+  <wsdl:message name="addUserResponse">
+    <wsdl:part name="return" type="tns:Details" />
+  </wsdl:message>
+  <wsdl:message name="addSubDomainRequest">
+    <wsdl:part name="customerid" type="s:string" />
+    <wsdl:part name="domainName" type="s:string" />
+    <wsdl:part name="hostname" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="hosting" type="s:Boolean" />
+    <wsdl:part name="months" type="s:int" />
+    <wsdl:part name="description" type="s:string" />
+    <wsdl:part name="oldCustomer" type="s:Boolean" />
+  </wsdl:message>
+  <wsdl:message name="addSubDomainResponse">
+    <wsdl:part name="return" type="tns:SubDomaininfo" />
+  </wsdl:message>
+  <wsdl:message name="addSubdomainUserRequest">
+    <wsdl:part name="subdomain" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="olduser" type="s:Boolean" />
+  </wsdl:message>
+  <wsdl:message name="addSubdomainUserResponse">
+    <wsdl:part name="return" type="tns:SubDomaininfo" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserRequest">
+    <wsdl:part name="emailid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteUserResponse">
+    <wsdl:part name="return" type="tns:Details" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubDomainRequest">
+    <wsdl:part name="domainName" type="s:string" />
+    <wsdl:part name="hostname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubDomainResponse">
+    <wsdl:part name="return" type="tns:SubDomaininfo" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubdomainUserRequest">
+    <wsdl:part name="subdomain" type="s:string" />
+    <wsdl:part name="username" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteSubdomainUserResponse">
+    <wsdl:part name="return" type="tns:SubDomaininfo" />
+  </wsdl:message>
+  <wsdl:message name="IsSubDomainAvailableRequest">
+    <wsdl:part name="subdomain" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="IsSubDomainAvailableResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="getEmailListRequest">
+    <wsdl:part name="domainname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getEmailListResponse">
+    <wsdl:part name="return" type="tns:EmailList" />
+  </wsdl:message>
+  <wsdl:message name="verifyEmailidRequest">
+    <wsdl:part name="emailid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="verifyEmailidResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="SetAccountPasswordRequest">
+    <wsdl:part name="emailid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetAccountPasswordResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="VerifyAccountRequest">
+    <wsdl:part name="emailid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerifyAccountResponse">
+    <wsdl:part name="return" type="tns:VerifyResult" />
+  </wsdl:message>
+  <wsdl:message name="ModifyAccountPasswordRequest">
+    <wsdl:part name="emailid" type="s:string" />
+    <wsdl:part name="newpassword" type="s:string" />
+    <wsdl:part name="oldpassword" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ModifyAccountPasswordResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="addEmailForwardRequest">
+    <wsdl:part name="userid" type="s:string" />
+    <wsdl:part name="domainname" type="s:string" />
+    <wsdl:part name="forwardto" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="addEmailForwardResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:message name="deleteEmailAccountRequest">
+    <wsdl:part name="emailid" type="s:string" />
+    <wsdl:part name="domainname" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteEmailAccountResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:portType name="Universal_x0020_Domain_x0020__x0020_ServicesPortType">
+    <wsdl:operation name="getDomainList">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Returns the list of domains</documentation>
+      <wsdl:input message="tns:getDomainListRequest" />
+      <wsdl:output message="tns:getDomainListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="checkDomainExist">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check domain status</documentation>
+      <wsdl:input message="tns:checkDomainExistRequest" />
+      <wsdl:output message="tns:checkDomainExistResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="domainAvailable">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check domain availability</documentation>
+      <wsdl:input message="tns:domainAvailableRequest" />
+      <wsdl:output message="tns:domainAvailableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="isDomainAvailable">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check domain availability</documentation>
+      <wsdl:input message="tns:isDomainAvailableRequest" />
+      <wsdl:output message="tns:isDomainAvailableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="domainInfo">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check domain status</documentation>
+      <wsdl:input message="tns:domainInfoRequest" />
+      <wsdl:output message="tns:domainInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="regDomain">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Adding a domain for registration</documentation>
+      <wsdl:input message="tns:regDomainRequest" />
+      <wsdl:output message="tns:regDomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="activateProducts">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Let UD know about order completion</documentation>
+      <wsdl:input message="tns:activateProductsRequest" />
+      <wsdl:output message="tns:activateProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addtestdomain">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Adds a test domain in the system for infinishops</documentation>
+      <wsdl:input message="tns:addtestdomainRequest" />
+      <wsdl:output message="tns:addtestdomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addHosting">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Adding hosting for a domain</documentation>
+      <wsdl:input message="tns:addHostingRequest" />
+      <wsdl:output message="tns:addHostingResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="renewDomain">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Renew domain request</documentation>
+      <wsdl:input message="tns:renewDomainRequest" />
+      <wsdl:output message="tns:renewDomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="renewHosting">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Renew hosting request</documentation>
+      <wsdl:input message="tns:renewHostingRequest" />
+      <wsdl:output message="tns:renewHostingResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="renewProducts">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This will update products Info</documentation>
+      <wsdl:input message="tns:renewProductsRequest" />
+      <wsdl:output message="tns:renewProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteDomain">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Delete a domain</documentation>
+      <wsdl:input message="tns:deleteDomainRequest" />
+      <wsdl:output message="tns:deleteDomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteHosting">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Delete hosting for a domain</documentation>
+      <wsdl:input message="tns:deleteHostingRequest" />
+      <wsdl:output message="tns:deleteHostingResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteProducts">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This will delete product from the system</documentation>
+      <wsdl:input message="tns:deleteProductsRequest" />
+      <wsdl:output message="tns:deleteProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="unsubscribeProducts">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This will unsubscribe products in case of expiry.</documentation>
+      <wsdl:input message="tns:unsubscribeProductsRequest" />
+      <wsdl:output message="tns:unsubscribeProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteOrder">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">This will delete order from UD database</documentation>
+      <wsdl:input message="tns:deleteOrderRequest" />
+      <wsdl:output message="tns:deleteOrderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Adds subdomain and domain users i.e emails</documentation>
+      <wsdl:input message="tns:addUserRequest" />
+      <wsdl:output message="tns:addUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addSubDomain">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Adds subdomain name</documentation>
+      <wsdl:input message="tns:addSubDomainRequest" />
+      <wsdl:output message="tns:addSubDomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addSubdomainUser">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check subdomain availability</documentation>
+      <wsdl:input message="tns:addSubdomainUserRequest" />
+      <wsdl:output message="tns:addSubdomainUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">deletes subdomain and domain users i.e emails</documentation>
+      <wsdl:input message="tns:deleteUserRequest" />
+      <wsdl:output message="tns:deleteUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubDomain">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Deletes subdomain name</documentation>
+      <wsdl:input message="tns:deleteSubDomainRequest" />
+      <wsdl:output message="tns:deleteSubDomainResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubdomainUser">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check subdomain availability</documentation>
+      <wsdl:input message="tns:deleteSubdomainUserRequest" />
+      <wsdl:output message="tns:deleteSubdomainUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="IsSubDomainAvailable">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Check subdomain availability</documentation>
+      <wsdl:input message="tns:IsSubDomainAvailableRequest" />
+      <wsdl:output message="tns:IsSubDomainAvailableResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getEmailList">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Returns the list of email accounts</documentation>
+      <wsdl:input message="tns:getEmailListRequest" />
+      <wsdl:output message="tns:getEmailListResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyEmailid">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Authenticates email address</documentation>
+      <wsdl:input message="tns:verifyEmailidRequest" />
+      <wsdl:output message="tns:verifyEmailidResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetAccountPassword">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">sets email account password</documentation>
+      <wsdl:input message="tns:SetAccountPasswordRequest" />
+      <wsdl:output message="tns:SetAccountPasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyAccount">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">veryfies the head against tail.. and tail against tail.</documentation>
+      <wsdl:input message="tns:VerifyAccountRequest" />
+      <wsdl:output message="tns:VerifyAccountResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyAccountPassword">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">modifies email account password</documentation>
+      <wsdl:input message="tns:ModifyAccountPasswordRequest" />
+      <wsdl:output message="tns:ModifyAccountPasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addEmailForward">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add a forwarding account</documentation>
+      <wsdl:input message="tns:addEmailForwardRequest" />
+      <wsdl:output message="tns:addEmailForwardResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteEmailAccount">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Delete email account</documentation>
+      <wsdl:input message="tns:deleteEmailAccountRequest" />
+      <wsdl:output message="tns:deleteEmailAccountResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Universal_x0020_Domain_x0020__x0020_ServicesBinding" type="tns:Universal_x0020_Domain_x0020__x0020_ServicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getDomainList">
+      <soap:operation soapAction="urn:Universal Domain  Services#getDomainList" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="checkDomainExist">
+      <soap:operation soapAction="urn:Universal Domain  Services#checkDomainExist" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="domainAvailable">
+      <soap:operation soapAction="urn:Universal Domain  Services#domainAvailable" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isDomainAvailable">
+      <soap:operation soapAction="urn:Universal Domain  Services#IsSubDomainAvailable" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="domainInfo">
+      <soap:operation soapAction="urn:Universal Domain  Services#domainInfo" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="regDomain">
+      <soap:operation soapAction="urn:Universal Domain  Services#regDomain" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="activateProducts">
+      <soap:operation soapAction="urn:Universal Domain  Services#activateProduct" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addtestdomain">
+      <soap:operation soapAction="urn:Universal Domain  Services#addtestdomain" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addHosting">
+      <soap:operation soapAction="urn:Universal Domain  Services#addHosting" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="renewDomain">
+      <soap:operation soapAction="urn:Universal Domain  Services#renewDomain" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="renewHosting">
+      <soap:operation soapAction="urn:Universal Domain  Services#renewHosting" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="renewProducts">
+      <soap:operation soapAction="urn:Universal Domain  Services#renewProducts" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteDomain">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteDomain" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteHosting">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteHosting" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteProducts">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteProducts" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="unsubscribeProducts">
+      <soap:operation soapAction="urn:Universal Domain  Services#unsubscribeProducts" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteOrder">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteOrder" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addUser">
+      <soap:operation soapAction="urn:Universal Domain  Services#addUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addSubDomain">
+      <soap:operation soapAction="urn:Universal Domain  Services#addSubDomain" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addSubdomainUser">
+      <soap:operation soapAction="urn:Universal Domain  Services#addSubdomainUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteUser">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubDomain">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteSubDomain" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteSubdomainUser">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteSubdomainUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsSubDomainAvailable">
+      <soap:operation soapAction="urn:Universal Domain  Services#IsSubDomainAvailable" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEmailList">
+      <soap:operation soapAction="urn:Universal Domain  Services#getMailList" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyEmailid">
+      <soap:operation soapAction="urn:Universal Domain  Services#validateEmail" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetAccountPassword">
+      <soap:operation soapAction="urn:Universal Domain  Services#SetAccountPassword" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyAccount">
+      <soap:operation soapAction="urn:Universal Domain  Services#VerifyAccount" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyAccountPassword">
+      <soap:operation soapAction="urn:Universal Domain  Services#ModifyAccountPassword" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addEmailForward">
+      <soap:operation soapAction="urn:Universal Domain  Services#addEmailForward" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteEmailAccount">
+      <soap:operation soapAction="urn:Universal Domain  Services#deleteEmailAccount" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:Universal Domain  Services" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Universal_x0020_Domain_x0020__x0020_Services">
+    <wsdl:port name="Universal_x0020_Domain_x0020__x0020_ServicesPort" binding="tns:Universal_x0020_Domain_x0020__x0020_ServicesBinding">
+      <soap:address location="http://webservices.u-d.com/test-domain.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

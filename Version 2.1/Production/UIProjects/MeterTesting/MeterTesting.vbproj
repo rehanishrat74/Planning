@@ -1,0 +1,309 @@
+<VisualStudioProject>
+    <VisualBasic
+        ProjectType = "Web"
+        ProductVersion = "7.10.6030"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{E2754194-B816-4F6F-BEFA-EB61F93581E6}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "MeterTesting"
+                AssemblyOriginatorKeyFile = ""
+                AssemblyOriginatorKeyMode = "None"
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                OptionCompare = "Binary"
+                OptionExplicit = "On"
+                OptionStrict = "Off"
+                RootNamespace = "MeterTesting"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    DebugSymbols = "true"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = ""
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    DebugSymbols = "false"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "1"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                />
+                <Reference
+                    Name = "InfiniLogic.AccountsCentre.Common"
+                    AssemblyName = "InfiniLogic.AccountsCentre.Common"
+                    HintPath = "bin\InfiniLogic.AccountsCentre.Common.dll"
+                />
+                <Reference
+                    Name = "InfiniLogic.AccountsCentre.BLL"
+                    AssemblyName = "InfiniLogic.AccountsCentre.BLL"
+                    HintPath = "bin\InfiniLogic.AccountsCentre.BLL.dll"
+                />
+                <Reference
+                    Name = "InfiniLogic.AccountsCentre.DAL"
+                    AssemblyName = "InfiniLogic.AccountsCentre.DAL"
+                    HintPath = "bin\InfiniLogic.AccountsCentre.DAL.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "Accessibility"
+                    AssemblyName = "Accessibility"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\Accessibility.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Serialization.Formatters.Soap"
+                    AssemblyName = "System.Runtime.Serialization.Formatters.Soap"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.Runtime.Serialization.Formatters.Soap.dll"
+                />
+                <Reference
+                    Name = "flashgateway"
+                    AssemblyName = "flashgateway"
+                    HintPath = "bin\flashgateway.dll"
+                />
+                <Reference
+                    Name = "BPlan.BLL"
+                    Project = "{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "BPlan.Common"
+                    Project = "{EDA7315E-16D1-499F-96A4-D261FCD45C0E}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "BPlan.DAL"
+                    Project = "{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "BizPlan.Web.Common"
+                    Project = "{CAF9560E-CD55-4C32-BA30-A74137111B7F}"
+                    Package = "{F184B08F-C81C-45F6-A57F-5ABD9991F28F}"
+                />
+                <Reference
+                    Name = "InfiniLogic.DAL"
+                    AssemblyName = "InfiniLogic.DAL"
+                    HintPath = "bin\InfiniLogic.DAL.dll"
+                />
+                <Reference
+                    Name = "MagicAjax"
+                    AssemblyName = "MagicAjax"
+                    HintPath = "bin\MagicAjax.dll"
+                />
+                <Reference
+                    Name = "ExceptionFormatter2"
+                    AssemblyName = "ExceptionFormatter2"
+                    HintPath = "bin\ExceptionFormatter2.dll"
+                />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.Services" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "ActuallSpeedOMeter.fla"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "ActuallSpeedOMeter.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.vb"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DeviationScale.fla"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "DeviationScale.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Global.asax.vb"
+                    DependentUpon = "Global.asax"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Global.asax.resx"
+                    DependentUpon = "Global.asax.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MeterViewService.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "MeterViewService.asmx.vb"
+                    DependentUpon = "MeterViewService.asmx"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "MeterViewService.asmx.resx"
+                    DependentUpon = "MeterViewService.asmx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "MultipleProductsGraph.fla"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "MultipleProductsGraph.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service1.asmx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Service1.asmx.vb"
+                    DependentUpon = "Service1.asmx"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Service1.asmx.resx"
+                    DependentUpon = "Service1.asmx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Speed-o-Meter.fla"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "Speed-o-Meter.swf"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Web.config"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.vb"
+                    DependentUpon = "WebForm1.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "WebForm1.aspx.resx"
+                    DependentUpon = "WebForm1.aspx.vb"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "bin\flash.log"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "bin\flashgateway.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\InfiniLogic.AccountsCentre.BLL.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\InfiniLogic.AccountsCentre.Common.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "bin\InfiniLogic.AccountsCentre.DAL.dll"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "FlashPackages\ActualSpeedoMeter.as"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "FlashPackages\DeviationScale.as"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "FlashPackages\MultipleProductsGraph.as"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "FlashPackages\SpeedOMeter.as"
+                    BuildAction = "None"
+                />
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>
+

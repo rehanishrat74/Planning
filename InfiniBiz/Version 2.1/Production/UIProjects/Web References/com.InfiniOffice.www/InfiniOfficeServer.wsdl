@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://soapinterop.org/xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:InfiniOfficeServer" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:InfiniOfficeServer" name="InfiniOfficeServer" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://soapinterop.org/xsd">
+      <s:complexType name="ResultSet">
+        <s:all>
+          <s:element name="code" type="s:string" />
+          <s:element name="desc" type="s:string" />
+          <s:element name="sid" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ActivateIOProductsRequest">
+    <wsdl:part name="customerid" type="s:string" />
+    <wsdl:part name="companyname" type="s:string" />
+    <wsdl:part name="productlist" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="ActivateIOProductsResponse">
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="DisableIOProductsRequest">
+    <wsdl:part name="customerid" type="s:string" />
+    <wsdl:part name="companyname" type="s:string" />
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="DisableIOProductsResponse">
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="RenewIOProductsRequest">
+    <wsdl:part name="customerid" type="s:string" />
+    <wsdl:part name="companyname" type="s:string" />
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="RenewIOProductsResponse">
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCompanyRequest">
+    <wsdl:part name="customerid" type="s:string" />
+    <wsdl:part name="companyname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteCompanyResponse">
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="GetCompanyDetailsRequest">
+    <wsdl:part name="customerid" type="s:string" />
+    <wsdl:part name="companyname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCompanyDetailsResponse">
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="CreateCompanyRequest">
+    <wsdl:part name="customerid" type="s:string" />
+    <wsdl:part name="companyname" type="s:string" />
+    <wsdl:part name="domainname" type="s:string" />
+    <wsdl:part name="package" type="s:string" />
+    <wsdl:part name="usesubdomain" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateCompanyResponse">
+    <wsdl:part name="0" type="s:Array" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateUserRequest">
+    <wsdl:part name="user" type="s:string" />
+    <wsdl:part name="pw" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AuthenticateUserResponse">
+    <wsdl:part name="result" type="s0:ResultSet" />
+  </wsdl:message>
+  <wsdl:portType name="InfiniOfficeServerPort">
+    <wsdl:operation name="ActivateIOProducts">
+      <wsdl:input message="tns:ActivateIOProductsRequest" />
+      <wsdl:output message="tns:ActivateIOProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DisableIOProducts">
+      <wsdl:input message="tns:DisableIOProductsRequest" />
+      <wsdl:output message="tns:DisableIOProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="RenewIOProducts">
+      <wsdl:input message="tns:RenewIOProductsRequest" />
+      <wsdl:output message="tns:RenewIOProductsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCompany">
+      <wsdl:input message="tns:DeleteCompanyRequest" />
+      <wsdl:output message="tns:DeleteCompanyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanyDetails">
+      <wsdl:input message="tns:GetCompanyDetailsRequest" />
+      <wsdl:output message="tns:GetCompanyDetailsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCompany">
+      <wsdl:input message="tns:CreateCompanyRequest" />
+      <wsdl:output message="tns:CreateCompanyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateUser">
+      <wsdl:input message="tns:AuthenticateUserRequest" />
+      <wsdl:output message="tns:AuthenticateUserResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="InfiniOfficeServerBinding" type="tns:InfiniOfficeServerPort">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="ActivateIOProducts">
+      <soap:operation soapAction="urn:CompanyService#companyservice#ActivateIOProducts" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DisableIOProducts">
+      <soap:operation soapAction="urn:CompanyService#companyservice#DisableIOProducts" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RenewIOProducts">
+      <soap:operation soapAction="urn:CompanyService#companyservice#RenewIOProducts" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteCompany">
+      <soap:operation soapAction="urn:CompanyService#companyservice#DeleteCompany" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanyDetails">
+      <soap:operation soapAction="urn:CompanyService#companyservice#GetCompanyDetails" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCompany">
+      <soap:operation soapAction="urn:CompanyService#companyservice#CreateCompany" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CompanyService" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateUser">
+      <soap:operation soapAction="urn:AuthenticateClass#authenticateclass#AuthenticateUser" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:AuthenticateClass" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:AuthenticateClass" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="InfiniOfficeServerService">
+    <documentation xmlns="http://schemas.xmlsoap.org/wsdl/" />
+    <wsdl:port name="InfiniOfficeServerPort" binding="tns:InfiniOfficeServerBinding">
+      <soap:address location="http://www.centre.biz/webservices/soap/webservices.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

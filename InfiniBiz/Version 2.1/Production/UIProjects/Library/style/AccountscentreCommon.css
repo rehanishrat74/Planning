@@ -1,0 +1,337 @@
+.IBIZ_GridView
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+.IBIZ_GridView_Header
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	background-color: #f5f5f5;
+	color: #333333;
+}
+
+
+.acc_leftbar_bg
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ff336699' , EndColorStr= '#90336699' );
+}
+
+
+BODY {
+	scrollbar-3dlight-color : #EDEDED;
+	scrollbar-arrow-color : #EDEDED;
+	scrollbar-base-color : #CFCFCF;
+	scrollbar-darkshadow-color :#CFCFCF;
+	scrollbar-face-color : #CFCFCF;
+	scrollbar-highlight-color : #EDEDED;
+	scrollbar-shadow-color : #EDEDED;
+	scrollbar-track-color : #CDCDCD;
+	background-color:#ffffff;
+	background:'';
+}
+
+.acc_outerborder
+{
+	border-right: #7baee3 1px solid;
+	border-top: #7baee3 1px solid;
+	border-left: #7baee3 1px solid;
+	border-bottom: #7baee3 1px solid;
+}
+
+.acc_left-bar-main-link
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #003366;
+	font-family: verdana;
+	letter-spacing: 0pt;
+	border: 1px solid #5588BB;
+	text-decoration : none;
+}
+
+.acc_left-bar-main-anchorcolor
+{
+	border-right: #5588bb 0px solid;
+	border-top: #5588bb 0px solid;
+	font-weight: bold;
+	font-size: 9pt;
+	border-left: #5588bb 0px solid;
+	color: #003366;
+	border-bottom: #5588bb 0px solid;
+	font-family: verdana;
+	letter-spacing: 0pt;
+	text-decoration: none;
+}
+
+.acc_left-bar-links
+{
+	font-size: 8.5pt;
+	color: black;
+	font-family: verdana;
+	text-decoration: none;
+}
+
+.acc_error_heading
+{
+	font-weight: bold;
+	font-size: 15pt;
+	color: black;
+	font-family: tahoma;
+	text-decoration: none;
+}
+
+.rss_error_text
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: red;
+	font-family: verdana;
+	text-decoration: none;
+}
+
+.acc_error_text
+{
+	font-weight: normal;
+	font-size: 9pt;
+	color: red;
+	font-family: verdana;
+	text-decoration: none;
+	border:	1px solid #D6D3D3;
+}
+
+.text-outerborder-White_background
+{
+	
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: Black;
+	border-right: #D6D3D3 1px solid;
+	border-top: #D6D3D3 1px solid;
+	border-left: #D6D3D3 1px solid;
+	border-bottom: #D6D3D3 1px solid;
+	background-color:White;
+}
+
+
+.acc_text-outerborder-light_blue_background
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffF2F6FA' , EndColorStr= '#ffffffff' );
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	border-right: #dddddd 1px solid;
+	border-top: #dddddd 1px solid;
+	border-left: #dddddd 1px solid;
+	border-bottom: #dddddd 1px solid;
+	background-color: #f3f3f3;
+}
+
+.acc_mbutton {
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:black ;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #F3F3F3;
+}
+.acc_mbuttonon {
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:black;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #F3F3F3;
+}
+
+.CONTENT
+{
+	font-family: Verdana;
+	font-size:	11;		
+	text-decoration:	none;
+	word-spacing:	normal;
+	letter-spacing:	normal;
+	text-transform:	none;	
+	color: Black;
+}
+
+.acc_text
+{
+	font-weight: normal;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: Black; 
+}
+.acc_heading
+{
+	font-weight: bold;
+	font-size: 10pt;
+	color: #336699;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+
+.acc_subheading
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.acc_header_background
+{
+	background-color: #dddddd;
+	
+}
+.acc_header_text
+{
+	color:black;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+}
+.acc_header_backgrounds
+{
+	background-color: #F3F3F3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:black ;
+	font-size: 11px;
+	font-weight: bold;
+}
+.link_text {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: Black;
+	text-decoration: none;
+}
+.link_text_over {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.text-outerborder-White_background-No_Border
+{
+	
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: Black;
+	background-color:White;
+}
+
+a.IBIZ_Link
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#3E3E3E;
+	text-decoration:none;
+	height:15px;
+	/*
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C6DB5;
+	text-decoration: none;
+	*/
+}
+a:hover.IBIZ_Link
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#3E3E3E;	
+	text-decoration:none;
+	width:100%;
+	height:15px;
+	background-color:#F3F3F3;	
+	/*	
+	font-family: Verdana,Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: Orange;
+	text-decoration: none;
+	*/
+}
+
+#hintbox{
+position:absolute;
+top: 0;
+background-color: #F3F3F3;
+width: 150px; /*Default width of hint.*/ 
+padding: 3px;
+border:1px solid black;
+font:normal 11px Verdana;
+line-height:18px;
+z-index:100;
+border-right: 2px solid black;
+border-bottom: 2px solid black;
+visibility: hidden;
+}
+
+.hintanchor{
+font-weight: bold;
+color: navy;
+margin: 3px 8px;
+}
+
+.waitBox {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	visibility:hidden;
+	filter: alpha (opacity=60);
+	width:100%;
+	height:expression(document.body.parentNode.scrollHeight);
+	font-size: 11px;
+	font-weight: normal;
+	color: Black;	            
+	border-right: #D6D3D3 3px solid;
+	border-top: #D6D3D3 3px solid;
+	border-left: #D6D3D3 3px solid;
+	border-bottom: #D6D3D3 3px solid;
+	background-color:#f3f3f3;
+}
+
+.innerWaitBox
+{
+	visibility:hidden;
+	position: absolute;
+	top: expression((document.body.parentNode.scrollHeight/2)-30);
+	left: expression((screen.width/2)-175);
+	width:350px;
+	height:60px;
+	background-color:#FFFFFF;
+	border-right: #D6D3D3 2px solid;
+	border-top: #D6D3D3 2px solid;
+	border-left: #D6D3D3 2px solid;
+	border-bottom: #D6D3D3 2px solid;
+}
+
+.MTBOX{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-decoration: none;
+	width:"95%";
+}
+.ACText
+{
+	text-decoration: none;
+	width:"60%";
+}

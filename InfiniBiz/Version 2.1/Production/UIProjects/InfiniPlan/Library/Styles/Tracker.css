@@ -1,0 +1,2809 @@
+.TrackerCss
+{
+  	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 100%;
+	height:250px;
+	overflow: auto;
+   vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+ }
+
+.UserHistory
+{
+ 	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 500px;
+	height:190px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+	height:25px;
+	font-family:Arial,sans-serif;
+	color:#777777;
+	font-size:9.0pt;
+ 	cursor:hand;
+}
+
+.UserDetail
+{
+ 	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 500px;
+	height:250px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+BODY 
+{
+	/*scrollbar-dlight-color : #EDEDED;*/
+	scrollbar-arrow-color : #EDEDED;
+	scrollbar-base-color : #CFCFCF;
+	scrollbar-darkshadow-color :#CFCFCF;
+	scrollbar-face-color : #CFCFCF;
+	scrollbar-highlight-color : #EDEDED;
+	scrollbar-shadow-color : #EDEDED;
+	scrollbar-track-color : #CDCDCD;
+
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.PaymentInforForm { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/next.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+	
+	.CouponVerify { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/verify.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+	
+	.CouponContinue { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/continue.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+	
+.PaymentInforForm_next { /* font-size: 10px; color: black; font-family: verdana;*/
+	background-image:url(../images/next.jpg);
+	height:25px;
+	font-family:verdana;
+	color:#424542;
+	font-size:12px;
+	border: 0px solid #231F20;
+	width:107px;
+	cursor:hand;
+	}
+
+	
+.PaymentInforFormBar 
+{ 
+	font-weight: bold; font-size: 10px; width: 15px; color: black; font-family: verdana; height: 15px; background-color: lightsteelblue;
+}
+
+.PaymentInforFormBarrepay 
+{ 
+	font-weight: none; font-size: 13px; width: 15px; color: black; font-family: Trebuchet MS, Arial, Courier New; height: 15px; background-color: #f7f7f7;
+}
+
+.txtbox
+{
+	background-color:White;
+	border: 1px solid #000000;
+	font-family:Verdana;
+	font-size:10px;
+	color:Black;
+	width:200;
+	
+}
+.txtbox2
+{
+	background-color:White;
+	border: 1px solid #000000;
+	font-family:Verdana;
+	font-size:10px;
+	color:Black;
+	width:60;
+	
+}
+.txtboxa
+{
+	background-color:White;
+	border: 0px solid #000000;
+	font-family:Verdana;
+	font-size:16px;
+	color:Black;
+	width:auto;
+}
+.textbox1
+{
+	border: 1px solid #000000;
+	font-family: verdana;
+	background-color:Navy;
+	font-size: 10px;
+	color: #000000;
+	height: 16px;
+	width:120px;
+}
+.textbox2
+{
+	border: 1px solid #000000;
+	font-family: verdana;
+	background-color:white;
+	font-size: 10px;
+	color: #000000;
+	height: 16px;
+	width:120px;
+}
+.toprtlink {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.leftbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:#044F88;
+	text-decoration: none;
+}
+A:hover.leftbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:#13629E;
+	text-decoration: underline;
+}
+.bottomlnk {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color: #949494;
+	text-decoration: underline;
+}
+A:hover.bottomlnk {
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight: bold;
+	color:#666666;
+	text-decoration: none;
+}
+.text {
+	font-family: tahoma;
+	font-size: 12px;
+	color:#333333;
+}
+A.link-link-job{
+	color: #318ECE;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+A.link-link-job:hover{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #666666;
+}
+.repaytxt {
+	font-family: Trebuchet MS, Arial, Courier New;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	border: 1px solid #f7f7f7;
+	background-color: #f7f7f7;
+	height: 18px; 
+}
+
+.whitetext {
+	font-family: tahoma;
+	font-size: 11px;
+	color:#FFFFFF;
+}
+
+.whitetext2
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-family: tahoma;
+}
+
+.UIPASSTEXT
+{
+	font-weight: bold;
+	font-size: 12px;
+	color: #2F7BB7;
+	font-family: tahoma;
+}
+
+.text4
+{
+	font-weight: bold;
+	font-size: 14px;
+	color: steelblue;
+	font-style: normal;
+	font-family: Tahoma;
+	font-variant: normal;
+}
+.texttbborder {
+	border: 1px dashed #1B6FB2;
+}
+.signintxtfld {
+	font-family:tahoma;
+	font-size:10px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:90px;
+	height:15px;
+}
+.rtbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:#497DB6;
+	text-decoration: none;
+}
+A:hover.rtbarlnk {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color:##044F88;
+	text-decoration: underline;
+}
+/*	New class add 3 / 11 / 2004					*/
+.text2 {
+	font-family: tahoma;
+	font-size: 12px;
+	color:#1B6FB2;
+}
+/*	New class add 5 / 11 / 2004					*/
+
+.bttext
+{
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color:#004681;
+	text-decoration:none;
+}
+A:hover.bttext
+{
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color:#004681;
+	text-decoration:underline;
+}
+.loginbtbkgd {
+	font-family: tahoma;
+	font-size: 11px;
+	color:#FFFFFF;
+	background-image: url(../images/login_bt_bkgd.jpg);
+	border: 1px solid #76B7FF;
+	width:50px;
+}
+
+
+
+/*	New class add 10 / 11 / 2004					*/
+
+
+.text3
+{
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color:#004681;
+}
+.txtfld3 {
+	background-image: url(../images/mer_reg_txtbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:19px;
+	width:200px;
+}
+.txtfld3a {
+	background-image: url(../images/mer_reg_txtbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:19px;
+	width:384px;
+}
+.bt4
+{
+	background-image:url(../images/mer_reg_btbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:23px;
+	width:200px;
+}
+.txtfld4 {
+	background-color:#81ABD9;
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: normal;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:100px;
+	width:200px;
+	SCROLLBAR-FACE-COLOR:#81ABD9;
+	SCROLLBAR-SHADOW-COLOR: #81ABD9;
+	SCROLLBAR-ARROW-COLOR: #004681;
+}
+.heading
+{
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight:bold;
+	color: #E3F0FF;
+}
+.bt5
+{
+	background-image:url(../images/mer_reg_btbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:23px;
+	width:80px;
+}.sd {
+	border: 1px solid #004681;
+}
+
+ .bt6
+{
+	background-image:url(../images/mer_reg_btbkgd.jpg);
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: #E3F0FF;
+	border:1px solid #004681;
+	height:23px;
+	width:120px;
+}.sd {
+	border: 1px solid #004681;
+}
+
+
+.div1
+{
+	position:absolute; 
+	left:70px;
+	top:305px; 
+	width:160px;
+	height:370;
+	z-index:1;
+	overflow: auto; 
+	visibility: visible; 
+	SCROLLBAR-FACE-COLOR:#3C73AC;
+	SCROLLBAR-SHADOW-COLOR: #76B7FF;
+	SCROLLBAR-ARROW-COLOR: #76B7FF;
+
+	}
+
+
+.div2
+{
+	position:absolute; 
+	left:240px; 
+	top:300px; 
+	width:725; 
+	Height:100%; 
+	z-index:2; 
+	overflow: auto;
+	SCROLLBAR-FACE-COLOR:#3C73AC;
+	SCROLLBAR-SHADOW-COLOR: #76B7FF;
+	SCROLLBAR-ARROW-COLOR: #76B7FF;
+}
+
+/*  Add new class 3 Dec 2004       */
+
+.inboxtopbar {
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	height: 28px;
+	border: 1px solid #004681;
+}
+.inbox2ndbar {
+	font-family: tahoma;
+	font-size: 12px;
+	color: #FFFFFF;
+	height: 21px;
+	background-image:url(../images/inbox_2ndtop_bkgd.gif);
+}
+.inboxcentertable
+{
+	background-color:#81ABD9;
+	border-collapse:collapse;
+}
+.inboxcentertabletext
+{
+	font-family:tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:none;
+	height:25px;
+}
+A:hover.inboxcentertabletext
+{
+	font-family:tahoma;
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:underline;
+	height:25px;
+}
+
+/* Adding new class 28Dec 2004 */
+.heading2 
+{
+	font-family: tahoma;
+	font-size: 14px;
+	font-weight: bold;
+	color: #004681;
+}
+
+.err
+{
+	
+	font-family: tahoma;
+	font-size: 12px;
+	font-weight:bold;
+	color: Red;
+}
+
+.err2
+{
+	
+	font-family: tahoma;
+	font-size: 09px;
+	font-weight:bold;
+	color: Red;
+}
+
+/* Adding new class 30Dec 2004 */
+.bt 
+{
+	font-family: tahoma;
+	font-size: 11px;
+/*	font-weight: bold;*/
+	font-style:italic;
+	color: #2F7BB7;
+	text-decoration:none;
+}
+A:hover.bt 
+{
+
+	font-family: tahoma;
+	font-size: 11px;
+	font-style:italic;
+	color: #2F7BB7;
+	text-decoration:underline;
+	/* background-color:#09487C; */
+}
+/* Adding new class 31Dec 2004 */
+.tbl1
+{
+	border-collapse:collapse;
+}
+.txtfld2 {
+	font-family:tahoma;
+	font-size:12px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:200x;
+	height:18px;
+}
+.txtfld5 
+{
+	font-family:tahoma;
+	font-size:12px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:200x;
+	height:50px;
+}
+.txtfld5a
+{
+	font-family:tahoma;
+	font-size:12px;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+	width:384px;
+	height:64px;
+}
+.Heading2
+{
+	font-family:tahoma;
+	font-weight:bold;
+	color:#6E6E6E;
+}
+
+.Heading3
+{
+	font-family:tahoma;
+	font-weight:bold;
+	font-size:13px;
+	color:#004681;
+}
+
+/* Adding new class 5 Jan 2005 */
+.tblrowcolor
+{
+	background-color:#4A7EB7	
+}
+.alltable
+{
+	border-collapse:collapse;
+}
+.table2
+{
+	font-family:Verdana;
+	font-size:12px;
+	color:Black;
+}
+
+.text_fild {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.text_field2 {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.new_customermain_text {
+
+
+	font-family: Lucida Grande, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.link_text2 {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+
+}
+.link_text_over {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+.text_style1 {
+
+	font-family:  Verdana, sans-serif;
+	font-size: 12px;
+	font-weight:bold; 
+	color: #9CC3DE;
+	text-decoration: none;
+}
+
+.text_style2 {
+
+	font-family: Arial,Verdana, sans-serif;
+	font-size: 12px;
+	color: #777777;
+	text-decoration: none;
+	 
+	
+}
+
+
+
+
+
+A.link_text_over:visited	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+
+	text-decoration:	none;
+	color:	black;
+	}	
+A.link_text_over:link	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+
+	text-decoration:	none;
+	color:	black;
+	}	
+a.link_text_over:hover {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #4173AE;
+	text-decoration: none;
+}
+
+.link_text_overb {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+
+A.link_text_overb:visited	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+
+	text-decoration:	none;
+	color:	black;
+	}	
+A.link_text_overb:link	
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	text-decoration:	none;
+	color:	black;
+	}	
+a.link_text_overb:hover {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #4173AE;
+	text-decoration: none;
+}
+
+.link_text_overc {
+
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+.main_headidng
+ {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.main_text {
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+}
+.headding {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #2F7BB7;
+	font-weight: bold;
+}
+.headding2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #2F7BB7;
+	font-weight: bold;
+}
+.text_box {
+	padding: 0px;
+	height: 16px;
+	width: 100px;
+	border-top: 1px solid #E0E2E3;
+	border-right: 1px solid #E0E2E3;
+	border-bottom: 1px solid #E0E2E3;
+	border-left: 1px solid #E0E2E3;
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.text_box2 {
+	padding: 0px;
+	height: 16px;
+	width: 150px;
+	border-top: 1px solid #E0E2E3;
+	border-right: 1px solid #E0E2E3;
+	border-bottom: 1px solid #E0E2E3;
+	border-left: 1px solid #E0E2E3;
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.text_box2b {
+	padding: 0px;
+	height: 16px;
+	width: 300px;
+	border-top: 1px solid #E0E2E3;
+	border-right: 1px solid #E0E2E3;
+	border-bottom: 1px solid #E0E2E3;
+	border-left: 1px solid #E0E2E3;
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+
+.RED
+	{
+		font-family: verdana;
+		font-size: 11px;
+		font-style: normal;
+		font-weight: bold;
+		color: red;	
+	}
+
+.MBUTTON
+{
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:White ;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #6987a4;
+}
+	
+.acc_mbutton {
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:White ;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #769DC7;
+}
+.acc_mbuttonon {
+	border-right: black 1px solid;
+	border-top: black 1px solid;
+	font-size: 10px;
+	font-weight: bold;
+	border-left: black 1px solid;
+	cursor: hand;
+	color:White ;
+	border-bottom: black 1px solid;
+	font-family: Verdana;
+	background-color: #8a9cb2;
+}
+.invisible_textbox
+{
+	background-color:White;
+	border: 0px solid #000000;
+	font-family:Verdana;
+	font-size:16px;
+	color:Black;
+	
+	width:1px;
+	height:1px
+}
+.link_text_new
+{
+	font-family:Verdana;
+	font-size:12px;
+	color:Black;
+	text-decoration: none;
+	BORDER-RIGHT: white 1px solid; 
+	BORDER-TOP: white 1px solid; 
+	BORDER-LEFT: white 1px solid; 
+	BORDER-BOTTOM: white 1px solid
+}
+
+#showimage
+{
+	position:absolute;
+	visibility:hidden;
+	border: 1px solid gray;
+}
+
+#dragbar
+{
+	cursor: hand;
+	cursor: pointer;
+	background-color: #EFEFEF;
+	min-width: 100px; /*NS6 style to overcome bug*/
+}
+
+#dragbar #closetext
+{
+	font-weight: bold;
+	margin-right: 1px;
+}
+
+.bt-5b
+{
+	font-family: tahoma;
+	font-size: 11px;
+	font-weight:bold;
+	color: #FFFFFF;
+	border:1px solid #3F6FAD;
+	width:80px;
+	text-decoration: none;
+	background-color: #3E70AF;
+	cursor: hand;
+	filter: Alpha(Opacity=100, FinishOpacity=50, Style=1, StartX=0, StartY=100, FinishX=0, FinishY=0);
+	height: 20px;
+}
+.textbox_web {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	height: 22px;
+	width: 300px;
+	border: 1px solid #3E70AF;
+}
+
+.textb_web {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+
+/* Mappoint control styles */
+
+.mappoint-addresstextbox
+{
+	width: 300px;
+	height: 27px;
+}
+
+
+.mappointimagepanel img
+{
+	
+}
+
+
+.mappoint-searchbutton
+{
+}
+
+#_SearchPanel select
+{
+	left: 100px;
+	position: relative;
+}
+
+div#_SearchPanel input[type="submit"]
+{
+	z-index: 3;
+	left: 500px;
+	color: #6666cc;
+	position: relative;
+}
+/*File Version*/
+.headding2File {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #2F7BB7;
+	font-weight: bold;
+}
+.Loadingtext {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:Gray; 
+	font-weight: bold;
+}
+.fileversionbutton 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:Gray; 
+	font-weight: bold;
+}
+.fileversionbuttonhover
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#2F7BB7; 
+	font-weight: bold;
+}
+.fileNoFound
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#2F7BB7;
+	font-weight: bold;
+}
+.topTrBkgd
+{
+	background-color:#F3F3F3;
+}
+.topTrBkgdHover
+{
+	background-color:#EFEFEF;
+}
+.bottomTrBkgd
+{
+	background-color:#F8F8F8;
+}
+.bottomTrBkgdHover
+{
+	background-color:#FAFAFA;
+}
+.fileHeadingTop
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#2F7BB7;
+	font-weight: bold;
+}
+.fileResultClass
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#5C5C5C;
+}
+.fileSelectOption
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#5C5C5C;
+	font-weight:bold;
+}
+.nohypertext
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.nohyperlefbar
+{
+	font-family: "Lucida Grande", Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.MAIN {
+	font-family: Tahoma;
+	font-size: 12px;
+	text-decoration: none;
+}
+.headding {
+	font-family: Tahoma;
+	font-size: 18px;
+	text-decoration: none;
+	color: #0099FF;
+}
+
+
+.textbox2_coupon
+{
+	font-weight: normal;
+	color: #999999;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	height: 20px;
+	width: 150px;
+	text-decoration: none;
+	border: 1px solid #999999;
+	background-color: #FFFFFF;
+	list-style-type: circle;
+}
+
+
+.text6b_coupon
+{
+	/*color: #999999;*/
+	color: #444444;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.text12b_coupon{
+	color: #1F8BC9;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.text6bw
+{
+	color: #666666;
+font-weight: bold;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+text-decoration: none;
+}
+.TrackerCss
+{
+  	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 100%;
+	height:250px;
+	overflow: auto;
+   vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+ }
+
+.text_style2 {
+
+	font-family: Arial,Verdana, sans-serif;
+	font-size: 12px;
+	color: #777777;
+	text-decoration: none;
+	cursor:hand;
+	text-align: center;
+}
+
+
+.UserHistory
+{
+ 	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 500px;
+	height:190px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+.UserDetail
+{
+ 	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 500px;
+	height:250px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+.OnlineUsers
+{
+ 
+  	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 100%;
+	height:492px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+.ReportHeader1
+{
+font-weight: bold;
+font-size: 12px;
+color: #000000;
+font-family: Tahoma;
+background-color: #F3F3F3;
+text-align:  left;
+border: 1px solid #C0C0C0;
+}
+.ReportHeadingsYearly
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align: left;
+background-color: #F3F3F3;
+}
+.sheetTypesettings
+{
+font-family:   Verdana;
+font-weight:   bold;
+font-size:   x-small;
+color:	     Black;
+}
+.MBUTTONACCPROON2
+{
+/*filter: progid:-DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#FFFFFF' , EndColorStr= '#C0C0C0');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor:    text;
+color:#000000;
+border:Solid 1px #C0C0C0;
+background-color: #C0C0C0;
+text-align:center;
+}
+.MBUTTONACCPRO2
+{
+/*	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#C0C0C0' , EndColorStr= '#FFFFFF');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+color:#000000;
+border:Solid 1px #F3F3F3;
+background-color: #C0C0C0;
+text-align:center;
+}
+.MBUTTONACCPRO2
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#C0C0C0' , EndColorStr= '#FFFFFF');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor:  text;
+color:#000000;
+border:Solid 1px #C0C0C0;
+background-color: #C0C0C0;
+text-align:center;
+}
+.meterSpave1
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  530px;
+height:340px;
+text-align:center;
+}
+
+.meterIOffice
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  530px;
+height:340px;
+text-align:center;
+}
+
+.meterSpavemanger
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  550px;
+height: 350px;
+text-align: left;
+}
+.meterEnterpriseManager
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  500px;
+height: 270px;
+text-align: left;
+}
+.ZoomSpave
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  210px;
+height: 370px;
+text-align:  center;
+}
+.EnterpriseZoomSpace
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  210px;
+height: 310px;
+text-align:  center;
+} 
+
+.IOfficeZoomSpace
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  210px;
+height: 310px;
+text-align:  center;
+}
+
+.MerchantMeterIO
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  550px;
+height: 350px;
+text-align: left;
+}
+.SmallMeter
+{
+font-family:  Verdana ;
+font-size:11px;
+font-weight: normal;
+color:  Black;
+text-decoration:none;
+text-align:  center;
+vertical-align:top ;
+}
+.MerchantMeter
+{
+font-family:  Verdana ;
+font-size:9px;
+font-weight: normal;
+color:  Black;
+text-decoration:none;
+text-align: left;
+}
+.test
+{
+text-align: left;
+}
+.trsettings
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:12px;
+font-weight:bold;
+color:#000000;
+text-decoration:none;
+text-align:center;
+}
+.trsettings1
+{
+font-family:  Verdana ;
+font-size:11px;
+font-weight: normal;
+color:  #000000;
+text-decoration:none;
+text-align:center;
+}
+.meterSpavetest
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  710px;
+height: 350px;
+text-align:center;
+}
+.meterSpaveFavroties
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  710px;
+height: 350px;
+text-align:center;
+}
+.PreviousYearsOptions
+{
+text-align: right ;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+background-color:#F3F3F3;
+}
+.ReportHeadingsCenterYearly
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+background-color: #F3F3F3;
+}
+.ReportFiguresPrevious
+{
+font-weight:  normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+background-color: #F3F3F3;
+}
+.ReportHeadingsCenterBSYearly
+{
+font-weight: bold;
+font-size: 12px;
+font-family: Tahoma;
+text-align:  center;
+background-color:  #F3F3F3;
+}
+.PreviousHeaderDDL
+{
+font-weight: bold;
+text-align:center;
+font-size:10px;
+color:#000000;
+border: 1px solid #C0C0C0;
+}
+.PreviousHeader
+{
+font-weight: bold;
+font-size: 12px;
+color:  #000000;
+font-family: Tahoma;
+border:1px solid #C0C0C0;
+background-color: #F3F3F3;
+text-align: center;
+}
+.MouseOverColor
+{
+background-color:#9CC3DE;
+}
+.MouseOutColor
+{
+background-color:#ffffff;
+}
+.link-linkmenu
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3E3E3E;
+text-decoration:none;
+}
+.link-linkmenu:hover
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3C6DB5;
+text-decoration:none;
+}
+/*
+.link-linkmenu2
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+}
+.link-linkmenu2:hover
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+.link-linkmenu3
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+.link-linkmenu4
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+border: 1px solid #F3F3F3;
+}
+.link-linkmenu2bg
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+*/
+.link-linkmenu2
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+}
+.link-linkmenu2c
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+border: 1px solid #ffffff;
+}
+.link-linkmenu3
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+background-color:#9CC3DE;
+width:140px;
+padding-left:2px;
+}
+.link-linkmenu4
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+/* color:#3C6DB5; */
+text-decoration:none;
+height:17px;
+background-color:#9CC3DE;
+/* background-color:#F3F3F3; */
+border: 1px solid #9CC3DE;
+padding-left:2px;
+width:146px;
+}
+.link-linkmenu2b
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+}
+.link-linkmenu5
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+border: 1px solid #9CC3DE;
+background-color:#9CC3DE;
+}
+.sheetType
+{
+font-family:	Verdana;
+font-weight: 	bold;
+font-size:   	 small;
+color:		    #000000;
+}
+.BSColor
+{
+text-align:   left;
+background-color: #F3F3F3;
+font-size: 12px;
+font-family: Tahoma;
+font-weight:   bold;
+}
+.ReportHeadingsBS
+{
+font-weight: bold;
+font-size: 13px;
+font-family: Tahoma;
+text-align: left;
+}
+.ReportHeadings
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align: left;
+background-color: #F3F3F3;
+}
+.ReportHeadingsCenterBS
+{
+font-weight: bold;
+font-size: 12px;
+font-family: Tahoma;
+text-align:  center;
+}
+.ReportHeadingsCenter
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+}
+.MBUTTONACCPRO
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#C0C0C0' , EndColorStr= '#FFFFFF');
+*/
+background-image:url(/images/InfiniPlan/Button_Out.gif);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+cursor: pointer;
+color:#000000;
+border:Solid 1px #F3F3F3;
+background-color: #C0C0C0;
+text-align:center;
+}
+.MBUTTONACCPROON
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#FFFFFF' , EndColorStr= '#C0C0C0');
+*/
+background-image:url(/images/InfiniPlan/Button_Over.gif);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+color:#000000;
+border:Solid 1px #F3F3F3;
+background-color: #C0C0C0;
+text-align:center;
+}
+.wizardButton
+{
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-size: x-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+.ReportTotalHeadings
+{
+font-weight: bold;
+font-size: 10px;
+font-family: Tahoma;
+text-align:  left;
+}
+.ReportTitlesLIB
+{
+font-style:italic;
+font-size: 11px;
+font-family: Tahoma;
+text-align:   left;
+}
+.ReportTitles
+{
+font-weight:   normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:   left;
+}
+.ReportFigures
+{
+font-weight:  normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+}
+.ReportHeader
+{
+font-weight: bold;
+font-size: 12px;
+color: #000000;
+font-family: Tahoma;
+background-color: #F3F3F3;
+text-align: center;
+border:1px solid #C0C0C0
+}
+.cngbody
+{
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+
+.ProductGrid
+{
+border:Solid 1px   #C0C0C0;
+text-align: center;
+width: 370px;
+height:270px;
+overflow: auto;
+scrollbar-face-color: #C0C0C0;
+scrollbar-highlight-color: #C0C0C0;
+scrollbar-3dlight-color: #C0C0C0;
+scrollbar-darkshadow-color: #C0C0C0;
+scrollbar-shadow-color: #C0C0C0;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: #C0C0C0;
+vertical-align:middle ;
+}
+
+.GridInnerLines
+{
+border: 1px solid #C0C0C0;
+}
+
+.flashTitle
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:14px;
+font-weight:bold;
+color:#C0C0C0;
+text-decoration:none;
+text-align:center;
+height:22px;
+}
+.tableborder
+{
+border: 1px solid #C0C0C0;
+height:15px;
+}
+.tableborder1
+{
+border: 1px solid #C0C0C0;
+}
+.MultilingulLinkStyle
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+text-justify:inter-word
+}
+.ControlText
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+}
+.GridControl
+{
+overflow:  visible;
+width: 780px;
+height: 300px;
+}
+.GridControl1
+{
+overflow:  visible;
+width: 680px;
+height: 300px;
+}
+.bottomlnk {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.leftbarheading
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3E3E3E;
+text-decoration:none;
+}
+.leftlink
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.leftlinkSel
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black;
+background-color:  #F3F3F3 ;
+}
+.leftlink1
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.leftlinkSel1
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black;
+background-color:  #F3F3F3 ;
+}
+.summaryHeader
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 32px;
+background-color:#C0C0C0;
+text-align: center;
+}
+.summaryHeader1
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 32px;
+background-color: #C0C0C0;
+text-align: center;
+}
+.ControlHeading
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 18px;
+background-color: #F3F3F3;
+text-align: center;
+}
+.PlanOutLine1
+{
+font-weight: bold;
+font-size: 14px;
+color: #000000;
+border:1px solid #C0C0C0;
+font-family: Tahoma;
+height: 32px;
+background-color: #F3F3F3;
+text-align: center;
+}
+.PlanOutLineToolTip
+{
+color:				#000000;
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:	 url('/images/InfiniPlan/hint_bg.gif') no-repeat;
+}
+.PlanOutLineToolTip1
+{
+color:				#000000;
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:	 url('/InfiniPlan/images/hint_bg.gif') no-repeat;
+}
+.warnMessage
+{
+font-weight: bold;
+text-justify: inter-word;
+font-size: 14px;
+color: #10436b;
+line-height: 4mm;
+font-family: tahoma;
+height: 22px;
+background-color: transparent;
+text-align: center;
+}
+.wizardHeader
+{
+font-weight: bold;
+font-size: 24px;
+color: #ffffff;
+font-family: Tahoma;
+height: 22px;
+background-color:#C0C0C0;
+}
+.wizardTitle
+{
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:#10436B;
+background-color: #F3F3F3;
+height:22px;
+}
+.WebTrackerTitle
+{
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:#10436B;
+height:22px;
+}
+.wizardHeader1
+{
+font-weight: bold;
+font-size: 24px;
+color: #ffffff;
+font-family: Tahoma;
+height: 22px;
+background-color: #C0C0C0;
+}
+.wizardTitle1
+{
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:#10436B;
+background-color: #F3F3F3;
+height:22px;
+}
+.wizardHelp
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.wizardText
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.wizardOptions
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color:#000000;
+font-weight: normal;
+}
+.OutLineOptions
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.OutLineButton
+{
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-size:  xx-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+A.leftlink:visited
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.leftlink:link
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.leftlink:hover
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+.topheading
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.gridSpace
+{
+SCROLLBAR-FACE-COLOR: #F3F3F3;
+overflow: auto;
+width: 780px;
+height: 400px;
+}
+.gridSpace1
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow: auto;
+width: 780px;
+height: 400px;
+}
+.ReportSpace
+{
+scrollbar-face-color: #F3F3F3;
+scrollbar-highlight-color: #F3F3F3;
+scrollbar-3dlight-color: #F3F3F3;
+scrollbar-darkshadow-color: #F3F3F3;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  830px;
+height:  380px;
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+.PlanExport
+{
+SCROLLBAR-FACE-COLOR :  #F3F3F3;
+overflow:   auto;
+width:  100%;
+height:  215px;
+}
+.PlanManagerSpace
+{
+SCROLLBAR-FACE-COLOR :  #F3F3F3;
+overflow:   auto;
+width:  100%;
+height:  204px;
+}
+.PlanManager
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:   auto;
+height:  325px;
+text-align:left;
+vertical-align :top;
+}
+.textSpace
+{
+width : 720 ;
+height : 340;
+overflow:auto ;
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+}
+.buttonStyle
+{
+font-family: tahoma;
+font-size: 10px;
+font-weight: bold;
+color: #184D76;
+letter-spacing:2px;
+background-image: url(/BizPlan.web/images/InfiniPlan/bt_bkgd.gif);
+height: 25px;
+width: 113px;
+border: 1px solid #275B83;
+background-repeat: repeat;
+}
+/* Adding new stylesheet 5 dec 2005 */
+.centerTable
+{
+border: 1px solid #DDDDDD;
+border-collapse:collapse;
+}
+.txtPlanName
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 20px;
+width: 250px;
+border: 1px solid #231F20;
+}
+.rowItem
+{
+/*font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#10436B;
+background-color: #ECF4FC;
+height:22px;*/
+font-weight: normal;
+font-size: 10px;
+color:black;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+/*background-color: #ecf4fc;*/
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+.GridSamplePlans
+{
+border-right: #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left: #ffffff 1px solid;
+border-bottom:   solid 1px  #ffffff ;
+}
+.alternatingRowItem
+{
+/*	font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#10436B;
+background-color: #F1F2F2;
+height:22px;
+*/
+font-weight: normal;
+font-size: 10px;
+color: #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+/*background-color: #ecf4fc;*/
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+A.alternatingRowItem:visited
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.alternatingRowItem:link
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.alternatingRowItem:hover
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+.GridHeaderBar
+{
+/*background-color: #F3F3F3;*/
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:   black;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:    #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left:  #ffffff 1px solid;
+border-bottom:  #ffffff 1px solid;
+}
+.itemheader
+{
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:Fuchsia ;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:    #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left:  #ffffff 1px solid;
+border-bottom:  #ffffff 1px solid;
+}
+.itemheader1
+{
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: Fuchsia ;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:  #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left:  #ffffff 1px solid;
+border-bottom:  #ffffff 1px solid;
+}
+.bizplanheader
+{
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:   Black;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:  #F3F3F31px solid;
+border-top:  #F3F3F3 1px solid;
+border-left: #F3F3F3 1px solid;
+border-bottom:  #F3F3F3 1px solid;
+}
+.heading1
+{
+background-color:#C0C0C0;
+}
+.txtPlanDescription
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 50px;
+width: 100%;
+border: 1px solid #231F20;
+}
+.txtfields
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 20px;
+width: 100px;
+text-align:right;
+border: 1px solid #231F20;
+}
+.txtarea
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+text-align:right;
+border: 1px solid #231F20;
+}
+.buttonCSS
+{
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-weight: bold;
+font-size: x-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+.lblGeneral
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+height:22px;
+color:#10436B ;
+}
+.lblGeneral1
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+height:22px;
+color:#10436B ;
+}
+.lblHeading
+{
+font-family:tahoma;
+font-size:14px;
+font-weight:bold;
+color:#000000;
+background-color: #F3F3F3;
+height:22px;
+}
+.lblErrorMessage
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#FF0000;
+}
+.lblErrorMessage1
+{
+font-family:tahoma;
+font-size:11px;
+font-weight: normal;
+color:#FF0000;
+}
+.mouseOver
+{
+cursor :hand ;
+background-color :#FF0000 ;
+}
+.leftBarItem
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: red;
+text-decoration: none;
+background-color :#CFE2F5 ;
+}
+.text_menu_simple
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: #1A4C73;
+text-decoration: none;
+background-color: #8FB4DA;
+}
+.customername
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: #5493c4;
+}
+.pageContents
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: #000000;
+}
+.Covertxtfields
+{
+width: 200px;
+font-family:Arial;
+/*filter:progid:DXImageTransform.Microsoft.Shadow(color='silver', Direction=135, Strength=5);*/
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffffffff', EndColorStr='#ffF2F6FA');*/
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');*/
+border: solid 1px silver;
+/*font-size:12px;
+color:#10436B;
+width: 200px;
+text-align:left;
+border: 1px solid #;
+/*
+font-size: 10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+height: 200px;*/
+}
+.ControlId
+{
+width: 100px;
+font-family:Arial;
+border: solid 1px silver;
+}
+.CovertxtArea
+{
+width: 200px;
+font-family:Arial;
+border: solid 1px silver;
+/*filter:progid:DXImageTransform.Microsoft.Shadow(color='silver', Direction=135, Strength=5);
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');
+*/
+font-size:12px;
+color:#10436B;
+height: 35px;
+width: 200px;
+text-align:left;
+border: 1px solid #C0C0C0;
+font-family:Arial;
+width: 200px;
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 35px;
+width: 280px;
+width: 200px;
+text-align:left;
+border: 1px solid #231F20;*/
+}
+.OutlineHeader
+{
+font-weight: bold;
+font-size: x-small;
+text-transform: none;
+color: navy;
+font-family: Tahoma;
+text-decoration: underline;
+}
+.lblNote
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B ;
+}
+.pageBreak
+{
+page-break-before: always;
+}
+/*hintbox
+{
+border:				1px solid;
+border-color:		#19649D;
+background-color:	white;
+color:				#217DC3;
+font-weight:		bold;
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:			url('/images/InfiniPlan/common/hint_bg.gif') no-repeat;
+}*/
+.selectedNodelbl1
+{
+border:				1px solid #C0C0C0;
+background-color:	#F3F3F3;
+color:				#000000;
+font-family:		Arial;
+font-size:			8pt;
+}
+.selectedNodeToplbl
+{
+font-family:		Arial;
+font-size:			8pt;
+}
+.selectedNodeToplbl1
+{
+font-family:		Arial;
+font-size:			8pt;
+}
+/***************** for plan cover *****************/
+.TableBox_Top_Left
+{
+background:url('/images/InfiniPlan/crv1.jpg');
+}
+.TableBox_Top_Right
+{
+background:url('/images/InfiniPlan/crv2.jpg');
+}
+.TableBox_Bot_Left
+{
+background:url('/images/InfiniPlan/crv_1bottom.jpg');
+height: 10px;
+}
+.TableBox_Bot_Right
+{
+background:url('/images/InfiniPlan/crv_bottom1.jpg');
+height: 10px;
+}
+.TableBox_Top
+{
+/*background-image:url(/images/InfiniPlan/common/crv_topbg.jpg);	*/
+background:url('/images/InfiniPlan/crv_topbg.jpg');
+}
+.TableBox_Bot
+{
+/*background-image:url(/AccountsPro/images/InfiniPlan/TableBox/crv_bottomlinebg.jpg);	*/
+background:url('/images/InfiniPlan/crv_bottomlinebg.jpg');
+height: 10px;
+}
+.TableBox_Left
+{
+background:url('/images/InfiniPlan/crv1bg.jpg');
+}
+.TableBox_Right
+{
+background:url('/images/InfiniPlan/crv_2linebg.jpg');
+color:White;
+}
+.page-section-text1
+{
+color:  Black;
+font-size: 13px;
+font-family: Tahoma;
+font-weight:bold;
+height:20px;
+list-style-type: disc;
+}
+.TableBodyShadeBorder
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+color: Black;
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+/*for faq page*/
+.ShowHideAnchors
+{
+border-color:blue;
+border-left-width:thick;
+font-family:Arial;
+font-size:10
+}
+.faqLineBreak
+{
+}
+.FAQTopOfPageLink
+{
+text-align:center;
+font-weight:bold;
+font-size:14;
+color:#4682B4;
+width:90px;
+cursor:hand;
+}
+.FAQTopOfPageLink1
+{
+text-align:center;
+font-weight:bold;
+font-size:12;
+color:#C0C0C0;
+width:90px;
+cursor:hand;
+}
+.FAQShowHideBTN
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+cursor: hand;
+color:White;
+border:Solid 1px #6390BF;
+background-color: #88AACE;
+width: 80px;
+text-align:center;  		  */
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-size: x-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+/*  "Show All" + "Hide All" links */
+#FAQ_ToggleON,#FAQ_ToggleOFF {padding:0 5px;margin-right:5px}
+/* zeroing out padding and margin */
+#FAQ_DL dd,#FAQ_DL dt {margin:0;padding:0}
+/* margin for the DTs (shorthand) */
+#FAQ_DL dt {margin:7px 0}
+/* image and left padding for DDs */
+#FAQ_DL dd {background:url(answer.gif) no-repeat;padding-left:55px}
+/* styling all anchors in the DTs */
+#FAQ_DL dt a {background:0 50% no-repeat;padding-left:32px;color:#000;text-decoration:none}
+#FAQ_DL dt a:visited {color:#666}
+#FAQ_DL dt a:visited:hover,
+#FAQ_DL dt a:hover,
+#FAQ_DL dt a:active,
+#FAQ_DL dt a:focus {font-weight:bold}
+/* the + and - gif in the anchors */
+#FAQ_DL .DTplus a {background-image:url(/images/InfiniPlan/toggleDLplus.gif)}
+#FAQ_DL .DTminus a {background-image:url(/images/InfiniPlan/toggleDLminus.gif)}
+/**********************************/
+/**********************************/
+#FAQ_DL .showDD {position:relative;top:0}
+#FAQ_DL dd,.hideDD{top:-9999px;position:absolute}
+#FAQ_ToggleON,#FAQ_ToggleOFF {display:inline;cursor:pointer;cursor:hand}
+.lblErrosMessage
+{
+color:Red;
+}
+.BizPlan_BUSINESSGRID
+{
+border-color:#4682B4;
+}
+.PlanTracker_ImageButton
+{
+border-color:#4682B4;
+border-width:0;
+}
+.BizPlan_BUSINESSGRID_SELECTEDITEMSTYLE
+{
+background-color:Red;
+}
+.Grid_OnMouseMove
+{
+background-color:#F3F3F3;
+}
+.Grid_OnMouseMove1
+{
+background-color:#F3F3F3;
+}
+.Grid_OnMouseOut
+{
+background-color:#FFFFFF;
+}
+.JS_ControlStyle
+{
+background-color:#F3F3F3;
+}
+.table_cells
+{
+color:#FFFFFF;
+}
+.tracker_Panel
+{
+border: 1px solid #C0C0C0;
+}
+.managerSearch
+{
+border: 1px solid #C0C0C0;
+}
+.Pager_style
+{
+color:Black;
+background-color:#999999;
+}
+.lblHomePage_Style
+{
+color:#10436B;
+Font-Size:8pt;
+}
+.OpenPlan_dataGrid
+{
+border-color:#999999;
+background-color:#FFFFFF;
+border-width:1px;
+border-style:none;
+}
+.lblPlanManager_Style
+{
+color:#FFFFFF;
+}
+.TABSTRIP_PlanManagerStyle
+{
+color:Desktop;
+}
+.lblSpacePlanManager_Style
+{
+color:#F3F3F3;
+}
+.spanPlanManager_Style
+{
+font-size:8.0pt;
+font-family:Verdana;
+color:black;
+}
+.datagrid-data
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=2, StartColorStr= '#F3F3F3' , EndColorStr= '#ffffff' ) progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffff' , EndColorStr= '#E6E6E6' );
+*/
+background-image:url(/images/InfiniPlan/datagrid-data.gif);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #666666;
+text-decoration: none;
+background-color: #F3F3F3;
+padding-left: 5px;
+padding-bottom: 3px;
+padding-top: 3px;
+padding-right: 3px;
+border-top: Solid 1px #C0C0C0;
+height:25;
+border: 1px solid #C0C0C0;
+}
+.lblSpace1PlanManager_Style
+{
+color:#F3F3F3;
+background-color:#F3F3F3;
+}
+.TDPlanManager_Style
+{
+border-Color:#C0C0C0;
+}
+.TRPlanOutLine_Style
+{
+background-color:#F3F3F3;
+}
+.TreeViewPlanOutLine_HoverStyle
+{
+filter:none;
+background-color:#F3F3F3;
+}
+.TreeViewPlanOutLine_SelectedStyle
+{
+background-color:#4682B4;
+filter:none;
+background-color:#4682B4;
+font-weight:bold;
+color:#ffffff;
+}
+.TreeViewPlanOutLine_DefaultStyle
+{
+font-family:Times New Roman;
+font-size:14pt;
+background-color:#FFFFFF;
+}
+.lblMultiOption_Style
+{
+color:#0000C0;
+}
+.lblPlanPreferences_Style
+{
+color:#4682B4;
+}
+.lnkRtfFilePlanPreferences_Style
+{
+color:Blue;
+}
+.ExportedPlans_PagerStyle
+{
+Font-Size:8pt;
+color:Black;
+border: 1px solid #C0C0C0;
+}
+.ExportedPlans_PagerStyle1
+{
+Font-Size:8pt;
+color:Black;
+background-color:#FFFFFF;
+}
+.ExportedPlans_PagerStyle2
+{
+Font-Size:8pt;
+color:Black;
+}
+.tab_default
+{
+font-family: "Times New Roman";
+font-size: 12px;
+text-decoration: none;
+color: #999999;
+background-color: #F3F3F3;
+border: 1px solid #666666;
+height: 22px;
+width: 25%;
+}
+.tabdef_onmouseover
+{
+font-family: "Times New Roman";
+font-size: 12px;
+text-decoration: none;
+color: #999999;
+background-color: #C0C0C0;
+border: 1px solid #666666;
+height: 22px;
+width: 25%;
+font-weight: bold;
+}

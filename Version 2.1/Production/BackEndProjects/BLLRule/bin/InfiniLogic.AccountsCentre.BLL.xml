@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>InfiniLogic.AccountsCentre.BLL</name>
+    <version>1.0.0.0</version>
+    <fullname>InfiniLogic.AccountsCentre.BLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</fullname>
+  </assembly>
+  <members>
+    <member name="M:InfiniLogic.AccountsCentre.BLL.Downloads.GetServicesByOptions(System.String,System.Int64)">
+      <summary>
+     Get all services with specific given options and customer id. 
+ </summary>
+ <param name="lCustomerID"> Customer ID </param>
+ <param name="lServiceOptions"> Service Options </param>
+ <returns>
+ Returns a data table that has a mode column. 
+           0		--Buy 
+           1		--Request 
+           2		--Download 
+ </returns>
+ <remarks>
+ </remarks>
+ <history>
+ 	[win.shifatullah]	23/05/2005	Created 
+ </history></member>
+  </members>
+</doc>

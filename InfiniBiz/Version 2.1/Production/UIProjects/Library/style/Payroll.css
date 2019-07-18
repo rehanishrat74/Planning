@@ -1,0 +1,93 @@
+.left-bar-main-link
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #000000;
+	font-family: verdana;
+	letter-spacing: 0pt;
+	border: 1px solid #dddddd;
+}
+
+.link-linkmenu              
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight: bold;
+	color:#3E3E3E;
+	text-decoration:none;
+	cursor:hand;
+}
+
+.link-linkmenu:hover
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight: bold;
+	color:#3E3E3E;
+	text-decoration:none;
+	cursor:hand;	
+}
+
+
+
+
+.page-name
+{
+	font-weight: bold;
+	font-size: 22px;
+	color: #000000;
+	font-family: tahoma;
+}
+.text-outerborder-light_blue_background
+{
+	border-right: #dddddd 1px solid;
+	border-top: #dddddd 1px solid;
+	font-weight: normal;
+	font-size: 11px;
+	border-left: #dddddd 1px solid;
+	color: #336699;
+	border-bottom: #dddddd 1px solid;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-color: white;
+}
+.left-bar-main-link
+{
+	font-weight: bold;
+	font-size: 9pt;
+	color: #000000;
+	font-family: verdana;
+	letter-spacing: 0pt;
+	border: 1px solid #dddddd;
+}
+
+.dark-background
+{
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffff' , EndColorStr= '#f3f3f3' );
+}
+
+
+
+.link-linkmenu2             
+{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:normal;
+	color:#3E3E3E;
+	text-decoration:none;
+	height:15px;
+	
+}
+
+	.link-linkmenu2bg
+	{
+	font-family:Tahoma, Verdana, Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#3E3E3E;
+	text-decoration:none;
+	height:15px;
+	padding-left:10px;
+	background-color:#f3f3f3;
+	}
+
+

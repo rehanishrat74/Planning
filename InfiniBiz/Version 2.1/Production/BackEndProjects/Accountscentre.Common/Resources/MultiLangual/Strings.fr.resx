@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" > 
+<xsd:element name="root" msdata:IsDataSet="true" > 
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded" > 
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version"> 
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="acc_msg_Account_SignInAttemptFailed">
+  <value>ERREUR: Identification de l'utilisateur / Mot de Passe Invalide. Veuillez essayer à nouveau</value>
+</data>
+<data name="acc_msg_Account_NewEmployerCreated">
+  <value>Votre information a été sauvegardée</value>
+</data>
+<data name="acc_msg_Account_NewEmployerRegistrationStatus">
+  <value>Vous êtes déjà enregistré comme un Employeur pour la Masse Salariale</value>
+</data>
+<data name="acc_msg_Account_UpdateEmployerDetails">
+  <value>Vos détails ont été mis à jour</value>
+</data>
+<data name="acc_msg_Account_UpdateCustomerServices">
+  <value>Merci d'acheter plus de services de valeur. Votre requête est actuellement en procédure. Vous serez informés de la confirmation de payement sur l'adresse E-mail que vous nous avez fourni</value>
+</data>
+<data name="acc_msg_Account_MatchPassword">
+  <value>Le nouveau Mot de Passe et la confirmation du Mot de Passe ne correspondent pas. Veuillez insérer le même dans les deux cas</value>
+</data>
+<data name="acc_msg_Account_UpdatePassword">
+  <value>Votre mot de passe a été mis à jour</value>
+</data>
+<data name="acc_msg_Account_IncorrectPassword">
+  <value>Veuillez insérer un mot de passse valide</value>
+</data>
+<data name="acc_msg_Account_ForgotPassword">
+  <value>L'adresse E-mail que vous avez inséré ne correspond pas avec celle que nous avons dans nos archives. Veuillez insérer une addresse E-mail valide</value>
+</data>
+<data name="acc_msg_Account_PasswordMatching">
+  <value>Mot de Passe et confirmation du Mot de Passe doivent être identiques</value>
+</data>
+<data name="acc_msg_Account_CrCardExpiryDate">
+  <value>Veuillez insérer une date d'expiration valide</value>
+</data>
+<data name="acc_msg_Account_AXCardSTDate">
+  <value>Veuillez insérer une date de début valide</value>
+</data>
+<data name="acc_msg_Account_AXCardENDate">
+  <value>Veuillez insérer une date de fin valide</value>
+</data>
+<data name="acc_msg_Account_DrCardDate">
+  <value>Veuillez insérer une date d'émission valide</value>
+</data>
+<data name="acc_msg_Employee_EmployeeRecordNotFound">
+  <value>Aucun détails de client trouvé. Veuillez d'abord ajouter les détails de votre employé pour procéder</value>
+</data>
+<data name="acc_msg_Employee_NewEmployeeCreated">
+  <value>Les informations du nouvel employé ont été sauvegardées</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInCalculation">
+  <value>Il y a une erreur de calculs</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInDate">
+  <value>Veuillez insérér le correcte format de date</value>
+</data>
+<data name="acc_msg_Taxation_P11NIC_EarningDetailsNotFound">
+  <value>Les détails de la recette n'ont pas été trouvés pour pouvoir calculer NIC</value>
+</data>
+<data name="acc_msg_PAYE_InYearForm_NewFormCreated">
+  <value>L'information a été sauvegardée</value>
+</data>
+<data name="acc_msg_General_ThankYou">
+  <value>Merci</value>
+</data>
+<data name="acc_msg_General_Update">
+  <value>Merci. Vos informations ont été mises à jour avec succès</value>
+</data>
+<data name="acc_msg_General_Add">
+  <value>Merci. Les détails ont été ajoutés avec succès à l'archive</value>
+</data>
+<data name="acc_msg_General_Save">
+  <value>Merci. Vos détails ont été sauvegardés avec succès à l'archive</value>
+</data>
+<data name="acc_msg_Error_RequiredFields">
+  <value>Veuillez insérer la valeur dans le(s) champs requis</value>
+</data>
+<data name="acc_msg_Error_RegularExpression">
+  <value>Veuillez insérer la valeur appropriée dans le(s) champs requis</value>
+</data>
+<data name="acc_msg_Email_AccountRegistration">
+  <value>Enregistrement à Accounts Centre</value>
+</data>
+<data name="acc_msg_Email_UpdateServices">
+  <value>Mis à jour des Services à Accounts Centre</value>
+</data>
+<data name="acc_msg_Email_ResendPassword">
+  <value>Détails de connexion à accounts Centre</value>
+</data>
+<data name="acc_msg_Email_DefaultEmailAddress">
+  <value>support@accountscentre.com</value>
+</data>
+<data name="acc_msg_Email_ForgotPassword">
+  <value>Vos détails de connexion ont été envoyés à votre addresse E-mail</value>
+</data>
+<data name="acc_msg_PDF_NOTEXISTS">
+  <value>Les données en format PDF n'éxistent pas pour ce client</value>
+</data>
+<data name="acc_msg_Date_IncorrectDay">
+  <value>Veuillez insérer le jour du mois exacte</value>
+</data>
+<data name="acc_msg_Date_GreaterDate">
+  <value>La date ne peut pas être après la date présente</value>
+</data>
+<data name="acc_msg_Account_Select_Product">
+  <value>Au moins un produit doit être choisi.</value>
+</data>
+<data name="acc_msg_Account_Valid_Password">
+  <value>Vous devez insérer un mote de passe valide</value>
+</data>
+<data name="acc_msg_Account_Valid_Data_Following">
+  <value>Veuillez insérer la base de donnée valide dans le (s) champs suivant (s).</value>
+</data>
+<data name="acc_msg_Account_Credit_No_Required">
+  <value>Le numéro de la carte de crédit est requis</value>
+</data>
+<data name="acc_msg_Account_Valid_UserID">
+  <value>Vous devez insérer un nom d'utilisateur valide</value>
+</data>
+<data name="acc_msg_Account_Order_Payment">
+  <value>Le payement de la commande avec succès. VEUILLEZ NE PAS ESSAYER ENCORE UNE FOIS</value>
+</data>
+<data name="acc_msg_Account_Order_Process">
+  <value>Votre commande est en cours. Veuillez contacter l'administration</value>
+</data>
+<data name="acc_msg_Account_Product">
+  <value>Les paquets suivants / Lesp roduits ont les mêmes services.</value>
+</data>
+<data name="acc_msg_Account_Company_Select">
+  <value>Veuillez choisir la compagnie de la liste ci-dessous.</value>
+</data>
+<data name="acc_msg_Account_Select_imgFile">
+  <value>ERREUR: Veuillez choisir le fichier d'image</value>
+</data>
+<data name="acc_msg_Account_CustomerId_Dosenot_Exit">
+  <value>Le code client que vous avez inséré n'existe pas. Essayer encore une fois s'il vous plaît.</value>
+</data>
+<data name="acc_msg_Account_Customerid_Fill">
+  <value>Veuillez insérer le code client</value>
+</data>
+<data name="acc_msg_Account_Fill_data">
+  <value>Les fichier sans base des données ne peuvent pas être sauvegardés.</value>
+</data>
+<data name="acc_msg_Account_Upload_File">
+  <value>Vous devez choisir le fichier pour télécharger</value>
+</data>
+<data name="acc_msg_Account_GlobalView">
+  <value>Vue Globale</value>
+</data>
+<data name="acc_msg_Account_GlobalView_created_successfully">
+  <value>Créé avec succès</value>
+</data>
+<data name="acc_msg_Account_GlobalView_Detail">
+  <value>est déjà créé. Essayer de reconnecter encore une fois pour recevoir la mise à jour</value>
+</data>
+<data name="acc_msg_Account_Invoice_Name">
+  <value>Titre de la facture</value>
+</data>
+<data name="acc_msg_Account_Password">
+  <value>Mot de passe</value>
+</data>
+<data name="acc_msg_Account_confirm_Password">
+  <value>Confirmer le mot de passe</value>
+</data>
+<data name="acc_msg_Account_Street">
+  <value>Rue</value>
+</data>
+<data name="acc_msg_Account_Town">
+  <value>Ville</value>
+</data>
+<data name="acc_msg_Account_State">
+  <value>Région</value>
+</data>
+<data name="acc_msg_Account_Contact_Name">
+  <value>Nom de contact</value>
+</data>
+<data name="acc_msg_Account_Telephone">
+  <value>Téléphone</value>
+</data>
+<data name="acc_msg_Account_Fax">
+  <value>Télécopie</value>
+</data>
+<data name="acc_msg_Account_Email_Address">
+  <value>E-mail</value>
+</data>
+<data name="acc_msg_Account_Notes">
+  <value>Notes</value>
+</data>
+<data name="acc_msg_Account_Renewable_Package">
+  <value>Pack de renouvellement des Produits</value>
+</data>
+<data name="acc_msg_Account_Upgraded_Package">
+  <value>Mise à niveau du Paquet des Produits</value>
+</data>
+<data name="acc_msg_Account_Visit_InfiniPlan">
+  <value>Pour accéder le uide d'utilisateur de InfiniPlan, veuillez visiter:</value>
+</data>
+<data name="acc_msg_Account_Start_Date_Greater">
+  <value>La date de commencement ne peut pas dépasser la date d'expiration</value>
+</data>
+<data name="acc_msgAccount_Valid_Date_Greater">
+  <value>La date de valide du ne peut pas dépasser la date d'expiration</value>
+</data>
+<data name="acc_msg_Account_Pre_Requisites">
+  <value>Préalable</value>
+</data>
+<data name="acc_msg_Account_Update_Services">
+  <value>Mettre à niveau les Services</value>
+</data>
+<data name="acc_msg_Account_Delivery_Address">
+  <value>Adresse d'expédition</value>
+</data>
+<data name="acc_msg_Account_Card_Holder_Name">
+  <value>Nom du propriétaire de la carte</value>
+</data>
+<data name="acc_msg_Account_Card_Number">
+  <value>Numéro de la carte</value>
+</data>
+<data name="acc_msg_Account_Card_Address">
+  <value>Adresse de la carte</value>
+</data>
+<data name="acc_msg_Account_Security_Code">
+  <value>Code de sécurité</value>
+</data>
+<data name="acc_msg_Account_Issue_No_Msg">
+  <value>Numéro de publication au moins deux chiffres.</value>
+</data>
+<data name="acc_msg_Account_Issue_No">
+  <value>No. de publication</value>
+</data>
+<data name="acc_msg_Account_Bank_Name">
+  <value>Le nom de la banque</value>
+</data>
+<data name="acc_msg_Account_Cheque_No">
+  <value>Numéro du Chèque</value>
+</data>
+<data name="acc_msg_Account_Sort_Code">
+  <value>Sort code</value>
+</data>
+<data name="acc_msg_Account_Transaction_Reference_No">
+  <value>No. de référence de la transaction</value>
+</data>
+<data name="acc_msg_Account_Service_Name">
+  <value>Nom du Service</value>
+</data>
+<data name="acc_msg_Account_Description">
+  <value>Description</value>
+</data>
+<data name="acc_msg_Account_Register_User1">
+  <value>Cher Client</value>
+</data>
+<data name="acc_msg_Account_Register_User3">
+  <value>Votre requête concernant l'activation du compte est en cours. Vous recevrez un nom d'utilisateur et mot de passe pour la connexion par e-mail dans 24 heures.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated1">
+  <value>Nous vous souhaitons la bienvenue comme notre nouveau Client. Vous recevrez un E-mail contenant votre Identification du client et votre Mot de Passe.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated2">
+  <value>Vous pouvez utiliser l'Identification du client et votre Mot de Passe pour vous connecter aux Sites Web Formations house et Graphics4less, et prendre avantage de nos prix compétitifs.</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated3">
+  <value>si vous ne recevez pas d'E-mail dans les 24 heures qui suivent, veuillez nous écrire à support@accountscentre.com</value>
+</data>
+<data name="acc_msg_Account_Register_User2">
+  <value>Nous avons reçu les informations concernants votre comptabilité que vous nous avez fournis par</value>
+</data>
+<data name="acc_msg_Account_Register_User4">
+  <value>Pour plus d'informations et assistances concernant nos services,</value>
+</data>
+<data name="acc_msg_information">
+  <value>informations</value>
+</data>
+<data name="acc_msg_name">
+  <value>Nom</value>
+</data>
+<data name="acc_msg_loginid">
+  <value>Connexion ID</value>
+</data>
+<data name="acc_msg_welcome">
+  <value>Nous vous remercions de vous avoir souscrits chez Accounts Centre. Vous pouvez connecter à votre compte en cliquant sur  https://services.centre.biz en utilisant les informations suivantes:</value>
+</data>
+<data name="acc_msg_address">
+  <value>Adresse</value>
+</data>
+<data name="acc_msg_welcomeservice">
+  <value>Vous vous êtes souscrits pour les services suivants:</value>
+</data>
+<data name="acc_msg_welcomeend">
+  <value>Vous recevrez une e-mail de confirmation contenant une confirmation de votre commande et aussi la confirmation de l'actviation des services souscrits généralement dans les 24 heures.</value>
+</data>
+<data name="acc_msg_regards">
+  <value>Bien cordialement,</value>
+</data>
+</root>

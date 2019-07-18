@@ -1,0 +1,95 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "accounts.infinibiz.com", "http://accounts.infinibiz.com/accounts.infinibiz.com.vbproj", "{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccountsCentre.BLL", "..\BackEndProjects\AccountsCentre.BLL\AccountsCentre.BLL.vbproj", "{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Accountscentre.Common", "..\BackEndProjects\Accountscentre.Common\Accountscentre.Common.vbproj", "{3E305C65-A733-458F-8C17-730A881509AB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccountsCentre.DAL", "..\BackEndProjects\AccountsCentre.DAL\AccountsCentre.DAL.vbproj", "{4E06DC38-7B5C-490F-8BA0-E7F15EA7803A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Infinilogic.MYSql.DAL", "..\BackEndProjects\Infinilogic.MySql.DAL\Infinilogic.MYSql.DAL.vbproj", "{208A6680-86C5-432D-8B96-FFAEB5518E20}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 5
+		SccProjectUniqueName0 = http://accounts.infinibiz.com/accounts.infinibiz.com.vbproj
+		SccProjectName0 = \u0022$/AccountsCentre\u00201.1/UI\u0020Projects/accounts.infinibiz.com\u0022,\u0020JYLAAAAA
+		SccLocalPath0 = ..\\UIProjects
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice0 = 2
+		SccProjectUniqueName1 = ..\\BackEndProjects\\AccountsCentre.BLL\\AccountsCentre.BLL.vbproj
+		SccProjectName1 = \u0022$/AccountsCentre\u00201.1/Backend\u0020Projects/AccountsCentre.BLL\u0022,\u0020CVLAAAAA
+		SccLocalPath1 = ..\\BackEndProjects\\AccountsCentre.BLL
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName2 = ..\\BackEndProjects\\Accountscentre.Common\\Accountscentre.Common.vbproj
+		SccProjectName2 = \u0022$/AccountsCentre\u00201.1/Backend\u0020Projects/Accountscentre.Common\u0022,\u0020JXLAAAAA
+		SccLocalPath2 = ..\\BackEndProjects\\Accountscentre.Common
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName3 = ..\\BackEndProjects\\AccountsCentre.DAL\\AccountsCentre.DAL.vbproj
+		SccProjectName3 = \u0022$/AccountsCentre\u00201.1/Backend\u0020Projects/AccountsCentre.DAL\u0022,\u0020AYLAAAAA
+		SccLocalPath3 = ..\\BackEndProjects\\AccountsCentre.DAL
+		SccProvider3 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName4 = ..\\BackEndProjects\\Infinilogic.MySql.DAL\\Infinilogic.MYSql.DAL.vbproj
+		SccProjectName4 = \u0022$/AccountsCentre\u00201.1/Backend\u0020Projects/Infinilogic.MySql.DAL\u0022,\u0020JUFBAAAA
+		SccLocalPath4 = ..\\BackEndProjects\\Infinilogic.MySql.DAL
+		SccProvider4 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Test = Test
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Debug.ActiveCfg = Debug|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Debug.Build.0 = Debug|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Release.ActiveCfg = Release|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Release.Build.0 = Release|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Test.ActiveCfg = Release|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Test.Build.0 = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Debug.ActiveCfg = Debug|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Debug.Build.0 = Debug|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Release.ActiveCfg = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Release.Build.0 = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Test.ActiveCfg = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Test.Build.0 = Release|.NET
+		{3E305C65-A733-458F-8C17-730A881509AB}.Debug.ActiveCfg = Debug|.NET
+		{3E305C65-A733-458F-8C17-730A881509AB}.Debug.Build.0 = Debug|.NET
+		{3E305C65-A733-458F-8C17-730A881509AB}.Release.ActiveCfg = Release|.NET
+		{3E305C65-A733-458F-8C17-730A881509AB}.Release.Build.0 = Release|.NET
+		{3E305C65-A733-458F-8C17-730A881509AB}.Test.ActiveCfg = Release|.NET
+		{3E305C65-A733-458F-8C17-730A881509AB}.Test.Build.0 = Release|.NET
+		{4E06DC38-7B5C-490F-8BA0-E7F15EA7803A}.Debug.ActiveCfg = Debug|.NET
+		{4E06DC38-7B5C-490F-8BA0-E7F15EA7803A}.Debug.Build.0 = Debug|.NET
+		{4E06DC38-7B5C-490F-8BA0-E7F15EA7803A}.Release.ActiveCfg = Release|.NET
+		{4E06DC38-7B5C-490F-8BA0-E7F15EA7803A}.Release.Build.0 = Release|.NET
+		{4E06DC38-7B5C-490F-8BA0-E7F15EA7803A}.Test.ActiveCfg = Test|.NET
+		{4E06DC38-7B5C-490F-8BA0-E7F15EA7803A}.Test.Build.0 = Test|.NET
+		{208A6680-86C5-432D-8B96-FFAEB5518E20}.Debug.ActiveCfg = Debug|.NET
+		{208A6680-86C5-432D-8B96-FFAEB5518E20}.Debug.Build.0 = Debug|.NET
+		{208A6680-86C5-432D-8B96-FFAEB5518E20}.Release.ActiveCfg = Release|.NET
+		{208A6680-86C5-432D-8B96-FFAEB5518E20}.Release.Build.0 = Release|.NET
+		{208A6680-86C5-432D-8B96-FFAEB5518E20}.Test.ActiveCfg = Release|.NET
+		{208A6680-86C5-432D-8B96-FFAEB5518E20}.Test.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

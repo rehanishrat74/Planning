@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:FHservices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:FHservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="urn:FHservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="ReturnMsg">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:decimal" />
+          <s:element name="LCODE" type="s:string" />
+          <s:element name="UI" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="authUserRequest">
+    <wsdl:part name="loginid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="authUserResponse">
+    <wsdl:part name="return" type="tns:ReturnMsg" />
+  </wsdl:message>
+  <wsdl:portType name="FHservicesPortType">
+    <wsdl:operation name="authUser">
+      <wsdl:input message="tns:authUserRequest" />
+      <wsdl:output message="tns:authUserResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FHservicesBinding" type="tns:FHservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="authUser">
+      <soap:operation soapAction="urn:FHservices#authUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FHservices">
+    <wsdl:port name="FHservicesPort" binding="tns:FHservicesBinding">
+      <soap:address location="http://webservices.formationshouse.com/authuser.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

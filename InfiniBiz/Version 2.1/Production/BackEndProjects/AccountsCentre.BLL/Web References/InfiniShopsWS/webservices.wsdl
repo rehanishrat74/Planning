@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="WebService" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="WebService" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="WebService">
+      <s:element name="CollectionServices">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CollectionServicesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CollectionServicesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CRM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CRMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CRMResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_New">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_NewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Order_NewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_Repayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_RepaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Order_RepaymentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="CollectionServicesSoapIn">
+    <part name="parameters" element="s0:CollectionServices" />
+  </message>
+  <message name="CollectionServicesSoapOut">
+    <part name="parameters" element="s0:CollectionServicesResponse" />
+  </message>
+  <message name="CRMSoapIn">
+    <part name="parameters" element="s0:CRM" />
+  </message>
+  <message name="CRMSoapOut">
+    <part name="parameters" element="s0:CRMResponse" />
+  </message>
+  <message name="Order_NewSoapIn">
+    <part name="parameters" element="s0:Order_New" />
+  </message>
+  <message name="Order_NewSoapOut">
+    <part name="parameters" element="s0:Order_NewResponse" />
+  </message>
+  <message name="Order_RepaymentSoapIn">
+    <part name="parameters" element="s0:Order_Repayment" />
+  </message>
+  <message name="Order_RepaymentSoapOut">
+    <part name="parameters" element="s0:Order_RepaymentResponse" />
+  </message>
+  <portType name="WebServiceSoap">
+    <operation name="CollectionServices">
+      <input message="s0:CollectionServicesSoapIn" />
+      <output message="s0:CollectionServicesSoapOut" />
+    </operation>
+    <operation name="CRM">
+      <input message="s0:CRMSoapIn" />
+      <output message="s0:CRMSoapOut" />
+    </operation>
+    <operation name="Order_New">
+      <input message="s0:Order_NewSoapIn" />
+      <output message="s0:Order_NewSoapOut" />
+    </operation>
+    <operation name="Order_Repayment">
+      <input message="s0:Order_RepaymentSoapIn" />
+      <output message="s0:Order_RepaymentSoapOut" />
+    </operation>
+  </portType>
+  <binding name="WebServiceSoap" type="s0:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="CollectionServices">
+      <soap:operation soapAction="WebService/CollectionServices" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CRM">
+      <soap:operation soapAction="WebService/CRM" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Order_New">
+      <soap:operation soapAction="WebService/Order_New" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Order_Repayment">
+      <soap:operation soapAction="WebService/Order_Repayment" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WebService">
+    <port name="WebServiceSoap" binding="s0:WebServiceSoap">
+      <soap:address location="http://www.infinishops.com/webservices.asmx" />
+    </port>
+  </service>
+</definitions>

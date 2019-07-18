@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="urn:IBZservices" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:IBZservices" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema targetNamespace="urn:IBZservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="getparameter">
+        <s:all>
+          <s:element name="ITEM" type="s:string" />
+          <s:element name="CUSTOMER_UID" type="s:string" />
+          <s:element name="SESSIONID" type="s:string" />
+          <s:element name="LANGUAGE" type="s:string" />
+          <s:element name="REFERRER" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="returnmsg">
+        <s:all>
+          <s:element name="ITEM" type="s:string" />
+          <s:element name="VALUE" type="s:string" />
+          <s:element name="ERRORCODE" type="s:byte" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="getSessionInfoRequest">
+    <part name="info" type="s0:getparameter" />
+  </message>
+  <message name="getSessionInfoResponse">
+    <part name="return" type="s0:returnmsg" />
+  </message>
+  <message name="getResellerToolbarRequest">
+    <part name="info" type="s0:getparameter" />
+  </message>
+  <message name="getResellerToolbarResponse">
+    <part name="return" type="s0:returnmsg" />
+  </message>
+  <portType name="IBZservicesPortType">
+    <operation name="getSessionInfo">
+      <input message="s0:getSessionInfoRequest" />
+      <output message="s0:getSessionInfoResponse" />
+    </operation>
+    <operation name="getResellerToolbar">
+      <input message="s0:getResellerToolbarRequest" />
+      <output message="s0:getResellerToolbarResponse" />
+    </operation>
+  </portType>
+  <binding name="IBZservicesBinding" type="s0:IBZservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="getSessionInfo">
+      <soap:operation soapAction="urn:IBZservices#addReseller" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="getResellerToolbar">
+      <soap:operation soapAction="urn:IBZservices#getResellerToolbar" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:IBZservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="IBZservices">
+    <port name="IBZservicesPort" binding="s0:IBZservicesBinding">
+      <soap:address location="http://webservices.infinibiz.com/updates.php" />
+    </port>
+  </service>
+</definitions>

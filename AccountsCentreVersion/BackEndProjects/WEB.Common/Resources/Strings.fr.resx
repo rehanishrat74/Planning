@@ -1,0 +1,1821 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="bizplanweb_services_plan_welcome_lnkHome">
+		<value>Acceuil</value>
+	</data>
+	<data name="bizplan_menu_table_Expenses">
+		<value>Expenses</value>
+	</data>
+	<data name="bizplanweb_services_plan_welcome_lnkText">
+		<value>Texte</value>
+	</data>
+	<data name="bizplanweb_services_plan_welcome_lnkTable">
+		<value>Table</value>
+	</data>
+		<data name="BizPlan_Services_Tracker_FinancialReport_lblActual">
+		<value>Actual</value>
+	</data>
+	<data name="bizplanweb_services_plan_faqs_lblHeading">
+		<value>FAQs</value>
+	</data>
+	<data name="bizplanweb_services_plan_faqs_lblFAQs">
+		<value>
+&lt;span id="lblFAQs"&gt; &lt;dl id = "FAQ_DL"&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; 
+	Comment puis-je me Connecter à InfiniPlan?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez accéder à www.accountscentre.com et cliquer sur Mon Compte. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer votre Identification de Client et Mot de Passe pour accéder à la Page Unifiée de Connexion. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer sur l’icône de Services de Comptabilité. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer sur le menu de Services Disponibles et sélecter InfiniPlan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l7 level1 lfo1;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Vous avez accédé à InfiniPlan avec succès et vous pouvez maintenant commencer à préparer votre Plan d’affaire / Résumé.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je commencer à utiliser InfiniPlan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+	Une fois que vous vous êtes connectés à InfiniPlan, vous pouvez utiliser une des options suivantes pour commencer à utiliser la procédure de Planning et naviguer à travers l’application:  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l6 level1 lfo2;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer sur la touche marquée Débuter pour accéder au Gérant de Plan et commencer la procédure de planning.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l6 level1 lfo2;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ou veuillez aller au menu de Naviguer sur la gauche de la page et cliquer votre option désirée.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Qu’est ce Navigateur de Plan?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Navigateur de Plan est un menu de navigation qui permet aux utilisateurs de naviguer à travers l’application est accéder les différents composants. C’est disponible a gauche en haut de la page d’accueil de InfiniPlan et affiche les quatre options suivantes:  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Accueil : Page par défaut pour le produit &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Gérant de Plan: Gère les opérations tells que Création de Plan, sélection et Modification.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Export de Plan: Gère la liste des Plans déjà exportes.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l11 level1 lfo3;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Questions: Questions fréquemment posées relative au produit &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Quelles sont les Options du Gérant de Plan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; 
+	&lt;p class="MsoNormal" style="margin-left: 36.0pt"&gt;
+	&lt;span lang="FR" style="font-size:10.0pt;font-family:Verdana"&gt;Toutefois, une 
+	fois qu’un plan déjà créé ou d’échantillon est accédé, le Gérant de Plan 
+	affiche les options suivantes: &lt;/span&gt;&lt;/p&gt;
+	&lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt;&amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		Textes: Ceci vous emmène au ‘contenus de texte’ d’un Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Tables: Ceci emmène l’utilisateur aux différentes tables de plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		Diagrammes: Ceci emmène l’utilisateur aux diagrammes de Plan &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Prévision de Plan: Ceci emmène l’utilisateur à prévoir le plan et le finaliser le format.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Exporter un Plan: Ceci emmène l’utilisateur à exporter des plans pour être utilisés dans d’autres applications tels que Microsoft Word et les imprimer. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		Wizard de Plan (expliqué au chapitre 3): Ceci emmène l’utilisateur au Wizard de Plan qui a été utilisé pendant la création de ce plan en particulier et permet l’édition de tout information insérée précédemment.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l0 level1 lfo4;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Fermer Plan: Ceci ferme le plan existant et retourne l’utilisateur à la page d’Accueil de InfiniPlan. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je créer un nouveau plan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span lang="FR" style="font-size: 10.0pt; font-family: Verdana"&gt;Veuillez 
+		cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.&lt;/span&gt;&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		Veuillez cliquer l’icône marquée Créer Nouveau Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ceci vous emmènera au Wizard d’InfiniPlan avec une introduction au Wizard. Veuillez cliquer la touché marquée 
+		Suivant pour commencer à créer un plan d’affaires.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter l’option de wizard Basique ou Avancée et cliquer sur Prochain.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter votre genre de commerce et cliquer sur Suivant. L’option de services est sélectée par défaut, toutefois, dans ce texte d’aide le plan est généré en sélectant l’option choisie.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter si vous gérez d’inventaires ou non et cliquer sur Suivant. Oui est sélecté par défaut.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter votre chiffre d'affaires annuel et cliquer sur Suivant (la valeur doit être estimée sur la base de vos objectifs de commerce et stratégies).  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez décider sur l’option de Ventes à crédit en sélectant Oui ou Non et cliquer Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer le pourcentage espéré de Ventes à Crédit et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer le nombre espéré de jours pour la Collection et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter le genre de prévision des Ventes (c.à.d par unité ou par valeur) et cliquer Suivant. La prévision de Ventes basées sur les valeurs est sélectée par défaut.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter si vous désirez catégoriser vos dépenses et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt;Veuillez insérer le pourcentage de frais personnel, c.à.d les salaries ou bénéfices vous supportez pour vos employés et cliquer sur Suivant. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer le taux d’intérêt estimé à court terme et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer le taux d’intérêt estimé à long terme et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer le taux d’impôt estimé qui est applicable sur vos activités commerciales et cliquer sur Suivant. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer le pourcentage de dépenses pas inclus dans la masse salariale et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer les Jours de Payement espérés et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter si vous créez un plan pour un projet débutant ou déjà en course et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer la date à laquelle vous désirez que votre plan débute et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer un Titre de Plan et cliquer sur Suivant.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez insérer une brève description de plan concernant les buts &amp; objectifs (ceci est optionnel) et cliquer sur 
+		Suivant. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l9 level1 lfo5;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer sur la touché marquée Terminer pour créer le plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ceci vous emmènera au Navigateur de Plan pour ce Plan où vous pouvez naviguer à travers les composants de plan et apporter des modifications.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je accéder le dernier plan sur lequel de travaillais?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l1 level1 lfo6;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’icône “Continuer dernier Plan”.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ceci vous emmènera directement au dernier plan sur lequel vous travailliez. Veuillez utiliser l’option de navigateur de plan pour accéder, visionner et modifier le plan. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; 
+	&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+	&lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je ouvrir les plans existants?&lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l8 level1 lfo7;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l8 level1 lfo7;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’icône ‘Ouvrir Plan Existant’ &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Une liste des Plans existants sera affichée. Veuillez cliquer le plan désiré pour l’ouvrir.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Le Navigateur de Plan ouvrira le plan que vous avez sélecté. Veuillez sélecter vos options désirées pour procéder.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Y a-t-il des plans d’échantillon que je puisse utiliser comme référence?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Il y a de nombreux échantillons de plans disponibles chez InfiniPlan qui peuvent être utilisés comme référence. Veuillez suivre les étapes suivantes pour accéder à ces échantillons.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l4 level1 lfo8;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l4 level1 lfo8;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer sur l’icône ‘Ouvrir l’échantillon de Plan’.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt; Veuillez sélecter l’échantillon de plan pour l’ouvrir.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &lt;span style='mso-spacerun:yes'&gt; &lt;/span&gt; Le Navigateur de plan pour cet échantillon de Plan sera ouvert. Veuillez sélecter l’option désirée pour procéder et naviguer à travers l’échantillon de plan. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je accéder le module de textes et ses composants?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		Veuillez cliquer sur l’icône d’option ‘Ouvrir Plan existant’. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter le plan désiré de la liste de plans affichée.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ceci vous emmènera au Navigateur de Plan pour le plan sélecté.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter l’option de texte affichée sous le menu de Navigateur de Plan sur la gauche de l’écran.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Un nouveau panneau marqué ‘Textes de Plan’ sera affiché en bas de l’écran à gauche du menu de Navigateur de Plan. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l5 level1 lfo9;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Le composant de texte sélecté s’ouvrira.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez noter que si le composant de texte est accédé pour un échantillon de plan, il y aura les données relatives. Pour les plans nouvellement créés, les composants de textes affichés seront vides, où les utilisateurs peuvent ajouter leurs données personnelles. D’autres composants de textes peuvent être accédés de la même façon.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je accoutumer le texte du plan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez accéder le composant de textes en suivant les instructions données dans la question mentionnée précédemment. Une fois que vous avez ouvert le composant de texte désiré, vous pouvez facilement l’accoutumer en y ajoutant un texte. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; La plupart des composants de textes qui requièrent des descriptions détaillées ont été équipés d’outils d’édition de police et format e.g. Page Légale  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez ajouter l’information requise (pour les plans nouvellement créés) ou éditer l’information déjà présente (pour les plans d’échantillon) et cliquer sur la touche ‘Mettre à Jour’ pour sauvegarder tout changement que vous faites.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je accéder les Tables de Plan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		Veuillez cliquer l’icône marquée ‘Ouvrir plan Existant’.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter le plan désiré de la liste des plans affichés.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ceci vous emmènera au Navigateur de Plan pour le plan que vous avez sélecté.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l12 level1 lfo10;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Tables dans le menu de Navigateur de Plan pour accéder au module de tableau.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+	Un nouveau panneau marqué ‘Tables de Plan’ s’ouvrira sous le panneau de Navigateur de Plan &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je éditer / accoutumer les tables de Plan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez accéder le table de plan que vous désirez éditer / accoutumer, en suivant les étapes mentionnées dans la questions précédente. Quelques tables ne peuvent pas être éditées sur le genre de données qu’elles contiennent. Vous pouvez ajouter, supprimer ou insérer des rangées à la table. Veuillez cliquer sur la touché marquée ‘Mettre à Jour la Table’ pour sauvegarder les changements que vous avez apportées &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je accéder les diagrammes dans mon Plan d’Affaires?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’icône marquée ‘Ouvrir Plan existant’.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter le plan désiré de la liste de plans affichés. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ceci vous emmènera au Navigateur de Plan pour le plan que vous avez sélecté. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Diagrammes dans le menu de Navigateur de Plan pour accéder au module de table.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l3 level1 lfo11;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Un nouveau panneau marqué Diagrammes de Plan s’ouvrira sous le panneau de Navigateur de Plan avec une liste de tous les diagrammes disponibles. Veuillez sélecter le diagramme que vous désirez pour l’accéder. Votre diagramme sélecté sera affiché.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je changer le genre de Diagramme?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; 
+	&lt;p class="MsoNormal" style="margin-left: 36.0pt"&gt;
+	&lt;span lang="FR" style="font-size:10.0pt;font-family:Verdana"&gt;Veuillez 
+	accéder le Diagramme voulu en suivant les étapes mentionnées dans la 
+	question précédente. Il y a une boîte marquée ‘Genre de Diagramme’ en haut 
+	de chaque Diagramme. Veuillez cliquer sur la flèche et une liste de tous les 
+	Diagrammes disponibles sera affichée. Veuillez sélecter le genre de 
+	Diagramme que vous désirez et le nouveau Diagramme sera affiché. &lt;/span&gt;&lt;/p&gt;
+	&lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je éditer les Diagrammes de Plan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; 
+	&lt;p class="MsoNormal" style="margin-left: 36.0pt"&gt;
+	&lt;span lang="FR" style="font-size:10.0pt;font-family:Verdana"&gt;Tous les 
+	diagrammes sont dessinés sur la base des données sélectées par l’utilisateur 
+	dans le Wizard de Plan. Si vous désirez changer un des Diagrammes, veuillez 
+	apporter les changements dans les tables ou sections de wizard relatifs. 
+	Vous pouvez accéder la table ou plan de wizard voulu en sélectant l’option 
+	de Tables ou Wizard de Plan du panneau de Navigateur de Plan respectivement.
+	&lt;/span&gt;&lt;/p&gt;
+	&lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; &amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;&lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je prévisionner le plan que j’ai créé?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l2 level1 lfo12;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l2 level1 lfo12;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’icône marquée ‘Ouvrir Plan existant’.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l2 level1 lfo12;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter le plan désiré de la liste de plans affichés.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l2 level1 lfo12;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Ceci vous emmènera au Navigateur de Plan pour le plan que vous avez sélecté.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l2 level1 lfo12;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de ‘Prévoir le Plan’ dans le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Une nouvelle fenêtre d’explorateur s’ouvrira montrant la prévision de plan (la fenêtre d’explorateur affiche le contour de Plan à gauche et le contenu du Plan à droite)  &lt;o:p&gt; 	&lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; 
+	Can I export the plans created within InfiniPlan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Yes, you can export the plans created within InfiniPlan. These exported plans can be saved in your computer’s hard disk and will be available offline for printing or other purposes. &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Comment puis-je exporter un plan?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;ol style='margin-top:0cm' start="1" type="1"&gt; &lt;li class="MsoNormal" style='mso-list:l10 level1 lfo13;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Gérant de Plan sous le menu de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l10 level1 lfo13;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’icône marquée Ouvrir Plan Existant’.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l10 level1 lfo13;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez sélecter le plan désiré de la liste de plans affichés.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l10 level1 lfo13;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; 
+		Ceci vous emmènera au Navigateur de Plan pour le plan que vous avez sélecté.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;li class="MsoNormal" style='mso-list:l10 level1 lfo13;tab-stops:list 36.0pt'&gt; 
+		&lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Veuillez cliquer l’option de Prévision de Plan dans le panneau de Navigateur de Plan.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/li&gt; &lt;/ol&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Une fenêtre affichant les Options d’Export de Plan s’ouvrira. Veuillez sélecter oui si vous désirez inclure des plans et Diagrammes dans le plan exporté. Veuillez sélecter la boîte à cocher marquée ‘Télécharger Immédiatement’ et cliquer sur la touche marquée Exporter le Plan. Une petite fenêtre s’ouvrira avec l’option d’ouvrir ou sauvegarder le plan exporté. Veuillez choisir l’option désirée pour compléter la procédure d’export.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Puis-je créer et sauvegarder plusieurs plans dans InfiniPlan? &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Oui, vous pouvez créer et sauvegarder plusieurs plans dans InfiniPlan en même temps.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;dt&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana; color:navy'&gt; Y a-t-il une limite définie pour le nombre maximum de plans qui peuvent être créés dans InfiniPlan?  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;/dt&gt; &lt;dd&gt; &lt;p class="MsoNormal"&gt; &lt;span style='font-size:10.0pt;font-family:Verdana'&gt; Non, il n’y a pas de limite définie pour le nombre maximum de plans qui peuvent être créés et sauvegardés dans InfiniPlan. Vous pouvez créer autant de plans dont vous en avez besoin.  &lt;o:p&gt; &lt;/o:p&gt; &lt;/span&gt; &lt;/p&gt; &lt;hr class="faqLineBreak"&gt;&lt;/dd&gt; &lt;/dl&gt; &lt;/span&gt; 
+
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</value>
+	</data>
+	<data name="bizplanweb_services_plan_welcome_lnkCharts">
+		<value>Tableaux</value>
+	</data>
+	<data name="bizplanweb_services_plan_welcome_lnkPlanPreview">
+		<value>Vue d'ensemble du Plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_welcome_lnkExportPlan">
+		<value>Plan d'exportation</value>
+	</data>
+	<data name="bizplanweb_services_plan_welcome_lnkPlanWizard">
+		<value>Wizard du Plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_welcome_lnkClosePlan">
+		<value>Fermer le Plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_lblHeading1">
+		<value>Plan de Commerce</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_lblHeading2">
+		<value>Définition</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_lblHeading3">
+		<value>InfiniPlan</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_btnStart">
+		<value>Commencer</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_lnkNewPlan">
+		<value>Créer un nouveau plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_txtText1">
+		<value>Une étape importante pour débuter votre propre commerce est de développer un plan de commerce. Le plan vous aidera à définir ce que votre commerce est dans son entiereté, comment vous allez faire le marketing de vos produits et comment votre commerce sera opérationnel.</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_txtText2">
+		<value>" Le plan du Commerce est une étape essentielle pour un entrepreneur prudent à prendre, sans en tenir compte de la grandeur du commerce." 
+" Le Plan de Commerce décrit le commerce, ses objectifs, ses stratégies, le marché dont il fait partie et ses prévisions. Il contient plusieurs fonctions de sécuriser les fonds externes à mesurer le succès dans votre propre commerce. "</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_txtText3">
+		<value>" InfiniPlan contient un sommaire comment un propriétaire, gérant, ou entreprenur pense à organiser sa stratégie d'entrepreneur et à implimenter les activités nécessaires et suffisants pour la voie vers le succès."</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_lnkLastViewPlan">
+		<value>Contuinuer le dernier plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_lnkSamplePlan">
+		<value>Ouvrez le plan échantillon</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_lnkExsistingPlan">
+		<value>Ouvrez le plan actuel</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblTableHeading">
+		<value>Texte</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblIntro1">
+		<value>InfiniPlan vous permet de créer un sommaire / plan compréhensif du modèle de votre commerce proposé. Ce genre de sommaire peut être utilisé en tant qu'une gestion interne, un plan et outil de stratégie ou externellement en tant qu'un sommaire pour les banques ou d'autres investiteurs potentiels. InfiniPlan peut être utilisé plusieurs fois pour créer des plans de commerces actualisés pour vos aventures en cours.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblIntro2">
+		<value>Le Plan de Commerce créé en utilisant InfiniPlan contient tous les textes relevants et tableaux qui décrivent le but de votre commerce. Vous pouvez aussi ajouter des tableaux et figures pour illustrer l'avenir et les analyses de votre plan de commerce.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblIntro3">
+		<value>InfiniPlan offre les caractéristiques faciles à utiliser pour vous aider à créer un plan idéal pour votre commerce:</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblIntro4">
+		<value>Les échantillons des Plans tout fait ( readymade), utiles en tant que des guides et maquettes accoûtumables; le Wizard du Plan Interractif, utile à créer et editer des nouveaux plans et existants aussi; Le Plan Gérant autorise à garder un suivit des tous les Plans créés récemment et aussi à garder un record des plans utilisés récemment; le Plan de Vue d'ensemble autorise à visionner les plans dans son entièreté, su une fenêtre séparée' Le Plan Export, utile lorsque vous désirez sauvegarder les plans de commerce sur votre ordinateur; les Options des Plans de Présentations, utiles lorsque les informations voulues doivent être affichées sur texte, table et / ou diagramme; utilisation aisée, et interface graphique facile à naviguer vous fournit la facilité d'utilisation et extraction de vos plans de commerce.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblCoverPage">
+		<value>Cette page affiche le nom de la société, Logo, l'adresse et autre coordonnées avec des détails nécessaires</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblLegalPage">
+		<value>Cette page affiche les relevés en ce qui concerne la protection du droits d'auteur des informations fournis</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblExecutiveSummary">
+		<value>Cette section fournit les vérités relevants et chiffres pour l'aventure de votre commerce, comme l'augmentation de vos ventes prospectives et rentabilité. Ceci définit aussi les objectifs de la société et les missions. Finalement, ceci fournit aussiun sommaire compréhensif de tous les buts et stratégies que le commerce possède.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblCompanySummary">
+		<value>Cette section fournit les détails de la propriété de la Société, et aussi des détails financiers lors du commencement et autres liens reliés de la Société comme les facilités, les commerces, etc..</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblServices">
+		<value>Cette section fournit des informations des produits et services fournit par le commerce. Ceci donne un aperçu de des stratégies de ventes et le prévisionnement futur relié aux ventes et la croissance des produits. En addition, ceci fournit aussi une comparaison compétiticve ajournée aussi les détails d'utilisation de la technologie incorporée dans la stratégie des ventes.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblMarketAnalysisSummary">
+		<value>Cette section concentre comment determiner le nombre de clients potentiels et la part des actions du commerce proposé.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblStrategyandImplementationSummary">
+		<value>Cette section, fournit des détails du prix proposé et stratégie de la vente. Ceci décrit aussi les étapes planifiées et les alliances stratégiques.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblManagementSummary">
+		<value>Cette section fournit des détails des plans des organisations proposées, la hierarchie structurée et le roulement du travail.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lblFinancialPlan">
+		<value>Cette section fournit une information récapitulé des estimations financières et hypothèse, emprunt et projections reliées au bilan d'inventaire, la caisse, le profit et perte et autres déclarations finacières.</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkCoverPage">
+		<value>La page de front</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkLegalPage">
+		<value>La page légale</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkExecutiveSummary">
+		<value>Sommaire executif</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkCompanySummary">
+		<value>Sommaire de la Société</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkServices">
+		<value>Services</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkMarketAnalysisSummary">
+		<value>Sommaire des analyses du Marché</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkStrategyandImplementationSummary">
+		<value>Sommaire de l'implémentation et de la Stratégie</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkManagementSummary">
+		<value>Sommaire de la gestion</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_lnkFinancialPlan">
+		<value>Plan Financier</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_btnUpdate">
+		<value>Mis à jour du texte</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_btnBack">
+		<value>Tâches précédentes</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_btnNext">
+		<value>Tâches suivantes</value>
+	</data>
+	<data name="bizplanweb_services_text_plantext_ftbText">
+		<value />
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_lblHeading">
+		<value>Les plans exportés</value>
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_btnExport">
+		<value>Plan d'export</value>
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_lblPlanPref">
+		<value>Télécharger le plan d'export</value>
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_lnkRtfFile">
+		<value />
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_lblDateExported">
+		<value />
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_lblPlanName">
+		<value>Le nom du Plan de Commerce</value>
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_lblIncludeTables">
+		<value>Inclut le tableau dans l'export</value>
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_lblChartInclude">
+		<value>Inclut les tableaux dans l'export</value>
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_chkDownload">
+		<value>Télécharger immédiatement</value>
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_txtPlanSaveName">
+		<value />
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_ddlIncludeTables">
+		<value />
+	</data>
+	<data name="bizplanweb_services_preferences_planpreferences_ddlIncludeCharts">
+		<value />
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_lblMessage">
+		<value />
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_lblSavePlan">
+		<value>Voulez vous sauvegarder le plan que vous avez importé?</value>
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_lblOverwritePlan">
+		<value>Un Plan avec un nom similaire existe déjà. Voulez vous écrire dessus?</value>
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_btnSubmit">
+		<value>Oui</value>
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_btnNo">
+		<value>Non</value>
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_btnCancel">
+		<value>Annuler</value>
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_btnReplaceYes">
+		<value>Oui</value>
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_btnReplaceNo">
+		<value>Non</value>
+	</data>
+	<data name="bizplanweb_services_plan_savesampleplan_btnReplaceCancel">
+		<value>Annuler</value>
+	</data>
+	<data name="bizplanweb_services_plan_exportedplans_lblHeading">
+		<value>Les Plans exportés</value>
+	</data>
+	<data name="bizplanweb_services_plan_exportedplans_dgExpPlansColExportedPlans">
+		<value>Nom du Plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_exportedplans_dgExpPlansColPlanDescription">
+		<value>Plan de Description</value>
+	</data>
+	<data name="bizplanweb_services_plan_exportedplans_dgExpPlansCoFileName">
+		<value>Nom du fichier</value>
+	</data>
+	<data name="bizplanweb_services_plan_exportedplans_dgExpPlansColExportDate">
+		<value>Date d'exportation</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblTableHeading">
+		<value>Page de Couverture</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_btnUpdateText">
+		<value>Mis à jour</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblPlanTitle">
+		<value>Titre du Plan</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblDate">
+		<value>Date</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblCopyNumber">
+		<value>Numéro de la Copie du Plan</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblOwner">
+		<value>Propriété</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblName">
+		<value>Nom</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblTitle">
+		<value>Titre</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblAddress">
+		<value>Adresse</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblPhone">
+		<value>Numéro de téléphone</value>
+	</data>
+	<data name="bizplanweb_services_text_plancover_lblMisc">
+		<value>Divers</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_InsertButton">
+		<value>Insérer une nouvelle rangée</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_DeleteButton">
+		<value>Effacer la rangée</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_btnRename">
+		<value>Renommer la rangée</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_btnUpdate">
+		<value>Mettre à jour la table</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_btnCopyRest">
+		<value>Copie au Rest</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_btnBack">
+		<value>Tâches Précédentes</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_btnNext">
+		<value>Tâches Suivantes</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblHeader">
+		<value>Tableaux</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblTableInto">
+		<value>InfiniPlan inclut des tables complets d'analyses. Ces tables apparaissent et opèrent similairement commen les feuilles de calculs; cependant, pour votre aise ceux-ci sont progammées.
+Pour utiliser, veuillez simplement insérer votre base des données dans la case correcte et le résultat sera automatiquement calculé.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblGeneralAssumption">
+		<value>Pour créer ce tableau, veuillez répondre les questions dans le plan wizzard. Les résultats sont calculés selon le standard de comptabilité à partir de votre données d'entrée.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblStartupDetails">
+		<value>Cette table assiste à estimer le coût du commencement pour  votre aventure commerciale. Ceci automatiquement mets à jour la balnce du commencement dans le bilan d'inventaire.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblBreakEvenAnalysis">
+		<value>Cette table vous aide à determiner les points d'équilibres de votre commerce: ceci est, quel produits que vous devez vendre en quelle quantité, mensuellement ou annuellement, pour couvrir les coûts du déroulement de votre commerce.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblBreakEvenAnalysis">
+		<value>Cett table assiste à determiner les points d'équilibres: qui sont, quels produits doit être vendu sous quelle quantité, mensuellement ou annuellement, pour recouvrir le coût de continer le commerce.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblBreakEvenAnalysis">
+		<value />
+	</data>
+	<data name="bizplanweb_services_tables_table_lblMarketAnalysis">
+		<value>Cette table entretient le nombre des clients potentiels dans votre domaine. En utilisant ces chiffres projetés, cette table aide à quantifier le marché potentiel total.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblPayroll">
+		<value>Cette table utilise le nombre des employés que votre commerce envisage à recruter et après calcule le total des dépenses projetés pour le travail</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblSalesForecast">
+		<value>Cette table estime le coût des ventes du nombre des ventes planifié. Cette estimation est initialement préparée mensuellement ( pour la première année ) mais pour les années ultérieures, ceci est préparé annuellement.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblMileStones">
+		<value>Cette table fournit une liste simplifiée, des étapes concrêtes, qui peuvent être pris durant l'implémentation du Plan de Commerce</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblIncomeStatement">
+		<value>Cette Table crée la déclaration deProfits et Pertes ( aussi connu en tant que Déclaration des Revenus sous forme Proforma) qui fournit une vue d'ensemble sur les profits et pertes planifiés pour le commerce proposé. Cette Table réunis les informations du Prévisionnement des Ventes, la Masse Salariale et le Bilan d'Inventaire affectent automatiquement la déclaration du mouvement de la trésorerie, le bilan d'inventaire et la performence du rapport.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblCashFlow">
+		<value>Ce tableau prévisionne le changement dans la solde du cash ou unne période de temps donnée.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblBalanceSheet">
+		<value>Cette table liste l'argent liquide, les biens et les responsabilités, présents à un moment bien spécifié.
+bizplanweb_services_tables_table_lblBalanceSheet</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lblRatios">
+		<value>Cette table calcule automatiquement la Ratio Performance du commerce proposé, sur les valeurs des tables précédentes.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkGeneralAssumption">
+		<value>Hypothèse générale</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkStartupDetails">
+		<value>Détails du début</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkBreakEvenAnalysis">
+		<value>Analyses des points d'équilibres</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkMarketAnalysis">
+		<value>Analyses du Marché</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkPayroll">
+		<value>Masse salariale</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkSalesForecast">
+		<value>Prévision de ventes.</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkMileStones">
+		<value>Etapes</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkIncomeStatement">
+		<value>Déclaration des revenus</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkCashFlow">
+		<value>Rentrée d'argent</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkBalanceSheet">
+		<value>Bilan d'inventaire</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkRatios">
+		<value>Rubriques</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_lnkExpenses">
+		<value>Expenses</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_btnBack">
+		<value>Tâches précédentes</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_btnNext">
+		<value>Tâches suivantes</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblHeading">
+		<value>Diagrammes</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblSelect">
+		<value>Choisissez le type de diagramme</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblChartIntro1">
+		<value>InfiniPlan crée automatiquement des diagrammes utiles pour utiliser dans les Plans de Commerce, de la base des données que vous insérez dans votre tableau. Ces diagrammes peuvent être modifiés et accoûtumés qui conviennent les thèmes du plan et exigences.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblBenchMark">
+		<value>Ce diagramme affiche les valeurs des ventes, profits bruts, les dépenses opérationnels et aussi les Comptabilités</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblCashFlow">
+		<value>Ce diagramme affiche le changement de la solde de caisse, sur une période de temps donnée, illustré. Ceci est basé sur le tableau de la rentrée d'argent.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblHighlights">
+		<value>Ce diagramme affiche une vue d'ensemble de la projection financière concernant les ventes, profits brut et net récupérés sur une période spécifique 
+(généralement trois ans)</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblMarketAnalysis">
+		<value>Cette table affiche le nombre des clients potentiels dans le marché.Ceci est basé sur la table des Analyses du Marché.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblStartup">
+		<value>Cette table affiche la base des données insérée auparavant dans la table des détails du Commencement.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblProfitMonthly">
+		<value>Cette table affiche les profits mensuels projetés basé sur le total des ventes mensuelles assumé.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblProfitYearly">
+		<value>Cette table affiche les profits annuels projetés basé sur la vente annuelle totale assumé.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblGrossMarginMonthly">
+		<value>Cette table affiche les profits bruts mensuels basé sur le montant de vente assumé.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblGrossMarginYearly">
+		<value>Cette table affiche graphiquement les nombres projetés des profits annuels basés sur l'hypothèse des ventes totales annuelles.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblSalesYearly">
+		<value>Cette table affiche graphiquement les nombres projetés des ventes annuelles.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lblSalesMonthly">
+		<value>Cette table affiche graphiquement les nombres projetés des ventes annuelles.</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkBenchMark">
+		<value>Evaluer les performences</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkBreakEvenAnalysis">
+		<value>Analyses des points d'equilibres</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkCashFlow">
+		<value>Flux du Capitaux</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkHighlights">
+		<value>Point culminant</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkMarketAnalysis">
+		<value>Analyses du Marché</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkStartup">
+		<value>Début</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkProfitMonthly">
+		<value>Profit mensuel</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkProfitYearly">
+		<value>Profit annuel</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkGrossMarginMonthly">
+		<value>La marge brute mensuelle</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkSalesMonthly">
+		<value>Ventes mensuelles</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkSalesYearly">
+		<value>Ventes Annuelles</value>
+	</data>
+	<data name="bizplanweb_services_charts_chart_lnkGrossMarginYearly">
+		<value>La marge brute annuelle</value>
+	</data>
+	<data name="bizplanweb_services_plan_openplan_dgPlanListPlanName">
+		<value>Nom du plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_openplan_dgPlanListPlanDescription">
+		<value>Plan de Description</value>
+	</data>
+	<data name="bizplanweb_services_plan_openplan_dgPlanListDeletePlan">
+		<value>Effacer le plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_opensamplsplan_OpenPlan">
+		<value>Nom du Plan</value>
+	</data>
+	<data name="bizplanweb_services_plan_opensamplsplan_OpenPlanDescription">
+		<value>Plan de Description</value>
+	</data>
+	<data name="PW_Title_BusinessType">
+		<value>Type de Commerce</value>
+	</data>
+	<data name="PW_Text_BusinessType">
+		<value>Etes vous dans un commerce de ventes des produits ou fournitures des services ou les deux ?</value>
+	</data>
+	<data name="PW_Help_BusinessType">
+		<value>Cette section exige que vous classifiez votre commerce selon ses fonctions. Si votre société achète, vends ou produit des articles tangibles, alors veuillez choisir " Produits"; si votre société fournit un service de jardinage par exemple, veuillez choisir " Service".
+Au cas où, si votre service fournit les deux par exemple comme les engrais, jardinage, veuillez choisir ' Les deux" et si vous n'êtes pas sûre de la réponse, vous pouvez surpasser cette étape ( appuyer Suivant) et y retourner après.</value>
+	</data>
+	<data name="PW_Title_ManageInventory">
+		<value>Inventaire</value>
+	</data>
+	<data name="PW_Text_ManageInventory">
+		<value>Maintenez vous une inventaire?</value>
+	</data>
+	<data name="PW_Help_ManageInventory">
+		<value>Si dans l'étape précédente, vous avex choisi " Produits" ou " Les Deux", ceci veut dire que votre Société traîte avec les produits et maintient ( ou veny maintenir) une inventaire. Cecui peut être une (des) achat (s), inventaire de la manufacture ou des bien reçus. Pour ajouter une inventaire dans le bilan d'inventaire et flux du capitaux dans votre Plan du Commerce, veuillez choisir " oui".</value>
+	</data>
+	<data name="PW_Title_InventoryTurnOver">
+		<value>Taux du chiffre d'affaire de l'Inventaire</value>
+	</data>
+	<data name="PW_Text_InventoryTurnOver">
+		<value>Combien de fois effectuez vous vos inventaires ?</value>
+	</data>
+	<data name="PW_Help_InventoryTurnOver">
+		<value>Dans l'étape précédente vous avez choisi " Oui ", ceci veut dire que votre commerce maintient régulièrement et remplace les articles dans les inventaires. Pour déterminer la valeur du chiffre d'affaire de l'inventaire, simplement veuillez lsiter le nombre total que vous avez remplacez votre inventaire chaque année. Par exemple, si vous remplacez votre inventaire 6 fois annuellement, alors 6 est la valeur estimée du chiffre d'affaire de votre inventaire. La valeur estimée du chiffre d'affairede votre inventaire est utilisée dans le Bilan d'Inventaire et ceci affectera la rangée de l'inventaire.</value>
+	</data>
+	<data name="PW_Title_SellOnCredit">
+		<value>Vendez en Crédit</value>
+	</data>
+	<data name="PW_Text_SellOnCredit">
+		<value>Vendez vous à vos clients en crédit?</value>
+	</data>
+	<data name="PW_Help_SellOnCredit">
+		<value>Au cas où vos clients exigent un crédit lorsqu'ils achètent votre service / produit, veuillez choisir " Oui " et une entrée sera faite dans le bilan d'inventaire et les tables de mouvements de trésoreries pour la comptabilité. Si votre commerce ne'entretient pas des crédits, veuillez choisir alors " Non"</value>
+	</data>
+	<data name="PW_Title_SalesOnCredit">
+		<value>Ventes en Crédit</value>
+	</data>
+	<data name="PW_Text_SalesOnCredit">
+		<value>Combien de pourcent de vos ventes est effectué en crédit?</value>
+	</data>
+	<data name="PW_Help_SalesOnCredit">
+		<value>Si dans l'étape précédente vous choisissez "Oui", ceci veut dire que votre commerce étend régulièrement des crédits à vos clients. L'étape suivante est pour determiner le pourcentage de vos ventes qui est vendu au crédit. Cette valeur est le résultat de la division du nombre des produits / services vendus au crédit par le nombre total des produits / services vendus et le résultat est multiplié par 100. La valeur résultative sera placée dans la rangée des Ventes au Crédit % ( pourcentage) dans la table des hypothèses générales</value>
+	</data>
+	<data name="PW_Title_CollectionDays">
+		<value>Jours de Collection</value>
+	</data>
+	<data name="PW_Text_CollectionDays">
+		<value>Dans combien de temps, recevez vous le payement des ventes faites en crédit?</value>
+	</data>
+	<data name="PW_Help_CollectionDays">
+		<value>Si dans l'étape 5, vous avez choisi " Oui", une entrée a été effectuée dans les Comptabilités reçus dans le Bilan d'Inventaire et Mouvement de trésorerie de votre Plan de Commerce. 
+Pour calculer vos comptes correctement, veuillez insérer le nombre de jours vous normalement attendez avant de collecter les ventes en crédits. Ce nombre sera utilisé pour achever la rangée de l'Estimation des Jours de Collection dans votre table des Hypothèses Générales.</value>
+	</data>
+	<data name="PW_Title_SalesForcastType">
+		<value>Type de prévisionnement des Ventes</value>
+	</data>
+	<data name="PW_Text_SalesForcastType">
+		<value>Voulez vous prévisionner vos ventes en unités ou en valeurs ?</value>
+	</data>
+	<data name="PW_Help_SalesForcastType">
+		<value>Il y a deux options disponibles pour prévisionner la vente: par unités ou par valeur. Au cas oû, vous choisissez le prévisionnement de vos ventes par unités, le total des ventes sera calculé en multipliant le nombre des unités vendus par le prix. Si vous choisissez le prévisionnement par valeur, vous devez simplement choisir la touche du prévisionnement par valeurs. Si vous n'êtes pas sûre de votre choix, vous pouvez surement faire des modifications en retournat sur la page après.</value>
+	</data>
+	<data name="PW_Title_CategorizedExpenses">
+		<value>Catégorisez les dépenses</value>
+	</data>
+	<data name="PW_Text_CategorizedExpenses">
+		<value>Désirez vous catégoriser la fonctionalité des dépenses en cours</value>
+	</data>
+	<data name="PW_Help_CategorizedExpenses">
+		<value>Si vous désirez garder les projections financières simples, veuillez choisir " Non" pour créer une simple liste des dépenses et un simple plan personnel. Le choix " Oui" divise les dépenses et le plan personnel dans deux catégories opérationelles comme les ventes et les dépenses de marketting, dépenses généraux et administratives, etc.</value>
+	</data>
+	<data name="PW_Title_PersonalBurden">
+		<value>Problèmes personnels</value>
+	</data>
+	<data name="PW_Text_PersonalBurden">
+		<value>Quel pourcentage de salaires soutenez vous pour vos employés en plus? Come les Taxes, Congés et bénéfices.</value>
+	</data>
+	<data name="PW_Help_PersonalBurden">
+		<value>Le Problème Personnel est un nom donné au coût supplémentaire en plus du salaire et peut être entre 10 à 30 pourcents selon l'industrie et la politique de l'entreprise.
+Si vous n'embauchez pas des employés, veuillez mettre cette valeur à zéro. Si vous n'êtes pas certain, veuillez insérer une valeur de 15 pourcent. Cette valeur sera utilisée dans le Problème Personnel dans la table des Hypothèses Généraux et aussi ajoutée dans la Tables des Profits et Pertes.</value>
+	</data>
+	<data name="PW_Title_ShortTermInterestRate">
+		<value>Taux d'Interêt à court terme</value>
+	</data>
+	<data name="PW_Text_ShortTermInterestRate">
+		<value>Le taux d'interêt à court terme estimé ?</value>
+	</data>
+	<data name="PW_Help_ShortTermInterestRate">
+		<value>Cette étape vous exige de faire une suggestion concernant le futur de votre Société. Le taux d'interêt à court terme est un nombre ( exprimé en pourcentage) qui est ensuite utilisé pour calculer votre dépense d'interêt à court terme quii apparaît dans la Table des Profits et Pertes dans la Table des Hypothèses Généraux. Vous pouvez retournet sur cette pasge et editer le nombre pour voir son impacte sur vos finanaces.</value>
+	</data>
+	<data name="PW_Title_TaxRate">
+		<value>Taux d'Interêt</value>
+	</data>
+	<data name="PW_Text_TaxRate">
+		<value>Taux de Taxe estimé ?</value>
+	</data>
+	<data name="PW_Help_TaxRate">
+		<value>Cette étape demandes encore de faire une suggestion éducative concernant le futur de votre compagnie. Veuillez fournir un taux de taxe raisonnable qui sera utilisé pour taxer vos profits : si vous n'êters pas sûre de ceci, veuillez suggérer 25 pourcents. Le taux fournit ici sera utilisé pour compléter la table des Hypothèses Généraux. Vopus pouvez certainement manipuler ce nombre après pour voir son impacte sur vos finances.</value>
+	</data>
+	<data name="PW_Title_NonPayrollExpense">
+		<value>Dépense hors de la Masse Salariale</value>
+	</data>
+	<data name="PW_Text_NonPayrollExpense">
+		<value>Combien de pourcentage des vos dépenses qui ne sont pas liées à votre masse salariale que vous payez en liquide?</value>
+	</data>
+	<data name="PW_Help_NonPayrollExpense">
+		<value>Cette étape vous demande encore de faire une suggestion éducative concernant le futur de votre compagnie. La dépense hores Masse Salariale est un petit nombre exprimé en pourcentage et utilisé pour estimer vos comptes payables dans le Bilan D'inventaire. Ce nombre sera utilisé pour achever la table des Hypothèses Généraux dans votre plan de commerce. Vous pouvez manipuler ce numéro après dans votre table des Hypothèses Généraux pour voir son impacte sur vos finances.</value>
+	</data>
+	<data name="PW_Title_PaymentDays">
+		<value>Jours de payements</value>
+	</data>
+	<data name="PW_Text_PaymentDays">
+		<value>Dans combien de jours, payez vous vos factures ?</value>
+	</data>
+	<data name="PW_Help_PaymentDays">
+		<value>Le numéro que vous insérer ici sera utilisée pour compléter la rangée " Estimateur des Jours du Payement" dans le tableau de l'hypothèse générale dans votre Plan de Commerce. Vous pouvez manipuler ce numéro plus tard dans le tableau de l'hypothèse générale pour voire ses impactes sur vos finances.</value>
+	</data>
+	<data name="PW_Title_StartupOngoing">
+		<value>Commencement ou en cours</value>
+	</data>
+	<data name="PW_Text_StartupOngoing">
+		<value>Planifiez vous un commerce des le début ou un qui existe déjà?</value>
+	</data>
+	<data name="PW_Help_StartupOngoing">
+		<value>Le Wizard de InfiniPlan vous aide à créer des plans de commerce même si votre compagnie est une débutante oui une déjà existante.
+Pour les compagnie débutantes, veuillez choisir " Commencement " et une table titré commencement sera créée dans laquelle vous popuvez enregistrer les numéros pour la société. 
+Pour une existante, Veuillez choisir " En cours " et une table nommée Performence passée sera créée contenant une information historique de la Société</value>
+	</data>
+	<data name="PW_Title_PlanStartDate">
+		<value>Date du commencement du Plan</value>
+	</data>
+	<data name="PW_Text_PlanStartDate">
+		<value>Quand est ce que vous voulez débuter votre plan ?</value>
+	</data>
+	<data name="PW_Help_PlanStartDate">
+		<value>Veuillez choisir la date à laquelle vous désirez afficher tous les tableaux financiers.</value>
+	</data>
+	<data name="PW_Title_StandardLongTerm">
+		<value>Terme standard ou à long terme</value>
+	</data>
+	<data name="PW_Text_StandardLongTerm">
+		<value>Terme standard ou à long terme</value>
+	</data>
+	<data name="PW_Help_StandardLongTerm">
+		<value>Je demande un terme standard pour la plupart des Pland de Commerce. Un pland de Commerce de terme standard consiste 12 mois du prévisionnement mensuel et 2 ans supplémentaires du prévisionnement annuel.Un Plan à long terme ajoute 2 ans de prévisionnement pour un total de 5 ans. La plupart des personnes qui planifient leurs commerces doivent s'appuyer sur le terme standard ( Copié du Plan Pro de Commerce)</value>
+	</data>
+	<data name="PW_Title_PlanTitle">
+		<value>Titre du Plan</value>
+	</data>
+	<data name="PW_Text_PlanTitle">
+		<value>Veuillez donner un titre approprié à votre plan</value>
+	</data>
+	<data name="PW_Help_PlanTitle">
+		<value>Veuillez choisir un nom pour votre plan qui apparaîtra en tant que le titre en haut de chaque page et aussi sur la page de couverture</value>
+	</data>
+	<data name="PW_BusinessType_Products">
+		<value>Produits</value>
+	</data>
+	<data name="PW_BusinessType_Services">
+		<value>Services</value>
+	</data>
+	<data name="PW_BusinessType_Both">
+		<value>Les deux</value>
+	</data>
+	<data name="PW_SalesForcastType_Units">
+		<value>Unités</value>
+	</data>
+	<data name="PW_SalesForcastType_Value">
+		<value>Valeur</value>
+	</data>
+	<data name="PW_StartupOngoing_Startup">
+		<value>Commencement</value>
+	</data>
+	<data name="PW_StartupOngoing_Ongoing">
+		<value>En cours</value>
+	</data>
+	<data name="PW_StandardLongTerm_Long">
+		<value>Long terme</value>
+	</data>
+	<data name="PW_StandardLongTerm_Standard">
+		<value>Terme standard</value>
+	</data>
+	<data name="PW_Title_LongTermInterestRate">
+		<value>Taux d'Interêt à long terme</value>
+	</data>
+	<data name="PW_Text_LongTermInterestRate">
+		<value>Les taux d'interêts à long terme estimés?</value>
+	</data>
+	<data name="PW_Help_LongTermInterestRate">
+		<value>Cette étape vous demande de faire une idée concernant les prospectives futur de votre société. Le taux d'interêts à long terme que vous fournisssez ici sera utilisée pour calculer les dépenses à long terme qui apparaîtront alors dans le tableau des profits et pertes. Ce chiffre peut être à sont tour editer pour connaître son impacte sur vos projets financiers.</value>
+	</data>
+	<data name="PW_Title_PlanDescription">
+		<value>Description du Plan</value>
+	</data>
+	<data name="PW_Text_PlanDescription">
+		<value>Veuillez décrire votre plan dans quelques mots</value>
+	</data>
+	<data name="PW_Help_PlanDescription">
+		<value>Veuillez utiliser l'espace fournit pour donner des informations supplémentaires concernant votre commerce qui décrit ses buts brièvement.</value>
+	</data>
+	<data name="PW_Title_BBusinessType">
+		<value>Type de commerce</value>
+	</data>
+	<data name="PW_Text_BBusinessType">
+		<value>Etes vous dans un commerce de ventes des produits ou des services ou les deux ?</value>
+	</data>
+	<data name="PW_Help_BBusinessType">
+		<value>Cette section vous exige de classifier votre commerce selon ses fonctions. Si votre Société achète, vend ou produit des artivcles tangibles, alors veuillez choisir " produit"; si la Société fournit un service divers ( un service de jardinage), veuillez alors choisir " Services". Au cas où votre Société fournit les deux ( par exemple: plantes, engrais, jardinage, etc..) veuillez choisir alors " Les deux". 
+Si vous n'êtes pas sûre, vous pouvez passer cette étape ( appuyer la touche " Suivant") pour le moment et y revenir après.</value>
+	</data>
+	<data name="PW_Title_BManageInventory">
+		<value>Inventaire</value>
+	</data>
+	<data name="PW_Text_BManageInventory">
+		<value>Gérez vous une inventaire?</value>
+	</data>
+	<data name="PW_Help_BManageInventory">
+		<value>Si dans l'étape suivante, vous choisissez " Produits" ou " Les Deux", ceci veut dire que votre Société traîte avec des produits et maintient ( ou veut maintenir) une inventaire. Ceci peut être des achats, des reçus ou inventaire de manufacture. Pour ajouter une inventaire dans le bilan d'inventaire mouvement de trésorerie dans votre Plan de Commerce, veuillez choisir " Oui"</value>
+	</data>
+	<data name="PW_Title_BInventoryTurnOver">
+		<value>Chiffre d'affaire de l'inventaire</value>
+	</data>
+	<data name="PW_Text_BInventoryTurnOver">
+		<value>Combien de fois effectuez vous des inventaires en une année?</value>
+	</data>
+	<data name="PW_Help_BInventoryTurnOver">
+		<value>Sur l'étape précédente, vous avez choisis " Oui ", ceci veut dire que votre commerce maintient régulièrement et remplace les articles dans votre inventaire. Pour déterminer la valeur de l'inventaire, veuillez simplement lister le nombre de fois vous remplacez complètement votre inventaire chaque année. Par exemple: si vous remplacez votre inventaire 6 fois par an, alors 6 est la valeur estimée du chiffre d'affaire de votre inventaire.
+Cette valeur est utilisée dans el Bilan d'inventaire et affectera votre rangée d'inventaire.</value>
+	</data>
+	<data name="PW_Title_BSellOnCredit">
+		<value>Vendez en crédit</value>
+	</data>
+	<data name="PW_Text_BSellOnCredit">
+		<value>Effectuez vous des ventes en crédit?</value>
+	</data>
+	<data name="PW_Help_BSellOnCredit">
+		<value>Au cas où votre client exige un crédit lorsque ce client achète votre service / produit, veuillez choisir " Oui" et une entrée sera faite dans le bilan d'inventaire et mouvement de trésorerie pour les comptes reçus. Si votre commerce n'accepte pas des ventes au crédit, veuillez choisir " Non"</value>
+	</data>
+	<data name="PW_Title_BSalesOnCredit">
+		<value>Ventes en crédit</value>
+	</data>
+	<data name="PW_Text_BSalesOnCredit">
+		<value>Combien de pourcent de votre vente est effectué en crédit ?</value>
+	</data>
+	<data name="PW_Help_BSalesOnCredit">
+		<value>Si dans l'étape précédente, vous avez choisi " Oui ", ceci veut dire que votre commerce augmente des crédits à ses Clients. L'étape suivante est pour déterminer le pourcentage de vos ventes qui est vendu en crédit. Cette valeur est le résultat de la division de nombre des services / produits vendus en crédit divisé par le nombre total des services / produits vendus et le résultat multilplié par 100. La valeur résultative sera placée dans la rangée de  Vente en Crédit % ( pourcentage) dans la table des Hypothèses Généraux</value>
+	</data>
+	<data name="PW_Title_BCollectionDays">
+		<value>Jours de Collection</value>
+	</data>
+	<data name="PW_Text_BCollectionDays">
+		<value>Dans combien de jours, recevez vous le payement de la vente en crédit?</value>
+	</data>
+	<data name="PW_Help_BCollectionDays">
+		<value>Si sur l'étape 5, vous choisissez " Oui ", une entrée a été faite dans vos comptabilités reçues dasn le bilan d'inventaire et le mouvement de trésorerie de votre plan de commerce. Pour calculer les comptabilités reçues correctement, veuillez insérer le nombre de jours vous attendez avant de collecter les ventes en crédits. Ce nombre sera utilisé pour compléter la rangée de l'Estimation des Jours de Collection dans la table des Hypothèses Générale.</value>
+	</data>
+	<data name="PW_Title_BSalesForcastType">
+		<value>Type de prévisonnement des ventes</value>
+	</data>
+	<data name="PW_Text_BSalesForcastType">
+		<value>Voulez vous prévisionner votre vente en unités ou en valeurs?</value>
+	</data>
+	<data name="PW_Help_BSalesForcastType">
+		<value>Il y a deux options pour prévisionner vos ventes: par unités ou par valeurs. Au cas oû, si vous choisissez le prévisionnement de vos ventes par unités, le montant total de vos ventes sera calculé en multipliant le nombre des unités vendus par le prix associé. au cas où si vous désirez le prévisionnement de vos ventes par valeur, vous devez simplement choisir la touche appropriée. 
+Si vous n'êtes pas sûre de votre choix ou vous voulez effectuer des modifications, vous pouvez certainement y retourner après.</value>
+	</data>
+	<data name="PW_Title_BPersonalBurden">
+		<value>Problèmes personnels</value>
+	</data>
+	<data name="PW_Text_BPersonalBurden">
+		<value>Quel pourcentage des salaires soutenez vous de vos employés en plus ? Comme les taxes, congés, et bénéfices.</value>
+	</data>
+	<data name="PW_Help_BPersonalBurden">
+		<value>Problème Personnel est un nom donné au coût additionnel en plus du salaire er peut être entre 10 à 30 pourcent selon le type d'industrie et la politique de l'entreprise. Si vous n'embauchez aucun employés, veuillez évaluer sa valeur à zéro. Si vous n'êtesp as certain de ceci, insérez une valeur de 15 pourcents. Cette valeur sera alors utilisée dans la section de Problème Personnel dans la Table des Hypothèses Générales et aussi ajoutée aux Tables Personnel, Profits et Pertes.</value>
+	</data>
+	<data name="PW_Title_BInterestRate">
+		<value>Taux d'Interêts</value>
+	</data>
+	<data name="PW_Text_BInterestRate">
+		<value>Taux D'Interêts estimés?</value>
+	</data>
+	<data name="PW_Help_BInterestRate">
+		<value>Cette étape vous demande de faire une suggestion pour le futur de votre Société. Le taux d'interêt à court terme est un nombre ( exprimé en pourcentage) qui est utilisé pour calculer votre dépense de l'interêt à court terme qui apparaît dasn la Table des profits et Pertes dans la Table des Hypothèses Générales. Vous pouvez y retourner et editer le nombre pour voir sont impacte sur vos finances.</value>
+	</data>
+	<data name="PW_Title_BTaxRate">
+		<value>Taux de Taxes</value>
+	</data>
+	<data name="PW_Text_BTaxRate">
+		<value>Taux des Taxes estimés</value>
+	</data>
+	<data name="PW_Help_BTaxRate">
+		<value>Cette étape vous demande encore de faire une suggestion éducative en regard du futur de vore Société. Veuillez fournir un taux de Taxe raisonnable ( selon les activités de votre commerce proposées)dont lesp rofits seront taxés: au cas où, vous n'êtes pas sûre, veuillez choisir 25 pourcent.
+Le taux fournit ici sera utilisée pour achever la table des Hypothèses Générale. Vous pouvez manipuler après ce chiffre dans la tbal des Hypothèses Générales pour voir l'impacte de ceci dans vos finances.</value>
+	</data>
+	<data name="PW_Title_BNonPayrollExpense">
+		<value>Dépences hors de la Masse salariale</value>
+	</data>
+	<data name="PW_Text_BNonPayrollExpense">
+		<value>Quel pourcentage des dépenses de non-masse salariale payez vous en liquide?</value>
+	</data>
+	<data name="PW_Help_BNonPayrollExpense">
+		<value>Cette étape vous exigera encore de faire une suggestion éducative concernant les prospectus futures de votre Société. Les dépenses en dehors de la masse salariale est normalement un nombre bas en purcentage et utilisé pour estimer les comptes payables dans el Bilan d'Inventaires. Ce nombre sera utilisée dans la table de l'Hypothèse Générale dans votrer plan de commerce. Vous pouvez manipuler après dans votre Hypothèses Générales pour voir ses impactes sur vor finances.</value>
+	</data>
+	<data name="PW_Title_BPaymentDays">
+		<value>Jours des payements</value>
+	</data>
+	<data name="PW_Text_BPaymentDays">
+		<value>Dans combien de jours payez vous vos factures?</value>
+	</data>
+	<data name="PW_Help_BPaymentDays">
+		<value>Le chiffre que vous inssérez ici sera utilisé pour compléter la rangée titrée " Estimateur des jours du payement" dans la Table de l'hypothèse générale dans votre Plan de Commerce. Vous pouvez manipuler ce chiffre dans la Table de vos hypothèses générale pour voir son impacte sur vos finances.</value>
+	</data>
+	<data name="PW_Title_BStartupOngoing">
+		<value>Commencement ou en cours</value>
+	</data>
+	<data name="PW_Text_BStartupOngoing">
+		<value>Planifiez vous un commerce du commencement ou un déjà en cours?</value>
+	</data>
+	<data name="PW_Help_BStartupOngoing">
+		<value>Le Wizard de InfiniPlan vous aide à créer des plans de commerces même si votre société est nouvellement enregistrée ou une qui existe déjà. Pour les compagnies débutantes, veuillez choisir " Commencement" et une table titrée commencement sera créée où le numéro du début pour la société peut être insérée. Pour les sociétés existantes, veuillez choisir " Continuel" et une table nomée Performences précédentes sera crRe contenant les informations historiques de la Société.</value>
+	</data>
+	<data name="PW_Title_BPlanStartDate">
+		<value>Date du commencement du Plan</value>
+	</data>
+	<data name="PW_Text_BPlanStartDate">
+		<value>Quand est ce que vous pensez créer votre plan ?</value>
+	</data>
+	<data name="PW_Help_BPlanStartDate">
+		<value>Veuillez choisir la date à laquelle vous désirez afficher tous les tableaux financiers.</value>
+	</data>
+	<data name="PW_Title_BPlanTitle">
+		<value>Titre du Plan</value>
+	</data>
+	<data name="PW_Text_BPlanTitle">
+		<value>Veuillez fournir un titre approprié à votre Plan</value>
+	</data>
+	<data name="PW_Help_BPlanTitle">
+		<value>Veuillez choisir un nom pour votre plan qui apparaîtra en tant qu'un titre en haut de chaque page et sur la page de couverture aussi.</value>
+	</data>
+	<data name="PW_BBusinessType_Products">
+		<value>Produits</value>
+	</data>
+	<data name="PW_BBusinessType_Services">
+		<value>Services</value>
+	</data>
+	<data name="PW_BBusinessType_Both">
+		<value>Les deux</value>
+	</data>
+	<data name="PW_BSalesForcastType_Units">
+		<value>Unités</value>
+	</data>
+	<data name="PW_BSalesForcastType_Value">
+		<value>Valeur</value>
+	</data>
+	<data name="PW_BStartupOngoing_Startup">
+		<value>Commencement</value>
+	</data>
+	<data name="PW_BStartupOngoing_Ongoing">
+		<value>Continuel</value>
+	</data>
+	<data name="PW_Title_BPlanDescription">
+		<value>Plan de Description</value>
+	</data>
+	<data name="PW_Text_BPlanDescription">
+		<value>Décrivez votre plan dans quelques mots</value>
+	</data>
+	<data name="PW_Help_BPlanDescription">
+		<value>Veuillez utiliser l'espace fournit pour fournir des informations supplémentaires concernant vos Commerces qui décrivent leurs buts et existences brièvement.</value>
+	</data>
+	<data name="PW_Error_PlanAlreadyExists">
+		<value>Un Plan avec un nom similaire existe déjà. Voulez vous remplcer le nom?</value>
+	</data>
+	<data name="PW_Title_BasicAdvanced">
+		<value>Basique ou Avancé</value>
+	</data>
+	<data name="PW_Text_BasicAdvanced">
+		<value>Commencer avec un Wizard basique ou avancé ?</value>
+	</data>
+	<data name="PW_Help_BasicAdvanced">
+		<value>Le Wizard de InfiniPlan vous aide à créer des versions basiques et aussi avancées du plan de commerce. Dans le mode basique, vous répondez quelques questions et les valeurs prévisionnées sont utilisées de créer un plan de commerce parfait.
+En utilisant le Mode avancé du Wizard, vous pouvez spécifier toute information que vous désirez pour inclure dans votre plan de commerce.
+Dans n'importe de ces ceux cas, vous devez toujours retourner dans le Wizard pour éditer les tables diverses, diagrammes et chiffres selon vos besoins, irrespective du choix que vous faites.</value>
+	</data>
+	<data name="PW_BasicAdvanced_Basic">
+		<value>Basique</value>
+	</data>
+	<data name="PW_BasicAdvanced_Advanced">
+		<value>Avancé</value>
+	</data>
+	<data name="PW_Help_Finish">
+		<value>Félicitations! Vous êtes arrivés à la fin du wizard du Plan. Pour créer et visionner votre Plan de Commerce, veuillez cliquer sur " Finis". Pour réviser ou editer les informatiosn que vous nous avez fournis jusqu'à présent, veuillez appuyer sur la touche " Retourner" pour arriver à l'étape voulue. Une fois que vous avez effectué les modifications, veuillez cliquer sur la touche " Finis" pour visionner directement votre Plan de Commerce.</value>
+	</data>
+	<data name="PW_Help_Start">
+		<value>Bienvenue au Wizard de InfiniPlan. Ce Wizard vous assitera à créer votre Plan de Commerce en toute simplicité et facilement. Veuillez simplement répondre aux questions suivantes et en basant de vos réponses ce Wizard va créer votre Plan.
+Il ya certaines valeurs qui sont là par défautdans quelques réponses, vous pouvez toujours les modifier et accoûtumer votre Plan.
+Sinon, vous pouvez toujours y retourner après au Wizard pour éditer n'importe de ces Tables, Diagrammes et figures selon vos besoins.</value>
+	</data>
+	<data name="PW_Text_Finish">
+		<value>Appuyer la touche Finis pour créer un plan.</value>
+	</data>
+	<data name="PW_Text_Start">
+		<value>Appuyer sur la touche suivante pour débuter le Wizard</value>
+	</data>
+	<data name="PW_Title_CreatePlan">
+		<value>Créer un Plan</value>
+	</data>
+	<data name="PW_Text_CreatePlan">
+		<value>Commencer avec:</value>
+	</data>
+	<data name="PW_Title_PlanParticulars">
+		<value>Plans particuliers</value>
+	</data>
+	<data name="PW_Text_PlanParticulars">
+		<value>Veuillez fournir les particuliers suivants concernant votre Plan qui seront affichés sur la page de couverture du document final</value>
+	</data>
+	<data name="PW_Text_BusinessName">
+		<value>Nom du Commerce</value>
+	</data>
+	<data name="PW_Text_CompanyBusinessOwnership">
+		<value>Propriété du commerce de la Société</value>
+	</data>
+	<data name="PW_Text_ContactDetails">
+		<value>Détails de contact</value>
+	</data>
+	<data name="PW_Text_BBusinessName">
+		<value>Nom du Commerce</value>
+	</data>
+	<data name="PW_Text_BCompanyBusinessOwnership">
+		<value>Propriété du commerce de la Société</value>
+	</data>
+	<data name="PW_Text_BContactDetails">
+		<value>Détails des contacts</value>
+	</data>
+	<data name="PW_Options_Yes">
+		<value>Oui</value>
+	</data>
+	<data name="PW_Options_No">
+		<value>Non</value>
+	</data>
+	<data name="PW_Title_BCurrency">
+		<value>Devises</value>
+	</data>
+	<data name="PW_Text_BCurrency">
+		<value>Veuillez séléctionner le symbole de la devise de votre commerce.</value>
+	</data>
+	<data name="PW_Help_BCurrency">
+		<value>Vous pouvez séléctionner la devise favorable que vous utilisez pour les activités de votre commerce. Le symbole et le code ISO pour votre devise choisie sera affiché avec tous les chiffres représentant la monnaie.</value>
+	</data>
+	<data name="PW_Title_Currency">
+		<value>Devises</value>
+	</data>
+	<data name="PW_Text_Currency">
+		<value>Veuillez séléctionner le symbol de la devise de votre commerce</value>
+	</data>
+	<data name="PW_Help_Currency">
+		<value>Vous pouvez choisir la devise préférée que vous utilisez pour vos activités commerciales. Le symbol et le code ISO de la devise que vous avez choisi seront montrés avec tous les chiffres représentnat l'argent.</value>
+	</data>
+	<data name="bizplanweb_services_plan_FAQs_lnkUserGuide">
+		<value>Guide d'utilisateur</value>
+	</data>
+	<data name="bizplan_menu_HeadingName">
+		<value>Rubrique</value>
+	</data>
+	<data name="bizplan_menu_ExecutiveSummary">
+		<value>Sommaire executif</value>
+	</data>
+	<data name="bizplan_menu_Objectives">
+		<value>Objectifs</value>
+	</data>
+	<data name="bizplan_menu_Mission">
+		<value>Mission</value>
+	</data>
+	<data name="bizplan_menu_Keystosuccess">
+		<value>La voie vers le succès</value>
+	</data>
+	<data name="bizplan_menu_CompanySummary">
+		<value>Sommaire de la Société</value>
+	</data>
+	<data name="bizplan_menu_CompanyOwnerShip">
+		<value>Propriété du commerce</value>
+	</data>
+	<data name="bizplan_menu_CompanyHistory">
+		<value>L'histoire de la Société</value>
+	</data>
+	<data name="bizplan_menu_StartupSummary">
+		<value>Sommaire du commencement</value>
+	</data>
+	<data name="bizplan_menu_CompanyLocationsAndFacilities">
+		<value>Les facilités et localités de la Société</value>
+	</data>
+	<data name="bizplan_menu_Products">
+		<value>Produits</value>
+	</data>
+	<data name="bizplan_menu_Services">
+		<value>Services</value>
+	</data>
+	<data name="bizplan_menu_ProductsAndServices">
+		<value>Produits et Services</value>
+	</data>
+	<data name="bizplan_menu_ProducDescription">
+		<value>Description des produits</value>
+	</data>
+	<data name="bizplan_menu_ServicesDescription">
+		<value>Description des Services</value>
+	</data>
+	<data name="bizplan_menu_ProductsAndServicesDescription">
+		<value>Description des produits et services</value>
+	</data>
+	<data name="bizplan_menu_CompetitiveComparision">
+		<value>Comparaison compétitive</value>
+	</data>
+	<data name="bizplan_menu_SalesLiterature">
+		<value>Brochures publicitaries</value>
+	</data>
+	<data name="bizplan_menu_Sourcing">
+		<value>Sourçage</value>
+	</data>
+	<data name="bizplan_menu_Fulfillment">
+		<value>Accomplissement</value>
+	</data>
+	<data name="bizplan_menu_Technology">
+		<value>Technologie</value>
+	</data>
+	<data name="bizplan_menu_FutureProducts">
+		<value>Futur produits</value>
+	</data>
+	<data name="bizplan_menu_FurtureServices">
+		<value>Services futur</value>
+	</data>
+	<data name="bizplan_menu_ServiceAndSupport">
+		<value>Service et support</value>
+	</data>
+	<data name="bizplan_menu_MarketAnalysisSummary">
+		<value>Sommaire des Analyses du Marché</value>
+	</data>
+	<data name="bizplan_menu_MarketSegmentation">
+		<value>Strate du Marché</value>
+	</data>
+	<data name="bizplan_menu_IndustryAnalysis">
+		<value>Analyses des Industries</value>
+	</data>
+	<data name="bizplan_menu_TargetMarketSegmentStartegy">
+		<value>Stratégie du strate du marché visé</value>
+	</data>
+	<data name="bizplan_menu_MarketNeeds">
+		<value>Les besoins du marché</value>
+	</data>
+	<data name="bizplan_menu_MarketTrends">
+		<value>Tendence du Marché</value>
+	</data>
+	<data name="bizplan_menu_MarketGrowth">
+		<value>la croissance du marché</value>
+	</data>
+	<data name="bizplan_menu_ServiceBusinessAnalysis">
+		<value>Analyses des Services du Commerce</value>
+	</data>
+	<data name="bizplan_menu_BusinessParticipants">
+		<value>Les participants du Commerce</value>
+	</data>
+	<data name="bizplan_menu_DistributingaService">
+		<value>Services de distribution</value>
+	</data>
+	<data name="bizplan_menu_CompetitionAndBuyingPatterns">
+		<value>Tendence de la Compétition et Achat</value>
+	</data>
+	<data name="bizplan_menu_MainCompetitors">
+		<value>Les compétiteurs principaux</value>
+	</data>
+	<data name="bizplan_menu_IndustryParticipants">
+		<value>Participants de l'industrie</value>
+	</data>
+	<data name="bizplan_menu_DistributionPatterns">
+		<value>Tendence de distribution</value>
+	</data>
+	<data name="bizplan_menu_CompetitionsAndBuyingPatterns">
+		<value>Tendence de la Compétition et Achat</value>
+	</data>
+	<data name="bizplan_menu_StrategyAndImplementationSummary">
+		<value>Sommaire de la stratégie et implémentation</value>
+	</data>
+	<data name="bizplan_menu_MarketingStrategy">
+		<value>Stratégie du marché</value>
+	</data>
+	<data name="bizplan_menu_PricingStrategy">
+		<value>Stratégie des prix</value>
+	</data>
+	<data name="bizplan_menu_PromotionStrategy">
+		<value>Stratégie de la promotion</value>
+	</data>
+	<data name="bizplan_menu_DistributionStrategy">
+		<value>Stratégie de distribution</value>
+	</data>
+	<data name="bizplan_menu_MarketingPrograms">
+		<value>Programmes du marché</value>
+	</data>
+	<data name="bizplan_menu_SalesStrategy">
+		<value>Stratégie des ventes</value>
+	</data>
+	<data name="bizplan_menu_StrategicAlliances">
+		<value>Alliances stratégiques</value>
+	</data>
+	<data name="bizplan_menu_Milestones">
+		<value>Etapes</value>
+	</data>
+	<data name="bizplan_menu_StrategyPyramids">
+		<value>Stratégie pyramide</value>
+	</data>
+	<data name="bizplan_menu_ValueProposition">
+		<value>Proposition de valeur</value>
+	</data>
+	<data name="bizplan_menu_CompetitiveEdge">
+		<value>Un avancement compétitif</value>
+	</data>
+	<data name="bizplan_menu_PositioningStatements">
+		<value>Relevé de la position</value>
+	</data>
+	<data name="bizplan_menu_SalesPrograms">
+		<value>Programmes des ventes</value>
+	</data>
+	<data name="bizplan_menu_ManagementSummary">
+		<value>Sommaire de gestion</value>
+	</data>
+	<data name="bizplan_menu_ManagementTeam">
+		<value>Equippe de gestion</value>
+	</data>
+	<data name="bizplan_menu_PersonalPlan">
+		<value>Plan personnel</value>
+	</data>
+	<data name="bizplan_menu_OrganizationalStructure">
+		<value>Structure d'organisations</value>
+	</data>
+	<data name="bizplan_menu_OrganizationalStructure1">
+		<value>Structure d'organisations</value>
+	</data>
+	<data name="bizplan_menu_ManagementTeams">
+		<value>Equippe de gestion</value>
+	</data>
+	<data name="bizplan_menu_ManagementTeamGaps">
+		<value>Ecart de l'équippe de gestion</value>
+	</data>
+	<data name="bizplan_menu_OtherManagementConsiderations">
+		<value>Autres considérations de gestion</value>
+	</data>
+	<data name="bizplan_menu_FinancialPlan">
+		<value>Plan de financement</value>
+	</data>
+	<data name="bizplan_menu_ImportantAssumptions">
+		<value>Hypothèses importantes</value>
+	</data>
+	<data name="bizplan_menu_ImportantAssumptions">
+		<value />
+	</data>
+	<data name="bizplan_menu_KeyFinancialIndicators">
+		<value>Indicateurs importants financiers</value>
+	</data>
+	<data name="bizplan_menu_BreakEvenAnalysis">
+		<value>Analyses des point d'équilibres</value>
+	</data>
+	<data name="bizplan_menu_ProjectedProfitAndLoss">
+		<value>Profits et Pertes projetés</value>
+	</data>
+	<data name="bizplan_menu_ProjectedCashflow">
+		<value>Mouvement de trésorerie projeté</value>
+	</data>
+	<data name="bizplan_menu_ProjectedBalanceSheet">
+		<value>Bilan d'inventaire projeté</value>
+	</data>
+	<data name="bizplan_menu_BusinessRatios">
+		<value>Ratios du Commerce</value>
+	</data>
+	<data name="bizplan_menu_Highlights">
+		<value>Points culiminants</value>
+	</data>
+	<data name="bizplan_menu_StartupDetails">
+		<value>Détails du commencement</value>
+	</data>
+	<data name="bizplan_menu_Startup">
+		<value>Commencement</value>
+	</data>
+	<data name="bizplan_menu_MarketAnalysis">
+		<value>Analyses du Marché</value>
+	</data>
+	<data name="bizplan_menu_SalesForecast">
+		<value>Prévisionnement des ventes</value>
+	</data>
+	<data name="bizplan_menu_SalesMonthly">
+		<value>Ventes mensuelles</value>
+	</data>
+	<data name="bizplan_menu_SalesYearly">
+		<value>Ventes annuelles</value>
+	</data>
+	<data name="bizplan_menu_Payroll">
+		<value>Performance écoulée</value>
+	</data>
+	<data name="bizplan_menu_GeneralAssumption">
+		<value>Hypothèse générale</value>
+	</data>
+	<data name="bizplan_menu_Benchmark">
+		<value>Points de références</value>
+	</data>
+	<data name="bizplan_menu_IncomeStatement">
+		<value>Relevé des revenus</value>
+	</data>
+	<data name="bizplan_menu_CashFlow">
+		<value>Mouvement de trésorerie</value>
+	</data>
+	<data name="bizplan_menu_BalanceSheet">
+		<value>Bilan d'inventaire</value>
+	</data>
+	<data name="bizplan_menu_RatiosAnalysis">
+		<value>Analyse de rapport</value>
+	</data>
+	<data name="bizplan_menu_PastPerformance">
+		<value>Performance écoulée</value>
+	</data>
+	<data name="bizplan_menu_CoverPage">
+		<value>Page de couverture</value>
+	</data>
+	<data name="bizplan_menu_LegalPage">
+		<value>Page légale</value>
+	</data>
+	<data name="bizplan_menu_PlanTitle">
+		<value>Titre du Plan</value>
+	</data>
+	<data name="bizplan_menu_Date">
+		<value>Date</value>
+	</data>
+	<data name="bizplan_menu_PlanCopyNumber">
+		<value>Numéro de la copie du Plan</value>
+	</data>
+	<data name="bizplan_menu_Ownership">
+		<value>Propriété</value>
+	</data>
+	<data name="bizplan_menu_Name">
+		<value>Nom</value>
+	</data>
+	<data name="bizplan_menu_Title">
+		<value>Titre</value>
+	</data>
+	<data name="bizplan_menu_Address">
+		<value>Adresse</value>
+	</data>
+	<data name="bizplan_menu_PhoneNumber">
+		<value>Numéro de téléphone</value>
+	</data>
+	<data name="bizplan_menu_Misc">
+		<value>Divers</value>
+	</data>
+	<data name="bizplan_menu_TaregtMarketSegmentStrategy">
+		<value />
+	</data>
+	<data name="bizplan_menu_TaregetMarketSegmentStrategy">
+		<value>Stratégie des segments du Marché visé</value>
+	</data>
+	<data name="bizplan_menu_menu2_Home">
+		<value>Acceuil</value>
+	</data>
+	<data name="bizplan_menu_menu2_Texts">
+		<value>Textes</value>
+	</data>
+	<data name="bizplan_menu_menu2_Tables">
+		<value>Tables</value>
+	</data>
+	<data name="bizplan_menu_menu2_Charts">
+		<value>Diagrammes</value>
+	</data>
+	<data name="bizplan_menu_menu2_Plan Preview">
+		<value>Vue d'ensemble du Plan</value>
+	</data>
+	<data name="bizplan_menu_menu2_Export Plan">
+		<value>Plan d'export</value>
+	</data>
+	<data name="bizplan_menu_menu2_Plan Wizard">
+		<value>Wizard du plan</value>
+	</data>
+	<data name="bizplan_menu_menu2_Close Plan">
+		<value>Fermer le Plan</value>
+	</data>
+	<data name="bizplan_menu_menu1_Home">
+		<value>Acceuil</value>
+	</data>
+	<data name="bizplan_menu_menu1_Plan Manager">
+		<value>Plan de gestion</value>
+	</data>
+	<data name="bizplan_menu_menu1_Exported Plans">
+		<value>Plans Exportés</value>
+	</data>
+	<data name="bizplan_menu_menu1_FAQs">
+		<value>Questions</value>
+	</data>
+	<data name="bizplan_menu_table_GeneralAssumption">
+		<value>Hypothèses générales</value>
+	</data>
+	<data name="bizplan_menu_table_StartupDetails">
+		<value>Détails du commencement</value>
+	</data>
+	<data name="bizplan_menu_table_PastPerformance">
+		<value>Performence passée</value>
+	</data>
+	<data name="bizplan_menu_table_BreakEvenAnalysis">
+		<value>Analyses de rentabilités</value>
+	</data>
+	<data name="bizplan_menu_table_MarketAnalysis">
+		<value>Analyse du marché</value>
+	</data>
+	<data name="bizplan_menu_table_Payroll">
+		<value>Masse Salariale</value>
+	</data>
+	<data name="bizplan_menu_table_SalesForecast">
+		<value>Prévisionnement des ventes</value>
+	</data>
+	<data name="bizplan_menu_table_Milestones">
+		<value>Etapes</value>
+	</data>
+	<data name="bizplan_menu_table_IncomeStatement">
+		<value>Déclaration des revenus</value>
+	</data>
+	<data name="bizplan_menu_table_CashFlow">
+		<value>Mouvement de la trésorerie</value>
+	</data>
+	<data name="bizplan_menu_table_BalanceSheet">
+		<value>Bilan d'inventaire</value>
+	</data>
+	<data name="bizplan_menu_table_Ratios">
+		<value>Rapport</value>
+	</data>
+	<data name="bizplan_menu_chart_Benchmark">
+		<value>Points de références</value>
+	</data>
+	<data name="bizplan_menu_chart_BreakEvenAnalysis">
+		<value>Analyses de rentabilité</value>
+	</data>
+	<data name="bizplan_menu_chart_CashFlow">
+		<value>Mouvement de la trésorerie</value>
+	</data>
+	<data name="bizplan_menu_chart_Highlights">
+		<value>Points culminants</value>
+	</data>
+	<data name="bizplan_menu_chart_MarketAnalysis">
+		<value>Analyses du Marché</value>
+	</data>
+	<data name="bizplan_menu_chart_PastPerformance">
+		<value>Performance passée</value>
+	</data>
+	<data name="bizplan_menu_chart_ProfitMonthly">
+		<value>Profit mensuel</value>
+	</data>
+	<data name="bizplan_menu_chart_ProfitYearly">
+		<value>Profit Annuelle</value>
+	</data>
+	<data name="bizplan_menu_chart_GrossMarginMonthly">
+		<value>Marge brute mensuelle</value>
+	</data>
+	<data name="bizplan_menu_chart_GrossMarginYearly">
+		<value>Marge brute annuelle</value>
+	</data>
+	<data name="bizplan_menu_chart_SalesYearly">
+		<value>Ventes Anuelles</value>
+	</data>
+	<data name="bizplan_menu_chart_SalesMonthly">
+		<value>Ventes mensuelles</value>
+	</data>
+	<data name="bizplan_menu_chart_Startup">
+		<value>Commencement</value>
+	</data>
+	<data name="bizplan_menu_title_PlanNavigator">
+		<value>Plan du Navigateur</value>
+	</data>
+	<data name="bizplanweb_services_planwizard_palnwizerdview_btnCancel">
+		<value>Annuler</value>
+	</data>
+	<data name="bizplanweb_services_planwizard_palnwizerdview_btnBack">
+		<value>Retourner</value>
+	</data>
+	<data name="bizplanweb_services_planwizard_palnwizerdview_btnNext">
+		<value>Suivant</value>
+	</data>
+	<data name="bizplanweb_services_planwizard_palnwizerdview_btnFinish">
+		<value>Finir</value>
+	</data>
+	<data name="bizplanweb_services_planwizard_palnwizerdview_lblPlanWizardHeading">
+		<value>InfiniPlan Wizard</value>
+	</data>
+	<data name="bizplanweb_services_planwizard_palnwizerdview_lblPlanNavTitle">
+		<value>Plan Summary</value>
+	</data>
+	<data name="bizplan_menu_secondmenutitle_text_Plan Texts">
+		<value>Textes du plan</value>
+	</data>
+	<data name="bizplan_menu_secondmenutitle_tabel_Plan Tables">
+		<value>Tables du plan</value>
+	</data>
+	<data name="bizplan_menu_secondmenutitle_chart_Plan Charts">
+		<value>Diagrammes du Plan</value>
+	</data>
+	<data name="bizplan_error_no_lblErrorMessage">
+		<value>Le record a été mis à jour</value>
+	</data>
+	<data name="bizplan_error_yes_lblErrorMessage">
+		<value>Le record n'a pas pu être mis à jour à cause de quelques erreurs techniques</value>
+	</data>
+	<data name="bizplan_error_name_lblErrorMessage">
+		<value>La rangée n'a pas pu être insérée à cause du nom qui est invalide</value>
+	</data>
+	<data name="bizplan_error_lblErrorMessage">
+		<value>Une erreur a été produite</value>
+	</data>
+	<data name="bizplan_planpreferences_lblErrorMessage1">
+		<value>Le plan ne peut pas être exporté</value>
+	</data>
+	<data name="bizplan_planpreferences_lblErrorMessage2">
+		<value>Le plan a été exporté avec succès et aussi a été sauvegardé dans la base des données</value>
+	</data>
+	<data name="bizplan_planpreferences_lblErrorMessage3">
+		<value>Le Plan n'a pas pu être exporté à cause de quelques erreurs techniques</value>
+	</data>
+	<data name="bizplan_services_plan_planmanager_imgBtnNewPlan">
+		<value>nouveau Plan</value>
+	</data>
+	<data name="bizplan_services_plan_planmanager_istMainTStripitem">
+		<value>Plan récent</value>
+	</data>
+	<data name="bizplan_services_plan_planmanager_secMainTStripitem">
+		<value>Mon Plan</value>
+	</data>
+	<data name="bizplan_services_plan_planmanager_thrMainTStripitem">
+		<value>Les Plans Echantillons</value>
+	</data>
+	<data name="bizplan_services_plan_planmanager_title_lblHeading">
+		<value>Les Plans Manager</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_griddate">
+		<value>Date</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_DeleteError">
+		<value>Effacer l'Opération n'est pas permis.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_CellDeleteError">
+		<value>Vouse ne pouvez pas effacer sur les cellules sélectionnées.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_CellRenameError">
+		<value>Renommer l'Opération n'est pas permis.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_RenameError">
+		<value>Retitrage de  l'Opération n'est pas permis.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_RowSelectError">
+		<value>Choisissez n'importe quelle rangée à prioris pour insérer l'Opération.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_CellInsertError">
+		<value>L'insertion n'est pas permis sur la cellule choisie.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_InsertError">
+		<value>Insérer l'Opération n'est pas permis.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_RowExsistError">
+		<value>La rangée existe déjà.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_InvalidNameError">
+		<value>La rangée ne peut pas être Insérée parce que le nom est invalide.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_InvalidReNameError">
+		<value>La rangée ne peux pas être renommée parce que le nom est invalide.</value>
+	</data>
+	<data name="bizplanweb_services_plan_planmanager_InvalidData">
+		<value>Date invalide. Veuillez vérifier les valeurs insérées.</value>
+	</data>
+	<data name="bizplanweb_services_PlanOutLine_PlanOutLine_lblHeader">
+		<value>Contour du Plan</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_PlanOutLineHeading">
+		<value>Gérant de Contour</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_lblEdit">
+		<value>Editer le Gérant du Contour du Plan</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_lblHelp">
+		<value>&lt;P&gt;&lt;SPAN id="insertBtnTxt"&gt;&lt;b&gt;Insert: &lt;/b&gt; Use this option to insert a new text component adjacent to the selected part (create component) or within the selected part (create sub-component ).&lt;br&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="renameBtnTxt"&gt;&lt;b&gt;Rename:&lt;/b&gt; Use this option to rename any selected part (except for tables and charts) of the plan.&lt;br&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="restoreBtnTxt"&gt;&lt;b&gt;Restore:&lt;/b&gt; Use this option to restore plan outline to its original state, erasing all the changes made to the plan.&lt;br&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="deleteBtnTxt"&gt;&lt;b&gt;Delete:&lt;/b&gt; Use this option to delete any selected component (except for charts, tables and component with subcomponent ) of the plan.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="idleTxt"&gt;Please select the desired operation.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="rbRootTxt"&gt;Create Component&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN id="rbChildTxt"&gt;Create Sub-Component&lt;/SPAN&gt;&lt;/P&gt;</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnCancel">
+		<value>Annuler</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnRename">
+		<value>Retitrer</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnInsert">
+		<value>Insérer</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnDelete">
+		<value>Supprimer</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_btnRestore">
+		<value>Restaurer</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_rbRoot">
+		<value>Créer le fichier</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_rbChild">
+		<value>Créer fichier secondaire</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_exception">
+		<value>Opération échouée</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_lblHelpHeading">
+		<value>Toutes les opérations seront effectuées dans un fichier spéciale ( seulement la restauration)</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_imgbtnCancelInsert">
+		<value>Annuler l'insération</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_imgbtnCancelRename">
+		<value>Annuler le retitrage</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_exception_insert">
+		<value>Ne pas insérer fichier secondaire, Abandonner Insération</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_exception_Delete">
+		<value>Fichier peut contenir des fichiers secondaires, effacement abandonné</value>
+	</data>
+	<data name="BizPlanWeb_Services_PlanOutLine_PlanOutLine_message_Restore">
+		<value>Plan restoré avec succès</value>
+	</data>
+	<data name="bizplan_menu_menu2_Plan OutLine">
+		<value>Gérant de Contour</value>
+	</data>
+	<data name="bizplan_menu_menu2_Business Tracker">
+		<value>Traqueur d'affaires</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_ImportButton">
+		<value>Rangée d'Importation</value>
+	</data>
+	<data name="bizplanweb_services_plan_home_lblHeading">
+		<value>Le plan de la maison</value>
+	</data>
+	<data name="Test">
+		<value />
+	</data>
+	<data name="bizplan_menu_ManagementTeamGaps1">
+		<value>Test</value>
+	</data>
+	<data name="bizplan_menu_ManagementTeamGapsForNews">
+		<value />
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lblHeading">
+		<value>Suivie de Commerce</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lblPlanTrackerTitle">
+		<value />
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lblPlanTrackerTitle">
+		<value>Veuillez suivre les réussites des buts de votre commerce!</value>
+	</data>
+		<data name="BizPlan_Services_Tracker_PlanTracker_lblFirstHelp">
+		<value>&lt;span style='font-size:8.0pt;font-family:Verdana;
+mso-fareast-font-family:"Times New Roman";mso-bidi-font-family:Verdana;
+color:black;mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:
+AR-SA'&gt;The success of a good business plan depends on how much you remain
+adhered to it. There are often some un-accounted factors which make it
+difficult to follow a business plan. To avoid these deviations a system is
+required to keep track of the factors which cause divergence in a plan&lt;/span&gt;</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lblSecondHelp">
+		<value>&lt;p class="MsoNormal" style='text-align:justify'&gt;&lt;span style='font-size:8.0pt;
+font-family:Verdana;mso-bidi-font-family:Verdana;color:black'&gt;Business Tracker 
+helps you track deviations from your business plan. It compares your company’s
+existing financial statements with your previously planned financial aims. These
+reports help in the &lt;/span&gt;&lt;span lang="EN" style='font-size:8.0pt;font-family:
+Verdana;mso-bidi-font-family:Verdana;color:black;mso-ansi-language:EN'&gt;practical
+implementation of your business plan and track the financial health of your
+business. This will help you in conducting your business operations more
+efficiently. &lt;u1:p&gt;&lt;/u1:p&gt;&lt;/span&gt; &lt;o:p&gt;&lt;/o:p&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/p&gt;</value>
+	</data>
+ 
+	<data name="BizPlan_Services_Tracker_PlanTracker_lblStandardHead">
+		<value>&lt;p class="MsoNormal"&gt;&lt;b style='mso-bidi-font-weight:normal'&gt;&lt;span style='font-size:8.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:black'&gt;Standard Reports &lt;span style='mso-spacerun:yes'&gt;&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style='font-size:8.0pt;font-family:Verdana;mso-bidi-font-family:Verdana;
+color:black'&gt;helps track deviations from business plan by comparing
+company’s actual &amp; estimated financial figures.&lt;/span&gt; &lt;u1:p&gt;&lt;/u1:p&gt;&lt;/p&gt;</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lblIO">
+		<value>&lt;p class="MsoNormal" style='text-align:justify'&gt;&lt;span style='font-size:8.0pt;
+font-family:Verdana;mso-bidi-font-family:Verdana;color:black;mso-ansi-language:
+EN-US'&gt;&lt;u&gt;Monthly Income Statement&lt;/u&gt; Monthly Income Statement compares the actual income and expense of business with the estimated figures on monthly basis.
+ &lt;/span&gt;&lt;/p&gt; 
+
+&lt;p class="MsoNormal" style='text-align:justify'&gt;&lt;span style='font-size:8.0pt;
+font-family:Verdana;mso-bidi-font-family:Verdana;color:black;mso-ansi-language:
+EN-US'&gt; &lt;u&gt;Yearly Income Statement&lt;/u&gt; Yearly Income Statement gives a yearly comparison of actual income statement with estimated figures.  &lt;/span&gt;&lt;/p&gt;</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lnkMonthlyIO">
+		<value>Déclaration des Revenus Mensuels</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lnkAnnualIO">
+		<value>Déclaration des Revenus par An</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lblBS">
+		<value>&lt;p class="MsoNormal" style='text-align:justify'&gt;&lt;span style='font-size:8.0pt;
+font-family:Verdana;mso-bidi-font-family:Verdana;color:black;mso-ansi-language:
+EN-US'&gt;&lt;u&gt;Monthly Balance Sheet&lt;/u&gt; Monthly Balance Sheet compares actual
+balance sheet with the expected balance sheet on monthly basis.
+ &lt;/span&gt;&lt;/p&gt;
+																								&lt;p class="MsoNormal" style='text-align:justify'&gt;&lt;span style='font-size:8.0pt;
+font-family:Verdana;mso-bidi-font-family:Verdana;color:black;mso-ansi-language:
+EN-US'&gt;&lt;u&gt;Yearly Balance Sheet&lt;/u&gt; Yearly Balance Sheet gives a yearly comparison of the actual balance sheet and expected balance sheet. &lt;/span&gt;&lt;/p&gt;</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lnkMonthlyBS">
+		<value>Bilan d'inventaire mensuel</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_lnkAnnualBS">
+		<value>Bilan d'Inventaire Annuel</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblComparison">
+		<value>Comparaison</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblEstimated">
+		<value>Estimé</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblDeviation">
+		<value>Déviation</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblCategoriesDescription">
+		<value>Catégories/Description</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_btnHome">
+		<value>Acceuil</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_btnBack">
+		<value>Retourner</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_PlanTracker_LnkBtnProceed">
+		<value>Veuillez cliquer ici pour procéder</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_btnImportBack">
+		<value>Rtourner</value>
+	</data>
+	<data name="bizplanweb_services_tables_table_msg">
+		<value>Il n'y a aucune archive à importer ou Vous avez déjà importer les archives existantes</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblMonthlyIncomeStatement">
+		<value>Déclaration des Revenus Mensuels</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblAnnualIncomeStatement">
+		<value>Déclaration des Revenus Annuels</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblMonthlyBalanceSheet">
+		<value>Bilan 'dinventaire mensuel</value>
+	</data>
+	<data name="BizPlan_Services_Tracker_FinancialReport_lblAnnualBalanceSheet">
+		<value>Bilan d'Inventaire Annuel</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblProductTitle">
+		<value>Prévisions des Ventes ( Importer)</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblSearchRecordTitle">
+		<value>Veuillez rechercher les archives pour Importer</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblSearchRecordMessage">
+		<value>Veuillez insérer ( l'Identification ou Nom) dans la boîte à recherche OU veuillez choisir les archives de la liste ci-dessous.</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblId">
+		<value>Identification</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblName">
+		<value>Nom</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnSearch">
+		<value>Rechercher</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnSearch">
+		<value>Rechercher</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnImport">
+		<value>Importer</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_btnCancel">
+		<value>Annuler</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblError1">
+		<value>Veuillez choisir n'importe quelle rangée pour Importer</value>
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblError2">
+		<value />
+	</data>
+	<data name="BizPlan_Services_Plan_Tables_SaleForCost_lblError2">
+		<value>L'archive n'existe pas</value>
+	</data>
+ 
+</root>

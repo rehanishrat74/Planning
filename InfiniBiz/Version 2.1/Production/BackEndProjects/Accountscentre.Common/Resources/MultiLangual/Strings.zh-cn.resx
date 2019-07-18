@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" > 
+<xsd:element name="root" msdata:IsDataSet="true" > 
+<xsd:complexType>
+<xsd:choice maxOccurs="unbounded" > 
+<xsd:element name="data">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" />
+<xsd:attribute name="type" type="xsd:string" />
+<xsd:attribute name="mimetype" type="xsd:string" />
+</xsd:complexType>
+</xsd:element>
+<xsd:element name="resheader">
+<xsd:complexType>
+<xsd:sequence>
+<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+</xsd:sequence>
+<xsd:attribute name="name" type="xsd:string" use="required" />
+</xsd:complexType>
+</xsd:element>
+</xsd:choice>
+</xsd:complexType>
+</xsd:element>
+</xsd:schema>
+<resheader name="ResMimeType">
+<value>text/microsoft-resx</value>
+</resheader>
+<resheader name="Version"> 
+<value>1.0.0.0</value>
+</resheader>
+<resheader name="Reader">
+<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+<resheader name="Writer">
+<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+</resheader>
+
+<data name="acc_msg_Account_SignInAttemptFailed">
+  <value>错误：用户ID或密码无效，请从新再试。</value>
+</data>
+<data name="acc_msg_Account_NewEmployerCreated">
+  <value>你的信息已保存。</value>
+</data>
+<data name="acc_msg_Account_NewEmployerRegistrationStatus">
+  <value>你已注册薪水册雇主。</value>
+</data>
+<data name="acc_msg_Account_UpdateEmployerDetails">
+  <value>你的记录已更新</value>
+</data>
+<data name="acc_msg_Account_UpdateCustomerServices">
+  <value>感谢您添加更多的有价值的服务。你的要求正在处理，你所指定的电子邮箱会收到付款是否到帐的确认函。</value>
+</data>
+<data name="acc_msg_Account_MatchPassword">
+  <value>新密码与确定的新密码不一致。请输入相同的信息。</value>
+</data>
+<data name="acc_msg_Account_UpdatePassword">
+  <value>你的密码已更新。</value>
+</data>
+<data name="acc_msg_Account_IncorrectPassword">
+  <value>请输入一个正确的密码。</value>
+</data>
+<data name="acc_msg_Account_ForgotPassword">
+  <value>你输入的电子邮件地址与我们的记录不相符合。请输入一个正确的电子邮件。</value>
+</data>
+<data name="acc_msg_Account_PasswordMatching">
+  <value>密码和确定密码的领域必须是相同的。</value>
+</data>
+<data name="acc_msg_Account_CrCardExpiryDate">
+  <value>请输入有效日期。</value>
+</data>
+<data name="acc_msg_Account_AXCardSTDate">
+  <value>请输入一个有效的开始日期。</value>
+</data>
+<data name="acc_msg_Account_AXCardENDate">
+  <value>请输入一个有效的结束日期。</value>
+</data>
+<data name="acc_msg_Account_DrCardDate">
+  <value>请输入一个有效的发行日期。</value>
+</data>
+<data name="acc_msg_Employee_EmployeeRecordNotFound">
+  <value>没有找到职工记录，请先添加你的职工资料然后进行下一步。</value>
+</data>
+<data name="acc_msg_Employee_NewEmployeeCreated">
+  <value>新职工的信息已保存。</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInCalculation">
+  <value>计算有某些错误。</value>
+</data>
+<data name="acc_msg_Taxation_P11Tax_ErrorInDate">
+  <value>输入正确的日期格式。</value>
+</data>
+<data name="acc_msg_Taxation_P11NIC_EarningDetailsNotFound">
+  <value>没有找到资料来计算NIC.</value>
+</data>
+<data name="acc_msg_PAYE_InYearForm_NewFormCreated">
+  <value>信息已保存。</value>
+</data>
+<data name="acc_msg_General_ThankYou">
+  <value>谢谢！</value>
+</data>
+<data name="acc_msg_General_Update">
+  <value>谢谢！记录已成功更新。</value>
+</data>
+<data name="acc_msg_General_Add">
+  <value>谢谢！ 记录已成功添加。</value>
+</data>
+<data name="acc_msg_General_Save">
+  <value>谢谢！记录已成功保存。</value>
+</data>
+<data name="acc_msg_Error_RequiredFields">
+  <value>请在要求的地方输入数值。</value>
+</data>
+<data name="acc_msg_Error_RegularExpression">
+  <value>请输入适当的信息在提供的领域。</value>
+</data>
+<data name="acc_msg_Email_AccountRegistration">
+  <value>注册在会计中心</value>
+</data>
+<data name="acc_msg_Email_UpdateServices">
+  <value>服务更新在帐户中心。</value>
+</data>
+<data name="acc_msg_Email_ResendPassword">
+  <value>登录信息在会计中心</value>
+</data>
+<data name="acc_msg_Email_DefaultEmailAddress">
+  <value>support@accountscentre.com</value>
+</data>
+<data name="acc_msg_Email_ForgotPassword">
+  <value>你登录的信息已发送到你的电子邮件地址。</value>
+</data>
+<data name="acc_msg_PDF_NOTEXISTS">
+  <value>此用户的PDF数据不存在。</value>
+</data>
+<data name="acc_msg_Date_IncorrectDay">
+  <value>请输入正确的日期</value>
+</data>
+<data name="acc_msg_Date_GreaterDate">
+  <value>日期不能大于目前的日期</value>
+</data>
+<data name="acc_msg_Account_Select_Product">
+  <value>至少必须选择一个产品。</value>
+</data>
+<data name="acc_msg_Account_Valid_Password">
+  <value>你必须输入一个有效的密码</value>
+</data>
+<data name="acc_msg_Account_Valid_Data_Following">
+  <value>请在以下领域输入有效的数据</value>
+</data>
+<data name="acc_msg_Account_Credit_No_Required">
+  <value>必须提供信用卡的号码。</value>
+</data>
+<data name="acc_msg_Account_Valid_UserID">
+  <value>你必须输入一个有效的用户ID .</value>
+</data>
+<data name="acc_msg_Account_Order_Payment">
+  <value>订购款项已成功。
+请不用再试</value>
+</data>
+<data name="acc_msg_Account_Order_Process">
+  <value>订购正在进行，请与管理部联系。</value>
+</data>
+<data name="acc_msg_Account_Product">
+  <value>以下套餐/ 产品有相同的服务。</value>
+</data>
+<data name="acc_msg_Account_Company_Select">
+  <value>请从以下列表选择公司。</value>
+</data>
+<data name="acc_msg_Account_Select_imgFile">
+  <value>错误：请选择图像文件。</value>
+</data>
+<data name="acc_msg_Account_CustomerId_Dosenot_Exit">
+  <value>你输入的客户ID ，不存在，请再试！</value>
+</data>
+<data name="acc_msg_Account_Customerid_Fill">
+  <value>请在客户ID处填写。</value>
+</data>
+<data name="acc_msg_Account_Fill_data">
+  <value>没有数据的文件，不能被保存。</value>
+</data>
+<data name="acc_msg_Account_Upload_File">
+  <value>你必须选择文件上载</value>
+</data>
+<data name="acc_msg_Account_GlobalView">
+  <value>全球视野</value>
+</data>
+<data name="acc_msg_Account_GlobalView_created_successfully">
+  <value>已创建成功</value>
+</data>
+<data name="acc_msg_Account_GlobalView_Detail">
+  <value>已经创建了。请再次登录以便更新。</value>
+</data>
+<data name="acc_msg_Account_Invoice_Name">
+  <value>发票名称</value>
+</data>
+<data name="acc_msg_Account_Password">
+  <value>密码</value>
+</data>
+<data name="acc_msg_Account_confirm_Password">
+  <value>确定密码</value>
+</data>
+<data name="acc_msg_Account_Street">
+  <value>街道</value>
+</data>
+<data name="acc_msg_Account_Town">
+  <value>城镇</value>
+</data>
+<data name="acc_msg_Account_State">
+  <value>州</value>
+</data>
+<data name="acc_msg_Account_Contact_Name">
+  <value>联系人</value>
+</data>
+<data name="acc_msg_Account_Telephone">
+  <value>电话</value>
+</data>
+<data name="acc_msg_Account_Fax">
+  <value>传真</value>
+</data>
+<data name="acc_msg_Account_Email_Address">
+  <value>电子邮件</value>
+</data>
+<data name="acc_msg_Account_Notes">
+  <value>笔记</value>
+</data>
+<data name="acc_msg_Account_Renewable_Package">
+  <value>可更新的套餐/产品。</value>
+</data>
+<data name="acc_msg_Account_Upgraded_Package">
+  <value>可更新的套餐/产品。</value>
+</data>
+<data name="acc_msg_Account_Visit_InfiniPlan">
+  <value>若要进入InfiniPlan 用户指南，请访问：</value>
+</data>
+<data name="acc_msg_Account_Start_Date_Greater">
+  <value>“开始日期”不能在“有效期限”之后。</value>
+</data>
+<data name="acc_msgAccount_Valid_Date_Greater">
+  <value>“有效日期从”不能在”终止日期“之后。</value>
+</data>
+<data name="acc_msg_Account_Pre_Requisites">
+  <value>先决条件</value>
+</data>
+<data name="acc_msg_Account_Update_Services">
+  <value>更新服务</value>
+</data>
+<data name="acc_msg_Account_Delivery_Address">
+  <value>递送地址</value>
+</data>
+<data name="acc_msg_Account_Card_Holder_Name">
+  <value>持卡人姓名</value>
+</data>
+<data name="acc_msg_Account_Card_Number">
+  <value>卡号</value>
+</data>
+<data name="acc_msg_Account_Card_Address">
+  <value>卡地址</value>
+</data>
+<data name="acc_msg_Account_Security_Code">
+  <value>安全码</value>
+</data>
+<data name="acc_msg_Account_Issue_No_Msg">
+  <value>发行号码至多是两个数字长</value>
+</data>
+<data name="acc_msg_Account_Issue_No">
+  <value>发行号码</value>
+</data>
+<data name="acc_msg_Account_Bank_Name">
+  <value>银行名称</value>
+</data>
+<data name="acc_msg_Account_Cheque_No">
+  <value>支票号码.</value>
+</data>
+<data name="acc_msg_Account_Sort_Code">
+  <value>种类代码</value>
+</data>
+<data name="acc_msg_Account_Transaction_Reference_No">
+  <value>交易参考号码</value>
+</data>
+<data name="acc_msg_Account_Service_Name">
+  <value>服务名称</value>
+</data>
+<data name="acc_msg_Account_Description">
+  <value>描述</value>
+</data>
+<data name="acc_msg_Account_Register_User1">
+  <value>亲爱的客户</value>
+</data>
+<data name="acc_msg_Account_Register_User3">
+  <value>你要求的激活帐户正在进行中，你将会在24小时内收到登录用途的客户ID和密码。</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated1">
+  <value>欢迎您成为我们的客户！你的注册程序已完成。你将会收到一封关于你的用户ID 和密码的电子邮件。</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated2">
+  <value>你可以用这个相同的用户ID和密码登录到 Formationhouse 和Graphics4Less 的网站。并充分利用我们的优惠价格。</value>
+</data>
+<data name="acc_msg_Account_NewCustomerCreated3">
+  <value>如果你在24小时内没有收到任何电子邮件，务请联系我们在：support@accountscentre.com</value>
+</data>
+<data name="acc_msg_Account_Register_User2">
+  <value>我们已收到你提供的帐户信息。</value>
+</data>
+<data name="acc_msg_Account_Register_User4">
+  <value>若想了解我们相关服务的信息和任何帮助，</value>
+</data>
+<data name="acc_msg_information">
+  <value>信息</value>
+</data>
+<data name="acc_msg_name">
+  <value>姓名</value>
+</data>
+<data name="acc_msg_loginid">
+  <value>登录 ID</value>
+</data>
+<data name="acc_msg_welcome">
+  <value>感谢您注册到会计中心!你可以在https://services.centre.biz 用以下的资料,登录到你的帐户.</value>
+</data>
+<data name="acc_msg_address">
+  <value>地址</value>
+</data>
+<data name="acc_msg_welcomeservice">
+  <value>你申请了以下的服务:</value>
+</data>
+<data name="acc_msg_welcomeend">
+  <value>你将会收到另外一封邮件以确定款项被收到，以及你订购的服务将在24小时内被激活。</value>
+</data>
+<data name="acc_msg_regards">
+  <value>致意!</value>
+</data>
+</root>

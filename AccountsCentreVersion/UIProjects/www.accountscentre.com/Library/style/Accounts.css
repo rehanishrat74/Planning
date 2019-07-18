@@ -1,0 +1,80 @@
+.acc_header_backgrounds{background:#4173ae;color:#FFF;font:bold 11px Verdana,Arial,Helvetica,sans-serif;height:16pt}
+.box{border:1px solid #000000}
+.CataloguePgNolbl{color:#aaa;font:normal x-large Calibri}
+.datagrid-data{background:#e2effe;border-top:Solid 1px #B9CAE2;color:#000;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=2, StartColorStr= '#FFcbd3e4' , EndColorStr= '#00cbd3e4' ) progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffffff' , EndColorStr= '#87acd1' );font:normal 9pt tahoma;height:25;padding:3px 3px 3px 5px;text-decoration:none}
+.DownBar{border-bottom:#7baee3 0px solid;border-left:#7baee3 0px solid;border-right:#7baee3 0px solid;border-top:#7baee3 0px solid;color:#369;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#d0e2f4');font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.ErrorMsg{color:#f00;font:11px Verdana,Arial,Helvetica,sans-serif}
+.frm-section-text{color:#369;font:bold 10px Verdana,Arial,Helvetica,sans-serif;text-decoration:none}
+.frm-section-text1{background:#e2effe;color:#369;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#ffffffff') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#ffffffff');font:10px Verdana;text-decoration:none}
+.Grid-ScrollBar{HEIGHT:400px;OVERFLOW:auto;WIDTH:100%}
+.GridBody{border-bottom:#B9CAE2 2px solid;border-left:#B9CAE2 2px solid;border-right:#B9CAE2 2px solid;border-top:#B9CAE2 2px solid;color:#333;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.GridHeaderBar{border-bottom:#B9CAE2 1px solid;border-left:#B9CAE2 1px solid;border-right:#B9CAE2 1px solid;border-top:#B9CAE2 1px solid;color:#666;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#B9CAE2', EndColorStr='#DBE3EE');font:bold 11px Verdana,Arial,Helvetica,sans-serif;height:20px}
+.GridHeaderBarWithoutBorder{color:#666;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#B9CAE2', EndColorStr='#DBE3EE');font:bold 11px Verdana,Arial,Helvetica,sans-serif;height:20px}
+.gridheading{color:#fff;font:bold 11px Verdana,Arial,Helvetica,sans-serif}
+.GridHighlightRowON{background:#DBE3EE;color:#627DB7;cursor:hand;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.GridInnerLines{border:1px solid #B9CAE2}
+.GridText{color:#036;font:10px Verdana;letter-spacing:normal;text-decoration:none;text-transform:none;word-spacing:normal}
+.Gridtxtbox{border:none;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:10px Verdana,Arial,Helvetica,sans-serif}
+.GridtxtboxEdit{border:solid 1px Gainsboro;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:10px Verdana,Arial,Helvetica,sans-serif}
+.Gridtxtboxrightalign{border:none;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:10px Verdana,Arial,Helvetica,sans-serif;text-align:right}
+.GridtxtboxrightalignEdit{border:solid 1px Gainsboro;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:10px Verdana,Arial,Helvetica,sans-serif;text-align:right}
+.heading{color:#069;font:bold 16px Verdana,Arial,Helvetica,sans-serif}
+.HeadingBar{background:#e2effe;border-top:Solid 1px #B9CAE2;color:#069;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ff336699', EndColorStr='#00e2effe') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#DDe2effe', EndColorStr='#ffffffff');font:bold 11px Verdana,Arial,Helvetica,sans-serif;height:25px;text-decoration:none}
+.HeadingBarDown{background:#e2effe;border-bottom:Solid 1px #B9CAE2;color:#069;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#00e2effe', EndColorStr='#ff336699') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffffffff', EndColorStr='#DDe2effe');font:bold 11px Verdana,Arial,Helvetica,sans-serif;height:25px;text-decoration:none}
+.hover-link-white{color:#000;text-decoration:none}
+.Imgcursor,.label{cursor:hand}
+.info{color:#69c}
+.infoMsg{color:#000;font:bold 11px Verdana,Arial,Helvetica,sans-serif}
+.Invisible{display:none}
+.Largelheading{color:#069;font:bold 15px Verdana,Arial,Helvetica,sans-serif}
+.lblbox{font:500 11px Verdana}
+.LeftBar_Body{border-left:Solid 1px #B9CAE2;border-right:Solid 1px #B9CAE2;border-top:Solid 1px #B9CAE2;color:#069;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#B9CAE2', EndColorStr='#B9CAE2') progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#DDe2effe', EndColorStr='#ffffffff');font:normal 10px Verdana,Arial,Helvetica,sans-serif;text-decoration:none}
+.LeftBar_Header{border-bottom:Solid 2px #85A2CC;border-top:Solid 2px #85A2CC;color:#000;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=2, StartColorStr= '#FFcbd3e4' , EndColorStr= '#00cbd3e4' ) progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffffff' , EndColorStr= '#AAC4DF');font:normal 9pt tahoma;height:20;padding:3px 3px 3px 5px;text-decoration:none}
+.link-linkmenu{color:#3E3E3E;font:bold 11px Tahoma,Verdana,Arial;text-decoration:none}
+.link-linkmenu2{color:#000;font:normal 11px Tahoma,Verdana,Arial;height:15px;padding-left:10px;text-decoration:none}
+.link-linkmenu2bg{background:#9CC3DE;font:normal 11px Tahoma,Verdana,Arial;height:15px;padding-left:10px;text-decoration:none}
+.link-white{color:#fff;text-decoration:none}
+.links{color:#FFF;font:bold 10px Verdana,Arial,Helvetica,sans-serif}
+.MBUTTONACCPRO{background:#88AACE;border:Solid 1px #6390BF;color:#FFF;cursor:hand;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');font:bold 10px Verdana,Arial,Helvetica,sans-serif;text-align:center;width:80px}
+.MBUTTONACCPROON{background:#88AACE;border:Solid 1px #6390BF;color:#FFF;cursor:hand;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#4676AA' , EndColorStr= '#CFDDED');font:bold 10px Verdana,Arial,Helvetica,sans-serif;text-align:center;width:80px}
+.MBUTTONTAB{background:#769DC7;border-bottom:#769DC7 1px solid;border-left:black 1px solid;border-right:black 1px solid;border-top:black 1px solid;color:#FFF;cursor:hand;font:bold 10px Verdana;width:80px}
+.MBUTTONTABOFF{background:#d0e2f4;border-bottom:black 1px solid;border-left:black 1px solid;border-right:black 1px solid;border-top:black 1px solid;color:#000;cursor:hand;font:bold 10px Verdana;width:80px}
+.NumericText,.GridTextRightAlign{color:#036;font:10px Verdana;letter-spacing:normal;text-align:right;text-decoration:none;text-transform:none;word-spacing:normal}
+.numerictxtbox{border:#00F;font:10px tahoma;text-align:right}
+.page-section-text{color:#06c;font:bold 16px Arial,Helvetica,sans-serif;list-style:disc}
+.page-section-text-bar{background:#369;color:#fff;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr= '#ff336699' , EndColorStr= '#ffe2effe' );font:bold 11px Verdana,Arial,Helvetica,sans-serif;height:16pt}
+.ReminderMsg{color:#00497A;font:bold 11px Verdana,Arial,Helvetica,sans-serif}
+.ReportLink{color:#69c;font:12px Verdana,Arial,Helvetica,sans-serif}
+.rightalign{text-align:right}
+.Smallheading{color:#069;font:bold 11px Verdana,Arial,Helvetica,sans-serif}
+.Smallheading2{color:#069;font:normal 9px Verdana,Arial,Helvetica,sans-serif}
+.SpanBody{color:#F00;font:10px Verdana;letter-spacing:normal;text-decoration:none;text-transform:none;word-spacing:normal}
+.Subheading{background:#d0e2f4;color:#069;font:bold 11px Verdana,Arial,Helvetica,sans-serif}
+.Tablebackground{background:#FFF;border-bottom:#7baee3 1px solid;border-left:#7baee3 1px solid;border-right:#7baee3 1px solid;border-top:#7baee3 1px solid;color:#000;font:normal 11px Verdana,Arial,Helvetica,sans-serif}
+.TablebackgroundInner{background:#F2F6FA;border-bottom:#7baee3 0px solid;border-left:#7baee3 0px solid;border-right:#7baee3 0px solid;border-top:#7baee3 0px solid;color:#369;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.TableBody{color:#000;font:10px Verdana;letter-spacing:normal;text-decoration:none;text-transform:none;word-spacing:normal}
+.TableBodyShade{color:#000;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:normal 11px Verdana,Arial,Helvetica,sans-serif}
+.TableBodyShadeBorder{border-bottom:#7baee3 1px solid;border-left:#7baee3 1px solid;border-right:#7baee3 1px solid;border-top:#7baee3 1px solid;color:#000;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:normal 11px Verdana,Arial,Helvetica,sans-serif}
+.TableBox_Bot{background:url(/Images/AccountsPro/TableBox/crv_bottomlinebg.jpg);height:10px}
+.TableBox_Bot_Left{background:url(/Images/AccountsPro/TableBox/crv_1bottom.jpg);height:10px}
+.TableBox_Bot_Right{background:url(/Images/AccountsPro/TableBox/crv_bottom1.jpg);height:10px}
+.TableBox_Left{background:url(/Images/AccountsPro/TableBox/crv1bg.jpg)}
+.TableBox_Right{background:url(/Images/AccountsPro/TableBox/crv_2linebg.jpg)}
+.TableBox_Top{background:url(/Images/AccountsPro/TableBox/crv_topbg.jpg)}
+.TableBox_Top_Left{background:url(/Images/AccountsPro/TableBox/crv1.jpg)}
+.TableBox_Top_Right{background:url(/Images/AccountsPro/TableBox/crv2.jpg)}
+.TableHead{color:#036;font:12px Verdana;letter-spacing:normal;text-decoration:none;text-transform:none;word-spacing:normal}
+.TableTreebackground{background:#F2F6FA;border-bottom:#B9CAE2 2px solid;border-left:#B9CAE2 2px solid;border-right:#B9CAE2 2px solid;border-top:#B9CAE2 2px solid;color:#369;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:normal 9px Verdana,Arial,Helvetica,sans-serif}
+.TabStripBody{border-bottom:#B9CAE2 1px solid;border-left:#B9CAE2 1px solid;border-right:#B9CAE2 1px solid;border-top:#B9CAE2 1px solid;color:#666;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:bold 11px Verdana,Arial,Helvetica,sans-serif}
+.TabStripBodySmall{color:#666;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.txtbox{border-bottom:solid 1px #7baee3;border-left:solid 1px #7baee3;border-right:solid 1px #7baee3;border-top:solid 1px #7baee3;font:10px Verdana,Arial,Helvetica,sans-serif}
+.txtboxrightalign{border-bottom:solid 1px #7baee3;border-left:solid 1px #7baee3;border-right:solid 1px #7baee3;border-top:solid 1px #7baee3;font:10px Verdana,Arial,Helvetica,sans-serif;text-align:right}
+.txtboxrightalignTotal{border:none;color:#666;font:bold 11px Verdana,Arial,Helvetica,sans-serif;text-align:right}
+.txtboxTotal{border:none;color:#666;font:bold 11px Verdana,Arial,Helvetica,sans-serif}
+.UploadPanelText{color:#000;font:9px Verdana;letter-spacing:normal;text-decoration:none;text-transform:none;word-spacing:normal}
+span.error,.error{color:#F00}
+.hover-link-blue,a.Catalogue:hover{color:#7baee3;font:normal 11px Verdana,Arial,Helvetica,sans-serif;text-decoration:none}
+.link-blue,a.Catalogue:link,a.Catalogue:visited{color:#000;font:normal 11px Verdana,Arial,Helvetica,sans-serif;text-decoration:none}
+.link-linkmenu2:hover{background:#9CC3DE;color:#3E3E3E;font:normal 11px Tahoma,Verdana,Arial;height:15px;padding-left:10px;text-decoration:none}
+.link-linkmenu:hover{color:#000;font:bold 11px Tahoma,Verdana,Arial;text-decoration:none}
+a:hover{color:#7baee3}

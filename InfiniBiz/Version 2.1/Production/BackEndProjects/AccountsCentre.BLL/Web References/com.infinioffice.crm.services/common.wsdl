@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:CRMservices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:CRMservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="urn:CRMservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="TaskList">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:TaskInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="TaskInfo">
+        <s:all>
+          <s:element name="taskId" type="s:string" />
+          <s:element name="ownerId" type="s:string" />
+          <s:element name="ownerName" type="s:string" />
+          <s:element name="title" type="s:string" />
+          <s:element name="status" type="s:string" />
+          <s:element name="creationDate" type="s:string" />
+          <s:element name="priority" type="s:string" />
+          <s:element name="startDate" type="s:string" />
+          <s:element name="endDate" type="s:string" />
+          <s:element name="duration" type="s:string" />
+          <s:element name="projectId" type="s:string" />
+          <s:element name="projectPath" type="s:string" />
+          <s:element name="userInfo" type="tns:UserInfoArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="UserInfo">
+        <s:all>
+          <s:element name="userId" type="s:int" />
+          <s:element name="userName" type="s:string" />
+          <s:element name="firstName" type="s:string" />
+          <s:element name="middleName" type="s:string" />
+          <s:element name="lastName" type="s:string" />
+          <s:element name="userType" type="s:string" />
+          <s:element name="loginId" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="status" type="s:int" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="UserInfoArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:UserInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="searchInfo">
+        <s:all>
+          <s:element name="fieldname" type="s:string" />
+          <s:element name="value" type="s:string" />
+          <s:element name="wildcard" type="s:int" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="searchInfoArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:searchInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="MerchantData">
+        <s:all>
+          <s:element name="merchantUid" type="s:string" />
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantPassword" type="s:string" />
+          <s:element name="firstName" type="s:string" />
+          <s:element name="lastName" type="s:string" />
+          <s:element name="telephone" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="street" type="s:string" />
+          <s:element name="town" type="s:string" />
+          <s:element name="city" type="s:string" />
+          <s:element name="state" type="s:string" />
+          <s:element name="country" type="s:string" />
+          <s:element name="postalCode" type="s:string" />
+          <s:element name="comments" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="AddMerchantErrorResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+          <s:element name="globalId" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="CustomerData">
+        <s:all>
+          <s:element name="customerUid" type="s:string" />
+          <s:element name="customerId" type="s:string" />
+          <s:element name="customerPassword" type="s:string" />
+          <s:element name="firstName" type="s:string" />
+          <s:element name="lastName" type="s:string" />
+          <s:element name="telephone" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="street" type="s:string" />
+          <s:element name="town" type="s:string" />
+          <s:element name="city" type="s:string" />
+          <s:element name="state" type="s:string" />
+          <s:element name="country" type="s:string" />
+          <s:element name="postalCode" type="s:string" />
+          <s:element name="comments" type="s:string" />
+          <s:element name="completeaddress" type="s:string" />
+          <s:element name="role" type="s:string" />
+          <s:element name="liveid" type="s:string" />
+          <s:element name="url" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="SupplierData">
+        <s:all>
+          <s:element name="customerUid" type="s:string" />
+          <s:element name="customerId" type="s:string" />
+          <s:element name="customerPassword" type="s:string" />
+          <s:element name="firstName" type="s:string" />
+          <s:element name="lastName" type="s:string" />
+          <s:element name="telephone" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="street" type="s:string" />
+          <s:element name="town" type="s:string" />
+          <s:element name="city" type="s:string" />
+          <s:element name="state" type="s:string" />
+          <s:element name="country" type="s:string" />
+          <s:element name="postalCode" type="s:string" />
+          <s:element name="comments" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="UserData">
+        <s:all>
+          <s:element name="userUid" type="s:string" />
+          <s:element name="password" type="s:string" />
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantPassword" type="s:string" />
+          <s:element name="childId" type="s:string" />
+          <s:element name="services" type="tns:serviceArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ServicesInfo">
+        <s:all>
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantUid" type="s:string" />
+          <s:element name="merchantPassword" type="s:string" />
+          <s:element name="childId" type="s:string" />
+          <s:element name="extraServices" type="tns:serviceArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="serviceArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:ExtraServices[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ExtraServices">
+        <s:all>
+          <s:element name="serviceName" type="s:string" />
+          <s:element name="serviceType" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ErrorResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="EmpResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+          <s:element name="uniqueId" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="LoginResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+          <s:element name="sessionId" type="s:string" />
+          <s:element name="url" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="GetIOSessionResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+          <s:element name="webSession" type="s:string" />
+          <s:element name="ioSession" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="VerifyProjectResponse">
+        <s:all>
+          <s:element name="verified" type="s:string" />
+          <s:element name="customerId" type="s:string" />
+          <s:element name="isOwner" type="s:string" />
+          <s:element name="projectName" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ServiceData">
+        <s:all>
+          <s:element name="services" type="tns:ServicesArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ServicesArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:sinfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="sinfo">
+        <s:all>
+          <s:element name="serviceType" type="s:int" />
+          <s:element name="serviceName" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="UpdatePasswordData">
+        <s:all>
+          <s:element name="merchantUid" type="s:string" />
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantPass" type="s:string" />
+          <s:element name="customerUid" type="s:string" />
+          <s:element name="customerOldPass" type="s:string" />
+          <s:element name="customerNewPass" type="s:string" />
+          <s:element name="childId" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="info">
+        <s:all>
+          <s:element name="startDay" type="s:string" />
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantPass" type="s:string" />
+          <s:element name="customerUid" type="s:string" />
+          <s:element name="customerPass" type="s:string" />
+          <s:element name="childId" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="logoffinfo">
+        <s:all>
+          <s:element name="sid" type="s:string" />
+          <s:element name="refid" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ReturnMessage">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:string" />
+          <s:element name="ERRORDESC" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="Items">
+        <s:all>
+          <s:element name="sid" type="s:string" />
+          <s:element name="totalCount" type="s:decimal" />
+          <s:element name="deletedItems" type="tns:itemsArray" />
+          <s:element name="newItems" type="tns:itemsArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="itemsArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:iteminfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="iteminfo">
+        <s:all>
+          <s:element name="fileName" type="s:string" />
+          <s:element name="path" type="s:string" />
+          <s:element name="folderpath" type="s:string" />
+          <s:element name="status" type="s:string" />
+          <s:element name="date" type="s:string" />
+          <s:element name="url" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="TrackResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+          <s:element name="url" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddMerchantRequest">
+    <wsdl:part name="merchantData" type="tns:MerchantData" />
+    <wsdl:part name="companyName" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="childUid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddMerchantResponse">
+    <wsdl:part name="return" type="tns:AddMerchantErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddCustomerRequest">
+    <wsdl:part name="merchantData" type="tns:MerchantData" />
+    <wsdl:part name="customerData" type="tns:CustomerData" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddCustomerResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCustomerRequest">
+    <wsdl:part name="customerData" type="tns:CustomerData" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateCustomerResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateSupplierRequest">
+    <wsdl:part name="supplierData" type="tns:SupplierData" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateSupplierResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddEmployeeRequest">
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantUid" type="s:string" />
+    <wsdl:part name="merchantPassword" type="s:string" />
+    <wsdl:part name="customerId" type="s:string" />
+    <wsdl:part name="customerUid" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddEmployeeResponse">
+    <wsdl:part name="return" type="tns:EmpResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddSupplierRequest">
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantUid" type="s:string" />
+    <wsdl:part name="merchantPassword" type="s:string" />
+    <wsdl:part name="customerId" type="s:string" />
+    <wsdl:part name="customerUid" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddSupplierResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddHRProcessRequest">
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantUid" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddHRProcessResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddProcessesRequest">
+    <wsdl:part name="servicesInfo" type="tns:ServicesInfo" />
+  </wsdl:message>
+  <wsdl:message name="AddProcessesResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginMerchantRequest">
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantUid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginMerchantResponse">
+    <wsdl:part name="return" type="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetIOSessionRequest">
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantUid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetIOSessionResponse">
+    <wsdl:part name="return" type="tns:GetIOSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginCustomerRequest">
+    <wsdl:part name="customerUid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantPassword" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="services" type="tns:ServiceData" />
+    <wsdl:part name="referrerName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginCustomerResponse">
+    <wsdl:part name="return" type="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginCustomerByRenewRequest">
+    <wsdl:part name="customerUid" type="s:string" />
+    <wsdl:part name="password" type="s:string" />
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantPassword" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="services" type="tns:ServiceData" />
+    <wsdl:part name="referrerName" type="s:string" />
+    <wsdl:part name="renewId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginCustomerByRenewResponse">
+    <wsdl:part name="return" type="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserRequest">
+    <wsdl:part name="userData" type="tns:UserData" />
+    <wsdl:part name="userType" type="s:decimal" />
+    <wsdl:part name="extra" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoginUserResponse">
+    <wsdl:part name="return" type="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerifyProjectRequest">
+    <wsdl:part name="projectId" type="s:string" />
+    <wsdl:part name="sessionId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="VerifyProjectResponse">
+    <wsdl:part name="return" type="tns:VerifyProjectResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddMerchantExRequest">
+    <wsdl:part name="merchantUid" type="s:string" />
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantPassword" type="s:string" />
+    <wsdl:part name="firstName" type="s:string" />
+    <wsdl:part name="lastName" type="s:string" />
+    <wsdl:part name="email" type="s:string" />
+    <wsdl:part name="telephone" type="s:string" />
+    <wsdl:part name="street" type="s:string" />
+    <wsdl:part name="town" type="s:string" />
+    <wsdl:part name="city" type="s:string" />
+    <wsdl:part name="state" type="s:string" />
+    <wsdl:part name="country" type="s:string" />
+    <wsdl:part name="postalCode" type="s:string" />
+    <wsdl:part name="comments" type="s:string" />
+    <wsdl:part name="companyName" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="childUid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddMerchantExResponse">
+    <wsdl:part name="return" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePasswordRequest">
+    <wsdl:part name="UpdatePasswordData" type="tns:UpdatePasswordData" />
+  </wsdl:message>
+  <wsdl:message name="UpdatePasswordResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddOrderRequest">
+    <wsdl:part name="merchantData" type="tns:MerchantData" />
+    <wsdl:part name="customerData" type="tns:CustomerData" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+    <wsdl:part name="status" type="s:string" />
+    <wsdl:part name="statusText" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddOrderResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderRequest">
+    <wsdl:part name="merchantData" type="tns:MerchantData" />
+    <wsdl:part name="customerData" type="tns:CustomerData" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+    <wsdl:part name="status" type="s:string" />
+    <wsdl:part name="statusText" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UpdateOrderResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateInvoiceRequest">
+    <wsdl:part name="merchantData" type="tns:MerchantData" />
+    <wsdl:part name="customerData" type="tns:CustomerData" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+    <wsdl:part name="status" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateInvoiceResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddG4LProjectRequest">
+    <wsdl:part name="merchantUid" type="s:string" />
+    <wsdl:part name="merchantId" type="s:string" />
+    <wsdl:part name="merchantPassword" type="s:string" />
+    <wsdl:part name="customerUid" type="s:string" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+    <wsdl:part name="projectName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddG4LProjectResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddInvoiceRequest">
+    <wsdl:part name="merchantData" type="tns:MerchantData" />
+    <wsdl:part name="customerData" type="tns:CustomerData" />
+    <wsdl:part name="childId" type="s:string" />
+    <wsdl:part name="type" type="s:string" />
+    <wsdl:part name="orderId" type="s:string" />
+    <wsdl:part name="status" type="s:string" />
+    <wsdl:part name="statusText" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddInvoiceResponse">
+    <wsdl:part name="return" type="tns:ErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="LogOffRequest">
+    <wsdl:part name="customerinfo" type="tns:logoffinfo" />
+  </wsdl:message>
+  <wsdl:message name="LogOffResponse">
+    <wsdl:part name="return" type="tns:ReturnMessage" />
+  </wsdl:message>
+  <wsdl:portType name="CRMservicesPortType">
+    <wsdl:operation name="AddMerchant">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">CRM: AddMerchant</documentation>
+      <wsdl:input message="tns:AddMerchantRequest" />
+      <wsdl:output message="tns:AddMerchantResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddCustomer">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Customer.</documentation>
+      <wsdl:input message="tns:AddCustomerRequest" />
+      <wsdl:output message="tns:AddCustomerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomer">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Update Customer.</documentation>
+      <wsdl:input message="tns:UpdateCustomerRequest" />
+      <wsdl:output message="tns:UpdateCustomerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSupplier">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Customer.</documentation>
+      <wsdl:input message="tns:UpdateSupplierRequest" />
+      <wsdl:output message="tns:UpdateSupplierResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddEmployee">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Employee.</documentation>
+      <wsdl:input message="tns:AddEmployeeRequest" />
+      <wsdl:output message="tns:AddEmployeeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSupplier">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Supplier.</documentation>
+      <wsdl:input message="tns:AddSupplierRequest" />
+      <wsdl:output message="tns:AddSupplierResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddHRProcess">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add HR Process.</documentation>
+      <wsdl:input message="tns:AddHRProcessRequest" />
+      <wsdl:output message="tns:AddHRProcessResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddProcesses">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Processes.</documentation>
+      <wsdl:input message="tns:AddProcessesRequest" />
+      <wsdl:output message="tns:AddProcessesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginMerchant">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Login Merchant.</documentation>
+      <wsdl:input message="tns:LoginMerchantRequest" />
+      <wsdl:output message="tns:LoginMerchantResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetIOSession">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Get IO Session.</documentation>
+      <wsdl:input message="tns:GetIOSessionRequest" />
+      <wsdl:output message="tns:GetIOSessionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginCustomer">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Login Customer.</documentation>
+      <wsdl:input message="tns:LoginCustomerRequest" />
+      <wsdl:output message="tns:LoginCustomerResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginCustomerByRenew">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Login Customer by Renew</documentation>
+      <wsdl:input message="tns:LoginCustomerByRenewRequest" />
+      <wsdl:output message="tns:LoginCustomerByRenewResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Login User.</documentation>
+      <wsdl:input message="tns:LoginUserRequest" />
+      <wsdl:output message="tns:LoginUserResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="VerifyProject">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Verify Project.</documentation>
+      <wsdl:input message="tns:VerifyProjectRequest" />
+      <wsdl:output message="tns:VerifyProjectResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddMerchantEx">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Merchant Ex (for asp).</documentation>
+      <wsdl:input message="tns:AddMerchantExRequest" />
+      <wsdl:output message="tns:AddMerchantExResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePassword">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">CRM: AddMerchant</documentation>
+      <wsdl:input message="tns:UpdatePasswordRequest" />
+      <wsdl:output message="tns:UpdatePasswordResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddOrder">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Customer.</documentation>
+      <wsdl:input message="tns:AddOrderRequest" />
+      <wsdl:output message="tns:AddOrderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Update Order</documentation>
+      <wsdl:input message="tns:UpdateOrderRequest" />
+      <wsdl:output message="tns:UpdateOrderResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateInvoice">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Create Invoice</documentation>
+      <wsdl:input message="tns:CreateInvoiceRequest" />
+      <wsdl:output message="tns:CreateInvoiceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddG4LProject">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Customer.</documentation>
+      <wsdl:input message="tns:AddG4LProjectRequest" />
+      <wsdl:output message="tns:AddG4LProjectResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="AddInvoice">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Add Customer.</documentation>
+      <wsdl:input message="tns:AddInvoiceRequest" />
+      <wsdl:output message="tns:AddInvoiceResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="LogOff">
+      <wsdl:input message="tns:LogOffRequest" />
+      <wsdl:output message="tns:LogOffResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CRMservicesBinding" type="tns:CRMservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="AddMerchant">
+      <soap:operation soapAction="urn:CRMservices#AddMerchant" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddCustomer">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCustomer">
+      <soap:operation soapAction="urn:CRMservices#UpdateCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateSupplier">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddEmployee">
+      <soap:operation soapAction="urn:CRMservices#AddEmployee" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSupplier">
+      <soap:operation soapAction="urn:CRMservices#AddSupplier" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddHRProcess">
+      <soap:operation soapAction="urn:CRMservices#AddHRProcess" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddProcesses">
+      <soap:operation soapAction="urn:CRMservices#AddProcesses" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginMerchant">
+      <soap:operation soapAction="urn:CRMservices#LoginMerchant" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetIOSession">
+      <soap:operation soapAction="urn:CRMservices#GetIOSession" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginCustomer">
+      <soap:operation soapAction="urn:CRMservices#LoginCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginCustomerByRenew">
+      <soap:operation soapAction="urn:CRMservices#LoginCustomerByRenew" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginUser">
+      <soap:operation soapAction="urn:CRMservices#LoginUser" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerifyProject">
+      <soap:operation soapAction="urn:CRMservices#LoginCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddMerchantEx">
+      <soap:operation soapAction="urn:CRMservices#AddMerchantEx" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdatePassword">
+      <soap:operation soapAction="urn:CRMservices#AddMerchant" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddOrder">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateOrder">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateInvoice">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddG4LProject">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddInvoice">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOff">
+      <soap:operation soapAction="urn:IOservices#LogOff" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:IOservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:IOservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CRMservices">
+    <wsdl:port name="CRMservicesPort" binding="tns:CRMservicesBinding">
+      <soap:address location="http://services.crm.infinioffice.com/common.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

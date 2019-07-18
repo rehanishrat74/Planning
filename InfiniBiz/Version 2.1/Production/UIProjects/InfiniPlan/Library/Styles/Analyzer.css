@@ -1,0 +1,185 @@
+
+ .CatagoryParentGrid
+{
+border: 1px solid #C0C0C0;
+text-align: center;
+width: 950px;
+height:435px;
+overflow: auto;
+vertical-align:middle ;
+scrollbar-face-color: #F3F3F3;
+scrollbar-highlight-color: #F3F3F3;
+scrollbar-3dlight-color: #F3F3F3;
+scrollbar-darkshadow-color: #F3F3F3;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: white;
+text-align:  center;
+}
+.AnalyzerBorder
+{
+border: 1px solid #C0C0C0;
+}
+
+.AnalyzerDataPanel
+{
+border: 1px solid #C0C0C0;
+text-align: center;
+width:  130px;
+height:55px;
+overflow: auto;
+vertical-align:middle ;
+scrollbar-face-color: #F3F3F3;
+scrollbar-highlight-color: #F3F3F3;
+scrollbar-3dlight-color: #F3F3F3;
+scrollbar-darkshadow-color: #F3F3F3;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: white;
+text-align:  center;
+}
+
+.table_gray_border
+{
+	border-bottom-width: thick;
+	border-right:solid 1px  #C0C0C0;
+	border-bottom :solid 1px #C0C0C0;  
+	border-left:solid 1px #C0C0C0;
+	border-top :solid 1px #C0C0C0;  
+}
+
+.table_blue_border
+{
+	border-bottom-width: thick;
+	border-right:solid 1px  #ECF4FC;
+	border-bottom :solid 1px #ECF4FC;  
+	border-left:solid 1px #ECF4FC;
+	border-top :solid 1px #ECF4FC;
+	 
+}
+
+.AnalyzerText
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+
+.AnalyzerTextMagnify
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight:  bold;
+}
+.text_style_dg {
+font-family:  Verdana, sans-serif;
+font-size: 11px;
+font-weight:bold;
+color:Black;
+text-decoration: none;
+vertical-align:middle ;
+text-align:  center;
+ }
+ 
+ .text_style_dghover {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+background-color: Gainsboro;
+}
+ 
+ .AnalyzerParentGrid
+{
+border: 1px solid #C0C0C0;
+text-align: center;
+width:950px;
+height:675px;
+overflow: auto;
+vertical-align:middle ;
+scrollbar-face-color: #F3F3F3;
+scrollbar-highlight-color: #F3F3F3;
+scrollbar-3dlight-color: #F3F3F3;
+scrollbar-darkshadow-color: #F3F3F3;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: white;
+text-align:  center;
+}
+ 
+  .AnalyzerchildGrid
+{
+border: 1px solid #C0C0C0;
+text-align: center;
+width: 505px;
+height:305px;
+overflow: auto;
+vertical-align:middle ;
+scrollbar-face-color: #F3F3F3;
+scrollbar-highlight-color: #F3F3F3;
+scrollbar-3dlight-color: #F3F3F3;
+scrollbar-darkshadow-color: #F3F3F3;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: white;
+text-align:  center;
+}
+
+.AnalyzerOverView
+{
+ border: 1px solid #C0C0C0;
+text-align: center;
+width:950px;
+ height:100px;
+overflow: auto;
+vertical-align:middle ;
+scrollbar-face-color: #F3F3F3;
+scrollbar-highlight-color: #F3F3F3;
+scrollbar-3dlight-color: #F3F3F3;
+scrollbar-darkshadow-color: #F3F3F3;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: white;
+text-align:  center;
+}
+
+
+/***************** for plan cover *****************/
+.TableBox_Top_Left
+{
+background:url('/images/InfiniPlan/crv1.jpg');
+}
+.TableBox_Top_Right
+{
+background:url('/images/InfiniPlan/crv2.jpg');
+}
+.TableBox_Bot_Left
+{
+background:url('/images/InfiniPlan/crv_1bottom.jpg');
+height: 10px;
+}
+.TableBox_Bot_Right
+{
+background:url('/images/InfiniPlan/crv_bottom1.jpg');
+height: 10px;
+}
+.TableBox_Top
+{
+ 
+background:url('/images/InfiniPlan/crv_topbg.jpg');
+}
+.TableBox_Bot
+{
+ 
+background:url('/images/InfiniPlan/crv_bottomlinebg.jpg');
+height: 10px;
+}
+.TableBox_Left
+{
+background:url('/images/InfiniPlan/crv1bg.jpg');
+}
+.TableBox_Right
+{
+background:url('/images/InfiniPlan/crv_2linebg.jpg');
+color:White;
+}
+}

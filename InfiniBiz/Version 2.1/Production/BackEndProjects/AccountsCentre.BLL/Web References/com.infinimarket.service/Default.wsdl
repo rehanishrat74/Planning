@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/SingleSignIn/_Default" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/SingleSignIn/_Default" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/SingleSignIn/_Default">
+      <s:element name="AddUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="User_Id" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AddUserResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isSignIn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_Xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="isSignInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="isSignInResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignOut">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_Xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SignOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SignOutResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterCustomer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterCustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegisterCustomerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterCustomerWithCustomerView">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterCustomerWithCustomerViewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegisterCustomerWithCustomerViewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginCustomer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginCustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginCustomerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginFormationHouseCustomer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoginFormationHouseCustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginFormationHouseCustomerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerChildId_By_LiveUid_Domain">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerChildId_By_LiveUid_DomainResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCustomerChildId_By_LiveUid_DomainResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerChildID_By_MerchantID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerChildID_By_MerchantIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCustomerChildID_By_MerchantIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMerchantLiveId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMerchantLiveIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMerchantLiveIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerLiveId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerLiveIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCustomerLiveIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCustomerInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCustomerView">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateCustomerViewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateCustomerViewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterMerchant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterMerchantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegisterMerchantResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerAllChildIds">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCustomerAllChildIdsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCustomerAllChildIdsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoRegisterFormationsHouseCustomer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AutoRegisterFormationsHouseCustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AutoRegisterFormationsHouseCustomerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterFormationHouseCustomer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RegisterFormationHouseCustomerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegisterFormationHouseCustomerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Customer_As_Seller">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="_xml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_Customer_As_SellerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Update_Customer_As_SellerResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetXML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="xmlEnum" type="tns:XmlFormat" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:simpleType name="XmlFormat">
+        <s:restriction base="s:string">
+          <s:enumeration value="Customer_Registeration" />
+          <s:enumeration value="Customer_login" />
+          <s:enumeration value="Customer_details" />
+          <s:enumeration value="Customer_View" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetXMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddUserSoapIn">
+    <wsdl:part name="parameters" element="tns:AddUser" />
+  </wsdl:message>
+  <wsdl:message name="AddUserSoapOut">
+    <wsdl:part name="parameters" element="tns:AddUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="isSignInSoapIn">
+    <wsdl:part name="parameters" element="tns:isSignIn" />
+  </wsdl:message>
+  <wsdl:message name="isSignInSoapOut">
+    <wsdl:part name="parameters" element="tns:isSignInResponse" />
+  </wsdl:message>
+  <wsdl:message name="SignOutSoapIn">
+    <wsdl:part name="parameters" element="tns:SignOut" />
+  </wsdl:message>
+  <wsdl:message name="SignOutSoapOut">
+    <wsdl:part name="parameters" element="tns:SignOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterCustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterCustomer" />
+  </wsdl:message>
+  <wsdl:message name="RegisterCustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterCustomerWithCustomerViewSoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterCustomerWithCustomerView" />
+  </wsdl:message>
+  <wsdl:message name="RegisterCustomerWithCustomerViewSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterCustomerWithCustomerViewResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginCustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginCustomer" />
+  </wsdl:message>
+  <wsdl:message name="LoginCustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoginFormationHouseCustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:LoginFormationHouseCustomer" />
+  </wsdl:message>
+  <wsdl:message name="LoginFormationHouseCustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:LoginFormationHouseCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerChildId_By_LiveUid_DomainSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerChildId_By_LiveUid_Domain" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerChildId_By_LiveUid_DomainSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerChildId_By_LiveUid_DomainResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerChildID_By_MerchantIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerChildID_By_MerchantID" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerChildID_By_MerchantIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerChildID_By_MerchantIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMerchantLiveIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMerchantLiveId" />
+  </wsdl:message>
+  <wsdl:message name="GetMerchantLiveIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMerchantLiveIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerLiveIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerLiveId" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerLiveIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerLiveIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerInfo" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateCustomerViewSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateCustomerView" />
+  </wsdl:message>
+  <wsdl:message name="CreateCustomerViewSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateCustomerViewResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterMerchantSoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterMerchant" />
+  </wsdl:message>
+  <wsdl:message name="RegisterMerchantSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterMerchantResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerAllChildIdsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCustomerAllChildIds" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerAllChildIdsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCustomerAllChildIdsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AutoRegisterFormationsHouseCustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:AutoRegisterFormationsHouseCustomer" />
+  </wsdl:message>
+  <wsdl:message name="AutoRegisterFormationsHouseCustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:AutoRegisterFormationsHouseCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="RegisterFormationHouseCustomerSoapIn">
+    <wsdl:part name="parameters" element="tns:RegisterFormationHouseCustomer" />
+  </wsdl:message>
+  <wsdl:message name="RegisterFormationHouseCustomerSoapOut">
+    <wsdl:part name="parameters" element="tns:RegisterFormationHouseCustomerResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_Customer_As_SellerSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_Customer_As_Seller" />
+  </wsdl:message>
+  <wsdl:message name="Update_Customer_As_SellerSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_Customer_As_SellerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetXML" />
+  </wsdl:message>
+  <wsdl:message name="GetXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetXMLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="_DefaultSoap">
+    <wsdl:operation name="AddUser">
+      <wsdl:input message="tns:AddUserSoapIn" />
+      <wsdl:output message="tns:AddUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="isSignIn">
+      <wsdl:input message="tns:isSignInSoapIn" />
+      <wsdl:output message="tns:isSignInSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SignOut">
+      <wsdl:input message="tns:SignOutSoapIn" />
+      <wsdl:output message="tns:SignOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCustomer">
+      <wsdl:input message="tns:RegisterCustomerSoapIn" />
+      <wsdl:output message="tns:RegisterCustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCustomerWithCustomerView">
+      <wsdl:input message="tns:RegisterCustomerWithCustomerViewSoapIn" />
+      <wsdl:output message="tns:RegisterCustomerWithCustomerViewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginCustomer">
+      <wsdl:input message="tns:LoginCustomerSoapIn" />
+      <wsdl:output message="tns:LoginCustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoginFormationHouseCustomer">
+      <wsdl:input message="tns:LoginFormationHouseCustomerSoapIn" />
+      <wsdl:output message="tns:LoginFormationHouseCustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerChildId_By_LiveUid_Domain">
+      <wsdl:input message="tns:GetCustomerChildId_By_LiveUid_DomainSoapIn" />
+      <wsdl:output message="tns:GetCustomerChildId_By_LiveUid_DomainSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerChildID_By_MerchantID">
+      <wsdl:input message="tns:GetCustomerChildID_By_MerchantIDSoapIn" />
+      <wsdl:output message="tns:GetCustomerChildID_By_MerchantIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMerchantLiveId">
+      <wsdl:input message="tns:GetMerchantLiveIdSoapIn" />
+      <wsdl:output message="tns:GetMerchantLiveIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerLiveId">
+      <wsdl:input message="tns:GetCustomerLiveIdSoapIn" />
+      <wsdl:output message="tns:GetCustomerLiveIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerInfo">
+      <wsdl:input message="tns:GetCustomerInfoSoapIn" />
+      <wsdl:output message="tns:GetCustomerInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateCustomerView">
+      <wsdl:input message="tns:CreateCustomerViewSoapIn" />
+      <wsdl:output message="tns:CreateCustomerViewSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterMerchant">
+      <wsdl:input message="tns:RegisterMerchantSoapIn" />
+      <wsdl:output message="tns:RegisterMerchantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerAllChildIds">
+      <wsdl:input message="tns:GetCustomerAllChildIdsSoapIn" />
+      <wsdl:output message="tns:GetCustomerAllChildIdsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoRegisterFormationsHouseCustomer">
+      <wsdl:input message="tns:AutoRegisterFormationsHouseCustomerSoapIn" />
+      <wsdl:output message="tns:AutoRegisterFormationsHouseCustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RegisterFormationHouseCustomer">
+      <wsdl:input message="tns:RegisterFormationHouseCustomerSoapIn" />
+      <wsdl:output message="tns:RegisterFormationHouseCustomerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_Customer_As_Seller">
+      <wsdl:input message="tns:Update_Customer_As_SellerSoapIn" />
+      <wsdl:output message="tns:Update_Customer_As_SellerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetXML">
+      <wsdl:input message="tns:GetXMLSoapIn" />
+      <wsdl:output message="tns:GetXMLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="_DefaultSoap" type="tns:_DefaultSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="AddUser">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/AddUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isSignIn">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/isSignIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SignOut">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/SignOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCustomer">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/RegisterCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterCustomerWithCustomerView">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/RegisterCustomerWithCustomerView" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginCustomer">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/LoginCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoginFormationHouseCustomer">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/LoginFormationHouseCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerChildId_By_LiveUid_Domain">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/GetCustomerChildId_By_LiveUid_Domain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerChildID_By_MerchantID">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/GetCustomerChildID_By_MerchantID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMerchantLiveId">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/GetMerchantLiveId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerLiveId">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/GetCustomerLiveId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerInfo">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/GetCustomerInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateCustomerView">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/CreateCustomerView" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterMerchant">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/RegisterMerchant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerAllChildIds">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/GetCustomerAllChildIds" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoRegisterFormationsHouseCustomer">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/AutoRegisterFormationsHouseCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RegisterFormationHouseCustomer">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/RegisterFormationHouseCustomer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_Customer_As_Seller">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/Update_Customer_As_Seller" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetXML">
+      <soap:operation soapAction="http://tempuri.org/SingleSignIn/_Default/GetXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="_Default">
+    <wsdl:port name="_DefaultSoap" binding="tns:_DefaultSoap">
+      <soap:address location="http://service.infinimarket.com/Default.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

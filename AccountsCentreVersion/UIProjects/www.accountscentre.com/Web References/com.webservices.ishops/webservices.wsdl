@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="WebService" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="WebService" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="WebService">
+      <s:element name="CollectionServices">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CollectionServicesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CollectionServicesResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CRM">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CRMResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CRMResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_New">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_NewResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Order_NewResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_Repayment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Order_RepaymentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Order_RepaymentResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Approve_FloorLimit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Approve_FloorLimitResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Approve_FloorLimitResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Auto_Generate_Invoice_Update_ProOrderInvoice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sXml" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Auto_Generate_Invoice_Update_ProOrderInvoiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Auto_Generate_Invoice_Update_ProOrderInvoiceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </types>
+  <message name="CollectionServicesSoapIn">
+    <part name="parameters" element="s0:CollectionServices" />
+  </message>
+  <message name="CollectionServicesSoapOut">
+    <part name="parameters" element="s0:CollectionServicesResponse" />
+  </message>
+  <message name="CRMSoapIn">
+    <part name="parameters" element="s0:CRM" />
+  </message>
+  <message name="CRMSoapOut">
+    <part name="parameters" element="s0:CRMResponse" />
+  </message>
+  <message name="Order_NewSoapIn">
+    <part name="parameters" element="s0:Order_New" />
+  </message>
+  <message name="Order_NewSoapOut">
+    <part name="parameters" element="s0:Order_NewResponse" />
+  </message>
+  <message name="Order_RepaymentSoapIn">
+    <part name="parameters" element="s0:Order_Repayment" />
+  </message>
+  <message name="Order_RepaymentSoapOut">
+    <part name="parameters" element="s0:Order_RepaymentResponse" />
+  </message>
+  <message name="Approve_FloorLimitSoapIn">
+    <part name="parameters" element="s0:Approve_FloorLimit" />
+  </message>
+  <message name="Approve_FloorLimitSoapOut">
+    <part name="parameters" element="s0:Approve_FloorLimitResponse" />
+  </message>
+  <message name="Auto_Generate_Invoice_Update_ProOrderInvoiceSoapIn">
+    <part name="parameters" element="s0:Auto_Generate_Invoice_Update_ProOrderInvoice" />
+  </message>
+  <message name="Auto_Generate_Invoice_Update_ProOrderInvoiceSoapOut">
+    <part name="parameters" element="s0:Auto_Generate_Invoice_Update_ProOrderInvoiceResponse" />
+  </message>
+  <message name="CollectionServicesHttpGetIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="CollectionServicesHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="CRMHttpGetIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="CRMHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Order_NewHttpGetIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Order_NewHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Order_RepaymentHttpGetIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Order_RepaymentHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Approve_FloorLimitHttpGetIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Approve_FloorLimitHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Auto_Generate_Invoice_Update_ProOrderInvoiceHttpGetIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Auto_Generate_Invoice_Update_ProOrderInvoiceHttpGetOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="CollectionServicesHttpPostIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="CollectionServicesHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="CRMHttpPostIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="CRMHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Order_NewHttpPostIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Order_NewHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Order_RepaymentHttpPostIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Order_RepaymentHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Approve_FloorLimitHttpPostIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Approve_FloorLimitHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <message name="Auto_Generate_Invoice_Update_ProOrderInvoiceHttpPostIn">
+    <part name="sXml" type="s:string" />
+  </message>
+  <message name="Auto_Generate_Invoice_Update_ProOrderInvoiceHttpPostOut">
+    <part name="Body" element="s0:string" />
+  </message>
+  <portType name="WebServiceSoap">
+    <operation name="CollectionServices">
+      <input message="s0:CollectionServicesSoapIn" />
+      <output message="s0:CollectionServicesSoapOut" />
+    </operation>
+    <operation name="CRM">
+      <input message="s0:CRMSoapIn" />
+      <output message="s0:CRMSoapOut" />
+    </operation>
+    <operation name="Order_New">
+      <input message="s0:Order_NewSoapIn" />
+      <output message="s0:Order_NewSoapOut" />
+    </operation>
+    <operation name="Order_Repayment">
+      <input message="s0:Order_RepaymentSoapIn" />
+      <output message="s0:Order_RepaymentSoapOut" />
+    </operation>
+    <operation name="Approve_FloorLimit">
+      <input message="s0:Approve_FloorLimitSoapIn" />
+      <output message="s0:Approve_FloorLimitSoapOut" />
+    </operation>
+    <operation name="Auto_Generate_Invoice_Update_ProOrderInvoice">
+      <input message="s0:Auto_Generate_Invoice_Update_ProOrderInvoiceSoapIn" />
+      <output message="s0:Auto_Generate_Invoice_Update_ProOrderInvoiceSoapOut" />
+    </operation>
+  </portType>
+  <portType name="WebServiceHttpGet">
+    <operation name="CollectionServices">
+      <input message="s0:CollectionServicesHttpGetIn" />
+      <output message="s0:CollectionServicesHttpGetOut" />
+    </operation>
+    <operation name="CRM">
+      <input message="s0:CRMHttpGetIn" />
+      <output message="s0:CRMHttpGetOut" />
+    </operation>
+    <operation name="Order_New">
+      <input message="s0:Order_NewHttpGetIn" />
+      <output message="s0:Order_NewHttpGetOut" />
+    </operation>
+    <operation name="Order_Repayment">
+      <input message="s0:Order_RepaymentHttpGetIn" />
+      <output message="s0:Order_RepaymentHttpGetOut" />
+    </operation>
+    <operation name="Approve_FloorLimit">
+      <input message="s0:Approve_FloorLimitHttpGetIn" />
+      <output message="s0:Approve_FloorLimitHttpGetOut" />
+    </operation>
+    <operation name="Auto_Generate_Invoice_Update_ProOrderInvoice">
+      <input message="s0:Auto_Generate_Invoice_Update_ProOrderInvoiceHttpGetIn" />
+      <output message="s0:Auto_Generate_Invoice_Update_ProOrderInvoiceHttpGetOut" />
+    </operation>
+  </portType>
+  <portType name="WebServiceHttpPost">
+    <operation name="CollectionServices">
+      <input message="s0:CollectionServicesHttpPostIn" />
+      <output message="s0:CollectionServicesHttpPostOut" />
+    </operation>
+    <operation name="CRM">
+      <input message="s0:CRMHttpPostIn" />
+      <output message="s0:CRMHttpPostOut" />
+    </operation>
+    <operation name="Order_New">
+      <input message="s0:Order_NewHttpPostIn" />
+      <output message="s0:Order_NewHttpPostOut" />
+    </operation>
+    <operation name="Order_Repayment">
+      <input message="s0:Order_RepaymentHttpPostIn" />
+      <output message="s0:Order_RepaymentHttpPostOut" />
+    </operation>
+    <operation name="Approve_FloorLimit">
+      <input message="s0:Approve_FloorLimitHttpPostIn" />
+      <output message="s0:Approve_FloorLimitHttpPostOut" />
+    </operation>
+    <operation name="Auto_Generate_Invoice_Update_ProOrderInvoice">
+      <input message="s0:Auto_Generate_Invoice_Update_ProOrderInvoiceHttpPostIn" />
+      <output message="s0:Auto_Generate_Invoice_Update_ProOrderInvoiceHttpPostOut" />
+    </operation>
+  </portType>
+  <binding name="WebServiceSoap" type="s0:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="CollectionServices">
+      <soap:operation soapAction="WebService/CollectionServices" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="CRM">
+      <soap:operation soapAction="WebService/CRM" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Order_New">
+      <soap:operation soapAction="WebService/Order_New" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Order_Repayment">
+      <soap:operation soapAction="WebService/Order_Repayment" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Approve_FloorLimit">
+      <soap:operation soapAction="WebService/Approve_FloorLimit" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Auto_Generate_Invoice_Update_ProOrderInvoice">
+      <soap:operation soapAction="WebService/Auto_Generate_Invoice_Update_ProOrderInvoice" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="WebServiceHttpGet" type="s0:WebServiceHttpGet">
+    <http:binding verb="GET" />
+    <operation name="CollectionServices">
+      <http:operation location="/CollectionServices" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="CRM">
+      <http:operation location="/CRM" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Order_New">
+      <http:operation location="/Order_New" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Order_Repayment">
+      <http:operation location="/Order_Repayment" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Approve_FloorLimit">
+      <http:operation location="/Approve_FloorLimit" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Auto_Generate_Invoice_Update_ProOrderInvoice">
+      <http:operation location="/Auto_Generate_Invoice_Update_ProOrderInvoice" />
+      <input>
+        <http:urlEncoded />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="WebServiceHttpPost" type="s0:WebServiceHttpPost">
+    <http:binding verb="POST" />
+    <operation name="CollectionServices">
+      <http:operation location="/CollectionServices" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="CRM">
+      <http:operation location="/CRM" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Order_New">
+      <http:operation location="/Order_New" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Order_Repayment">
+      <http:operation location="/Order_Repayment" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Approve_FloorLimit">
+      <http:operation location="/Approve_FloorLimit" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+    <operation name="Auto_Generate_Invoice_Update_ProOrderInvoice">
+      <http:operation location="/Auto_Generate_Invoice_Update_ProOrderInvoice" />
+      <input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </input>
+      <output>
+        <mime:mimeXml part="Body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WebService">
+    <port name="WebServiceSoap" binding="s0:WebServiceSoap">
+      <soap:address location="http://ishops.webservices.com/webservices.asmx" />
+    </port>
+    <port name="WebServiceHttpGet" binding="s0:WebServiceHttpGet">
+      <http:address location="http://ishops.webservices.com/webservices.asmx" />
+    </port>
+    <port name="WebServiceHttpPost" binding="s0:WebServiceHttpPost">
+      <http:address location="http://ishops.webservices.com/webservices.asmx" />
+    </port>
+  </service>
+</definitions>

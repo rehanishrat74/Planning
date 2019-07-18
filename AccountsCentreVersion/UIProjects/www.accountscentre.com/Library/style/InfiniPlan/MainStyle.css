@@ -1,0 +1,1191 @@
+.MBUTTONACCPRO1
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor:  text;
+color:White;
+border:Solid 1px #6390BF;
+background-color: #88AACE;
+text-align:center;
+}
+.MBUTTONACCPROON1
+{
+filter: progid:-DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#7fa2cc' , EndColorStr= '#7fa2cc');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor:    text;
+color:White;
+border:Solid 1px #6390BF;
+background-color: #88AACE;
+text-align:center;
+}
+.MouseOverColor
+{
+background-color:#9CC3DE;
+}
+.MouseOutColor
+{
+background-color:#ffffff;
+}
+.link-linkmenu
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3E3E3E;
+text-decoration:none;
+}
+.link-linkmenu:hover
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3C6DB5;
+text-decoration:none;
+}
+/*
+.link-linkmenu2
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+}
+.link-linkmenu2:hover
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+.link-linkmenu3
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+.link-linkmenu4
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+border: 1px solid #F3F3F3;
+}
+.link-linkmenu2bg
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+*/
+.link-linkmenu2
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+}
+.link-linkmenu2c
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+border: 1px solid #ffffff;
+}
+.link-linkmenu3
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+background-color:#9CC3DE;
+width:140px;
+padding-left:2px;
+}
+.link-linkmenu4
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+/* color:#3C6DB5; */
+text-decoration:none;
+height:17px;
+background-color:#9CC3DE;
+/* background-color:#F3F3F3; */
+border: 1px solid #9CC3DE;
+padding-left:2px;
+width:146px;
+}
+.link-linkmenu2b
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+}
+.link-linkmenu5
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+border: 1px solid #9CC3DE;
+background-color:#9CC3DE;
+}
+.sheetType
+{
+font-family:   Verdana;
+font-weight: bold;
+font-size:       medium;
+color:	    steelblue;
+}
+.sheetTypesettings
+{
+font-family:   Verdana;
+font-weight:   bold;
+font-size:  x-small;
+color:	     Black;
+}
+.BSColor
+{
+text-align:   left;
+background-color: #ECF4FC;
+font-size: 12px;
+font-family: Tahoma;
+font-weight:   bold;
+}
+.ReportHeadingsBS
+{
+font-weight: bold;
+font-size: 13px;
+font-family: Tahoma;
+text-align: left;
+}
+.ReportHeadingsBSYearly
+{
+font-weight: bold;
+font-size: 13px;
+font-family: Tahoma;
+text-align: left;
+background-color: #ECF4FC;
+}
+.ReportHeadings
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align: left;
+background-color: #ECF4FC;
+}
+.ReportHeadingsYearly
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align: left;
+background-color: #ECF4FC;
+}
+.ReportHeadingsCenterBS
+{
+font-weight: bold;
+font-size: 12px;
+font-family: Tahoma;
+text-align:  center;
+}
+.ReportHeadingsCenterBSYearly
+{
+font-weight: bold;
+font-size: 12px;
+font-family: Tahoma;
+text-align:  center;
+background-color: #ECF4FC;
+}
+.ReportHeadingsCenter
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+}
+.ReportHeadingsCenterYearly
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+background-color: #ECF4FC;
+}
+.MBUTTONACCPRO
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+color:White;
+border:Solid 1px #6390BF;
+background-color: #88AACE;
+text-align:center;
+}
+.MBUTTONACCPROON
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#7fa2cc' , EndColorStr= '#7fa2cc');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+color:White;
+border:Solid 1px #6390BF;
+background-color: #88AACE;
+text-align:center;
+}
+.wizardButton
+{
+border-right: #336699 1px solid;
+border-top: #336699 1px solid;
+font-size: x-small;
+border-left: #336699 1px solid;
+color: white;
+border-bottom: #336699 1px solid;
+font-family: Verdana;
+background-color: #7fa2cc;
+}
+.ReportTotalHeadings
+{
+font-weight: bold;
+font-size: 10px;
+font-family: Tahoma;
+text-align:  left;
+}
+.ReportTitlesLIB
+{
+font-style:italic;
+font-size: 11px;
+font-family: Tahoma;
+text-align:   left;
+}
+.ReportTitles
+{
+font-weight:   normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:   left;
+}
+.ReportFigures
+{
+font-weight:  normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+}
+.ReportFiguresPrevious
+{
+font-weight:  normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+background-color: #ECF4FC;
+}
+.ReportHeader
+{
+font-weight: bold;
+font-size: 12px;
+color: #ffffff;
+font-family: Tahoma;
+background-color: #336699;
+text-align: center;
+}
+.ReportHeader1
+{
+font-weight: bold;
+font-size: 12px;
+color: #ffffff;
+font-family: Tahoma;
+background-color: #336699;
+text-align:  left;
+}
+.PreviousHeaderDDL
+{
+font-weight: bold;
+text-align:center;
+background-color: #336699;
+}
+.PreviousHeader
+{
+font-weight: bold;
+font-size: 12px;
+color:  #336699;
+font-family: Tahoma;
+background-color: #ECF4FC;
+text-align: center;
+}
+.cngbody {
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+.tableborder {
+border: 1px solid #E5EFF8;
+height:15px;
+}
+.MultilingulLinkStyle
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+text-justify:inter-word
+}
+.ControlText
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+}
+.GridControl
+{
+overflow:  visible;
+width: 780px;
+height: 300px;
+}
+.bottomlnk {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.leftbarheading {
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3E3E3E;
+text-decoration:none;
+}
+.leftlink  {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.leftlinkSel
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black;
+background-color: #89afd3 ;
+}
+.summaryHeader
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 32px;
+background-color: #336699;
+text-align: center;
+}
+.ControlHeading
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 18px;
+background-color: #336699;
+text-align: center;
+}
+.PlanOutLine
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 32px;
+background-color: #336699;
+text-align: center;
+}
+.PlanOutLineToolTip
+{
+/*BORDER-RIGHT: steelblue 2px solid;
+PADDING-RIGHT: 10px;
+BORDER-TOP: steelblue 2px solid;
+PADDING-LEFT: 10px;
+PADDING-BOTTOM: 10px;
+BORDER-LEFT: steelblue 2px solid;
+PADDING-TOP: 10px;
+BORDER-BOTTOM: steelblue 2px solid;
+/*filter:progid:DXImageTransform.Microsoft.Shadow(color='silver', Direction=135, Strength=5);*/
+/*border:				1px solid;
+border-color:		#19649D;
+background-color:	white;*/
+color:				#217DC3;
+/*font-weight:		bold;*/
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:	 url('/images/InfiniPlan/hint_bg.gif') no-repeat;
+}
+.warnMessage
+{
+font-weight: bold;
+text-justify: inter-word;
+font-size: 14px;
+color: #10436b;
+line-height: 4mm;
+font-family: tahoma;
+height: 22px;
+background-color: transparent;
+text-align: center;
+}
+.wizardHeader
+{
+font-weight: bold;
+font-size: 24px;
+color: #ffffff;
+font-family: Tahoma;
+height: 22px;
+background-color: #336699;
+}
+.wizardTitle
+{
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:#10436B;
+background-color: #ECF4FC;
+height:22px;
+}
+.wizardHelp
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.wizardText
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.wizardOptions
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.PreviousYearsOptions
+{
+text-align: right ;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+background-color:#ECF4FC;
+}
+.OutLineOptions
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.OutLineButton
+{
+border-right: #336699 1px solid;
+border-top: #336699 1px solid;
+font-size:  xx-small;
+border-left: #336699 1px solid;
+color: white;
+border-bottom: #336699 1px solid;
+font-family: Verdana;
+background-color: #7fa2cc;
+}
+A.leftlink:visited
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.leftlink:link
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.leftlink:hover {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+.topheading {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.gridSpace
+{
+SCROLLBAR-FACE-COLOR: #f4faff;
+overflow: auto;
+width: 780px;
+height: 400px;
+}
+.ReportSpace
+{
+SCROLLBAR-FACE-COLOR :  #ECF4FC;
+overflow:  auto;
+width:  860px;
+height: 560px;
+}
+.PlanExport
+{
+SCROLLBAR-FACE-COLOR :  #ECF4FC;
+overflow:   auto;
+width:  100%;
+height:  215px;
+}
+.PlanManagerSpace
+{
+SCROLLBAR-FACE-COLOR :  #ECF4FC;
+overflow:   auto;
+width:  100%;
+height:  204px;
+}
+.PlanManager
+{
+SCROLLBAR-FACE-COLOR :  #ECF4FC;
+overflow:   auto;
+width:  765px;
+height:  215px;
+text-align:left;
+vertical-align :top;
+}
+.textSpace
+{
+width : 780 ;
+height : 340;
+overflow:auto ;
+scrollbar-face-color: #F4FAFF;
+}
+.buttonStyle
+{
+font-family: tahoma;
+font-size: 10px;
+font-weight: bold;
+color: #184D76;
+letter-spacing:2px;
+background-image: url(/BizPlan.web/images/InfiniPlan/bt_bkgd.gif);
+height: 25px;
+width: 113px;
+border: 1px solid #275B83;
+background-repeat: repeat;
+}
+/* Adding new stylesheet 5 dec 2005 */
+.centerTable
+{
+border: 1px solid steelblue;
+border-collapse:collapse;
+}
+.txtPlanName
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 20px;
+width: 250px;
+border: 1px solid #231F20;
+}
+.rowItem
+{
+/*font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#10436B;
+background-color: #ECF4FC;
+height:22px;*/
+font-weight: normal;
+font-size: 10px;
+color:black;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+/*background-color: #ecf4fc;*/
+border-right: #7baee3 1px solid;
+border-top: #7baee3 1px solid;
+border-left: #7baee3 1px solid;
+border-bottom: #7baee3 1px solid;
+}
+.GridSamplePlans
+{
+border-right: #ffffff 1px solid;
+border-top: #7baee3 1px solid;
+border-left: #ffffff 1px solid;
+border-bottom:   solid 1px  #ffffff ;
+}
+.alternatingRowItem
+{
+/*	font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#10436B;
+background-color: #F1F2F2;
+height:22px;
+*/
+font-weight: normal;
+font-size: 10px;
+color: #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+/*background-color: #ecf4fc;*/
+border-right: #7baee3 1px solid;
+border-top: #7baee3 1px solid;
+border-left: #7baee3 1px solid;
+border-bottom: #7baee3 1px solid;
+}
+A.alternatingRowItem:visited
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.alternatingRowItem:link
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.alternatingRowItem:hover {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+.itemheader {
+background-color: #4173ae;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:White ;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right: #7baee3 1px solid;
+border-top: #7baee3 1px solid;
+border-left: #7baee3 1px solid;
+border-bottom: #7baee3 1px solid;
+}
+.txtPlanDescription
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 50px;
+width: 100%;
+border: 1px solid #231F20;
+}
+.txtfields
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 20px;
+width: 100px;
+text-align:right;
+border: 1px solid #231F20;
+}
+.txtarea
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+text-align:right;
+border: 1px solid #231F20;
+}
+.buttonCSS
+{
+border-right: #336699 1px solid;
+border-top: #336699 1px solid;
+font-weight: bold;
+font-size: x-small;
+border-left: #336699 1px solid;
+color: white;
+border-bottom: #336699 1px solid;
+font-family: Verdana;
+background-color: #7fa2cc;
+}
+.lblGeneral
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+height:22px;
+color:#10436B ;
+}
+.lblHeading
+{
+font-family:tahoma;
+font-size:14px;
+font-weight:bold;
+color:#10436B;
+background-color: #ECF4FC;
+height:22px;
+}
+.lblErrorMessage
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#FF0000;
+}
+.mouseOver
+{
+cursor :hand ;
+background-color :#FF0000 ;
+}
+.leftBarItem
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: red;
+text-decoration: none;
+background-color :#CFE2F5 ;
+}
+.text_menu_simple
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: #1A4C73;
+text-decoration: none;
+background-color: #8FB4DA;
+}
+.customername {
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: #5493c4;
+}
+.pageContents
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: #000000;
+}
+.Covertxtfields
+{
+width: 200px;
+font-family:Arial;
+/*filter:progid:DXImageTransform.Microsoft.Shadow(color='silver', Direction=135, Strength=5);*/
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffffffff', EndColorStr='#ffF2F6FA');*/
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');*/
+border: solid 1px silver;
+/*font-size:12px;
+color:#10436B;
+width: 200px;
+text-align:left;
+border: 1px solid #;
+/*
+font-size: 10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+height: 200px;*/
+}
+.ControlId
+{
+width: 100px;
+font-family:Arial;
+border: solid 1px silver;
+}
+.CovertxtArea
+{
+width: 200px;
+font-family:Arial;
+border: solid 1px silver;
+/*filter:progid:DXImageTransform.Microsoft.Shadow(color='silver', Direction=135, Strength=5);
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');
+font-size:12px;
+color:#10436B;
+height: 35px;
+width: 200px;
+text-align:left;
+border: 1px solid #7baee3;
+font-family:Arial;
+width: 200px;
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 35px;
+width: 280px;
+width: 200px;
+text-align:left;
+border: 1px solid #231F20;*/
+}
+.OutlineHeader
+{
+font-weight: bold;
+font-size: x-small;
+text-transform: none;
+color: navy;
+font-family: Tahoma;
+text-decoration: underline;
+}
+.lblNote
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B ;
+}
+.pageBreak
+{
+page-break-before: always;
+}
+/*hintbox
+{
+border:				1px solid;
+border-color:		#19649D;
+background-color:	white;
+color:				#217DC3;
+font-weight:		bold;
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:			url('/images/InfiniPlan/common/hint_bg.gif') no-repeat;
+}*/
+.selectedNodelbl
+{
+border:				1px solid;
+border-color:		#19649D;
+background-color:	#336699;
+color:				white;
+font-family:		Arial;
+font-size:			8pt;
+}
+.selectedNodeToplbl
+{
+font-family:		Arial;
+font-size:			8pt;
+}
+/***************** for plan cover *****************/
+.TableBox_Top_Left
+{
+background:url('/images/InfiniPlan/crv1.jpg');
+}
+.TableBox_Top_Right
+{
+background:url('/images/InfiniPlan/crv2.jpg');
+}
+.TableBox_Bot_Left
+{
+background:url('/images/InfiniPlan/crv_1bottom.jpg');
+height: 10px;
+}
+.TableBox_Bot_Right
+{
+background:url('/images/InfiniPlan/crv_bottom1.jpg');
+height: 10px;
+}
+.TableBox_Top
+{
+/*background-image:url(/images/InfiniPlan/common/crv_topbg.jpg);	*/
+background:url('/images/InfiniPlan/crv_topbg.jpg');
+}
+.TableBox_Bot
+{
+/*background-image:url(/AccountsPro/images/InfiniPlan/TableBox/crv_bottomlinebg.jpg);	*/
+background:url('/images/InfiniPlan/crv_bottomlinebg.jpg');
+height: 10px;
+}
+.TableBox_Left
+{
+background:url('/images/InfiniPlan/crv1bg.jpg');
+}
+.TableBox_Right
+{
+background:url('/images/InfiniPlan/crv_2linebg.jpg');
+}
+.datagrid-data
+{
+/*font-weight: normal;
+font-size: 9pt;
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=2, StartColorStr= '#FFcbd3e4' , EndColorStr= '#00cbd3e4' ) progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffffff' , EndColorStr= '#87acd1' );
+color: #000000;
+font-family: tahoma;
+background-color: #e2effe;
+text-decoration: none;
+padding-left: 5px;
+padding-bottom: 3px;
+padding-top: 3px;
+padding-right: 3px;
+border-top: Solid 1px #B9CAE2;
+height:25; */
+}
+.page-section-text
+{
+/*font-weight:  bold;*/
+/*color: #0066cc;
+/*color: #7fa2cc;
+/*color: #10436B;border: solid 1px  steelblue;
+*/
+color: steelblue;
+font-size: 13px;
+font-family: Tahoma;
+font-weight:bold;
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#', EndColorStr='');
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');*/
+height:20px;
+list-style-type: disc;
+}
+.TableBodyShadeBorder
+{
+filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+color: Black;
+border-right: #7baee3 1px solid;
+border-top: #7baee3 1px solid;
+border-left: #7baee3 1px solid;
+border-bottom: #7baee3 1px solid;
+}
+/*for faq page*/
+.ShowHideAnchors
+{
+border-color:blue;
+border-left-width:thick;
+font-family:Arial;
+font-size:10
+}
+.faqLineBreak
+{
+}
+.FAQTopOfPageLink
+{
+text-align:center;
+font-weight:bold;
+font-size:14;
+color:steelblue;
+width:90px;
+cursor:hand;
+}
+.FAQShowHideBTN
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+cursor: hand;
+color:White;
+border:Solid 1px #6390BF;
+background-color: #88AACE;
+width: 80px;
+text-align:center;  		  */
+border-right: #336699 1px solid;
+border-top: #336699 1px solid;
+font-size: x-small;
+border-left: #336699 1px solid;
+color: white;
+border-bottom: #336699 1px solid;
+font-family: Verdana;
+background-color: #7fa2cc;
+}
+/*  "Show All" + "Hide All" links */
+#FAQ_ToggleON,#FAQ_ToggleOFF {padding:0 5px;margin-right:5px}
+/* zeroing out padding and margin */
+#FAQ_DL dd,#FAQ_DL dt {margin:0;padding:0}
+/* margin for the DTs (shorthand) */
+#FAQ_DL dt {margin:7px 0}
+/* image and left padding for DDs */
+#FAQ_DL dd {background:url(answer.gif) no-repeat;padding-left:55px}
+/* styling all anchors in the DTs */
+#FAQ_DL dt a {background:0 50% no-repeat;padding-left:32px;color:#000;text-decoration:none}
+#FAQ_DL dt a:visited {color:#666}
+#FAQ_DL dt a:visited:hover,
+#FAQ_DL dt a:hover,
+#FAQ_DL dt a:active,
+#FAQ_DL dt a:focus {font-weight:bold}
+/* the + and - gif in the anchors */
+#FAQ_DL .DTplus a {background-image:url(/images/InfiniPlan/toggleDLplus.gif)}
+#FAQ_DL .DTminus a {background-image:url(/images/InfiniPlan/toggleDLminus.gif)}
+/**********************************/
+/**********************************/
+#FAQ_DL .showDD {position:relative;top:0}
+#FAQ_DL dd,.hideDD{top:-9999px;position:absolute}
+#FAQ_ToggleON,#FAQ_ToggleOFF {display:inline;cursor:pointer;cursor:hand}
+.lblErrosMessage
+{
+color:Red;
+}
+.lblhelpMessage
+{
+color: SteelBlue;
+font-size: 8.0pt ;
+font-family:Verdana;
+font-weight:    bold;
+}
+.BizPlan_BUSINESSGRID
+{
+border-color:SteelBlue;
+}
+.PlanTracker_ImageButton
+{
+border-color:SteelBlue;
+border-width:0;
+}
+.BizPlan_BUSINESSGRID_SELECTEDITEMSTYLE
+{
+background-color:Red;
+}
+.Grid_OnMouseMove
+{
+background-color:#ECF4FC;
+}
+.Grid_OnMouseOut
+{
+background-color:white;
+}
+.JS_ControlStyle
+{
+background-color:#C0D7F0;
+}
+.table_cells
+{
+color:White;
+}
+.tracker_Panel
+{
+border-color:#9CC3DE;
+}
+.Pager_style
+{
+color:Black;
+background-color:#999999;
+}
+.lblHomePage_Style
+{
+color:#10436B;
+Font-Size:8pt;
+}
+.OpenPlan_dataGrid
+{
+border-color:#999999;
+background-color:White;
+border-width:1px;
+border-style:none;
+}
+.lblPlanManager_Style
+{
+color:white;
+}
+.TABSTRIP_PlanManagerStyle
+{
+color:Desktop;
+}
+.lblSpacePlanManager_Style
+{
+color:#4173ae;
+}
+.spanPlanManager_Style
+{
+font-size:8.0pt;
+font-family:Verdana;
+color:black;
+}
+.lblSpace1PlanManager_Style
+{
+color:#4173ae;
+background-color:#4173ae;
+}
+.TDPlanManager_Style
+{
+border-Color:"#336699"
+}
+.TRPlanOutLine_Style
+{
+background-color:#336699;
+}
+.TreeViewPlanOutLine_HoverStyle
+{
+filter:none;
+background-color:#ECF4FC;
+}
+.TreeViewPlanOutLine_SelectedStyle
+{
+background-color:LightSteelBlue;
+filter:none;
+background-color:LightSteelBlue;
+font-weight:bold;
+color:#ffffff;
+}
+.TreeViewPlanOutLine_DefaultStyle
+{
+font-family:Times New Roman;
+font-size:14pt;
+background-color:white;
+}
+.lblMultiOption_Style
+{
+color:#0000C0;
+}
+.lblPlanPreferences_Style
+{
+color:SteelBlue;
+}
+.lnkRtfFilePlanPreferences_Style
+{
+color:Blue;
+}
+.ExportedPlans_PagerStyle
+{
+Font-Size:8pt;
+color:Black;
+}
+.ExportedPlans_PagerStyle1
+{
+Font-Size:8pt;
+color:Black;
+background-color:White;
+}

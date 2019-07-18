@@ -1,0 +1,180 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BPlan.BLLRules", "..\..\BackEndProjects\BLLRule\BPlan.BLLRules.vbproj", "{30B0AF27-9E4E-44AF-AC06-48DCD427F280}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BPlan.Common", "..\..\BackEndProjects\Common\BPlan.Common.vbproj", "{EDA7315E-16D1-499F-96A4-D261FCD45C0E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BPlan.DAL", "..\..\BackEndProjects\DAL\BPlan.DAL.vbproj", "{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DirectedGraph", "..\..\BackEndProjects\DirectedGraph\DirectedGraph.vbproj", "{D4462CA2-FBA6-425A-89C2-0EDF3CF9E099}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BizPlan.SpreadTable", "..\..\BackEndProjects\SpreadTable\BizPlan.SpreadTable.vbproj", "{14C09903-9C78-4C43-B6A3-DF32B1FF1D78}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BizPlan.Web.Common", "..\..\BackEndProjects\WEB.Common\BizPlan.Web.Common.vbproj", "{CAF9560E-CD55-4C32-BA30-A74137111B7F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebControls", "..\..\BackEndProjects\WebControl\WebControls.vbproj", "{E446FA99-A9C2-4837-AE3D-ECC1D5CD24C2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AccountsCentre.BLL", "..\..\BackEndProjects\AccountsCentre.BLL\AccountsCentre.BLL.vbproj", "{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BPlan.BLL", "..\..\BackEndProjects\BLL\BPlan.BLL.vbproj", "{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "accounts.infinibiz.com", "http://localhost:/accounts.infinibiz.com.vbproj", "{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BizPlanWeb", "http://localhost/InfiniPlan/BizPlanWeb.vbproj", "{45A2E281-4B13-4116-AC4D-D64824F2E713}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 10
+		SccProjectUniqueName0 = ..\\..\\BackEndProjects\\BLLRule\\BPlan.BLLRules.vbproj
+		SccProjectName0 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/BPlan.BLLRules\u0022,\u0020JPMAAAAA
+		SccLocalPath0 = ..\\..\\BackEndProjects\\BLLRule
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName1 = ..\\..\\BackEndProjects\\Common\\BPlan.Common.vbproj
+		SccProjectName1 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/BPlan.Common\u0022,\u0020VRMAAAAA
+		SccLocalPath1 = ..\\..\\BackEndProjects\\Common
+		SccProvider1 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName2 = ..\\..\\BackEndProjects\\DAL\\BPlan.DAL.vbproj
+		SccProjectName2 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/BPlan.DAL\u0022,\u0020DSMAAAAA
+		SccLocalPath2 = ..\\..\\BackEndProjects\\DAL
+		SccProvider2 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName3 = ..\\..\\BackEndProjects\\DirectedGraph\\DirectedGraph.vbproj
+		SccProjectName3 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/DirectedGraph\u0022,\u0020WSMAAAAA
+		SccLocalPath3 = ..\\..\\BackEndProjects\\DirectedGraph
+		SccProvider3 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName4 = ..\\..\\BackEndProjects\\SpreadTable\\BizPlan.SpreadTable.vbproj
+		SccProjectName4 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/BizPlan.SpreadTable\u0022,\u0020HNMAAAAA
+		SccLocalPath4 = ..\\..\\BackEndProjects\\SpreadTable
+		SccProvider4 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName5 = ..\\..\\BackEndProjects\\WEB.Common\\BizPlan.Web.Common.vbproj
+		SccProjectName5 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/BizPlan.Web.Common\u0022,\u0020UNMAAAAA
+		SccLocalPath5 = ..\\..\\BackEndProjects\\WEB.Common
+		SccProvider5 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName6 = ..\\..\\BackEndProjects\\WebControl\\WebControls.vbproj
+		SccProjectName6 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/WebControls\u0022,\u0020ETMAAAAA
+		SccLocalPath6 = ..\\..\\BackEndProjects\\WebControl
+		SccProvider6 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName7 = ..\\..\\BackEndProjects\\BLL\\BPlan.BLL.vbproj
+		SccProjectName7 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/Backend\u0020Projects/BPlan.BLL\u0022,\u0020WOMAAAAA
+		SccLocalPath7 = ..\\..\\BackEndProjects\\BLL
+		SccProvider7 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectUniqueName8 = http://localhost/InfiniPlan/BizPlanWeb.vbproj
+		SccProjectName8 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/UI\u0020Projects/Web/BizPlanWeb\u0022,\u0020NTMAAAAA
+		SccLocalPath8 = ..\\..\\UIProjects\\Infiniplan
+		SccProvider8 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection8 = http://localhost/InfiniPlan
+		SccProjectUniqueName9 = http://localhost/InfiniPlan/BizPlanWeb.vbproj
+		SccProjectName9 = \u0022$/INFINIBIZ/PRODUCTION/Biz\u0020Plan\u0020Ver\u00202.1/UI\u0020Projects/Web/BizPlanWeb\u0022,\u0020NTMAAAAA
+		SccLocalPath9 = ..\\..\\UIProjects\\Infiniplan
+		SccProvider9 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Test = Test
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{30B0AF27-9E4E-44AF-AC06-48DCD427F280}.Debug.ActiveCfg = Debug|.NET
+		{30B0AF27-9E4E-44AF-AC06-48DCD427F280}.Debug.Build.0 = Debug|.NET
+		{30B0AF27-9E4E-44AF-AC06-48DCD427F280}.Release.ActiveCfg = Release|.NET
+		{30B0AF27-9E4E-44AF-AC06-48DCD427F280}.Release.Build.0 = Release|.NET
+		{30B0AF27-9E4E-44AF-AC06-48DCD427F280}.Test.ActiveCfg = Release|.NET
+		{30B0AF27-9E4E-44AF-AC06-48DCD427F280}.Test.Build.0 = Release|.NET
+		{EDA7315E-16D1-499F-96A4-D261FCD45C0E}.Debug.ActiveCfg = Debug|.NET
+		{EDA7315E-16D1-499F-96A4-D261FCD45C0E}.Debug.Build.0 = Debug|.NET
+		{EDA7315E-16D1-499F-96A4-D261FCD45C0E}.Release.ActiveCfg = Release|.NET
+		{EDA7315E-16D1-499F-96A4-D261FCD45C0E}.Release.Build.0 = Release|.NET
+		{EDA7315E-16D1-499F-96A4-D261FCD45C0E}.Test.ActiveCfg = Release|.NET
+		{EDA7315E-16D1-499F-96A4-D261FCD45C0E}.Test.Build.0 = Release|.NET
+		{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}.Debug.ActiveCfg = Debug|.NET
+		{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}.Debug.Build.0 = Debug|.NET
+		{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}.Release.ActiveCfg = Release|.NET
+		{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}.Release.Build.0 = Release|.NET
+		{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}.Test.ActiveCfg = Release|.NET
+		{FC75E6C6-452B-49D0-8EC5-1094DAFB32FE}.Test.Build.0 = Release|.NET
+		{D4462CA2-FBA6-425A-89C2-0EDF3CF9E099}.Debug.ActiveCfg = Debug|.NET
+		{D4462CA2-FBA6-425A-89C2-0EDF3CF9E099}.Debug.Build.0 = Debug|.NET
+		{D4462CA2-FBA6-425A-89C2-0EDF3CF9E099}.Release.ActiveCfg = Release|.NET
+		{D4462CA2-FBA6-425A-89C2-0EDF3CF9E099}.Release.Build.0 = Release|.NET
+		{D4462CA2-FBA6-425A-89C2-0EDF3CF9E099}.Test.ActiveCfg = Release|.NET
+		{D4462CA2-FBA6-425A-89C2-0EDF3CF9E099}.Test.Build.0 = Release|.NET
+		{14C09903-9C78-4C43-B6A3-DF32B1FF1D78}.Debug.ActiveCfg = Debug|.NET
+		{14C09903-9C78-4C43-B6A3-DF32B1FF1D78}.Debug.Build.0 = Debug|.NET
+		{14C09903-9C78-4C43-B6A3-DF32B1FF1D78}.Release.ActiveCfg = Release|.NET
+		{14C09903-9C78-4C43-B6A3-DF32B1FF1D78}.Release.Build.0 = Release|.NET
+		{14C09903-9C78-4C43-B6A3-DF32B1FF1D78}.Test.ActiveCfg = Release|.NET
+		{14C09903-9C78-4C43-B6A3-DF32B1FF1D78}.Test.Build.0 = Release|.NET
+		{CAF9560E-CD55-4C32-BA30-A74137111B7F}.Debug.ActiveCfg = Debug|.NET
+		{CAF9560E-CD55-4C32-BA30-A74137111B7F}.Debug.Build.0 = Debug|.NET
+		{CAF9560E-CD55-4C32-BA30-A74137111B7F}.Release.ActiveCfg = Release|.NET
+		{CAF9560E-CD55-4C32-BA30-A74137111B7F}.Release.Build.0 = Release|.NET
+		{CAF9560E-CD55-4C32-BA30-A74137111B7F}.Test.ActiveCfg = Release|.NET
+		{CAF9560E-CD55-4C32-BA30-A74137111B7F}.Test.Build.0 = Release|.NET
+		{E446FA99-A9C2-4837-AE3D-ECC1D5CD24C2}.Debug.ActiveCfg = Debug|.NET
+		{E446FA99-A9C2-4837-AE3D-ECC1D5CD24C2}.Debug.Build.0 = Debug|.NET
+		{E446FA99-A9C2-4837-AE3D-ECC1D5CD24C2}.Release.ActiveCfg = Release|.NET
+		{E446FA99-A9C2-4837-AE3D-ECC1D5CD24C2}.Release.Build.0 = Release|.NET
+		{E446FA99-A9C2-4837-AE3D-ECC1D5CD24C2}.Test.ActiveCfg = Release|.NET
+		{E446FA99-A9C2-4837-AE3D-ECC1D5CD24C2}.Test.Build.0 = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Debug.ActiveCfg = Debug|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Debug.Build.0 = Debug|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Release.ActiveCfg = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Release.Build.0 = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Test.ActiveCfg = Release|.NET
+		{C091F4CA-B4C2-4FD5-8AD4-8150C58D9D68}.Test.Build.0 = Release|.NET
+		{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}.Debug.ActiveCfg = Debug|.NET
+		{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}.Debug.Build.0 = Debug|.NET
+		{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}.Release.ActiveCfg = Release|.NET
+		{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}.Release.Build.0 = Release|.NET
+		{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}.Test.ActiveCfg = Release|.NET
+		{C7FBBBFD-1EFF-4F34-AC08-28A4474142C0}.Test.Build.0 = Release|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Debug.ActiveCfg = Debug|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Debug.Build.0 = Debug|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Release.ActiveCfg = Release|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Release.Build.0 = Release|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Test.ActiveCfg = Release|.NET
+		{9EFC5782-DA2A-4777-BFBF-70E8115E30F0}.Test.Build.0 = Release|.NET
+		{45A2E281-4B13-4116-AC4D-D64824F2E713}.Debug.ActiveCfg = Debug|.NET
+		{45A2E281-4B13-4116-AC4D-D64824F2E713}.Debug.Build.0 = Debug|.NET
+		{45A2E281-4B13-4116-AC4D-D64824F2E713}.Release.ActiveCfg = Release|.NET
+		{45A2E281-4B13-4116-AC4D-D64824F2E713}.Release.Build.0 = Release|.NET
+		{45A2E281-4B13-4116-AC4D-D64824F2E713}.Test.ActiveCfg = Release|.NET
+		{45A2E281-4B13-4116-AC4D-D64824F2E713}.Test.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="urn:FHservices" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:FHservices" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema targetNamespace="urn:FHservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="ListOfDomains">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="s:string[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="AddressInfo">
+        <s:all>
+          <s:element name="line1" type="s:string" />
+          <s:element name="line2" type="s:string" />
+          <s:element name="line3" type="s:string" />
+          <s:element name="posttown" type="s:string" />
+          <s:element name="country" type="s:string" />
+          <s:element name="postcode" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="OfficerInfo">
+        <s:all>
+          <s:element name="corporate" type="s:int" />
+          <s:element name="type" type="s:int" />
+          <s:element name="surname" type="s:string" />
+          <s:element name="forename" type="s:string" />
+          <s:element name="appointmentdate" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="OfficerList">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:OfficerInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="CompanyInfo">
+        <s:all>
+          <s:element name="companyname" type="s:string" />
+          <s:element name="companynumber" type="s:string" />
+          <s:element name="eincdate" type="s:string" />
+          <s:element name="ard" type="s:string" />
+          <s:element name="ardlast" type="s:string" />
+          <s:element name="ardnext" type="s:string" />
+          <s:element name="ardcurrent" type="s:string" />
+          <s:element name="dissolvedate" type="s:string" />
+          <s:element name="taxcode" type="s:string" />
+          <s:element name="taxissuedate" type="s:string" />
+          <s:element name="returndate" type="s:string" />
+          <s:element name="nextreturndate" type="s:string" />
+          <s:element name="domainname" type="s:string" />
+          <s:element name="subaccount" type="s:string" />
+          <s:element name="dormant" type="s:string" />
+          <s:element name="telephone" type="s:string" />
+          <s:element name="fax" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="address" type="tns:AddressInfo" />
+          <s:element name="officerinfo" type="tns:OfficerList" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="cinfo">
+        <s:all>
+          <s:element name="companyname" type="s:string" />
+          <s:element name="companynumber" type="s:string" />
+          <s:element name="lastArd" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ListOfCompanies">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:CompanyInfo[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="customerInfo">
+        <s:all>
+          <s:element name="customer_id" type="s:string" />
+          <s:element name="ac" type="s:string" />
+          <s:element name="name" type="s:string" />
+          <s:element name="street" type="s:string" />
+          <s:element name="ccode" type="s:string" />
+          <s:element name="town" type="s:string" />
+          <s:element name="country" type="s:string" />
+          <s:element name="postcode" type="s:string" />
+          <s:element name="cont_name" type="s:string" />
+          <s:element name="telephone" type="s:string" />
+          <s:element name="fax" type="s:string" />
+          <s:element name="vat" type="s:string" />
+          <s:element name="fnew" type="s:string" />
+          <s:element name="fmodified" type="s:string" />
+          <s:element name="cart_customer_email" type="s:string" />
+          <s:element name="cart_customer_notes" type="s:string" />
+          <s:element name="cart_customer_uid" type="s:string" />
+          <s:element name="cart_customer_pass" type="s:string" />
+          <s:element name="cart_customer_state" type="s:string" />
+          <s:element name="store_name" type="s:string" />
+          <s:element name="vtime" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="companyard">
+        <s:all>
+          <s:element name="companyname" type="s:string" />
+          <s:element name="ard" type="s:string" />
+          <s:element name="incdate" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ListOfCompanyard">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="tns:companyard[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="companyNames">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute wsdl:arrayType="s:string[]" ref="soapenc:arrayType" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="compinfo">
+        <s:all>
+          <s:element name="ERRORCODE" type="s:int" />
+          <s:element name="companynumber" type="s:string" />
+          <s:element name="companyname" type="s:string" />
+          <s:element name="customerid" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getCustomerDomainsRequest">
+    <wsdl:part name="customer_uid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCustomerDomainsResponse">
+    <wsdl:part name="return" type="tns:ListOfDomains" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyInfoRequest">
+    <wsdl:part name="companyname" type="s:string" />
+    <wsdl:part name="companynumber" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyInfoResponse">
+    <wsdl:part name="return" type="tns:CompanyInfo" />
+  </wsdl:message>
+  <wsdl:message name="getCompaniesRequest">
+    <wsdl:part name="customer_uid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCompaniesResponse">
+    <wsdl:part name="return" type="tns:ListOfCompanies" />
+  </wsdl:message>
+  <wsdl:message name="setLastArdRequest">
+    <wsdl:part name="companyInfo" type="tns:cinfo" />
+  </wsdl:message>
+  <wsdl:message name="setLastArdResponse">
+    <wsdl:part name="return" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCustomerInfoRequest">
+    <wsdl:part name="customerid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCustomerInfoResponse">
+    <wsdl:part name="return" type="tns:customerInfo" />
+  </wsdl:message>
+  <wsdl:message name="getArdRequest">
+    <wsdl:part name="companynames" type="tns:companyNames" />
+  </wsdl:message>
+  <wsdl:message name="getArdResponse">
+    <wsdl:part name="return" type="tns:ListOfCompanyard" />
+  </wsdl:message>
+  <wsdl:message name="verifyCompanyRequest">
+    <wsdl:part name="companynumber" type="s:string" />
+    <wsdl:part name="companyname" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="verifyCompanyResponse">
+    <wsdl:part name="return" type="tns:compinfo" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyBySubidRequest">
+    <wsdl:part name="customerid" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyBySubidResponse">
+    <wsdl:part name="return" type="tns:CompanyInfo" />
+  </wsdl:message>
+  <wsdl:portType name="FHservicesPortType">
+    <wsdl:operation name="getCustomerDomains">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Gives the List of Domains against customer_uid</documentation>
+      <wsdl:input message="tns:getCustomerDomainsRequest" />
+      <wsdl:output message="tns:getCustomerDomainsResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyInfo">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Gives one company information by providing its company name and number</documentation>
+      <wsdl:input message="tns:getCompanyInfoRequest" />
+      <wsdl:output message="tns:getCompanyInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanies">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Gives the List of Companies and their details against customer id</documentation>
+      <wsdl:input message="tns:getCompaniesRequest" />
+      <wsdl:output message="tns:getCompaniesResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="setLastArd">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">sets the last ard date for a company</documentation>
+      <wsdl:input message="tns:setLastArdRequest" />
+      <wsdl:output message="tns:setLastArdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCustomerInfo">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Returns the customer information for the provided customer id</documentation>
+      <wsdl:input message="tns:getCustomerInfoRequest" />
+      <wsdl:output message="tns:getCustomerInfoResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getArd">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">takes an array of companies and returns the ard for each</documentation>
+      <wsdl:input message="tns:getArdRequest" />
+      <wsdl:output message="tns:getArdResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyCompany">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">takes an array which contains companynumber and companyname and verifies the existence of a company</documentation>
+      <wsdl:input message="tns:verifyCompanyRequest" />
+      <wsdl:output message="tns:verifyCompanyResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyBySubid">
+      <documentation xmlns="http://schemas.xmlsoap.org/wsdl/">Gives the Company details against accountsid</documentation>
+      <wsdl:input message="tns:getCompanyBySubidRequest" />
+      <wsdl:output message="tns:getCompanyBySubidResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FHservicesBinding" type="tns:FHservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="getCustomerDomains">
+      <soap:operation soapAction="urn:FHservices#getCustomerDomains" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyInfo">
+      <soap:operation soapAction="urn:FHservices#getCompanyInfo" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompanies">
+      <soap:operation soapAction="urn:FHservices#getCompanies" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setLastArd">
+      <soap:operation soapAction="urn:FHservices#getCompanies" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCustomerInfo">
+      <soap:operation soapAction="urn:FHservices#getCustomerInfo" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getArd">
+      <soap:operation soapAction="urn:FHservices#getArd" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyCompany">
+      <soap:operation soapAction="urn:FHservices#verifyCompany" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyBySubid">
+      <soap:operation soapAction="urn:FHservices#getCompanyBySubid" style="rpc" />
+      <wsdl:input>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="encoded" namespace="urn:FHservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FHservices">
+    <wsdl:port name="FHservicesPort" binding="tns:FHservicesBinding">
+      <soap:address location="http://webservices.formationshouse.com/getinfo.php" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

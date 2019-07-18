@@ -1,0 +1,31 @@
+body
+{
+}
+
+H1 { text-align:left; color:black; }
+H2 { text-align:left; color:black; }
+H3 { text-align:left; color:black; }
+
+table
+{
+	border: 1px solid black;
+	table-layout: auto;
+}
+
+td
+{
+	border: 1px solid black;
+}
+
+th
+{
+	border: 1px solid black;
+	background-color: Black;
+	color: White;
+	font-weight: bold;
+}
+
+tr
+{
+	border: 1px solid black;
+}

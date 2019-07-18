@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://webservices.accounts.infinibiz/InfiniBiz/Customer" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://webservices.accounts.infinibiz/InfiniBiz/Customer" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://webservices.accounts.infinibiz/InfiniBiz/Customer">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getActivationInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="productinfo" type="s0:activationinfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="activationinfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="customerid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="productcode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="orderno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serialno" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getActivationInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getActivationInfoResult" type="s0:getActivationInfoResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="getActivationInfoResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="link" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="variablename" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="activate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CustomerID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="ProductCode" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="OrderNo" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="SerialNo" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompanyName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="activateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="activateResult" type="s0:activateResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="activateResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="autoLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logininfo" type="s0:AutoLoginStruct" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutoLoginStruct">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="customerid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="serviceid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="loginid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="autoLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="autoLoginResult" type="s0:AutoLoginResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutoLoginResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="newwin" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="winparam" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="variablename" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="value" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="link" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="logOff">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logoffinfo" type="s0:AutoLogOffStruct" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AutoLogOffStruct">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="refId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="logOffResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="logOffResult" type="s0:logoffReturnMsg" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="logoffReturnMsg">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="authenticate">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="loginInfo" type="s0:authenticateStruct" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="authenticateStruct">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="loginid" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="authenticateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="authenticateResult" type="s0:authenticateResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="authenticateResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORCODE" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ERRORDESC" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="customerid" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="HelloWorldSoapIn">
+    <part name="parameters" element="s0:HelloWorld" />
+  </message>
+  <message name="HelloWorldSoapOut">
+    <part name="parameters" element="s0:HelloWorldResponse" />
+  </message>
+  <message name="getActivationInfoSoapIn">
+    <part name="parameters" element="s0:getActivationInfo" />
+  </message>
+  <message name="getActivationInfoSoapOut">
+    <part name="parameters" element="s0:getActivationInfoResponse" />
+  </message>
+  <message name="activateSoapIn">
+    <part name="parameters" element="s0:activate" />
+  </message>
+  <message name="activateSoapOut">
+    <part name="parameters" element="s0:activateResponse" />
+  </message>
+  <message name="autoLoginSoapIn">
+    <part name="parameters" element="s0:autoLogin" />
+  </message>
+  <message name="autoLoginSoapOut">
+    <part name="parameters" element="s0:autoLoginResponse" />
+  </message>
+  <message name="logOffSoapIn">
+    <part name="parameters" element="s0:logOff" />
+  </message>
+  <message name="logOffSoapOut">
+    <part name="parameters" element="s0:logOffResponse" />
+  </message>
+  <message name="authenticateSoapIn">
+    <part name="parameters" element="s0:authenticate" />
+  </message>
+  <message name="authenticateSoapOut">
+    <part name="parameters" element="s0:authenticateResponse" />
+  </message>
+  <portType name="CustomerSoap">
+    <operation name="HelloWorld">
+      <input message="s0:HelloWorldSoapIn" />
+      <output message="s0:HelloWorldSoapOut" />
+    </operation>
+    <operation name="getActivationInfo">
+      <input message="s0:getActivationInfoSoapIn" />
+      <output message="s0:getActivationInfoSoapOut" />
+    </operation>
+    <operation name="activate">
+      <input message="s0:activateSoapIn" />
+      <output message="s0:activateSoapOut" />
+    </operation>
+    <operation name="autoLogin">
+      <input message="s0:autoLoginSoapIn" />
+      <output message="s0:autoLoginSoapOut" />
+    </operation>
+    <operation name="logOff">
+      <input message="s0:logOffSoapIn" />
+      <output message="s0:logOffSoapOut" />
+    </operation>
+    <operation name="authenticate">
+      <input message="s0:authenticateSoapIn" />
+      <output message="s0:authenticateSoapOut" />
+    </operation>
+  </portType>
+  <binding name="CustomerSoap" type="s0:CustomerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="HelloWorld">
+      <soap:operation soapAction="http://webservices.accounts.infinibiz/InfiniBiz/Customer/HelloWorld" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="getActivationInfo">
+      <soap:operation soapAction="http://webservices.accounts.infinibiz/InfiniBiz/Customer/getActivationInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="activate">
+      <soap:operation soapAction="http://webservices.accounts.infinibiz/InfiniBiz/Customer/activate" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="autoLogin">
+      <soap:operation soapAction="http://webservices.accounts.infinibiz/InfiniBiz/Customer/autoLogin" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="logOff">
+      <soap:operation soapAction="http://webservices.accounts.infinibiz/InfiniBiz/Customer/logOff" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="authenticate">
+      <soap:operation soapAction="http://webservices.accounts.infinibiz/InfiniBiz/Customer/authenticate" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="Customer">
+    <port name="CustomerSoap" binding="s0:CustomerSoap">
+      <soap:address location="http://localhost/customer.asmx" />
+    </port>
+  </service>
+</definitions>

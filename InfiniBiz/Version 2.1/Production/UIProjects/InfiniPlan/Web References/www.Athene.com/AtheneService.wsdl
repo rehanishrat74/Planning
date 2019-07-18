@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/AtheneSystem/Athene" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/AtheneSystem/Athene" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/AtheneSystem/Athene">
+      <s:element name="AthenaInsertQuestionAnswer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="QuestionId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Question" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Answer" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CategoryId" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Customerid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EmployeeId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AthenaInsertQuestionAnswerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AthenaInsertQuestionAnswerResult" type="tns:ResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResultMessage">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="AthenaUpdateQuestionAnswer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="QuestionId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Question" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Answer" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Customerid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EmployeeId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AthenaUpdateQuestionAnswerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AthenaUpdateQuestionAnswerResult" type="tns:ResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AthenaInsertCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CategoryId" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CategoryName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ParentId" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="Customerid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EmployeeId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AthenaInsertCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AthenaInsertCategoryResult" type="tns:ResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AthenaUpdateCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CategoryId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CategoryName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="Customerid" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="EmployeeId" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AthenaUpdateCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AthenaUpdateCategoryResult" type="tns:ResultMessage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ResultMessage" type="tns:ResultMessage" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AthenaInsertQuestionAnswerSoapIn">
+    <wsdl:part name="parameters" element="tns:AthenaInsertQuestionAnswer" />
+  </wsdl:message>
+  <wsdl:message name="AthenaInsertQuestionAnswerSoapOut">
+    <wsdl:part name="parameters" element="tns:AthenaInsertQuestionAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateQuestionAnswerSoapIn">
+    <wsdl:part name="parameters" element="tns:AthenaUpdateQuestionAnswer" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateQuestionAnswerSoapOut">
+    <wsdl:part name="parameters" element="tns:AthenaUpdateQuestionAnswerResponse" />
+  </wsdl:message>
+  <wsdl:message name="AthenaInsertCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:AthenaInsertCategory" />
+  </wsdl:message>
+  <wsdl:message name="AthenaInsertCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:AthenaInsertCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:AthenaUpdateCategory" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:AthenaUpdateCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="AthenaInsertQuestionAnswerHttpGetIn">
+    <wsdl:part name="QuestionId" type="s:string" />
+    <wsdl:part name="Question" type="s:string" />
+    <wsdl:part name="Answer" type="s:string" />
+    <wsdl:part name="CategoryId" type="s:string" />
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="EmployeeId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AthenaInsertQuestionAnswerHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultMessage" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateQuestionAnswerHttpGetIn">
+    <wsdl:part name="QuestionId" type="s:string" />
+    <wsdl:part name="Question" type="s:string" />
+    <wsdl:part name="Answer" type="s:string" />
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="EmployeeId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateQuestionAnswerHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultMessage" />
+  </wsdl:message>
+  <wsdl:message name="AthenaInsertCategoryHttpGetIn">
+    <wsdl:part name="CategoryId" type="s:string" />
+    <wsdl:part name="CategoryName" type="s:string" />
+    <wsdl:part name="ParentId" type="s:string" />
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="EmployeeId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AthenaInsertCategoryHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultMessage" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateCategoryHttpGetIn">
+    <wsdl:part name="CategoryId" type="s:string" />
+    <wsdl:part name="CategoryName" type="s:string" />
+    <wsdl:part name="Customerid" type="s:string" />
+    <wsdl:part name="EmployeeId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AthenaUpdateCategoryHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultMessage" />
+  </wsdl:message>
+  <wsdl:portType name="AtheneSoap">
+    <wsdl:operation name="AthenaInsertQuestionAnswer">
+      <wsdl:input message="tns:AthenaInsertQuestionAnswerSoapIn" />
+      <wsdl:output message="tns:AthenaInsertQuestionAnswerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateQuestionAnswer">
+      <wsdl:input message="tns:AthenaUpdateQuestionAnswerSoapIn" />
+      <wsdl:output message="tns:AthenaUpdateQuestionAnswerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AthenaInsertCategory">
+      <wsdl:input message="tns:AthenaInsertCategorySoapIn" />
+      <wsdl:output message="tns:AthenaInsertCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateCategory">
+      <wsdl:input message="tns:AthenaUpdateCategorySoapIn" />
+      <wsdl:output message="tns:AthenaUpdateCategorySoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="AtheneHttpGet">
+    <wsdl:operation name="AthenaInsertQuestionAnswer">
+      <wsdl:input message="tns:AthenaInsertQuestionAnswerHttpGetIn" />
+      <wsdl:output message="tns:AthenaInsertQuestionAnswerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateQuestionAnswer">
+      <wsdl:input message="tns:AthenaUpdateQuestionAnswerHttpGetIn" />
+      <wsdl:output message="tns:AthenaUpdateQuestionAnswerHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AthenaInsertCategory">
+      <wsdl:input message="tns:AthenaInsertCategoryHttpGetIn" />
+      <wsdl:output message="tns:AthenaInsertCategoryHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateCategory">
+      <wsdl:input message="tns:AthenaUpdateCategoryHttpGetIn" />
+      <wsdl:output message="tns:AthenaUpdateCategoryHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="AtheneSoap" type="tns:AtheneSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="AthenaInsertQuestionAnswer">
+      <soap:operation soapAction="http://tempuri.org/AtheneSystem/Athene/AthenaInsertQuestionAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateQuestionAnswer">
+      <soap:operation soapAction="http://tempuri.org/AtheneSystem/Athene/AthenaUpdateQuestionAnswer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AthenaInsertCategory">
+      <soap:operation soapAction="http://tempuri.org/AtheneSystem/Athene/AthenaInsertCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateCategory">
+      <soap:operation soapAction="http://tempuri.org/AtheneSystem/Athene/AthenaUpdateCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="AtheneHttpGet" type="tns:AtheneHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="AthenaInsertQuestionAnswer">
+      <http:operation location="/AthenaInsertQuestionAnswer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateQuestionAnswer">
+      <http:operation location="/AthenaUpdateQuestionAnswer" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AthenaInsertCategory">
+      <http:operation location="/AthenaInsertCategory" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AthenaUpdateCategory">
+      <http:operation location="/AthenaUpdateCategory" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Athene">
+    <wsdl:port name="AtheneSoap" binding="tns:AtheneSoap">
+      <soap:address location="http://accounts.infinibiz.com/AtheneSystem/AtheneService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="AtheneHttpGet" binding="tns:AtheneHttpGet">
+      <http:address location="http://accounts.infinibiz.com/AtheneSystem/AtheneService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

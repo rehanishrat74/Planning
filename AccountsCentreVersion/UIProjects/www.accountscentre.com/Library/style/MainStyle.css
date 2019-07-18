@@ -1,0 +1,131 @@
+.BizPlan_BUSINESSGRID{border:SteelBlue}
+.BizPlan_BUSINESSGRID_SELECTEDITEMSTYLE{background:#F00}
+.bottomlnk,.leftlink,.wizardHelp,.wizardText,.wizardOptions,.OutLineOptions,.topheading{font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.BSColor{background:#ECF4FC;font:bold 12px Tahoma;text-align:left}
+.buttonCSS{background:#7fa2cc;border-bottom:#336699 1px solid;border-left:#336699 1px solid;border-right:#336699 1px solid;border-top:#336699 1px solid;color:#FFF;font:bold x-small Verdana}
+.buttonStyle{background:url(/BizPlan.web/images/InfiniPlan/bt_bkgd.gif) repeat;border:1px solid #275B83;color:#184D76;font:bold 10px tahoma;height:25px;letter-spacing:2px;width:113px}
+.centerTable{border:1px solid steelblue;border-collapse:collapse}
+.cngbody{margin:0px}
+.ControlHeading{background:#369;color:#fff;font:bold 14px Tahoma;height:18px;text-align:center}
+.ControlId{border:solid 1px silver;font-family:Arial;width:100px}
+.ControlText{font:normal 12px Verdana,Arial,Helvetica,sans-serif}
+.Covertxtfields,.CovertxtArea{border:solid 1px silver;font-family:Arial;width:200px}
+.customername{color:#5493c4;font:bold 12px tahoma}
+.datagrid-data,.faqLineBreak{}
+.ExportedPlans_PagerStyle{color:#000;Font-Size:8pt}
+.ExportedPlans_PagerStyle1{background:#FFF;color:#000;Font-Size:8pt}
+.FAQTopOfPageLink{color:steelblue;cursor:hand;font-size:14;font-weight:bold;text-align:center;width:90px}
+.GridControl{height:300px;overflow:visible;width:780px}
+.GridSamplePlans{border-bottom:solid 1px #ffffff;border-left:#ffffff 1px solid;border-right:#ffffff 1px solid;border-top:#7baee3 1px solid}
+.gridSpace{height:400px;overflow:auto;SCROLLBAR-FACE-COLOR:#f4faff;width:780px}
+.Grid_OnMouseMove{background:#ECF4FC}
+.itemheader{background:#4173ae;border-bottom:#7baee3 1px solid;border-left:#7baee3 1px solid;border-right:#7baee3 1px solid;border-top:#7baee3 1px solid;color:#FFF;font:bold 12px Verdana,Arial,Helvetica,sans-serif;text-align:center;width:80px}
+.JS_ControlStyle{background:#C0D7F0}
+.lblErrorMessage{color:#F00;font:bold 12px tahoma}
+.lblErrosMessage{color:#F00}
+.lblGeneral{color:#10436B;font:bold 12px tahoma;height:22px}
+.lblHeading{background:#ECF4FC;color:#10436B;font:bold 14px tahoma;height:22px}
+.lblhelpMessage{color:SteelBlue;font:bold 8.0pt Verdana}
+.lblHomePage_Style{color:#10436B;Font-Size:8pt}
+.lblMultiOption_Style{color:#0000C0}
+.lblNote{color:#10436B;font:12px tahoma}
+.lblPlanPreferences_Style{color:SteelBlue}
+.lblSpace1PlanManager_Style{background:#4173ae;color:#4173ae}
+.lblSpacePlanManager_Style{color:#4173ae}
+.leftBarItem{background:#CFE2F5;color:#F00;font:bold 12px tahoma;text-decoration:none}
+.leftlinkSel{background:#89afd3;color:#000;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.link-linkmenu,.leftbarheading{color:#3E3E3E;font:bold 11px Tahoma,Verdana,Arial;text-decoration:none}
+.link-linkmenu2{color:#333;font:normal 11px Tahoma,Verdana,Arial;height:17px;padding-left:2px;text-decoration:none}
+.link-linkmenu2b{color:#333;font:normal 11px Tahoma,Verdana,Arial;height:17px;text-decoration:none}
+.link-linkmenu2c{border:1px solid #ffffff;color:#333;font:normal 11px Tahoma,Verdana,Arial;height:17px;padding-left:2px;text-decoration:none}
+.link-linkmenu3{background:#9CC3DE;color:#333;font:normal 11px Tahoma,Verdana,Arial;height:17px;padding-left:2px;text-decoration:none;width:140px}
+.link-linkmenu4{background:#9CC3DE;border:1px solid #9CC3DE;color:#333;font:normal 11px Tahoma,Verdana,Arial;height:17px;padding-left:2px;text-decoration:none;width:146px}
+.link-linkmenu5{background:#9CC3DE;border:1px solid #9CC3DE;color:#333;font:normal 11px Tahoma,Verdana,Arial;height:17px;padding-left:2px;text-decoration:none}
+.lnkRtfFilePlanPreferences_Style{color:#00F}
+.MBUTTONACCPRO{background:#88AACE;border:Solid 1px #6390BF;color:#FFF;cursor:hand;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');font:bold 12px Verdana,Arial,Helvetica,sans-serif;text-align:center}
+.MBUTTONACCPRO1{background:#88AACE;border:Solid 1px #6390BF;color:#FFF;cursor:text;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');font:bold 12px Verdana,Arial,Helvetica,sans-serif;text-align:center}
+.MBUTTONACCPROON{background:#88AACE;border:Solid 1px #6390BF;color:#FFF;cursor:hand;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#7fa2cc' , EndColorStr= '#7fa2cc');font:bold 12px Verdana,Arial,Helvetica,sans-serif;text-align:center}
+.MBUTTONACCPROON1{background:#88AACE;border:Solid 1px #6390BF;color:#FFF;cursor:text;filter: progid:-DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#7fa2cc' , EndColorStr= '#7fa2cc');font:bold 12px Verdana,Arial,Helvetica,sans-serif;text-align:center}
+.MouseOutColor,.Grid_OnMouseOut{background:#fff}
+.mouseOver{background:#F00;cursor:hand}
+.MouseOverColor{background:#9CC3DE}
+.MultilingulLinkStyle{color:#10436B;font:12px tahoma;text-justify:inter-word}
+.OpenPlan_dataGrid{background:#FFF;border:1px none #999999}
+.OutLineButton{background:#7fa2cc;border-bottom:#336699 1px solid;border-left:#336699 1px solid;border-right:#336699 1px solid;border-top:#336699 1px solid;color:#FFF;font:xx-small Verdana}
+.OutlineHeader{color:#000080;font:bold x-small Tahoma;text-decoration:underline;text-transform:none}
+.page-section-text{color:steelblue;font:bold 13px Tahoma;height:20px;list-style:disc}
+.pageBreak{page-break-before:always}
+.Pager_style{background:#999;color:#000}
+.PlanExport{height:215px;overflow:auto;SCROLLBAR-FACE-COLOR:#ECF4FC;width:100%}
+.PlanManager{height:215px;overflow:auto;SCROLLBAR-FACE-COLOR:#ECF4FC;text-align:left;vertical-align:top;width:765px}
+.PlanManagerSpace{height:204px;overflow:auto;SCROLLBAR-FACE-COLOR:#ECF4FC;width:100%}
+.PlanOutLineToolTip{background:url('/images/InfiniPlan/hint_bg.gif') no-repeat;color:#217DC3;font:8pt Verdana;padding:10px 15px 10px 15px}
+.PlanTracker_ImageButton{border:0 SteelBlue}
+.PreviousHeader{background:#ECF4FC;color:#369;font:bold 12px Tahoma;text-align:center}
+.PreviousHeaderDDL{background:#369;font-weight:bold;text-align:center}
+.PreviousYearsOptions{background:#ECF4FC;font:normal 10px Verdana,Arial,Helvetica,sans-serif;text-align:right}
+.ReportFigures{font:normal 11px Tahoma;text-align:center}
+.ReportFiguresPrevious{background:#ECF4FC;font:normal 11px Tahoma;text-align:center}
+.ReportHeader{background:#369;color:#fff;font:bold 12px Tahoma;text-align:center}
+.ReportHeader1{background:#369;color:#fff;font:bold 12px Tahoma;text-align:left}
+.ReportHeadings,.ReportHeadingsYearly{background:#ECF4FC;font:bold 11px Tahoma;text-align:left}
+.ReportHeadingsBS{font:bold 13px Tahoma;text-align:left}
+.ReportHeadingsBSYearly{background:#ECF4FC;font:bold 13px Tahoma;text-align:left}
+.ReportHeadingsCenter{font:bold 11px Tahoma;text-align:center}
+.ReportHeadingsCenterBS{font:bold 12px Tahoma;text-align:center}
+.ReportHeadingsCenterBSYearly{background:#ECF4FC;font:bold 12px Tahoma;text-align:center}
+.ReportHeadingsCenterYearly{background:#ECF4FC;font:bold 11px Tahoma;text-align:center}
+.ReportSpace{height:560px;overflow:auto;SCROLLBAR-FACE-COLOR:#ECF4FC;width:860px}
+.ReportTitles{font:normal 11px Tahoma;text-align:left}
+.ReportTitlesLIB{font:italic 11px Tahoma;text-align:left}
+.ReportTotalHeadings{font:bold 10px Tahoma;text-align:left}
+.rowItem,.alternatingRowItem{border-bottom:#7baee3 1px solid;border-left:#7baee3 1px solid;border-right:#7baee3 1px solid;border-top:#7baee3 1px solid;color:#000;font:normal 10px Verdana,Arial,Helvetica,sans-serif}
+.selectedNodelbl{background:#369;border:1px solid;color:#FFF;font:8pt Arial}
+.selectedNodeToplbl{font:8pt Arial}
+.sheetType{color:steelblue;font:bold medium Verdana}
+.sheetTypesettings{color:#000;font:bold x-small Verdana}
+.ShowHideAnchors{border:#00F;border-left:thick;font:10 Arial}
+.spanPlanManager_Style{color:#000;font:8.0pt Verdana}
+.summaryHeader,.PlanOutLine{background:#369;color:#fff;font:bold 14px Tahoma;height:32px;text-align:center}
+.TableBodyShadeBorder{border-bottom:#7baee3 1px solid;border-left:#7baee3 1px solid;border-right:#7baee3 1px solid;border-top:#7baee3 1px solid;color:#000;filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');font:normal 11px Verdana,Arial,Helvetica,sans-serif}
+.tableborder{border:1px solid #E5EFF8;height:15px}
+.TableBox_Bot{background:url('/images/InfiniPlan/crv_bottomlinebg.jpg');height:10px}
+.TableBox_Bot_Left{background:url('/images/InfiniPlan/crv_1bottom.jpg');height:10px}
+.TableBox_Bot_Right{background:url('/images/InfiniPlan/crv_bottom1.jpg');height:10px}
+.TableBox_Left{background:url('/images/InfiniPlan/crv1bg.jpg')}
+.TableBox_Right{background:url('/images/InfiniPlan/crv_2linebg.jpg')}
+.TableBox_Top{background:url('/images/InfiniPlan/crv_topbg.jpg')}
+.TableBox_Top_Left{background:url('/images/InfiniPlan/crv1.jpg')}
+.TableBox_Top_Right{background:url('/images/InfiniPlan/crv2.jpg')}
+.table_cells,.lblPlanManager_Style{color:#FFF}
+.TABSTRIP_PlanManagerStyle{color:Desktop}
+.TDPlanManager_Style{border:"#336699"}
+.textSpace{height:340;overflow:auto;scrollbar-face-color:#F4FAFF;width:780}
+.text_menu_simple{background:#8FB4DA;color:#1A4C73;font:bold 12px tahoma;text-decoration:none}
+.tracker_Panel{border:#9CC3DE}
+.TreeViewPlanOutLine_DefaultStyle{background:#FFF;font:14pt Times New Roman}
+.TreeViewPlanOutLine_HoverStyle{background:#ECF4FC;filter:none}
+.TreeViewPlanOutLine_SelectedStyle{background:LightSteelBlue;background-color:LightSteelBlue;color:#fff;filter:none;font-weight:bold}
+.TRPlanOutLine_Style{background:#369}
+.txtarea{border:1px solid #231F20;color:#10436B;font:12px tahoma;text-align:right}
+.txtfields{border:1px solid #231F20;color:#10436B;font:12px tahoma;height:20px;text-align:right;width:100px}
+.txtPlanDescription{border:1px solid #231F20;color:#10436B;font:12px tahoma;height:50px;width:100%}
+.txtPlanName{border:1px solid #231F20;color:#10436B;font:12px tahoma;height:20px;width:250px}
+.warnMessage{background:transparent;color:#10436b;font:bold 14px/4mm tahoma;height:22px;text-align:center;text-justify:inter-word}
+.wizardButton,.FAQShowHideBTN{background:#7fa2cc;border-bottom:#336699 1px solid;border-left:#336699 1px solid;border-right:#336699 1px solid;border-top:#336699 1px solid;color:#FFF;font:x-small Verdana}
+.wizardHeader{background:#369;color:#fff;font:bold 24px Tahoma;height:22px}
+.wizardTitle{background:#ECF4FC;color:#10436B;font:bold 18px tahoma;height:22px}
+#FAQ_DL dd{background:url(answer.gif) no-repeat;padding-left:55px}
+#FAQ_DL dd,#FAQ_DL dt{margin:0;padding:0}
+#FAQ_DL dd,.hideDD{position:absolute;top:-9999px}
+#FAQ_DL dt{margin:7px 0}
+#FAQ_DL dt a{background:0 50% no-repeat;color:#000;padding-left:32px;text-decoration:none}
+#FAQ_DL.DTminus a{background:url(/images/InfiniPlan/toggleDLminus.gif)}
+#FAQ_DL.DTplus a{background:url(/images/InfiniPlan/toggleDLplus.gif)}
+#FAQ_DL.showDD{position:relative;top:0}
+#FAQ_ToggleON,#FAQ_ToggleOFF{margin-right:5px;padding:0 5px}
+#FAQ_ToggleON,#FAQ_ToggleOFF{cursor:pointer;display:inline}
+#FAQ_DL dt a:visited{color:#666}
+#FAQ_DL dt a:visited:hover,#FAQ_DL dt a:hover,#FAQ_DL dt a:active,#FAQ_DL dt a:focus{font-weight:bold}
+.link-linkmenu:hover{color:#3C6DB5;font:bold 11px Tahoma,Verdana,Arial;text-decoration:none}
+A.leftlink:visited,A.leftlink:link,A.leftlink:hover,A.alternatingRowItem:visited,A.alternatingRowItem:link,A.alternatingRowItem:hover,.pageContents{color:#000;font:normal 10px Verdana,Arial,Helvetica,sans-serif}

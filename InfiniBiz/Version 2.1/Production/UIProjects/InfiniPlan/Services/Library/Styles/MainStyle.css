@@ -1,0 +1,2013 @@
+
+ 
+.text_style3 {
+
+	font-family:  Verdana, sans-serif;
+	font-size: 11px;
+	font-weight:bold; 
+	color:Black;
+	text-decoration: none;
+	vertical-align:middle ; 
+	 text-align:  left;
+	 background-color:#f5f5f5;
+	 
+}
+
+.CaptionStyle {
+
+	font-family:  Verdana, sans-serif;
+	font-size: 13px;
+	font-weight:bold; 
+	color:steelblue;
+	text-decoration: none;
+	vertical-align:middle ; 
+	 text-align:  left;
+	 
+ 
+	 
+}
+
+ .text_style4 {
+
+	font-family:  Verdana, sans-serif;
+	font-size: 11px;
+	font-weight:bold; 
+	color:Black;
+	
+	text-decoration: none;
+	vertical-align:middle ; 
+	 text-align:  center;
+	 background-color:#f5f5f5;
+	 
+}
+.text_style2 {
+
+	font-family:  Arial,Verdana, sans-serif;
+	font-size: 12px;
+	color: #777777;
+	text-decoration: none;
+	vertical-align:middle ; 
+	text-align: center;
+	 
+	 
+}
+
+.TrackerCss
+{ 
+	 
+  	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 100%;
+	height:250px;
+	overflow: auto;
+   vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+ }
+ 
+ .TrackerMouseOver
+{
+     font-weight: bold;  
+     font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+   
+}
+
+ .GridWidth
+ {
+ 	width:100%;
+  }
+ 
+ 
+ .GridWidthActivity
+ {
+ 	width:100%;
+  }
+ 
+
+.UserHistory
+{
+ 	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 500px;
+	height:420px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+ .UserHistory_4
+{
+ 	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 550px;
+	height:250px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+ .UserHistory_5
+{
+ 	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 730px;
+	height:150px;
+	overflow: auto;
+	vertical-align:middle ; 
+	
+	   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+	text-align:  center;
+}
+
+
+ .VisitParent
+{
+ 	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 730px;
+	height:175px;
+	overflow: auto;
+	vertical-align: top; 
+	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+	text-align:  center;
+}
+
+ .TrackeSessions
+{
+ 	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 730px;
+	height:150px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+	text-align:  center;
+}
+
+  .HistoryTracker
+{
+ 	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 745px;
+	height:463px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+ 
+.UserDetail
+{
+ 	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 500px;
+	height: 50px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+ .UserDetail_3
+{
+ 	border: 1px solid #C0C0C0;
+	text-align: center;
+	width:550px;
+	height: 130px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+ 
+
+.OnlineUsers
+{
+ 
+  	border: 1px solid #d6e3f7;
+	text-align: center;
+	width: 100%;
+	height:450px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+.OnlineUsers_4
+{
+ 
+  	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 160;
+	height:405px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+ 
+ .OnlineUsers_5
+{
+ 
+  	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 730;
+	height:120px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+ .OnlineUsers_6
+{
+ 
+  	border: 1px solid #C0C0C0;
+	text-align: center;
+	width: 210;
+	height:460px;
+	overflow: auto;
+	vertical-align:middle ; 
+   	scrollbar-face-color: #F3F3F3;
+	scrollbar-highlight-color: #F3F3F3;
+	scrollbar-3dlight-color: #F3F3F3;
+	scrollbar-darkshadow-color: #F3F3F3;
+	scrollbar-shadow-color: black;
+	scrollbar-arrow-color: #C0C0C0;
+	scrollbar-track-color: white;
+}
+
+.ReportHeader1
+{
+font-weight: bold;
+font-size: 12px;
+color: #000000;
+font-family: Tahoma;
+background-color: #F3F3F3;
+text-align:  left;
+border: 1px solid #C0C0C0;
+}
+.ReportHeadingsYearly
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align: left;
+background-color: #F3F3F3;
+}
+.sheetTypesettings
+{
+font-family:   Verdana;
+font-weight:   bold;
+font-size:   x-small;
+color:	     Black;
+}
+.MBUTTONACCPROON2
+{
+/*filter: progid:-DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#FFFFFF' , EndColorStr= '#C0C0C0');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor:    text;
+color:#000000;
+border:Solid 1px #C0C0C0;
+background-color: #C0C0C0;
+text-align:center;
+}
+.MBUTTONACCPRO2
+{
+/*	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#C0C0C0' , EndColorStr= '#FFFFFF');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+color:#000000;
+border:Solid 1px #F3F3F3;
+background-color: #C0C0C0;
+text-align:center;
+}
+.MBUTTONACCPRO2
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#C0C0C0' , EndColorStr= '#FFFFFF');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor:  text;
+color:#000000;
+border:Solid 1px #C0C0C0;
+background-color: #C0C0C0;
+text-align:center;
+}
+.meterSpave1
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  530px;
+height:340px;
+text-align:center;
+}
+
+.meterIOffice
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  530px;
+height:340px;
+text-align:center;
+}
+
+.meterSpavemanger
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  550px;
+height: 350px;
+text-align: left;
+}
+.meterEnterpriseManager
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  500px;
+height: 270px;
+text-align: left;
+}
+.ZoomSpave
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  210px;
+height: 370px;
+text-align:  center;
+}
+.EnterpriseZoomSpace
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  210px;
+height: 310px;
+text-align:  center;
+} 
+
+.IOfficeZoomSpace
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  210px;
+height: 378px;
+text-align:  center;
+}
+
+.MerchantMeterIO
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  550px;
+height: 350px;
+text-align: left;
+}
+.SmallMeter
+{
+font-family:  Verdana ;
+font-size:11px;
+font-weight: normal;
+color:  Black;
+text-decoration:none;
+text-align:  center;
+vertical-align:top ;
+}
+.MerchantMeter
+{
+font-family:  Verdana ;
+font-size:9px;
+font-weight: normal;
+color:  Black;
+text-decoration:none;
+text-align: left;
+}
+.test
+{
+text-align: left;
+}
+.trsettings
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:12px;
+font-weight:bold;
+color:#000000;
+text-decoration:none;
+text-align:center;
+}
+.trsettings1
+{
+font-family:  Verdana ;
+font-size:11px;
+font-weight: normal;
+color:  #000000;
+text-decoration:none;
+text-align:center;
+}
+.meterSpavetest
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  710px;
+height: 350px;
+text-align:center;
+}
+.meterSpaveFavroties
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  710px;
+height: 350px;
+text-align:center;
+}
+.PreviousYearsOptions
+{
+text-align: right ;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+background-color:#F3F3F3;
+}
+.ReportHeadingsCenterYearly
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+background-color: #F3F3F3;
+}
+.ReportFiguresPrevious
+{
+font-weight:  normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+background-color: #F3F3F3;
+}
+.ReportHeadingsCenterBSYearly
+{
+font-weight: bold;
+font-size: 12px;
+font-family: Tahoma;
+text-align:  center;
+background-color:  #F3F3F3;
+}
+.PreviousHeaderDDL
+{
+font-weight: bold;
+text-align:center;
+font-size:10px;
+color:#000000;
+border: 1px solid #C0C0C0;
+}
+.PreviousHeader
+{
+font-weight: bold;
+font-size: 12px;
+color:  #000000;
+font-family: Tahoma;
+border:1px solid #C0C0C0;
+background-color: #F3F3F3;
+text-align: center;
+}
+.MouseOverColor
+{
+background-color:#9CC3DE;
+}
+.MouseOutColor
+{
+background-color:#ffffff;
+}
+.link-linkmenu
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3E3E3E;
+text-decoration:none;
+}
+.link-linkmenu:hover
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3C6DB5;
+text-decoration:none;
+}
+/*
+.link-linkmenu2
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+}
+.link-linkmenu2:hover
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+.link-linkmenu3
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+.link-linkmenu4
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+border: 1px solid #F3F3F3;
+}
+.link-linkmenu2bg
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#3E3E3E;
+text-decoration:none;
+height:15px;
+padding-left:10px;
+background-color:#F3F3F3;
+}
+*/
+.link-linkmenu2
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+}
+.link-linkmenu2c
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+border: 1px solid #ffffff;
+}
+.link-linkmenu3
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+background-color:#9CC3DE;
+width:140px;
+padding-left:2px;
+}
+.link-linkmenu4
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+/* color:#3C6DB5; */
+text-decoration:none;
+height:17px;
+background-color:#9CC3DE;
+/* background-color:#F3F3F3; */
+border: 1px solid #9CC3DE;
+padding-left:2px;
+width:146px;
+}
+.link-linkmenu2b
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+}
+.link-linkmenu5
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:normal;
+color:#333333;
+text-decoration:none;
+height:17px;
+padding-left:2px;
+border: 1px solid #9CC3DE;
+background-color:#9CC3DE;
+}
+.sheetType
+{
+font-family:	Verdana;
+font-weight: 	bold;
+font-size:   	 small;
+color:		    #000000;
+}
+.BSColor
+{
+text-align:   left;
+background-color: #F3F3F3;
+font-size: 12px;
+font-family: Tahoma;
+font-weight:   bold;
+}
+.ReportHeadingsBS
+{
+font-weight: bold;
+font-size: 13px;
+font-family: Tahoma;
+text-align: left;
+}
+.ReportHeadings
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align: left;
+background-color: #F3F3F3;
+}
+.ReportHeadingsCenterBS
+{
+font-weight: bold;
+font-size: 12px;
+font-family: Tahoma;
+text-align:  center;
+}
+.ReportHeadingsCenter
+{
+font-weight: bold;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+}
+.MBUTTONACCPRO
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#C0C0C0' , EndColorStr= '#FFFFFF');
+*/
+background-image:url(/images/InfiniPlan/Button_Out.gif);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+cursor: pointer;
+color:#000000;
+border:Solid 1px #F3F3F3;
+background-color: #C0C0C0;
+text-align:center;
+}
+.MBUTTONACCPROON
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#FFFFFF' , EndColorStr= '#C0C0C0');
+*/
+background-image:url(/images/InfiniPlan/Button_Over.gif);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: bold;
+cursor: hand;
+color:#000000;
+border:Solid 1px #F3F3F3;
+background-color: #C0C0C0;
+text-align:center;
+}
+.wizardButton
+{
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-size: x-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+.ReportTotalHeadings
+{
+font-weight: bold;
+font-size: 10px;
+font-family: Tahoma;
+text-align:  left;
+}
+.ReportTitlesLIB
+{
+font-style:italic;
+font-size: 11px;
+font-family: Tahoma;
+text-align:   left;
+}
+.ReportTitles
+{
+font-weight:   normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:   left;
+}
+.ReportFigures
+{
+font-weight:  normal;
+font-size: 11px;
+font-family: Tahoma;
+text-align:  center;
+}
+.ReportHeader
+{
+font-weight: bold;
+font-size: 12px;
+color: #000000;
+font-family: Tahoma;
+background-color: #F3F3F3;
+text-align: center;
+border:1px solid #C0C0C0
+}
+.cngbody
+{
+margin-left: 0px;
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+}
+ 
+.ProductGrid
+{
+border:Solid 1px   #C0C0C0;
+text-align: center;
+width: 370px;
+height:270px;
+overflow: auto;
+scrollbar-face-color: #C0C0C0;
+scrollbar-highlight-color: #C0C0C0;
+scrollbar-3dlight-color: #C0C0C0;
+scrollbar-darkshadow-color: #C0C0C0;
+scrollbar-shadow-color: #C0C0C0;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: #C0C0C0;
+vertical-align:middle ;
+}
+
+.GridInnerLines
+{
+border: 1px solid #C0C0C0;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+
+.flashTitle
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:14px;
+font-weight:bold;
+color:#C0C0C0;
+text-decoration:none;
+text-align:center;
+height:22px;
+}
+.tableborder
+{
+border: 1px solid #C0C0C0;
+height:15px;
+}
+.tableborder1
+{
+border: 1px solid #C0C0C0;
+}
+
+.TrackerBorder
+{
+border: 1px solid #C0C0C0;
+ 
+  vertical-align:top;
+}
+
+.TrackerBorder_1
+{
+border: 1px solid #C0C0C0;
+ width: 740px;
+height: 460px;
+ 
+  vertical-align:top;
+}
+
+.MultilingulLinkStyle
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+text-justify:inter-word
+}
+.ControlText
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: normal;
+}
+.GridControl
+{
+overflow:  visible;
+width: 780px;
+height: 300px;
+}
+.GridControl1
+{
+overflow:  visible;
+width: 680px;
+height: 300px;
+}
+.bottomlnk {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+text-align: center;
+}
+.bottomlnkOrder {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+ 
+font-weight:  bold;
+ 
+cursor:hand;
+
+ 
+	font-size: 10px;
+	color: #777777;
+	text-decoration: none;
+	vertical-align:middle ; 
+	text-align: center;
+
+}
+.leftbarheading
+{
+font-family:Tahoma, Verdana, Arial;
+font-size:11px;
+font-weight:bold;
+color:#3E3E3E;
+text-decoration:none;
+}
+.leftlink
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.leftlinkSel
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black;
+background-color:  #F3F3F3 ;
+}
+.leftlink1
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.leftlinkSel1
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black;
+background-color:  #F3F3F3 ;
+}
+.summaryHeader
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 32px;
+background-color:#C0C0C0;
+text-align: center;
+}
+.summaryHeader1
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 32px;
+background-color: #C0C0C0;
+text-align: center;
+}
+.ControlHeading
+{
+font-weight: bold;
+font-size: 14px;
+color: #ffffff;
+font-family: Tahoma;
+height: 18px;
+background-color: #F3F3F3;
+text-align: center;
+}
+.PlanOutLine1
+{
+font-weight: bold;
+font-size: 14px;
+color: #000000;
+border:1px solid #C0C0C0;
+font-family: Tahoma;
+height: 32px;
+background-color: #F3F3F3;
+text-align: center;
+}
+.PlanOutLineToolTip
+{
+color:				#000000;
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:	 url('/images/InfiniPlan/hint_bg.gif') no-repeat;
+}
+.PlanOutLineToolTip1
+{
+color:				#000000;
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:	 url('/InfiniPlan/images/hint_bg.gif') no-repeat;
+}
+.warnMessage
+{
+font-weight: bold;
+text-justify: inter-word;
+font-size: 14px;
+color: #10436b;
+line-height: 4mm;
+font-family: tahoma;
+height: 22px;
+background-color: transparent;
+text-align: center;
+}
+.wizardHeader
+{
+font-weight: bold;
+font-size: 24px;
+color: #ffffff;
+font-family: Tahoma;
+height: 22px;
+background-color:#C0C0C0;
+}
+.wizardTitle
+{
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:#10436B;
+background-color: #F3F3F3;
+height:22px;
+}
+.WebTrackerTitle
+{
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:#10436B;
+height:22px;
+}
+.wizardHeader1
+{
+font-weight: bold;
+font-size: 24px;
+color: #ffffff;
+font-family: Tahoma;
+height: 22px;
+background-color: #C0C0C0;
+}
+.wizardTitle1
+{
+font-family:tahoma;
+font-size:18px;
+font-weight:bold;
+color:#10436B;
+background-color: #F3F3F3;
+height:22px;
+}
+.wizardHelp
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.lblhelpMessage
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.wizardText
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+
+.wizardText1
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+ 
+}
+.wizardOptions
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color:#000000;
+font-weight: normal;
+}
+.OutLineOptions
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.OutLineButton
+{
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-size:  xx-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+A.leftlink:visited
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.leftlink:link
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.leftlink:hover
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+.topheading
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+}
+.gridSpace
+{
+SCROLLBAR-FACE-COLOR: #F3F3F3;
+overflow: auto;
+width: 780px;
+height: 400px;
+}
+.gridSpace1
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow: auto;
+width: 780px;
+height: 400px;
+}
+.ReportSpace
+{
+scrollbar-face-color: #F3F3F3;
+scrollbar-highlight-color: #F3F3F3;
+scrollbar-3dlight-color: #F3F3F3;
+scrollbar-darkshadow-color: #F3F3F3;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: #C0C0C0;
+scrollbar-track-color: white;
+overflow:  auto;
+width:  830px;
+height:  380px;
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+.PlanExport
+{
+SCROLLBAR-FACE-COLOR :  #F3F3F3;
+overflow:   auto;
+width:  100%;
+height:  215px;
+}
+.PlanManagerSpace
+{
+SCROLLBAR-FACE-COLOR :  #F3F3F3;
+overflow:   auto;
+width:  100%;
+height:  204px;
+}
+.PlanManager
+{
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+overflow:   auto;
+height:  325px;
+text-align:left;
+vertical-align :top;
+}
+.textSpace
+{
+width : 720 ;
+height : 340;
+overflow:auto ;
+SCROLLBAR-FACE-COLOR :    white;
+scrollbar-face-color: white;
+scrollbar-highlight-color: white;
+scrollbar-3dlight-color: white;
+scrollbar-darkshadow-color: white;
+scrollbar-shadow-color: black;
+scrollbar-arrow-color: white;
+scrollbar-track-color: white;
+}
+.buttonStyle
+{
+font-family: tahoma;
+font-size: 10px;
+font-weight: bold;
+color: #184D76;
+letter-spacing:2px;
+background-image: url(/BizPlan.web/images/InfiniPlan/bt_bkgd.gif);
+height: 25px;
+width: 113px;
+border: 1px solid #275B83;
+background-repeat: repeat;
+}
+/* Adding new stylesheet 5 dec 2005 */
+.centerTable
+{
+border: 1px solid #DDDDDD;
+border-collapse:collapse;
+}
+.txtPlanName
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 20px;
+width: 250px;
+border: 1px solid #231F20;
+}
+.rowItem
+{
+/*font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#10436B;
+background-color: #ECF4FC;
+height:22px;*/
+font-weight: normal;
+font-size: 10px;
+color:black;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+/*background-color: #ecf4fc;*/
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+.GridSamplePlans
+{
+border-right: #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left: #ffffff 1px solid;
+border-bottom:   solid 1px  #ffffff ;
+}
+.alternatingRowItem
+{
+/*	font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#10436B;
+background-color: #F1F2F2;
+height:22px;
+*/
+font-weight: normal;
+font-size: 10px;
+color: #000000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+/*background-color: #ecf4fc;*/
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+A.alternatingRowItem:visited
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.alternatingRowItem:link
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+A.alternatingRowItem:hover
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color:Black
+}
+.GridHeaderBar
+{
+/*background-color: #F3F3F3;*/
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:   black;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:    #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left:  #ffffff 1px solid;
+border-bottom:  #ffffff 1px solid;
+}
+.itemheader
+{
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: Black;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:    #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left:  #ffffff 1px solid;
+border-bottom:  #ffffff 1px solid;
+}
+.itemheader1
+{
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: Black ;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:  #ffffff 1px solid;
+border-top:  #ffffff 1px solid;
+border-left:  #ffffff 1px solid;
+border-bottom:  #ffffff 1px solid;
+}
+.bizplanheader
+{
+background-color: #F3F3F3;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color:   Black;
+font-size: 12px;
+width : 80px ;
+font-weight: bold;
+text-align:center;
+border-right:  #F3F3F31px solid;
+border-top:  #F3F3F3 1px solid;
+border-left: #F3F3F3 1px solid;
+border-bottom:  #F3F3F3 1px solid;
+}
+.heading1
+{
+background-color:#C0C0C0;
+}
+.txtPlanDescription
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 50px;
+width: 100%;
+border: 1px solid #231F20;
+}
+.txtfields
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 20px;
+width: 100px;
+text-align:right;
+border: 1px solid #231F20;
+}
+.txtarea
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+text-align:right;
+border: 1px solid #231F20;
+}
+.buttonCSS
+{
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-weight: bold;
+font-size: x-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+.lblGeneral
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+height:22px;
+color:#10436B ;
+}
+.lblGeneral1
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+height:22px;
+color:#10436B ;
+}
+
+.lblTracker
+{
+font-family:Verdana;
+font-size:12px;
+font-weight:bold;
+height:12px;
+color:#10436B ;
+}
+
+.lblHeading
+{
+font-family:tahoma;
+font-size:14px;
+font-weight:bold;
+color:#000000;
+background-color: #F3F3F3;
+height:22px;
+}
+.lblErrorMessage
+{
+font-family:tahoma;
+font-size:12px;
+font-weight:bold;
+color:#FF0000;
+}
+.lblErrorMessage1
+{
+font-family:tahoma;
+font-size:11px;
+font-weight: normal;
+color:#FF0000;
+}
+.mouseOver
+{
+cursor :hand ;
+background-color :#FF0000 ;
+}
+.leftBarItem
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: red;
+text-decoration: none;
+background-color :#CFE2F5 ;
+}
+.text_menu_simple
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: #1A4C73;
+text-decoration: none;
+background-color: #8FB4DA;
+}
+.customername
+{
+font-family: tahoma;
+font-size: 12px;
+font-weight: bold;
+color: #5493c4;
+}
+.pageContents
+{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: #000000;
+}
+.Covertxtfields
+{
+width: 200px;
+font-family:Arial;
+/*filter:progid:DXImageTransform.Microsoft.Shadow(color='silver', Direction=135, Strength=5);*/
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffffffff', EndColorStr='#ffF2F6FA');*/
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');*/
+border: solid 1px silver;
+/*font-size:12px;
+color:#10436B;
+width: 200px;
+text-align:left;
+border: 1px solid #;
+/*
+font-size: 10px;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+height: 200px;*/
+}
+.ControlId
+{
+width: 100px;
+font-family:Arial;
+border: solid 1px silver;
+}
+.CovertxtArea
+{
+width: 200px;
+font-family:Arial;
+border: solid 1px silver;
+/*filter:progid:DXImageTransform.Microsoft.Shadow(color='silver', Direction=135, Strength=5);
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');
+*/
+font-size:12px;
+color:#10436B;
+height: 35px;
+width: 200px;
+text-align:left;
+border: 1px solid #C0C0C0;
+font-family:Arial;
+width: 200px;
+font-family:tahoma;
+font-size:12px;
+color:#10436B;
+height: 35px;
+width: 280px;
+width: 200px;
+text-align:left;
+border: 1px solid #231F20;*/
+}
+.OutlineHeader
+{
+font-weight: bold;
+font-size: x-small;
+text-transform: none;
+color: navy;
+font-family: Tahoma;
+text-decoration: underline;
+}
+.lblNote
+{
+font-family:tahoma;
+font-size:12px;
+color:#10436B ;
+}
+.pageBreak
+{
+page-break-before: always;
+}
+/*hintbox
+{
+border:				1px solid;
+border-color:		#19649D;
+background-color:	white;
+color:				#217DC3;
+font-weight:		bold;
+font-family:		Verdana;
+font-size:			8pt;
+padding-left:		15px;
+padding-right:		15px;
+padding-top:		10px;
+padding-bottom:		10px;
+background:			url('/images/InfiniPlan/common/hint_bg.gif') no-repeat;
+}*/
+.selectedNodelbl1
+{
+border:				1px solid #C0C0C0;
+background-color:	#F3F3F3;
+color:				#000000;
+font-family:		Arial;
+font-size:			8pt;
+}
+.selectedNodeToplbl
+{
+font-family:		Arial;
+font-size:			8pt;
+}
+.selectedNodeToplbl1
+{
+font-family:		Arial;
+font-size:			8pt;
+}
+/***************** for plan cover *****************/
+.TableBox_Top_Left
+{
+background:url('/images/InfiniPlan/crv1.jpg');
+}
+.TableBox_Top_Right
+{
+background:url('/images/InfiniPlan/crv2.jpg');
+}
+.TableBox_Bot_Left
+{
+background:url('/images/InfiniPlan/crv_1bottom.jpg');
+height: 10px;
+}
+.TableBox_Bot_Right
+{
+background:url('/images/InfiniPlan/crv_bottom1.jpg');
+height: 10px;
+}
+.TableBox_Top
+{
+/*background-image:url(/images/InfiniPlan/common/crv_topbg.jpg);	*/
+background:url('/images/InfiniPlan/crv_topbg.jpg');
+}
+.TableBox_Bot
+{
+/*background-image:url(/AccountsPro/images/InfiniPlan/TableBox/crv_bottomlinebg.jpg);	*/
+background:url('/images/InfiniPlan/crv_bottomlinebg.jpg');
+height: 10px;
+}
+.TableBox_Left
+{
+background:url('/images/InfiniPlan/crv1bg.jpg');
+}
+.TableBox_Right
+{
+background:url('/images/InfiniPlan/crv_2linebg.jpg');
+color:White;
+}
+.page-section-text1
+{
+color:  Black;
+font-size: 13px;
+font-family: Tahoma;
+font-weight:bold;
+height:20px;
+list-style-type: disc;
+}
+.TableBodyShadeBorder
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#ffF2F6FA', EndColorStr='#ffffffff');
+*/
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+color: Black;
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+border-left: #C0C0C0 1px solid;
+border-bottom: #C0C0C0 1px solid;
+}
+/*for faq page*/
+.ShowHideAnchors
+{
+border-color:blue;
+border-left-width:thick;
+font-family:Arial;
+font-size:10
+}
+.faqLineBreak
+{
+}
+.FAQTopOfPageLink
+{
+text-align:center;
+font-weight:bold;
+font-size:14;
+color:#4682B4;
+width:90px;
+cursor:hand;
+}
+.FAQTopOfPageLink1
+{
+text-align:center;
+font-weight:bold;
+font-size:12;
+color:#C0C0C0;
+width:90px;
+cursor:hand;
+}
+.FAQShowHideBTN
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#CFDDED' , EndColorStr= '#4676AA');
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: bold;
+cursor: hand;
+color:White;
+border:Solid 1px #6390BF;
+background-color: #88AACE;
+width: 80px;
+text-align:center;  		  */
+border-right: #C0C0C0 1px solid;
+border-top: #C0C0C0 1px solid;
+font-size: x-small;
+border-left: #C0C0C0 1px solid;
+color: #FFFFFF;
+border-bottom: #C0C0C0 1px solid;
+font-family: Verdana;
+background-color: #F3F3F3;
+}
+/*  "Show All" + "Hide All" links */
+#FAQ_ToggleON,#FAQ_ToggleOFF {padding:0 5px;margin-right:5px}
+/* zeroing out padding and margin */
+#FAQ_DL dd,#FAQ_DL dt {margin:0;padding:0}
+/* margin for the DTs (shorthand) */
+#FAQ_DL dt {margin:7px 0}
+/* image and left padding for DDs */
+#FAQ_DL dd {background:url(answer.gif) no-repeat;padding-left:55px}
+/* styling all anchors in the DTs */
+#FAQ_DL dt a {background:0 50% no-repeat;padding-left:32px;color:#000;text-decoration:none}
+#FAQ_DL dt a:visited {color:#666}
+#FAQ_DL dt a:visited:hover,
+#FAQ_DL dt a:hover,
+#FAQ_DL dt a:active,
+#FAQ_DL dt a:focus {font-weight:bold}
+/* the + and - gif in the anchors */
+#FAQ_DL .DTplus a {background-image:url(/images/InfiniPlan/toggleDLplus.gif)}
+#FAQ_DL .DTminus a {background-image:url(/images/InfiniPlan/toggleDLminus.gif)}
+/**********************************/
+/**********************************/
+#FAQ_DL .showDD {position:relative;top:0}
+#FAQ_DL dd,.hideDD{top:-9999px;position:absolute}
+#FAQ_ToggleON,#FAQ_ToggleOFF {display:inline;cursor:pointer;cursor:hand}
+.lblErrosMessage
+{
+color:Red;
+}
+.BizPlan_BUSINESSGRID
+{
+border-color:#4682B4;
+}
+.PlanTracker_ImageButton
+{
+border-color:#4682B4;
+border-width:0;
+}
+.BizPlan_BUSINESSGRID_SELECTEDITEMSTYLE
+{
+background-color:Red;
+}
+.Grid_OnMouseMove
+{
+background-color:#F3F3F3;
+}
+.Grid_OnMouseMove1
+{
+background-color:#F3F3F3;
+}
+.Grid_OnMouseOut
+{
+background-color:#FFFFFF;
+}
+.JS_ControlStyle
+{
+background-color:#F3F3F3;
+}
+.table_cells
+{
+color:#FFFFFF;
+}
+.tracker_Panel
+{
+border: 1px solid #C0C0C0;
+}
+.managerSearch
+{
+border: 1px solid #C0C0C0;
+}
+.Pager_style
+{
+color:Black;
+background-color:#999999;
+}
+.lblHomePage_Style
+{
+color:#10436B;
+Font-Size:8pt;
+}
+.OpenPlan_dataGrid
+{
+border-color:#999999;
+background-color:#FFFFFF;
+border-width:1px;
+border-style:none;
+}
+.lblPlanManager_Style
+{
+color:#FFFFFF;
+}
+.TABSTRIP_PlanManagerStyle
+{
+color:Desktop;
+}
+.lblSpacePlanManager_Style
+{
+color:#F3F3F3;
+}
+.spanPlanManager_Style
+{
+font-size:8.0pt;
+font-family:Verdana;
+color:black;
+}
+.datagrid-data
+{
+/*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=2, StartColorStr= '#F3F3F3' , EndColorStr= '#ffffff' ) progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr= '#ffffff' , EndColorStr= '#E6E6E6' );
+*/
+background-image:url(/images/InfiniPlan/datagrid-data.gif);
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: bold;
+color: #666666;
+text-decoration: none;
+background-color: #F3F3F3;
+padding-left: 5px;
+padding-bottom: 3px;
+padding-top: 3px;
+padding-right: 3px;
+border-top: Solid 1px #C0C0C0;
+height:25;
+border: 1px solid #C0C0C0;
+}
+.lblSpace1PlanManager_Style
+{
+color:#F3F3F3;
+background-color:#F3F3F3;
+}
+.TDPlanManager_Style
+{
+border-Color:#C0C0C0;
+}
+.TRPlanOutLine_Style
+{
+background-color:#F3F3F3;
+}
+.TreeViewPlanOutLine_HoverStyle
+{
+filter:none;
+background-color:#F3F3F3;
+}
+.TreeViewPlanOutLine_SelectedStyle
+{
+background-color:#4682B4;
+filter:none;
+background-color:#4682B4;
+font-weight:bold;
+color:#ffffff;
+}
+.TreeViewPlanOutLine_DefaultStyle
+{
+font-family:Times New Roman;
+font-size:14pt;
+background-color:#FFFFFF;
+}
+.lblMultiOption_Style
+{
+color:#0000C0;
+}
+.lblPlanPreferences_Style
+{
+color:#4682B4;
+}
+.lnkRtfFilePlanPreferences_Style
+{
+color:Blue;
+}
+.ExportedPlans_PagerStyle
+{
+Font-Size:8pt;
+color:Black;
+border: 1px solid #C0C0C0;
+}
+.ExportedPlans_PagerStyle1
+{
+Font-Size:8pt;
+color:Black;
+background-color:#FFFFFF;
+}
+.ExportedPlans_PagerStyle2
+{
+Font-Size:8pt;
+color:Black;
+}
+.tab_default
+{
+font-family: "Times New Roman";
+font-size: 12px;
+text-decoration: none;
+color: #999999;
+background-color: #F3F3F3;
+border: 1px solid #666666;
+height: 22px;
+width: 25%;
+}
+.tabdef_onmouseover
+{
+font-family: "Times New Roman";
+font-size: 12px;
+text-decoration: none;
+color: #999999;
+background-color: #C0C0C0;
+border: 1px solid #666666;
+height: 22px;
+width: 25%;
+font-weight: bold;
+}

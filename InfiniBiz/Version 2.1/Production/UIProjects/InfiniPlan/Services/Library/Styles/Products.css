@@ -1,0 +1,45 @@
+/* CSS Document */
+
+.body
+{
+margin:0px;
+padding:0px;
+}
+
+.Main_Head
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #006699;
+	font-size:16px;
+}
+
+.Pro_Head
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-style:normal;
+font-weight:normal;
+}
+
+.Pro_Head2
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-style:normal;
+font-weight:normal;
+}
+
+.Pro_Content
+{
+	font-family: verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.Pro_Content2
+{
+	font-family: verdana,  sans-serif;
+	font-size: 10px;
+}
+
+ 

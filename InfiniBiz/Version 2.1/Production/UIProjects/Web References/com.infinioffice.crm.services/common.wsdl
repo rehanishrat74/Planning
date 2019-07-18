@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="urn:CRMservices" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="urn:CRMservices" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema targetNamespace="urn:CRMservices">
+      <s:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <s:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+      <s:complexType name="MerchantData">
+        <s:all>
+          <s:element name="merchantUid" type="s:string" />
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantPassword" type="s:string" />
+          <s:element name="firstName" type="s:string" />
+          <s:element name="lastName" type="s:string" />
+          <s:element name="telephone" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="street" type="s:string" />
+          <s:element name="town" type="s:string" />
+          <s:element name="city" type="s:string" />
+          <s:element name="state" type="s:string" />
+          <s:element name="country" type="s:string" />
+          <s:element name="postalCode" type="s:string" />
+          <s:element name="comments" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="CustomerData">
+        <s:all>
+          <s:element name="customerUid" type="s:string" />
+          <s:element name="customerId" type="s:string" />
+          <s:element name="customerPassword" type="s:string" />
+          <s:element name="firstName" type="s:string" />
+          <s:element name="lastName" type="s:string" />
+          <s:element name="telephone" type="s:string" />
+          <s:element name="email" type="s:string" />
+          <s:element name="street" type="s:string" />
+          <s:element name="town" type="s:string" />
+          <s:element name="city" type="s:string" />
+          <s:element name="state" type="s:string" />
+          <s:element name="country" type="s:string" />
+          <s:element name="postalCode" type="s:string" />
+          <s:element name="comments" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ServicesInfo">
+        <s:all>
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantUid" type="s:string" />
+          <s:element name="merchantPassword" type="s:string" />
+          <s:element name="childId" type="s:string" />
+          <s:element name="extraServices" type="s0:serviceArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="serviceArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute d7p1:arrayType="s0:ExtraServices[]" ref="soapenc:arrayType" xmlns:d7p1="http://schemas.xmlsoap.org/wsdl/" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="ExtraServices">
+        <s:all>
+          <s:element name="serviceName" type="s:string" />
+          <s:element name="serviceType" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ErrorResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="LoginResponse">
+        <s:all>
+          <s:element name="errorCode" type="s:string" />
+          <s:element name="errorDesc" type="s:string" />
+          <s:element name="sessionId" type="s:string" />
+          <s:element name="url" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="VerifyProjectResponse">
+        <s:all>
+          <s:element name="verified" type="s:string" />
+          <s:element name="customerId" type="s:string" />
+          <s:element name="isOwner" type="s:string" />
+          <s:element name="projectName" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ServiceData">
+        <s:all>
+          <s:element name="services" type="s0:ServicesArray" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="ServicesArray">
+        <s:complexContent mixed="false">
+          <s:restriction base="soapenc:Array">
+            <s:attribute d7p1:arrayType="s0:sinfo[]" ref="soapenc:arrayType" xmlns:d7p1="http://schemas.xmlsoap.org/wsdl/" />
+          </s:restriction>
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="sinfo">
+        <s:all>
+          <s:element name="serviceType" type="s:int" />
+          <s:element name="serviceName" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="UpdatePasswordData">
+        <s:all>
+          <s:element name="merchantUid" type="s:string" />
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantPass" type="s:string" />
+          <s:element name="customerUid" type="s:string" />
+          <s:element name="customerPass" type="s:string" />
+          <s:element name="childId" type="s:string" />
+        </s:all>
+      </s:complexType>
+      <s:complexType name="info">
+        <s:all>
+          <s:element name="startDay" type="s:string" />
+          <s:element name="merchantId" type="s:string" />
+          <s:element name="merchantPass" type="s:string" />
+          <s:element name="customerUid" type="s:string" />
+          <s:element name="customerPass" type="s:string" />
+          <s:element name="childId" type="s:string" />
+        </s:all>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="AddMerchantRequest">
+    <part name="merchantData" type="s0:MerchantData" />
+    <part name="companyName" type="s:string" />
+    <part name="childId" type="s:string" />
+    <part name="childUid" type="s:string" />
+  </message>
+  <message name="AddMerchantResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="AddCustomerRequest">
+    <part name="merchantData" type="s0:MerchantData" />
+    <part name="customerData" type="s0:CustomerData" />
+    <part name="childId" type="s:string" />
+  </message>
+  <message name="AddCustomerResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="AddEmployeeRequest">
+    <part name="merchantId" type="s:string" />
+    <part name="merchantUid" type="s:string" />
+    <part name="merchantPassword" type="s:string" />
+    <part name="customerId" type="s:string" />
+    <part name="customerUid" type="s:string" />
+    <part name="childId" type="s:string" />
+  </message>
+  <message name="AddEmployeeResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="AddSupplierRequest">
+    <part name="merchantId" type="s:string" />
+    <part name="merchantUid" type="s:string" />
+    <part name="merchantPassword" type="s:string" />
+    <part name="customerId" type="s:string" />
+    <part name="customerUid" type="s:string" />
+    <part name="childId" type="s:string" />
+  </message>
+  <message name="AddSupplierResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="AddHRProcessRequest">
+    <part name="merchantId" type="s:string" />
+    <part name="merchantUid" type="s:string" />
+    <part name="childId" type="s:string" />
+  </message>
+  <message name="AddHRProcessResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="AddProcessesRequest">
+    <part name="servicesInfo" type="s0:ServicesInfo" />
+  </message>
+  <message name="AddProcessesResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="LoginMerchantRequest">
+    <part name="merchantId" type="s:string" />
+    <part name="merchantUid" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="childId" type="s:string" />
+  </message>
+  <message name="LoginMerchantResponse">
+    <part name="return" type="s0:LoginResponse" />
+  </message>
+  <message name="LoginCustomerRequest">
+    <part name="customerUid" type="s:string" />
+    <part name="password" type="s:string" />
+    <part name="merchantId" type="s:string" />
+    <part name="merchantPassword" type="s:string" />
+    <part name="childId" type="s:string" />
+    <part name="services" type="s0:ServiceData" />
+  </message>
+  <message name="LoginCustomerResponse">
+    <part name="return" type="s0:LoginResponse" />
+  </message>
+  <message name="VerifyProjectRequest">
+    <part name="projectId" type="s:string" />
+    <part name="sessionId" type="s:string" />
+  </message>
+  <message name="VerifyProjectResponse">
+    <part name="return" type="s0:VerifyProjectResponse" />
+  </message>
+  <message name="AddMerchantExRequest">
+    <part name="merchantUid" type="s:string" />
+    <part name="merchantId" type="s:string" />
+    <part name="merchantPassword" type="s:string" />
+    <part name="firstName" type="s:string" />
+    <part name="lastName" type="s:string" />
+    <part name="email" type="s:string" />
+    <part name="telephone" type="s:string" />
+    <part name="street" type="s:string" />
+    <part name="town" type="s:string" />
+    <part name="city" type="s:string" />
+    <part name="state" type="s:string" />
+    <part name="country" type="s:string" />
+    <part name="postalCode" type="s:string" />
+    <part name="comments" type="s:string" />
+    <part name="companyName" type="s:string" />
+    <part name="childId" type="s:string" />
+    <part name="childUid" type="s:string" />
+  </message>
+  <message name="AddMerchantExResponse">
+    <part name="return" type="s:string" />
+  </message>
+  <message name="UpdatePasswordRequest">
+    <part name="UpdatePasswordData" type="s0:UpdatePasswordData" />
+  </message>
+  <message name="UpdatePasswordResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="AddOrderRequest">
+    <part name="merchantData" type="s0:MerchantData" />
+    <part name="customerData" type="s0:CustomerData" />
+    <part name="childId" type="s:string" />
+    <part name="type" type="s:string" />
+    <part name="orderId" type="s:string" />
+  </message>
+  <message name="AddOrderResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <message name="AddInvoiceRequest">
+    <part name="merchantData" type="s0:MerchantData" />
+    <part name="customerData" type="s0:CustomerData" />
+    <part name="childId" type="s:string" />
+    <part name="type" type="s:string" />
+    <part name="orderId" type="s:string" />
+  </message>
+  <message name="AddInvoiceResponse">
+    <part name="return" type="s0:ErrorResponse" />
+  </message>
+  <portType name="CRMservicesPortType">
+    <operation name="AddMerchant">
+      <documentation>CRM: AddMerchant</documentation>
+      <input message="s0:AddMerchantRequest" />
+      <output message="s0:AddMerchantResponse" />
+    </operation>
+    <operation name="AddCustomer">
+      <documentation>Add Customer.</documentation>
+      <input message="s0:AddCustomerRequest" />
+      <output message="s0:AddCustomerResponse" />
+    </operation>
+    <operation name="AddEmployee">
+      <documentation>Add Employee.</documentation>
+      <input message="s0:AddEmployeeRequest" />
+      <output message="s0:AddEmployeeResponse" />
+    </operation>
+    <operation name="AddSupplier">
+      <documentation>Add Supplier.</documentation>
+      <input message="s0:AddSupplierRequest" />
+      <output message="s0:AddSupplierResponse" />
+    </operation>
+    <operation name="AddHRProcess">
+      <documentation>Add HR Process.</documentation>
+      <input message="s0:AddHRProcessRequest" />
+      <output message="s0:AddHRProcessResponse" />
+    </operation>
+    <operation name="AddProcesses">
+      <documentation>Add Processes.</documentation>
+      <input message="s0:AddProcessesRequest" />
+      <output message="s0:AddProcessesResponse" />
+    </operation>
+    <operation name="LoginMerchant">
+      <documentation>Login Merchant.</documentation>
+      <input message="s0:LoginMerchantRequest" />
+      <output message="s0:LoginMerchantResponse" />
+    </operation>
+    <operation name="LoginCustomer">
+      <documentation>Login Customer.</documentation>
+      <input message="s0:LoginCustomerRequest" />
+      <output message="s0:LoginCustomerResponse" />
+    </operation>
+    <operation name="VerifyProject">
+      <documentation>Verify Project.</documentation>
+      <input message="s0:VerifyProjectRequest" />
+      <output message="s0:VerifyProjectResponse" />
+    </operation>
+    <operation name="AddMerchantEx">
+      <documentation>Add Merchant Ex (for asp).</documentation>
+      <input message="s0:AddMerchantExRequest" />
+      <output message="s0:AddMerchantExResponse" />
+    </operation>
+    <operation name="UpdatePassword">
+      <documentation>CRM: AddMerchant</documentation>
+      <input message="s0:UpdatePasswordRequest" />
+      <output message="s0:UpdatePasswordResponse" />
+    </operation>
+    <operation name="AddOrder">
+      <documentation>Add Customer.</documentation>
+      <input message="s0:AddOrderRequest" />
+      <output message="s0:AddOrderResponse" />
+    </operation>
+    <operation name="AddInvoice">
+      <documentation>Add Customer.</documentation>
+      <input message="s0:AddInvoiceRequest" />
+      <output message="s0:AddInvoiceResponse" />
+    </operation>
+  </portType>
+  <binding name="CRMservicesBinding" type="s0:CRMservicesPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="AddMerchant">
+      <soap:operation soapAction="urn:CRMservices#AddMerchant" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddCustomer">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddEmployee">
+      <soap:operation soapAction="urn:CRMservices#AddEmployee" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddSupplier">
+      <soap:operation soapAction="urn:CRMservices#AddSupplier" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddHRProcess">
+      <soap:operation soapAction="urn:CRMservices#AddHRProcess" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddProcesses">
+      <soap:operation soapAction="urn:CRMservices#AddProcesses" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="LoginMerchant">
+      <soap:operation soapAction="urn:CRMservices#LoginMerchant" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="LoginCustomer">
+      <soap:operation soapAction="urn:CRMservices#LoginCustomer" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="VerifyProject">
+      <soap:operation soapAction="urn:CRMservices#LoginCustomer" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddMerchantEx">
+      <soap:operation soapAction="urn:CRMservices#AddMerchantEx" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="UpdatePassword">
+      <soap:operation soapAction="urn:CRMservices#AddMerchant" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddOrder">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+    <operation name="AddInvoice">
+      <soap:operation soapAction="urn:CRMservices#AddCustomer" style="rpc" />
+      <input>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </input>
+      <output>
+        <soap:body use="encoded" namespace="urn:CRMservices" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="CRMservices">
+    <port name="CRMservicesPort" binding="s0:CRMservicesBinding">
+      <soap:address location="http://services.crm.infinioffice.com/common.php" />
+    </port>
+  </service>
+</definitions>
